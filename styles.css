@@ -1,0 +1,499 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Discaloried Game Styles */
+.discaloried-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.discaloried-header h2 {
+    color: #e31837;
+    margin-bottom: 10px;
+}
+
+.discaloried-boxes {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.discaloried-box {
+    min-height: auto;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.discaloried-box.drag-over {
+    background-color: #e8f4fd;
+    border-color: #007bff;
+    border-style: solid;
+}
+
+.discaloried-box.locked {
+    background-color: #dff0d8;
+    border-color: #3c763d;
+    border-style: solid;
+}
+
+.discaloried-box:empty::before {
+    content: "Drop item here";
+    color: #999;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.discaloried-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: move;
+    transition: all 0.3s, transform 0.5s ease-in-out;
+    user-select: none;
+    width: 100%;
+    position: relative;
+}
+
+.discaloried-item:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+.discaloried-item.dragging {
+    opacity: 0.5;
+    transform: rotate(5deg);
+}
+
+.discaloried-item.locked {
+    background-color: #dff0d8;
+    border-color: #3c763d;
+    cursor: default;
+}
+
+.discaloried-item.locked:hover {
+    background-color: #dff0d8;
+    border-color: #3c763d;
+}
+
+.discaloried-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.discaloried-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.discaloried-item-info {
+    flex: 1;
+}
+
+.discaloried-item-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.discaloried-item-description {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.discaloried-item-calories {
+    font-weight: bold;
+    color: #e31837;
+    font-size: 0.9rem;
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid #e31837;
+}
+
+.guess-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 30px;
+    background-color: #e31837;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.guess-button:hover {
+    background-color: #c01530;
+}
+
+.guess-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Shake animation for incorrect items */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+/* Animation for swapping items */
+.discaloried-item.animating {
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Image Overlay Styles */
+.image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.image-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.image-overlay-content {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+.image-overlay.show .image-overlay-content {
+    transform: scale(1);
+}
+
+.image-overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.image-overlay-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 40px;
+    height: 40px;
+    background-color: #e31837;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 2001;
+}
+
+.image-overlay-close:hover {
+    background-color: #c01530;
+    transform: scale(1.1);
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo-image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+    max-width: 480px;
+    height: auto;
+}
+
+/* Game Mode Selection */
+.game-mode-selection {
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show game mode selection when hovering over logo */
+.logo-image:hover + .game-mode-selection,
+.game-mode-selection:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mode-button {
+    padding: 12px 24px;
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.mode-button:hover {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+}
+
+.mode-button.active {
+    background-color: #e31837;
+    color: white;
+    border-color: #e31837;
+}
+
+.game-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Food Display */
+.food-display {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#food-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+#food-name {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#food-description {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Guess Container */
+.guess-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+#calorie-guess {
+    padding: 10px;
+    font-size: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    width: 225px;
+}
+
+#submit-guess {
+    padding: 10px 15px;
+    background-color: #e31837;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#submit-guess:hover {
+    background-color: #c01530;
+}
+
+/* Feedback */
+.feedback {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Previous Guesses */
+.previous-guesses {
+    margin-bottom: 30px;
+}
+
+.previous-guesses h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+#guesses-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#guesses-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Result Message */
+.result-message {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Celebration Image */
+.celebration-image {
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 15px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Animation for correct guess */
+@keyframes celebrate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.celebrate {
+    animation: celebrate 0.5s ease-in-out;
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+/* Styling for "right on the cheese" guesses */
+.right-on-cheese {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+/* Styling for incorrect guess after 6 attempts */
+.game-over {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+/* Play Again Button */
+.play-again {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #e31837;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.play-again:hover {
+    background-color: #c01530;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.footer .highlight {
+    font-weight: bold;
+    color: #e31837; /* Cheesecake Factory red to match the theme */
+    cursor: pointer;
+}
+
+/* Closeup Image Styles */
+.closeup-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.closeup-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
