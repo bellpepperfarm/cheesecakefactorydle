@@ -6,13 +6,19 @@ const MAX_GUESSES = 6;
 let gameActive = true;
 
 // Game mode variables
-let currentGameMode = 'classic'; // 'classic', 'discaloried', or 'discaloried-hard'
+let currentGameMode = 'daily'; // 'daily', 'classic', 'discaloried', or 'discaloried-hard'
+let dailyCountdownInterval = null;
+const DAILY_STORAGE_KEY_PREFIX = 'cheesecakefactorydle:daily:';
+const DAILY_HISTORY_DAYS = 30;
+const DAILY_SELECTION_EPOCH = '2025-01-01T00:00:00Z';
+let guessHistory = [];
 
 // Discaloried game variables
 let discaloriedItemsData = [];
 let discaloriedGuesses = 5;
 let discaloriedGameActive = false;
 let lockedItems = new Set();
+let discaloriedGuessHistory = [];
 
 // Congratulatory titles
 const congratulatoryTitles = [
@@ -44,9 +50,11 @@ const overlayImage = document.getElementById('overlay-image');
 const imageOverlayClose = document.getElementById('image-overlay-close');
 
 // Game mode DOM elements
+const dailyModeBtn = document.getElementById('daily-mode-btn');
 const classicModeBtn = document.getElementById('classic-mode-btn');
 const discaloriedModeBtn = document.getElementById('discaloried-mode-btn');
 const discaloriedHardModeBtn = document.getElementById('discaloried-hard-mode-btn');
+const dailyModeInfo = document.getElementById('daily-mode-info');
 const classicGame = document.getElementById('classic-game');
 const discaloriedGame = document.getElementById('discaloried-game');
 
@@ -64,9 +72,6 @@ async function initGame() {
         const response = await fetch('menu.json');
         menuData = await response.json();
 
-        // Select a random item
-        selectRandomItem();
-
         // Set up event listeners
         submitGuess.addEventListener('click', handleGuess);
         calorieGuess.addEventListener('keypress', function(e) {
@@ -79,6 +84,7 @@ async function initGame() {
         calorieGuess.addEventListener('input', updateButtonColor);
 
         // Set up game mode switching
+        dailyModeBtn.addEventListener('click', () => switchGameMode('daily'));
         classicModeBtn.addEventListener('click', () => switchGameMode('classic'));
         discaloriedModeBtn.addEventListener('click', () => switchGameMode('discaloried'));
         discaloriedHardModeBtn.addEventListener('click', () => switchGameMode('discaloried-hard'));
@@ -94,6 +100,9 @@ async function initGame() {
             }
         });
         overlayImage.addEventListener('click', closeImageOverlay);
+
+        // Daily is the default mode.
+        switchGameMode('daily');
     } catch (error) {
         console.error('Error initializing game:', error);
         feedback.textContent = 'Error loading menu data. Please refresh the page.';
@@ -241,9 +250,7 @@ function hslToRgb(h, s, l) {
     };
 }
 
-// Select a random food item from the menu
-function selectRandomItem() {
-    // Flatten all products from all categories
+function getValidProducts(requirePositiveCalories = false) {
     const allProducts = menuData.categories.reduce((products, category) => {
         if (category.products && Array.isArray(category.products)) {
             return products.concat(category.products);
@@ -251,12 +258,183 @@ function selectRandomItem() {
         return products;
     }, []);
 
-    // Filter products to only include those with calories and images
-    const validProducts = allProducts.filter(product => 
+    return allProducts.filter(product =>
         product.basecalories && 
         product.imagefilename && 
-        product.name
+        product.name &&
+        (!requirePositiveCalories || parseInt(product.basecalories) > 0)
     );
+}
+
+// Use UTC so every client changes to the next daily challenge at the same time.
+function getDailyDateKey(date = new Date()) {
+    return date.toISOString().slice(0, 10);
+}
+
+function getDailyStorageKey(dateKey = getDailyDateKey()) {
+    return `${DAILY_STORAGE_KEY_PREFIX}${dateKey}`;
+}
+
+function readDailyState() {
+    try {
+        const state = JSON.parse(localStorage.getItem(getDailyStorageKey()));
+        return state && state.dateKey === getDailyDateKey() ? state : null;
+    } catch (error) {
+        console.warn('Unable to read the saved daily game:', error);
+        return null;
+    }
+}
+
+function writeDailyState(state) {
+    try {
+        localStorage.setItem(getDailyStorageKey(), JSON.stringify({
+            ...state,
+            dateKey: getDailyDateKey()
+        }));
+
+        for (let index = localStorage.length - 1; index >= 0; index--) {
+            const key = localStorage.key(index);
+            if (key && key.startsWith(DAILY_STORAGE_KEY_PREFIX) && key !== getDailyStorageKey()) {
+                localStorage.removeItem(key);
+            }
+        }
+    } catch (error) {
+        console.warn('Unable to save the daily game:', error);
+    }
+}
+
+function saveDailyClassicState(status = gameActive ? 'active' : 'lost') {
+    if (currentGameMode !== 'daily' || isDailyHardMode()) return;
+
+    writeDailyState({
+        type: 'classic',
+        status,
+        itemId: currentItem ? String(currentItem.id) : null,
+        guesses: [...guessHistory],
+        feedback: feedback.textContent
+    });
+}
+
+function getDiscaloriedOrder() {
+    return Array.from(document.querySelectorAll('.discaloried-box')).map(box => {
+        const item = box.querySelector('.discaloried-item');
+        return item ? item.dataset.itemId : null;
+    });
+}
+
+function saveDailyDiscaloriedState(status = 'active') {
+    if (currentGameMode !== 'daily' || !isDailyHardMode()) return;
+
+    writeDailyState({
+        type: 'discaloried-hard',
+        status,
+        challengeItems: discaloriedItemsData.map(item => String(item.id)),
+        guesses: [...discaloriedGuessHistory],
+        remainingGuesses: discaloriedGuesses,
+        lockedItems: [...lockedItems],
+        order: getDiscaloriedOrder(),
+        feedback: discaloriedFeedback.textContent
+    });
+}
+
+function isDailyHardMode(date = new Date()) {
+    return date.getUTCDay() === 5;
+}
+
+function createSeededRandom(seed) {
+    let state = 2166136261;
+
+    for (let index = 0; index < seed.length; index++) {
+        state ^= seed.charCodeAt(index);
+        state = Math.imul(state, 16777619);
+    }
+
+    return function() {
+        state += 0x6D2B79F5;
+        let value = state;
+        value = Math.imul(value ^ (value >>> 15), value | 1);
+        value ^= value + Math.imul(value ^ (value >>> 7), value | 61);
+        return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
+    };
+}
+
+function shuffleItems(items, random = Math.random) {
+    const shuffledItems = [...items];
+
+    for (let index = shuffledItems.length - 1; index > 0; index--) {
+        const swapIndex = Math.floor(random() * (index + 1));
+        [shuffledItems[index], shuffledItems[swapIndex]] = [shuffledItems[swapIndex], shuffledItems[index]];
+    }
+
+    return shuffledItems;
+}
+
+function chooseDailyItem(dateKey, recentItemIds, validProducts) {
+    const random = createSeededRandom(`classic:${dateKey}`);
+    const recentIds = new Set(recentItemIds.map(String));
+    const maxAttempts = validProducts.length * 10;
+
+    for (let attempt = 0; attempt < maxAttempts; attempt++) {
+        const candidate = validProducts[Math.floor(random() * validProducts.length)];
+        if (!recentIds.has(String(candidate.id))) {
+            return candidate;
+        }
+    }
+
+    // The menu should always have more than 30 valid items, but keep a deterministic fallback.
+    return validProducts.find(product => !recentIds.has(String(product.id))) || validProducts[0];
+}
+
+function getDailyItemHistoryThrough(targetDate) {
+    const validProducts = getValidProducts();
+    const history = [];
+    const target = new Date(`${getDailyDateKey(targetDate)}T00:00:00Z`);
+    const day = new Date(DAILY_SELECTION_EPOCH);
+
+    if (target < day) {
+        day.setTime(target.getTime());
+        day.setUTCDate(day.getUTCDate() - DAILY_HISTORY_DAYS);
+    }
+
+    while (day <= target) {
+        // Fridays use the separate Discaloried Hard Mode set instead of one calorie item.
+        if (!isDailyHardMode(day)) {
+            const recentItems = history
+                .filter(entry => {
+                    const entryDate = new Date(`${entry.dateKey}T00:00:00Z`);
+                    const daysAgo = (day - entryDate) / (24 * 60 * 60 * 1000);
+                    return daysAgo > 0 && daysAgo <= DAILY_HISTORY_DAYS;
+                })
+                .map(entry => entry.itemId);
+            const dateKey = getDailyDateKey(day);
+            const item = chooseDailyItem(dateKey, recentItems, validProducts);
+            history.push({ dateKey, itemId: String(item.id) });
+        }
+        day.setUTCDate(day.getUTCDate() + 1);
+    }
+
+    return history;
+}
+
+function updateDailyModeInfo() {
+    const daily = currentGameMode === 'daily';
+    dailyModeInfo.classList.toggle('hidden', !daily);
+
+    if (!daily) return;
+
+    const dateLabel = new Date().toLocaleDateString(undefined, {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+        timeZone: 'UTC'
+    });
+    const challengeType = isDailyHardMode() ? 'Discaloried Hard Mode' : 'guess the calories';
+    dailyModeInfo.textContent = `Daily · ${dateLabel} · ${challengeType}`;
+}
+
+// Select a random food item from the menu for Classic mode.
+function selectRandomItem() {
+    const validProducts = getValidProducts();
 
     // Select a random product
     const randomIndex = Math.floor(Math.random() * validProducts.length);
@@ -266,6 +444,19 @@ function selectRandomItem() {
     displayItem(currentItem);
     
     // Reset button color when starting new game
+    resetButtonColor();
+}
+
+// Select the same food item for every client on the current UTC date.
+function selectDailyItem() {
+    const validProducts = getValidProducts();
+    const dailyDate = new Date(`${getDailyDateKey()}T00:00:00Z`);
+    const history = getDailyItemHistoryThrough(dailyDate);
+    const selectedItemId = history[history.length - 1].itemId;
+    currentItem = validProducts.find(item => String(item.id) === selectedItemId);
+
+    displayItem(currentItem);
+    restoreDailyClassicState();
     resetButtonColor();
 }
 
@@ -281,6 +472,7 @@ function displayItem(item) {
 
     // Reset game state
     guessCount = 0;
+    guessHistory = [];
     gameActive = true;
     guessesList.innerHTML = '';
     feedback.textContent = '';
@@ -288,6 +480,33 @@ function displayItem(item) {
     resultMessage.className = 'result-message';
     calorieGuess.value = '';
     calorieGuess.focus();
+}
+
+function restoreDailyClassicState() {
+    const state = readDailyState();
+
+    if (!state || state.type !== 'classic' || state.itemId !== String(currentItem.id)) {
+        saveDailyClassicState('active');
+        return;
+    }
+
+    guessHistory = Array.isArray(state.guesses) ? state.guesses : [];
+    guessCount = 0;
+    guessesList.innerHTML = '';
+
+    guessHistory.forEach(guess => {
+        guessCount++;
+        addGuessToList(guess, parseInt(currentItem.basecalories));
+    });
+
+    if (state.status === 'won') {
+        handleCorrectGuess(parseInt(currentItem.basecalories));
+    } else if (state.status === 'lost') {
+        handleGameOver(parseInt(currentItem.basecalories));
+    } else {
+        gameActive = true;
+        feedback.textContent = state.feedback || (guessCount > 0 ? `Not quite! ${guessCount}/${MAX_GUESSES} guesses used.` : '');
+    }
 }
 
 // Handle a user guess
@@ -304,6 +523,7 @@ function handleGuess() {
 
     // Increment guess count
     guessCount++;
+    guessHistory.push(guess);
 
     // Get actual calories
     const actualCalories = parseInt(currentItem.basecalories);
@@ -336,6 +556,7 @@ function handleGuess() {
     } else {
         // Game continues
         feedback.textContent = `Not quite! ${guessCount}/${MAX_GUESSES} guesses used.`;
+        saveDailyClassicState('active');
     }
 }
 
@@ -400,6 +621,8 @@ function handleCorrectGuess(actualCalories) {
     successMessage.textContent = `🎉 ${randomTitle} The actual calorie count is ${actualCalories}.`;
     resultMessage.appendChild(successMessage);
 
+    addDailyNextChallengeMessage(resultMessage);
+
     // Add the celebrate class
     resultMessage.classList.add('celebrate');
 
@@ -408,6 +631,7 @@ function handleCorrectGuess(actualCalories) {
 
     // Add button to play again
     addPlayAgainButton();
+    saveDailyClassicState('won');
 }
 
 // Handle game over (too many guesses)
@@ -418,12 +642,17 @@ function handleGameOver(actualCalories) {
     resultMessage.textContent = `😢 Better luck next time! The actual calorie count is ${actualCalories}.`;
     resultMessage.classList.add('game-over');
 
+    addDailyNextChallengeMessage(resultMessage);
+
     // Add button to play again
     addPlayAgainButton();
+    saveDailyClassicState('lost');
 }
 
 // Add a play again button
 function addPlayAgainButton() {
+    if (currentGameMode !== 'classic') return;
+
     const playAgainButton = document.createElement('button');
     playAgainButton.textContent = 'Play Again';
     playAgainButton.classList.add('play-again');
@@ -433,71 +662,119 @@ function addPlayAgainButton() {
     resultMessage.appendChild(playAgainButton);
 }
 
+function addDailyNextChallengeMessage(container) {
+    if (currentGameMode !== 'daily') return;
+
+    stopDailyCountdown();
+    const nextChallengeMessage = document.createElement('p');
+    nextChallengeMessage.className = 'daily-next-message';
+    container.appendChild(nextChallengeMessage);
+
+    const updateCountdown = () => {
+        if (!document.body.contains(nextChallengeMessage)) {
+            stopDailyCountdown();
+            return;
+        }
+
+        const now = new Date();
+        const nextDaily = new Date(now);
+        nextDaily.setUTCHours(24, 0, 0, 0);
+        const secondsRemaining = Math.max(0, Math.ceil((nextDaily - now) / 1000));
+        const hours = Math.floor(secondsRemaining / 3600).toString().padStart(2, '0');
+        const minutes = Math.floor((secondsRemaining % 3600) / 60).toString().padStart(2, '0');
+        const seconds = (secondsRemaining % 60).toString().padStart(2, '0');
+
+        nextChallengeMessage.textContent = `Come back in ${hours}h${minutes}m${seconds}s for the next daily!`;
+    };
+
+    updateCountdown();
+    dailyCountdownInterval = setInterval(updateCountdown, 1000);
+}
+
+function stopDailyCountdown() {
+    if (dailyCountdownInterval) {
+        clearInterval(dailyCountdownInterval);
+        dailyCountdownInterval = null;
+    }
+}
+
 // Game mode switching
 function switchGameMode(mode) {
+    stopDailyCountdown();
     currentGameMode = mode;
     
     // Update button states
+    dailyModeBtn.classList.toggle('active', mode === 'daily');
     classicModeBtn.classList.toggle('active', mode === 'classic');
     discaloriedModeBtn.classList.toggle('active', mode === 'discaloried');
     discaloriedHardModeBtn.classList.toggle('active', mode === 'discaloried-hard');
     
+    const dailyHardMode = mode === 'daily' && isDailyHardMode();
+    const showClassicGame = mode === 'classic' || (mode === 'daily' && !dailyHardMode);
+    const showDiscaloriedGame = mode === 'discaloried' || mode === 'discaloried-hard' || dailyHardMode;
+
     // Show/hide game containers
-    classicGame.classList.toggle('hidden', mode !== 'classic');
-    discaloriedGame.classList.toggle('hidden', mode !== 'discaloried' && mode !== 'discaloried-hard');
+    classicGame.classList.toggle('hidden', !showClassicGame);
+    discaloriedGame.classList.toggle('hidden', !showDiscaloriedGame);
+    updateDailyModeInfo();
     
-    if (mode === 'discaloried' || mode === 'discaloried-hard') {
+    if (mode === 'daily') {
+        initDailyGame();
+    } else if (mode === 'discaloried' || mode === 'discaloried-hard') {
         initDiscaloriedGame();
+    } else {
+        selectRandomItem();
+    }
+}
+
+function initDailyGame() {
+    if (isDailyHardMode()) {
+        initDiscaloriedGame(createSeededRandom(`hard:${getDailyDateKey()}`));
+    } else {
+        selectDailyItem();
     }
 }
 
 // Initialize Discaloried game
-function initDiscaloriedGame() {
+function initDiscaloriedGame(random = Math.random) {
     // Reset game state
     discaloriedGuesses = 5;
     discaloriedGameActive = true;
     lockedItems.clear();
+    discaloriedGuessHistory = [];
     discaloriedFeedback.textContent = '';
     discaloriedResult.textContent = '';
     discaloriedResult.className = 'result-message';
     discaloriedGuessesSpan.textContent = discaloriedGuesses;
     discaloriedGuessBtn.disabled = false;
     
-    // Select 5 random items
-    if (currentGameMode === 'discaloried-hard') {
-        selectDiscaloriedHardItems();
+    const hardMode = currentGameMode === 'discaloried-hard' || (currentGameMode === 'daily' && isDailyHardMode());
+
+    // Select 5 items
+    if (hardMode) {
+        selectDiscaloriedHardItems(random);
     } else {
-        selectDiscaloriedItems();
+        selectDiscaloriedItems(random);
     }
     
     // Display items
     displayDiscaloriedItems();
+
+    if (currentGameMode === 'daily' && isDailyHardMode()) {
+        restoreDailyDiscaloriedState();
+    }
 }
 
 // Select 5 random items for Discaloried game
-function selectDiscaloriedItems() {
-    // Flatten all products from all categories
-    const allProducts = menuData.categories.reduce((products, category) => {
-        if (category.products && Array.isArray(category.products)) {
-            return products.concat(category.products);
-        }
-        return products;
-    }, []);
-
-    // Filter products to only include those with calories and images
-    const validProducts = allProducts.filter(product => 
-        product.basecalories && 
-        product.imagefilename && 
-        product.name &&
-        parseInt(product.basecalories) > 0
-    );
+function selectDiscaloriedItems(random = Math.random) {
+    const validProducts = getValidProducts(true);
 
     // Select 5 random products
     const selectedItems = [];
     const usedIndices = new Set();
     
     while (selectedItems.length < 5 && selectedItems.length < validProducts.length) {
-        const randomIndex = Math.floor(Math.random() * validProducts.length);
+        const randomIndex = Math.floor(random() * validProducts.length);
         if (!usedIndices.has(randomIndex)) {
             usedIndices.add(randomIndex);
             selectedItems.push(validProducts[randomIndex]);
@@ -510,11 +787,7 @@ function selectDiscaloriedItems() {
     );
     
     // Shuffle for display
-    const shuffledItems = [...selectedItems];
-    for (let i = shuffledItems.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffledItems[i], shuffledItems[j]] = [shuffledItems[j], shuffledItems[i]];
-    }
+    const shuffledItems = shuffleItems(selectedItems, random);
     
     // Store both arrays
     discaloriedItemsData = shuffledItems;
@@ -522,22 +795,8 @@ function selectDiscaloriedItems() {
 }
 
 // Select 5 random items for Discaloried Hard Mode with 300-700 calorie difference and no duplicate calories
-function selectDiscaloriedHardItems() {
-    // Flatten all products from all categories
-    const allProducts = menuData.categories.reduce((products, category) => {
-        if (category.products && Array.isArray(category.products)) {
-            return products.concat(category.products);
-        }
-        return products;
-    }, []);
-
-    // Filter products to only include those with calories and images
-    const validProducts = allProducts.filter(product => 
-        product.basecalories && 
-        product.imagefilename && 
-        product.name &&
-        parseInt(product.basecalories) > 0
-    );
+function selectDiscaloriedHardItems(random = Math.random) {
+    const validProducts = getValidProducts(true);
 
     // Sort products by calories for easier selection
     const sortedProducts = validProducts.sort((a, b) => 
@@ -552,7 +811,7 @@ function selectDiscaloriedHardItems() {
         attempts++;
         
         // Pick a random starting item
-        const startIndex = Math.floor(Math.random() * (sortedProducts.length - 4));
+        const startIndex = Math.floor(random() * (sortedProducts.length - 4));
         const candidateItems = [];
         
         // Try to find items within 700 calorie range starting from this item
@@ -576,7 +835,7 @@ function selectDiscaloriedHardItems() {
             
             while (selectedItems.length < 5 && selectionAttempts < maxSelectionAttempts) {
                 selectionAttempts++;
-                const randomIndex = Math.floor(Math.random() * candidateItems.length);
+                const randomIndex = Math.floor(random() * candidateItems.length);
                 const candidate = candidateItems[randomIndex];
                 const candidateCalories = parseInt(candidate.basecalories);
                 
@@ -612,7 +871,7 @@ function selectDiscaloriedHardItems() {
         selectedItems = [];
         
         while (selectedItems.length < 5 && selectedItems.length < validProducts.length) {
-            const randomIndex = Math.floor(Math.random() * validProducts.length);
+            const randomIndex = Math.floor(random() * validProducts.length);
             const candidate = validProducts[randomIndex];
             const candidateCalories = parseInt(candidate.basecalories);
             
@@ -630,11 +889,7 @@ function selectDiscaloriedHardItems() {
     );
     
     // Shuffle for display
-    const shuffledItems = [...selectedItems];
-    for (let i = shuffledItems.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffledItems[i], shuffledItems[j]] = [shuffledItems[j], shuffledItems[i]];
-    }
+    const shuffledItems = shuffleItems(selectedItems, random);
     
     // Store both arrays
     discaloriedItemsData = shuffledItems;
@@ -700,6 +955,63 @@ function displayDiscaloriedItems() {
         box.addEventListener('dragenter', handleDragEnter);
         box.addEventListener('dragleave', handleDragLeave);
     });
+}
+
+function applyLockedDiscaloriedItems() {
+    document.querySelectorAll('.discaloried-box').forEach(box => {
+        const item = box.querySelector('.discaloried-item');
+        if (item && lockedItems.has(item.dataset.itemId)) {
+            box.classList.add('locked');
+            item.classList.add('locked');
+            item.draggable = false;
+        }
+    });
+}
+
+function restoreDailyDiscaloriedState() {
+    const state = readDailyState();
+
+    const currentChallengeItems = discaloriedItemsData.map(item => String(item.id)).sort();
+    const savedChallengeItems = Array.isArray(state?.challengeItems)
+        ? state.challengeItems.map(String).sort()
+        : [];
+
+    if (!state || state.type !== 'discaloried-hard' ||
+        currentChallengeItems.join(',') !== savedChallengeItems.join(',')) {
+        saveDailyDiscaloriedState('active');
+        return;
+    }
+
+    const correctOrder = discaloriedItemsData.correctOrder;
+    const itemsById = new Map(discaloriedItemsData.map(item => [String(item.id), item]));
+    const restoredItems = (Array.isArray(state.order) ? state.order : [])
+        .map(itemId => itemsById.get(String(itemId)))
+        .filter(Boolean);
+    const restoredIds = new Set(restoredItems);
+    const remainingItems = discaloriedItemsData.filter(item => !restoredIds.has(item));
+
+    discaloriedItemsData = [...restoredItems, ...remainingItems];
+    discaloriedItemsData.correctOrder = correctOrder;
+    lockedItems = new Set((Array.isArray(state.lockedItems) ? state.lockedItems : [])
+        .map(String)
+        .filter(itemId => itemsById.has(itemId)));
+    discaloriedGuessHistory = Array.isArray(state.guesses) ? state.guesses : [];
+    discaloriedGuesses = Math.max(0, Math.min(5, Number.isInteger(state.remainingGuesses)
+        ? state.remainingGuesses
+        : 5 - discaloriedGuessHistory.length));
+    discaloriedGuessesSpan.textContent = discaloriedGuesses;
+
+    displayDiscaloriedItems();
+    applyLockedDiscaloriedItems();
+
+    if (state.status === 'won') {
+        handleDiscaloriedWin();
+    } else if (state.status === 'lost') {
+        handleDiscaloriedLose();
+    } else {
+        discaloriedGameActive = true;
+        discaloriedFeedback.textContent = state.feedback || '';
+    }
 }
 
 // Drag and drop handlers
@@ -890,6 +1202,7 @@ function handleDiscaloriedGuess() {
     });
     
     // Update guesses
+    discaloriedGuessHistory.push(getDiscaloriedOrder());
     discaloriedGuesses--;
     discaloriedGuessesSpan.textContent = discaloriedGuesses;
     
@@ -911,6 +1224,8 @@ function handleDiscaloriedGuess() {
     } else {
         discaloriedFeedback.textContent = `No items in correct position. ${discaloriedGuesses} guesses remaining.`;
     }
+
+    saveDailyDiscaloriedState('active');
 }
 
 // Handle Discaloried win
@@ -945,6 +1260,8 @@ function handleDiscaloriedWin() {
     const successMessage = document.createElement('p');
     successMessage.textContent = `🎉 ${randomTitle} You correctly ordered all dishes by calories!`;
     discaloriedResult.appendChild(successMessage);
+
+    addDailyNextChallengeMessage(discaloriedResult);
     
     // Add the celebrate class
     discaloriedResult.classList.add('celebrate');
@@ -954,6 +1271,7 @@ function handleDiscaloriedWin() {
     
     // Add button to play again
     addDiscaloriedPlayAgainButton();
+    saveDailyDiscaloriedState('won');
 }
 
 // Handle Discaloried lose
@@ -973,13 +1291,18 @@ function handleDiscaloriedLose() {
     // Display game over message
     discaloriedResult.textContent = `😢 Better luck next time!`;
     discaloriedResult.classList.add('game-over');
+
+    addDailyNextChallengeMessage(discaloriedResult);
     
     // Add button to play again
     addDiscaloriedPlayAgainButton();
+    saveDailyDiscaloriedState('lost');
 }
 
 // Add a play again button for Discaloried
 function addDiscaloriedPlayAgainButton() {
+    if (currentGameMode === 'daily') return;
+
     const playAgainButton = document.createElement('button');
     playAgainButton.textContent = 'Play Again';
     playAgainButton.classList.add('play-again');
