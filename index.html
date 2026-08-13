@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesecakefactorydle - Guess Cheesecake Factory Calories Game</title>
+    <meta name="description" content="Play Cheesecakefactorydle, a fun guessing game where you estimate the calories in Cheesecake Factory menu items. Test your knowledge of food calories!">
+    <meta name="keywords" content="cheesecake factory, calorie guessing game, food game, cheesecakefactorydle, food calories, menu guessing">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Bell Pepper Farm">
+    <link rel="canonical" href="https://sebi.io/cheesecakefactorydle/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sebi.io/cheesecakefactorydle/">
+    <meta property="og:title" content="Cheesecakefactorydle - Guess Cheesecake Factory Calories">
+    <meta property="og:description" content="Play Cheesecakefactorydle, a fun guessing game where you estimate the calories in Cheesecake Factory menu items. 🧑🏻‍🌾🫑">
+    <meta property="og:image" content="https://sebi.io/cheesecakefactorydle/CFDle_logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sebi.io/cheesecakefactorydle/">
+    <meta property="twitter:title" content="Cheesecakefactorydle - Guess Cheesecake Factory Calories">
+    <meta property="twitter:description" content="Play Cheesecakefactorydle, a fun guessing game where you estimate the calories in Cheesecake Factory menu items.">
+    <meta property="twitter:image" content="https://sebi.io/cheesecakefactorydle/CFDle_logo.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Cheesecakenolayers.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <img src="CFDle_logo.png" alt="Cheesecakefactorydle Logo" class="logo-image">
+        
+        <!-- Game Mode Selection -->
+        <div class="game-mode-selection">
+            <button id="classic-mode-btn" class="mode-button active">Classic Mode</button>
+            <button id="discaloried-mode-btn" class="mode-button">Discaloried</button>
+            <button id="discaloried-hard-mode-btn" class="mode-button">Discaloried Hard Mode</button>
+        </div>
+        
+        <!-- Classic Game Container -->
+        <div id="classic-game" class="game-container">
+            <div class="food-display">
+                <img id="food-image" src="" alt="Food item from Cheesecake Factory">
+                <h2 id="food-name"></h2>
+                <p id="food-description"></p>
+            </div>
+            <div class="guess-container">
+                <p>How many calories are in this item?</p>
+                <div class="input-container">
+                    <input type="number" id="calorie-guess" placeholder="Enter your guess" min="0">
+                    <button id="submit-guess">Submit Guess</button>
+                </div>
+                <div id="feedback" class="feedback"></div>
+            </div>
+            <div class="previous-guesses">
+                <h3>Previous Guesses</h3>
+                <ul id="guesses-list"></ul>
+            </div>
+            <div id="result-message" class="result-message"></div>
+        </div>
+        
+        <!-- Discaloried Game Container -->
+        <div id="discaloried-game" class="game-container hidden">
+            <div class="discaloried-header">
+                <p>Guesses remaining: <span id="discaloried-guesses">5</span></p>
+            </div>
+            <div id="discaloried-items" class="discaloried-boxes">
+                <div class="discaloried-box" data-box-index="0"></div>
+                <div class="discaloried-box" data-box-index="1"></div>
+                <div class="discaloried-box" data-box-index="2"></div>
+                <div class="discaloried-box" data-box-index="3"></div>
+                <div class="discaloried-box" data-box-index="4"></div>
+            </div>
+            <button id="discaloried-guess-btn" class="guess-button">Submit Order</button>
+            <div id="discaloried-feedback" class="feedback"></div>
+            <div id="discaloried-result" class="result-message"></div>
+        </div>
+    </div>
+    
+    <!-- Image Overlay Modal -->
+    <div id="image-overlay" class="image-overlay">
+        <div class="image-overlay-content">
+            <button class="image-overlay-close" id="image-overlay-close">&times;</button>
+            <img id="overlay-image" src="" alt="Expanded food image">
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>🧑🏻‍🌾🫑 A <span class="highlight" id="bell-pepper-farm">Bell Pepper Farm</span> production 🧑🏻‍🌾🫑</p>
+        <div id="closeup-container" class="closeup-container hidden">
+            <img src="closeup.png" alt="Bell Pepper Farm Closeup" class="closeup-image">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
