@@ -284,6 +284,19 @@ body {
     visibility: visible;
 }
 
+.daily-mode-info {
+    color: #666;
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin: -8px auto 20px;
+    text-align: center;
+}
+
+.daily-next-message {
+    color: #666;
+    font-weight: bold;
+}
+
 .mode-button {
     padding: 12px 24px;
     margin: 0 10px;
