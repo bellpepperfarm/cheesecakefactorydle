@@ -24,6 +24,7 @@ let discaloriedGuessHistory = [];
 // Multiguess game variables
 const MULTIGUESS_ITEM_COUNT = 3;
 const MULTIGUESS_MAX_ITEM_SCORE = 1000;
+const MULTIGUESS_FULL_SCORE_MARGIN = 45;
 let multiguessItems = [];
 let multiguessItemIndex = 0;
 let multiguessResults = [];
@@ -776,7 +777,8 @@ function stopDailyCountdown() {
 }
 
 function calculateMultiguessScore(guess, actualCalories) {
-    const percentageWrongness = Math.abs(guess - actualCalories) / actualCalories;
+    const caloriesWrong = Math.max(0, Math.abs(guess - actualCalories) - MULTIGUESS_FULL_SCORE_MARGIN);
+    const percentageWrongness = caloriesWrong / actualCalories;
     return Math.max(0, Math.round(MULTIGUESS_MAX_ITEM_SCORE * (1 - percentageWrongness)));
 }
 
