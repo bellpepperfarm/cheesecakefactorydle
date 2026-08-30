@@ -130,6 +130,8 @@ async function initGame() {
         multiguessSubmitGuess.addEventListener('click', handleMultiguessGuess);
         multiguessCalorieGuess.addEventListener('keydown', function(e) {
             if (e.key === 'Enter') {
+                e.preventDefault();
+                e.stopPropagation();
                 handleMultiguessGuess();
             }
         });
@@ -902,7 +904,7 @@ function showMultiguessReview(result) {
 
     multiguessRound.classList.add('hidden');
     multiguessReview.classList.remove('hidden');
-    multiguessNextItem.focus();
+    multiguessReview.focus({ preventScroll: true });
 }
 
 function advanceMultiguess() {
