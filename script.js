@@ -76,6 +76,7 @@ const multiguessScore = document.getElementById('multiguess-score');
 const multiguessFoodImage = document.getElementById('multiguess-food-image');
 const multiguessFoodName = document.getElementById('multiguess-food-name');
 const multiguessFoodDescription = document.getElementById('multiguess-food-description');
+const multiguessGuessForm = document.getElementById('multiguess-guess-form');
 const multiguessCalorieGuess = document.getElementById('multiguess-calorie-guess');
 const multiguessSubmitGuess = document.getElementById('multiguess-submit-guess');
 const multiguessFeedback = document.getElementById('multiguess-feedback');
@@ -127,13 +128,9 @@ async function initGame() {
         discaloriedGuessBtn.addEventListener('click', handleDiscaloriedGuess);
 
         // Set up Multiguess listeners
-        multiguessSubmitGuess.addEventListener('click', handleMultiguessGuess);
-        multiguessCalorieGuess.addEventListener('keydown', function(e) {
-            if (e.key === 'Enter') {
-                e.preventDefault();
-                e.stopPropagation();
-                handleMultiguessGuess();
-            }
+        multiguessGuessForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            handleMultiguessGuess();
         });
         multiguessNextItem.addEventListener('click', advanceMultiguess);
         
@@ -904,7 +901,6 @@ function showMultiguessReview(result) {
 
     multiguessRound.classList.add('hidden');
     multiguessReview.classList.remove('hidden');
-    multiguessReview.focus({ preventScroll: true });
 }
 
 function advanceMultiguess() {
