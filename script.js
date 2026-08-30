@@ -6,7 +6,7 @@ const MAX_GUESSES = 6;
 let gameActive = true;
 
 // Game mode variables
-let currentGameMode = 'daily'; // 'daily', 'classic', 'discaloried', or 'discaloried-hard'
+let currentGameMode = 'daily'; // 'daily', 'classic', 'multiguess', 'discaloried', or 'discaloried-hard'
 let dailyCountdownInterval = null;
 const DAILY_STORAGE_KEY_PREFIX = 'cheesecakefactorydle:daily:';
 const DAILY_HISTORY_DAYS = 30;
@@ -19,6 +19,14 @@ let discaloriedGuesses = 5;
 let discaloriedGameActive = false;
 let lockedItems = new Set();
 let discaloriedGuessHistory = [];
+
+// Multiguess game variables
+const MULTIGUESS_ITEM_COUNT = 3;
+const MULTIGUESS_MAX_ITEM_SCORE = 1000;
+let multiguessItems = [];
+let multiguessItemIndex = 0;
+let multiguessResults = [];
+let multiguessAwaitingNext = false;
 
 // Congratulatory titles
 const congratulatoryTitles = [
@@ -52,11 +60,35 @@ const imageOverlayClose = document.getElementById('image-overlay-close');
 // Game mode DOM elements
 const dailyModeBtn = document.getElementById('daily-mode-btn');
 const classicModeBtn = document.getElementById('classic-mode-btn');
+const multiguessModeBtn = document.getElementById('multiguess-mode-btn');
 const discaloriedModeBtn = document.getElementById('discaloried-mode-btn');
 const discaloriedHardModeBtn = document.getElementById('discaloried-hard-mode-btn');
 const dailyModeInfo = document.getElementById('daily-mode-info');
 const classicGame = document.getElementById('classic-game');
+const multiguessGame = document.getElementById('multiguess-game');
 const discaloriedGame = document.getElementById('discaloried-game');
+
+// Multiguess DOM elements
+const multiguessRound = document.getElementById('multiguess-round');
+const multiguessProgress = document.getElementById('multiguess-progress');
+const multiguessScore = document.getElementById('multiguess-score');
+const multiguessFoodImage = document.getElementById('multiguess-food-image');
+const multiguessFoodName = document.getElementById('multiguess-food-name');
+const multiguessFoodDescription = document.getElementById('multiguess-food-description');
+const multiguessCalorieGuess = document.getElementById('multiguess-calorie-guess');
+const multiguessSubmitGuess = document.getElementById('multiguess-submit-guess');
+const multiguessFeedback = document.getElementById('multiguess-feedback');
+const multiguessReview = document.getElementById('multiguess-review');
+const multiguessReviewProgress = document.getElementById('multiguess-review-progress');
+const multiguessReviewTotal = document.getElementById('multiguess-review-total');
+const multiguessReviewImage = document.getElementById('multiguess-review-image');
+const multiguessReviewName = document.getElementById('multiguess-review-name');
+const multiguessReviewGuess = document.getElementById('multiguess-review-guess');
+const multiguessReviewActual = document.getElementById('multiguess-review-actual');
+const multiguessReviewScore = document.getElementById('multiguess-review-score');
+const multiguessReviewDifference = document.getElementById('multiguess-review-difference');
+const multiguessNextItem = document.getElementById('multiguess-next-item');
+const multiguessResult = document.getElementById('multiguess-result');
 
 // Discaloried DOM elements
 const discaloriedItems = document.getElementById('discaloried-items');
@@ -86,11 +118,21 @@ async function initGame() {
         // Set up game mode switching
         dailyModeBtn.addEventListener('click', () => switchGameMode('daily'));
         classicModeBtn.addEventListener('click', () => switchGameMode('classic'));
+        multiguessModeBtn.addEventListener('click', () => switchGameMode('multiguess'));
         discaloriedModeBtn.addEventListener('click', () => switchGameMode('discaloried'));
         discaloriedHardModeBtn.addEventListener('click', () => switchGameMode('discaloried-hard'));
         
         // Set up Discaloried game listeners
         discaloriedGuessBtn.addEventListener('click', handleDiscaloriedGuess);
+
+        // Set up Multiguess listeners
+        multiguessSubmitGuess.addEventListener('click', handleMultiguessGuess);
+        multiguessCalorieGuess.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                handleMultiguessGuess();
+            }
+        });
+        multiguessNextItem.addEventListener('click', advanceMultiguess);
         
         // Set up image overlay listeners
         imageOverlayClose.addEventListener('click', closeImageOverlay);
@@ -698,6 +740,133 @@ function stopDailyCountdown() {
     }
 }
 
+function calculateMultiguessScore(guess, actualCalories) {
+    const percentageWrongness = Math.abs(guess - actualCalories) / actualCalories;
+    return Math.max(0, Math.round(MULTIGUESS_MAX_ITEM_SCORE * (1 - percentageWrongness)));
+}
+
+function initMultiguessGame() {
+    const validProducts = getValidProducts(true);
+    multiguessItems = shuffleItems(validProducts).slice(0, MULTIGUESS_ITEM_COUNT);
+    multiguessItemIndex = 0;
+    multiguessResults = [];
+    multiguessAwaitingNext = false;
+    multiguessRound.classList.remove('hidden');
+    multiguessReview.classList.add('hidden');
+    multiguessResult.className = 'result-message hidden';
+    displayMultiguessItem();
+}
+
+function getMultiguessTotalScore() {
+    return multiguessResults.reduce((total, result) => total + result.score, 0);
+}
+
+function displayMultiguessItem() {
+    const item = multiguessItems[multiguessItemIndex];
+    const imageUrl = `${menuData.imagepath}${item.imagefilename}`;
+
+    multiguessRound.classList.remove('hidden');
+    multiguessReview.classList.add('hidden');
+    multiguessProgress.textContent = `Item ${multiguessItemIndex + 1} of ${MULTIGUESS_ITEM_COUNT}`;
+    multiguessScore.textContent = `Score: ${getMultiguessTotalScore()} / ${MULTIGUESS_ITEM_COUNT * MULTIGUESS_MAX_ITEM_SCORE}`;
+    multiguessFoodImage.src = imageUrl;
+    multiguessFoodImage.alt = item.name;
+    multiguessFoodName.textContent = item.name;
+    multiguessFoodDescription.textContent = item.description || '';
+    multiguessCalorieGuess.value = '';
+    multiguessCalorieGuess.disabled = false;
+    multiguessSubmitGuess.disabled = false;
+    multiguessFeedback.textContent = '';
+    multiguessAwaitingNext = false;
+    multiguessCalorieGuess.focus();
+}
+
+function handleMultiguessGuess() {
+    if (multiguessAwaitingNext || multiguessItems.length === 0) return;
+
+    const guess = Number(multiguessCalorieGuess.value);
+    if (!Number.isFinite(guess) || guess < 0 || multiguessCalorieGuess.value.trim() === '') {
+        multiguessFeedback.textContent = 'Please enter a valid number of calories.';
+        return;
+    }
+
+    const item = multiguessItems[multiguessItemIndex];
+    const actualCalories = parseInt(item.basecalories);
+    const score = calculateMultiguessScore(guess, actualCalories);
+    multiguessResults.push({ item, guess, actualCalories, score });
+    multiguessAwaitingNext = true;
+
+    multiguessCalorieGuess.disabled = true;
+    multiguessSubmitGuess.disabled = true;
+    showMultiguessReview(multiguessResults[multiguessResults.length - 1]);
+}
+
+function showMultiguessReview(result) {
+    const difference = result.guess - result.actualCalories;
+    const percentageWrongness = Math.abs(difference) / result.actualCalories * 100;
+    let differenceText;
+
+    if (difference === 0) {
+        differenceText = 'Perfect guess — exactly right!';
+    } else {
+        const direction = difference > 0 ? 'high' : 'low';
+        differenceText = `${Math.abs(difference)} calories ${direction} · ${percentageWrongness.toFixed(1)}% off`;
+    }
+
+    multiguessReviewProgress.textContent = `Item ${multiguessItemIndex + 1} of ${MULTIGUESS_ITEM_COUNT}`;
+    multiguessReviewTotal.textContent = `Total: ${getMultiguessTotalScore()} / ${MULTIGUESS_ITEM_COUNT * MULTIGUESS_MAX_ITEM_SCORE}`;
+    multiguessReviewImage.src = `${menuData.imagepath}${result.item.imagefilename}`;
+    multiguessReviewImage.alt = result.item.name;
+    multiguessReviewName.textContent = result.item.name;
+    multiguessReviewGuess.textContent = `${result.guess} cal`;
+    multiguessReviewActual.textContent = `${result.actualCalories} cal`;
+    multiguessReviewScore.textContent = `${result.score} / ${MULTIGUESS_MAX_ITEM_SCORE}`;
+    multiguessReviewDifference.textContent = differenceText;
+    multiguessNextItem.textContent = multiguessItemIndex === MULTIGUESS_ITEM_COUNT - 1 ? 'See Final Score' : 'Next Item';
+
+    multiguessRound.classList.add('hidden');
+    multiguessReview.classList.remove('hidden');
+    multiguessNextItem.focus();
+}
+
+function advanceMultiguess() {
+    if (!multiguessAwaitingNext) return;
+
+    if (multiguessItemIndex < MULTIGUESS_ITEM_COUNT - 1) {
+        multiguessItemIndex++;
+        displayMultiguessItem();
+    } else {
+        showMultiguessResult();
+    }
+}
+
+function showMultiguessResult() {
+    const totalScore = getMultiguessTotalScore();
+    const maxScore = MULTIGUESS_ITEM_COUNT * MULTIGUESS_MAX_ITEM_SCORE;
+    const summaryItems = multiguessResults.map(result => `
+        <li>
+            <span>${result.item.name}</span>
+            <span>${result.guess} vs. ${result.actualCalories} cal — ${result.score} pts</span>
+        </li>
+    `).join('');
+
+    multiguessRound.classList.add('hidden');
+    multiguessReview.classList.add('hidden');
+    multiguessResult.className = 'result-message multiguess-final celebrate';
+    multiguessResult.innerHTML = `
+        <h2>Final Score</h2>
+        <p class="multiguess-final-score">${totalScore} / ${maxScore}</p>
+        <ul class="multiguess-summary">${summaryItems}</ul>
+    `;
+
+    const playAgainButton = document.createElement('button');
+    playAgainButton.textContent = 'Play Again';
+    playAgainButton.className = 'play-again';
+    playAgainButton.addEventListener('click', initMultiguessGame);
+    multiguessResult.appendChild(playAgainButton);
+    multiguessResult.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
 // Game mode switching
 function switchGameMode(mode) {
     stopDailyCountdown();
@@ -706,20 +875,25 @@ function switchGameMode(mode) {
     // Update button states
     dailyModeBtn.classList.toggle('active', mode === 'daily');
     classicModeBtn.classList.toggle('active', mode === 'classic');
+    multiguessModeBtn.classList.toggle('active', mode === 'multiguess');
     discaloriedModeBtn.classList.toggle('active', mode === 'discaloried');
     discaloriedHardModeBtn.classList.toggle('active', mode === 'discaloried-hard');
     
     const dailyHardMode = mode === 'daily' && isDailyHardMode();
     const showClassicGame = mode === 'classic' || (mode === 'daily' && !dailyHardMode);
+    const showMultiguessGame = mode === 'multiguess';
     const showDiscaloriedGame = mode === 'discaloried' || mode === 'discaloried-hard' || dailyHardMode;
 
     // Show/hide game containers
     classicGame.classList.toggle('hidden', !showClassicGame);
+    multiguessGame.classList.toggle('hidden', !showMultiguessGame);
     discaloriedGame.classList.toggle('hidden', !showDiscaloriedGame);
     updateDailyModeInfo();
     
     if (mode === 'daily') {
         initDailyGame();
+    } else if (mode === 'multiguess') {
+        initMultiguessGame();
     } else if (mode === 'discaloried' || mode === 'discaloried-hard') {
         initDiscaloriedGame();
     } else {
