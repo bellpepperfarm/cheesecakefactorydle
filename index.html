@@ -76,16 +76,16 @@
                     <h2 id="multiguess-food-name"></h2>
                     <p id="multiguess-food-description"></p>
                 </div>
-                <div class="guess-container">
+                <form id="multiguess-guess-form" class="guess-container">
                     <p>How many calories are in this item?</p>
                     <div class="input-container">
                         <input type="number" id="multiguess-calorie-guess" placeholder="Enter your guess" min="0">
-                        <button id="multiguess-submit-guess">Submit Guess</button>
+                        <button id="multiguess-submit-guess" type="submit">Submit Guess</button>
                     </div>
                     <div id="multiguess-feedback" class="feedback" aria-live="polite"></div>
-                </div>
+                </form>
             </div>
-            <div id="multiguess-review" class="multiguess-review hidden" aria-live="polite" tabindex="-1">
+            <div id="multiguess-review" class="multiguess-review hidden" aria-live="polite">
                 <div class="multiguess-review-header">
                     <span id="multiguess-review-progress">Daily · Item 1 of 3</span>
                     <span id="multiguess-review-total">Total: 0 / 3000</span>
@@ -145,6 +145,6 @@
             <img src="closeup.png" alt="Bell Pepper Farm Closeup" class="closeup-image">
         </div>
     </footer>
-    <script src="script.js?v=firefox-review-fix"></script>
+    <script src="script.js?v=native-multiguess-submit"></script>
 </body>
 </html>
