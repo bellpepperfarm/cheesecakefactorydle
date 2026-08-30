@@ -9,6 +9,7 @@ let gameActive = true;
 let currentGameMode = 'daily'; // 'daily', 'classic', 'multiguess', 'discaloried', or 'discaloried-hard'
 let dailyCountdownInterval = null;
 const DAILY_STORAGE_KEY_PREFIX = 'cheesecakefactorydle:daily:';
+const MULTIGUESS_DAILY_STORAGE_KEY_PREFIX = 'cheesecakefactorydle:multiguess:daily:';
 const DAILY_HISTORY_DAYS = 30;
 const DAILY_SELECTION_EPOCH = '2025-01-01T00:00:00Z';
 let guessHistory = [];
@@ -342,6 +343,41 @@ function writeDailyState(state) {
         }
     } catch (error) {
         console.warn('Unable to save the daily game:', error);
+    }
+}
+
+function getMultiguessDailyStorageKey(dateKey = getDailyDateKey()) {
+    return `${MULTIGUESS_DAILY_STORAGE_KEY_PREFIX}${dateKey}`;
+}
+
+function readMultiguessDailyState() {
+    try {
+        const state = JSON.parse(localStorage.getItem(getMultiguessDailyStorageKey()));
+        return state && state.dateKey === getDailyDateKey() ? state : null;
+    } catch (error) {
+        console.warn('Unable to read the saved Multiguess challenge:', error);
+        return null;
+    }
+}
+
+function writeMultiguessDailyState(status) {
+    try {
+        localStorage.setItem(getMultiguessDailyStorageKey(), JSON.stringify({
+            dateKey: getDailyDateKey(),
+            status,
+            itemIds: multiguessItems.map(item => String(item.id)),
+            guesses: multiguessResults.map(result => result.guess)
+        }));
+
+        for (let index = localStorage.length - 1; index >= 0; index--) {
+            const key = localStorage.key(index);
+            if (key && key.startsWith(MULTIGUESS_DAILY_STORAGE_KEY_PREFIX) &&
+                key !== getMultiguessDailyStorageKey()) {
+                localStorage.removeItem(key);
+            }
+        }
+    } catch (error) {
+        console.warn('Unable to save the Multiguess challenge:', error);
     }
 }
 
@@ -705,7 +741,7 @@ function addPlayAgainButton() {
 }
 
 function addDailyNextChallengeMessage(container) {
-    if (currentGameMode !== 'daily') return;
+    if (currentGameMode !== 'daily' && currentGameMode !== 'multiguess') return;
 
     stopDailyCountdown();
     const nextChallengeMessage = document.createElement('p');
@@ -747,14 +783,53 @@ function calculateMultiguessScore(guess, actualCalories) {
 
 function initMultiguessGame() {
     const validProducts = getValidProducts(true);
-    multiguessItems = shuffleItems(validProducts).slice(0, MULTIGUESS_ITEM_COUNT);
+    const random = createSeededRandom(`multiguess:${getDailyDateKey()}`);
+    multiguessItems = shuffleItems(validProducts, random).slice(0, MULTIGUESS_ITEM_COUNT);
     multiguessItemIndex = 0;
     multiguessResults = [];
     multiguessAwaitingNext = false;
     multiguessRound.classList.remove('hidden');
     multiguessReview.classList.add('hidden');
     multiguessResult.className = 'result-message hidden';
-    displayMultiguessItem();
+    restoreMultiguessDailyState();
+}
+
+function restoreMultiguessDailyState() {
+    const state = readMultiguessDailyState();
+    const challengeItemIds = multiguessItems.map(item => String(item.id));
+    const savedItemIds = Array.isArray(state?.itemIds) ? state.itemIds.map(String) : [];
+
+    if (!state || challengeItemIds.join(',') !== savedItemIds.join(',')) {
+        displayMultiguessItem();
+        writeMultiguessDailyState('guessing');
+        return;
+    }
+
+    const savedGuesses = Array.isArray(state.guesses)
+        ? state.guesses.filter(guess => Number.isFinite(guess) && guess >= 0).slice(0, MULTIGUESS_ITEM_COUNT)
+        : [];
+    multiguessResults = savedGuesses.map((guess, index) => {
+        const item = multiguessItems[index];
+        const actualCalories = parseInt(item.basecalories);
+        return {
+            item,
+            guess,
+            actualCalories,
+            score: calculateMultiguessScore(guess, actualCalories)
+        };
+    });
+
+    if (state.status === 'complete' && multiguessResults.length === MULTIGUESS_ITEM_COUNT) {
+        multiguessItemIndex = MULTIGUESS_ITEM_COUNT - 1;
+        showMultiguessResult();
+    } else if (state.status === 'review' && multiguessResults.length > 0) {
+        multiguessItemIndex = multiguessResults.length - 1;
+        multiguessAwaitingNext = true;
+        showMultiguessReview(multiguessResults[multiguessResults.length - 1]);
+    } else {
+        multiguessItemIndex = Math.min(multiguessResults.length, MULTIGUESS_ITEM_COUNT - 1);
+        displayMultiguessItem();
+    }
 }
 
 function getMultiguessTotalScore() {
@@ -767,7 +842,7 @@ function displayMultiguessItem() {
 
     multiguessRound.classList.remove('hidden');
     multiguessReview.classList.add('hidden');
-    multiguessProgress.textContent = `Item ${multiguessItemIndex + 1} of ${MULTIGUESS_ITEM_COUNT}`;
+    multiguessProgress.textContent = `Daily · Item ${multiguessItemIndex + 1} of ${MULTIGUESS_ITEM_COUNT}`;
     multiguessScore.textContent = `Score: ${getMultiguessTotalScore()} / ${MULTIGUESS_ITEM_COUNT * MULTIGUESS_MAX_ITEM_SCORE}`;
     multiguessFoodImage.src = imageUrl;
     multiguessFoodImage.alt = item.name;
@@ -798,6 +873,7 @@ function handleMultiguessGuess() {
 
     multiguessCalorieGuess.disabled = true;
     multiguessSubmitGuess.disabled = true;
+    writeMultiguessDailyState('review');
     showMultiguessReview(multiguessResults[multiguessResults.length - 1]);
 }
 
@@ -813,7 +889,7 @@ function showMultiguessReview(result) {
         differenceText = `${Math.abs(difference)} calories ${direction} · ${percentageWrongness.toFixed(1)}% off`;
     }
 
-    multiguessReviewProgress.textContent = `Item ${multiguessItemIndex + 1} of ${MULTIGUESS_ITEM_COUNT}`;
+    multiguessReviewProgress.textContent = `Daily · Item ${multiguessItemIndex + 1} of ${MULTIGUESS_ITEM_COUNT}`;
     multiguessReviewTotal.textContent = `Total: ${getMultiguessTotalScore()} / ${MULTIGUESS_ITEM_COUNT * MULTIGUESS_MAX_ITEM_SCORE}`;
     multiguessReviewImage.src = `${menuData.imagepath}${result.item.imagefilename}`;
     multiguessReviewImage.alt = result.item.name;
@@ -835,8 +911,10 @@ function advanceMultiguess() {
     if (multiguessItemIndex < MULTIGUESS_ITEM_COUNT - 1) {
         multiguessItemIndex++;
         displayMultiguessItem();
+        writeMultiguessDailyState('guessing');
     } else {
         showMultiguessResult();
+        writeMultiguessDailyState('complete');
     }
 }
 
@@ -854,16 +932,12 @@ function showMultiguessResult() {
     multiguessReview.classList.add('hidden');
     multiguessResult.className = 'result-message multiguess-final celebrate';
     multiguessResult.innerHTML = `
-        <h2>Final Score</h2>
+        <h2>Daily Final Score</h2>
         <p class="multiguess-final-score">${totalScore} / ${maxScore}</p>
         <ul class="multiguess-summary">${summaryItems}</ul>
     `;
 
-    const playAgainButton = document.createElement('button');
-    playAgainButton.textContent = 'Play Again';
-    playAgainButton.className = 'play-again';
-    playAgainButton.addEventListener('click', initMultiguessGame);
-    multiguessResult.appendChild(playAgainButton);
+    addDailyNextChallengeMessage(multiguessResult);
     multiguessResult.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
