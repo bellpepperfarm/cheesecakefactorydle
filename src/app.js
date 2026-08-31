@@ -1,4 +1,14 @@
-// Game variables
+import { MultiguessController } from './modes/multiguess.js';
+import {
+    createSeededRandom,
+    getDailyDateKey,
+    getDailyItemHistoryThrough as buildDailyItemHistory,
+    getValidProducts as filterValidProducts,
+    isDailyHardMode,
+    shuffleItems
+} from './core/game.js';
+
+// Application orchestration and legacy mode controllers.
 let menuData = null;
 let currentItem = null;
 let guessCount = 0;
@@ -6,12 +16,9 @@ const MAX_GUESSES = 6;
 let gameActive = true;
 
 // Game mode variables
-let currentGameMode = 'daily'; // 'daily', 'classic', 'multiguess', 'discaloried', or 'discaloried-hard'
+let currentGameMode = 'multiguess'; // 'daily', 'classic', 'multiguess', 'discaloried', or 'discaloried-hard'
 let dailyCountdownInterval = null;
 const DAILY_STORAGE_KEY_PREFIX = 'cheesecakefactorydle:daily:';
-const MULTIGUESS_DAILY_STORAGE_KEY_PREFIX = 'cheesecakefactorydle:multiguess:daily:';
-const DAILY_HISTORY_DAYS = 30;
-const DAILY_SELECTION_EPOCH = '2025-01-01T00:00:00Z';
 let guessHistory = [];
 
 // Discaloried game variables
@@ -21,14 +28,7 @@ let discaloriedGameActive = false;
 let lockedItems = new Set();
 let discaloriedGuessHistory = [];
 
-// Multiguess game variables
-const MULTIGUESS_ITEM_COUNT = 3;
-const MULTIGUESS_MAX_ITEM_SCORE = 1000;
-const MULTIGUESS_FULL_SCORE_MARGIN = 45;
-let multiguessItems = [];
-let multiguessItemIndex = 0;
-let multiguessResults = [];
-let multiguessAwaitingNext = false;
+let multiguessController = null;
 
 // Congratulatory titles
 const congratulatoryTitles = [
@@ -70,29 +70,6 @@ const classicGame = document.getElementById('classic-game');
 const multiguessGame = document.getElementById('multiguess-game');
 const discaloriedGame = document.getElementById('discaloried-game');
 
-// Multiguess DOM elements
-const multiguessRound = document.getElementById('multiguess-round');
-const multiguessProgress = document.getElementById('multiguess-progress');
-const multiguessScore = document.getElementById('multiguess-score');
-const multiguessFoodImage = document.getElementById('multiguess-food-image');
-const multiguessFoodName = document.getElementById('multiguess-food-name');
-const multiguessFoodDescription = document.getElementById('multiguess-food-description');
-const multiguessGuessForm = document.getElementById('multiguess-guess-form');
-const multiguessCalorieGuess = document.getElementById('multiguess-calorie-guess');
-const multiguessSubmitGuess = document.getElementById('multiguess-submit-guess');
-const multiguessFeedback = document.getElementById('multiguess-feedback');
-const multiguessReview = document.getElementById('multiguess-review');
-const multiguessReviewProgress = document.getElementById('multiguess-review-progress');
-const multiguessReviewTotal = document.getElementById('multiguess-review-total');
-const multiguessReviewImage = document.getElementById('multiguess-review-image');
-const multiguessReviewName = document.getElementById('multiguess-review-name');
-const multiguessReviewGuess = document.getElementById('multiguess-review-guess');
-const multiguessReviewActual = document.getElementById('multiguess-review-actual');
-const multiguessReviewScore = document.getElementById('multiguess-review-score');
-const multiguessReviewDifference = document.getElementById('multiguess-review-difference');
-const multiguessNextItem = document.getElementById('multiguess-next-item');
-const multiguessResult = document.getElementById('multiguess-result');
-
 // Discaloried DOM elements
 const discaloriedItems = document.getElementById('discaloried-items');
 const discaloriedGuessBtn = document.getElementById('discaloried-guess-btn');
@@ -128,12 +105,10 @@ async function initGame() {
         // Set up Discaloried game listeners
         discaloriedGuessBtn.addEventListener('click', handleDiscaloriedGuess);
 
-        // Set up Multiguess listeners
-        multiguessGuessForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            handleMultiguessGuess();
+        multiguessController = new MultiguessController({
+            menuData,
+            onDailyComplete: addDailyNextChallengeMessage
         });
-        multiguessNextItem.addEventListener('click', advanceMultiguess);
         
         // Set up image overlay listeners
         imageOverlayClose.addEventListener('click', closeImageOverlay);
@@ -144,8 +119,8 @@ async function initGame() {
         });
         overlayImage.addEventListener('click', closeImageOverlay);
 
-        // Daily is the default mode.
-        switchGameMode('daily');
+        // Multiguess is the primary experience visitors see first.
+        switchGameMode('multiguess');
     } catch (error) {
         console.error('Error initializing game:', error);
         feedback.textContent = 'Error loading menu data. Please refresh the page.';
@@ -294,26 +269,10 @@ function hslToRgb(h, s, l) {
 }
 
 function getValidProducts(requirePositiveCalories = false) {
-    const allProducts = menuData.categories.reduce((products, category) => {
-        if (category.products && Array.isArray(category.products)) {
-            return products.concat(category.products);
-        }
-        return products;
-    }, []);
-
-    return allProducts.filter(product =>
-        product.basecalories && 
-        product.imagefilename && 
-        product.name &&
-        (!requirePositiveCalories || parseInt(product.basecalories) > 0)
-    );
+    return filterValidProducts(menuData, requirePositiveCalories);
 }
 
 // Use UTC so every client changes to the next daily challenge at the same time.
-function getDailyDateKey(date = new Date()) {
-    return date.toISOString().slice(0, 10);
-}
-
 function getDailyStorageKey(dateKey = getDailyDateKey()) {
     return `${DAILY_STORAGE_KEY_PREFIX}${dateKey}`;
 }
@@ -343,41 +302,6 @@ function writeDailyState(state) {
         }
     } catch (error) {
         console.warn('Unable to save the daily game:', error);
-    }
-}
-
-function getMultiguessDailyStorageKey(dateKey = getDailyDateKey()) {
-    return `${MULTIGUESS_DAILY_STORAGE_KEY_PREFIX}${dateKey}`;
-}
-
-function readMultiguessDailyState() {
-    try {
-        const state = JSON.parse(localStorage.getItem(getMultiguessDailyStorageKey()));
-        return state && state.dateKey === getDailyDateKey() ? state : null;
-    } catch (error) {
-        console.warn('Unable to read the saved Multiguess challenge:', error);
-        return null;
-    }
-}
-
-function writeMultiguessDailyState(status) {
-    try {
-        localStorage.setItem(getMultiguessDailyStorageKey(), JSON.stringify({
-            dateKey: getDailyDateKey(),
-            status,
-            itemIds: multiguessItems.map(item => String(item.id)),
-            guesses: multiguessResults.map(result => result.guess)
-        }));
-
-        for (let index = localStorage.length - 1; index >= 0; index--) {
-            const key = localStorage.key(index);
-            if (key && key.startsWith(MULTIGUESS_DAILY_STORAGE_KEY_PREFIX) &&
-                key !== getMultiguessDailyStorageKey()) {
-                localStorage.removeItem(key);
-            }
-        }
-    } catch (error) {
-        console.warn('Unable to save the Multiguess challenge:', error);
     }
 }
 
@@ -415,85 +339,6 @@ function saveDailyDiscaloriedState(status = 'active') {
     });
 }
 
-function isDailyHardMode(date = new Date()) {
-    return date.getUTCDay() === 5;
-}
-
-function createSeededRandom(seed) {
-    let state = 2166136261;
-
-    for (let index = 0; index < seed.length; index++) {
-        state ^= seed.charCodeAt(index);
-        state = Math.imul(state, 16777619);
-    }
-
-    return function() {
-        state += 0x6D2B79F5;
-        let value = state;
-        value = Math.imul(value ^ (value >>> 15), value | 1);
-        value ^= value + Math.imul(value ^ (value >>> 7), value | 61);
-        return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
-    };
-}
-
-function shuffleItems(items, random = Math.random) {
-    const shuffledItems = [...items];
-
-    for (let index = shuffledItems.length - 1; index > 0; index--) {
-        const swapIndex = Math.floor(random() * (index + 1));
-        [shuffledItems[index], shuffledItems[swapIndex]] = [shuffledItems[swapIndex], shuffledItems[index]];
-    }
-
-    return shuffledItems;
-}
-
-function chooseDailyItem(dateKey, recentItemIds, validProducts) {
-    const random = createSeededRandom(`classic:${dateKey}`);
-    const recentIds = new Set(recentItemIds.map(String));
-    const maxAttempts = validProducts.length * 10;
-
-    for (let attempt = 0; attempt < maxAttempts; attempt++) {
-        const candidate = validProducts[Math.floor(random() * validProducts.length)];
-        if (!recentIds.has(String(candidate.id))) {
-            return candidate;
-        }
-    }
-
-    // The menu should always have more than 30 valid items, but keep a deterministic fallback.
-    return validProducts.find(product => !recentIds.has(String(product.id))) || validProducts[0];
-}
-
-function getDailyItemHistoryThrough(targetDate) {
-    const validProducts = getValidProducts();
-    const history = [];
-    const target = new Date(`${getDailyDateKey(targetDate)}T00:00:00Z`);
-    const day = new Date(DAILY_SELECTION_EPOCH);
-
-    if (target < day) {
-        day.setTime(target.getTime());
-        day.setUTCDate(day.getUTCDate() - DAILY_HISTORY_DAYS);
-    }
-
-    while (day <= target) {
-        // Fridays use the separate Discaloried Hard Mode set instead of one calorie item.
-        if (!isDailyHardMode(day)) {
-            const recentItems = history
-                .filter(entry => {
-                    const entryDate = new Date(`${entry.dateKey}T00:00:00Z`);
-                    const daysAgo = (day - entryDate) / (24 * 60 * 60 * 1000);
-                    return daysAgo > 0 && daysAgo <= DAILY_HISTORY_DAYS;
-                })
-                .map(entry => entry.itemId);
-            const dateKey = getDailyDateKey(day);
-            const item = chooseDailyItem(dateKey, recentItems, validProducts);
-            history.push({ dateKey, itemId: String(item.id) });
-        }
-        day.setUTCDate(day.getUTCDate() + 1);
-    }
-
-    return history;
-}
-
 function updateDailyModeInfo() {
     const daily = currentGameMode === 'daily';
     dailyModeInfo.classList.toggle('hidden', !daily);
@@ -529,7 +374,7 @@ function selectRandomItem() {
 function selectDailyItem() {
     const validProducts = getValidProducts();
     const dailyDate = new Date(`${getDailyDateKey()}T00:00:00Z`);
-    const history = getDailyItemHistoryThrough(dailyDate);
+    const history = buildDailyItemHistory(menuData, dailyDate);
     const selectedItemId = history[history.length - 1].itemId;
     currentItem = validProducts.find(item => String(item.id) === selectedItemId);
 
@@ -776,171 +621,6 @@ function stopDailyCountdown() {
     }
 }
 
-function calculateMultiguessScore(guess, actualCalories) {
-    const caloriesWrong = Math.max(0, Math.abs(guess - actualCalories) - MULTIGUESS_FULL_SCORE_MARGIN);
-    const percentageWrongness = caloriesWrong / actualCalories;
-    return Math.max(0, Math.round(MULTIGUESS_MAX_ITEM_SCORE * (1 - percentageWrongness)));
-}
-
-function initMultiguessGame() {
-    const validProducts = getValidProducts(true);
-    const random = createSeededRandom(`multiguess:${getDailyDateKey()}`);
-    multiguessItems = shuffleItems(validProducts, random).slice(0, MULTIGUESS_ITEM_COUNT);
-    multiguessItemIndex = 0;
-    multiguessResults = [];
-    multiguessAwaitingNext = false;
-    multiguessRound.classList.remove('hidden');
-    multiguessReview.classList.add('hidden');
-    multiguessResult.className = 'result-message hidden';
-    restoreMultiguessDailyState();
-}
-
-function restoreMultiguessDailyState() {
-    const state = readMultiguessDailyState();
-    const challengeItemIds = multiguessItems.map(item => String(item.id));
-    const savedItemIds = Array.isArray(state?.itemIds) ? state.itemIds.map(String) : [];
-
-    if (!state || challengeItemIds.join(',') !== savedItemIds.join(',')) {
-        displayMultiguessItem();
-        writeMultiguessDailyState('guessing');
-        return;
-    }
-
-    const savedGuesses = Array.isArray(state.guesses)
-        ? state.guesses.filter(guess => Number.isFinite(guess) && guess >= 0).slice(0, MULTIGUESS_ITEM_COUNT)
-        : [];
-    multiguessResults = savedGuesses.map((guess, index) => {
-        const item = multiguessItems[index];
-        const actualCalories = parseInt(item.basecalories);
-        return {
-            item,
-            guess,
-            actualCalories,
-            score: calculateMultiguessScore(guess, actualCalories)
-        };
-    });
-
-    if (state.status === 'complete' && multiguessResults.length === MULTIGUESS_ITEM_COUNT) {
-        multiguessItemIndex = MULTIGUESS_ITEM_COUNT - 1;
-        showMultiguessResult();
-    } else if (state.status === 'review' && multiguessResults.length > 0) {
-        multiguessItemIndex = multiguessResults.length - 1;
-        multiguessAwaitingNext = true;
-        showMultiguessReview(multiguessResults[multiguessResults.length - 1]);
-    } else {
-        multiguessItemIndex = Math.min(multiguessResults.length, MULTIGUESS_ITEM_COUNT - 1);
-        displayMultiguessItem();
-    }
-}
-
-function getMultiguessTotalScore() {
-    return multiguessResults.reduce((total, result) => total + result.score, 0);
-}
-
-function displayMultiguessItem() {
-    const item = multiguessItems[multiguessItemIndex];
-    const imageUrl = `${menuData.imagepath}${item.imagefilename}`;
-
-    multiguessRound.classList.remove('hidden');
-    multiguessReview.classList.add('hidden');
-    multiguessProgress.textContent = `Daily · Item ${multiguessItemIndex + 1} of ${MULTIGUESS_ITEM_COUNT}`;
-    multiguessScore.textContent = `Score: ${getMultiguessTotalScore()} / ${MULTIGUESS_ITEM_COUNT * MULTIGUESS_MAX_ITEM_SCORE}`;
-    multiguessFoodImage.src = imageUrl;
-    multiguessFoodImage.alt = item.name;
-    multiguessFoodName.textContent = item.name;
-    multiguessFoodDescription.textContent = item.description || '';
-    multiguessCalorieGuess.value = '';
-    multiguessCalorieGuess.disabled = false;
-    multiguessSubmitGuess.disabled = false;
-    multiguessFeedback.textContent = '';
-    multiguessAwaitingNext = false;
-    multiguessCalorieGuess.focus();
-}
-
-function handleMultiguessGuess() {
-    if (multiguessAwaitingNext || multiguessItems.length === 0) return;
-
-    const guess = Number(multiguessCalorieGuess.value);
-    if (!Number.isFinite(guess) || guess < 0 || multiguessCalorieGuess.value.trim() === '') {
-        multiguessFeedback.textContent = 'Please enter a valid number of calories.';
-        return;
-    }
-
-    const item = multiguessItems[multiguessItemIndex];
-    const actualCalories = parseInt(item.basecalories);
-    const score = calculateMultiguessScore(guess, actualCalories);
-    multiguessResults.push({ item, guess, actualCalories, score });
-    multiguessAwaitingNext = true;
-
-    multiguessCalorieGuess.disabled = true;
-    multiguessSubmitGuess.disabled = true;
-    writeMultiguessDailyState('review');
-    showMultiguessReview(multiguessResults[multiguessResults.length - 1]);
-}
-
-function showMultiguessReview(result) {
-    const difference = result.guess - result.actualCalories;
-    const percentageWrongness = Math.abs(difference) / result.actualCalories * 100;
-    let differenceText;
-
-    if (difference === 0) {
-        differenceText = 'Perfect guess — exactly right!';
-    } else {
-        const direction = difference > 0 ? 'high' : 'low';
-        differenceText = `${Math.abs(difference)} calories ${direction} · ${percentageWrongness.toFixed(1)}% off`;
-    }
-
-    multiguessReviewProgress.textContent = `Daily · Item ${multiguessItemIndex + 1} of ${MULTIGUESS_ITEM_COUNT}`;
-    multiguessReviewTotal.textContent = `Total: ${getMultiguessTotalScore()} / ${MULTIGUESS_ITEM_COUNT * MULTIGUESS_MAX_ITEM_SCORE}`;
-    multiguessReviewImage.src = `${menuData.imagepath}${result.item.imagefilename}`;
-    multiguessReviewImage.alt = result.item.name;
-    multiguessReviewName.textContent = result.item.name;
-    multiguessReviewGuess.textContent = `${result.guess} cal`;
-    multiguessReviewActual.textContent = `${result.actualCalories} cal`;
-    multiguessReviewScore.textContent = `${result.score} / ${MULTIGUESS_MAX_ITEM_SCORE}`;
-    multiguessReviewDifference.textContent = differenceText;
-    multiguessNextItem.textContent = multiguessItemIndex === MULTIGUESS_ITEM_COUNT - 1 ? 'See Final Score' : 'Next Item';
-
-    multiguessRound.classList.add('hidden');
-    multiguessReview.classList.remove('hidden');
-}
-
-function advanceMultiguess() {
-    if (!multiguessAwaitingNext) return;
-
-    if (multiguessItemIndex < MULTIGUESS_ITEM_COUNT - 1) {
-        multiguessItemIndex++;
-        displayMultiguessItem();
-        writeMultiguessDailyState('guessing');
-    } else {
-        showMultiguessResult();
-        writeMultiguessDailyState('complete');
-    }
-}
-
-function showMultiguessResult() {
-    const totalScore = getMultiguessTotalScore();
-    const maxScore = MULTIGUESS_ITEM_COUNT * MULTIGUESS_MAX_ITEM_SCORE;
-    const summaryItems = multiguessResults.map(result => `
-        <li>
-            <span>${result.item.name}</span>
-            <span>${result.guess} vs. ${result.actualCalories} cal — ${result.score} pts</span>
-        </li>
-    `).join('');
-
-    multiguessRound.classList.add('hidden');
-    multiguessReview.classList.add('hidden');
-    multiguessResult.className = 'result-message multiguess-final celebrate';
-    multiguessResult.innerHTML = `
-        <h2>Daily Final Score</h2>
-        <p class="multiguess-final-score">${totalScore} / ${maxScore}</p>
-        <ul class="multiguess-summary">${summaryItems}</ul>
-    `;
-
-    addDailyNextChallengeMessage(multiguessResult);
-    multiguessResult.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
-
 // Game mode switching
 function switchGameMode(mode) {
     stopDailyCountdown();
@@ -967,7 +647,7 @@ function switchGameMode(mode) {
     if (mode === 'daily') {
         initDailyGame();
     } else if (mode === 'multiguess') {
-        initMultiguessGame();
+        multiguessController.init();
     } else if (mode === 'discaloried' || mode === 'discaloried-hard') {
         initDiscaloriedGame();
     } else {

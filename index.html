@@ -25,6 +25,7 @@
     <meta property="twitter:image" content="https://sebi.io/cheesecakefactorydle/CFDle_logo-optimized.png">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles/motion.css">
     <link rel="icon" href="Cheesecakenolayers.png" type="image/png">
 </head>
 <body>
@@ -33,9 +34,9 @@
         
         <!-- Game Mode Selection -->
         <div class="game-mode-selection">
-            <button id="daily-mode-btn" class="mode-button active">Daily</button>
+            <button id="daily-mode-btn" class="mode-button">Daily</button>
             <button id="classic-mode-btn" class="mode-button">Classic</button>
-            <button id="multiguess-mode-btn" class="mode-button">Multiguess</button>
+            <button id="multiguess-mode-btn" class="mode-button active">Multiguess</button>
             <button id="discaloried-mode-btn" class="mode-button">Discaloried</button>
             <button id="discaloried-hard-mode-btn" class="mode-button">Discaloried Hard Mode</button>
         </div>
@@ -43,7 +44,7 @@
         <div id="daily-mode-info" class="daily-mode-info" aria-live="polite"></div>
         
         <!-- Classic Game Container -->
-        <div id="classic-game" class="game-container">
+        <div id="classic-game" class="game-container hidden">
             <div class="food-display">
                 <img id="food-image" src="" alt="Food item from Cheesecake Factory">
                 <h2 id="food-name"></h2>
@@ -65,7 +66,7 @@
         </div>
 
         <!-- Multiguess Game Container -->
-        <div id="multiguess-game" class="game-container hidden">
+        <div id="multiguess-game" class="game-container">
             <div id="multiguess-round" class="multiguess-round">
                 <div class="multiguess-header" aria-live="polite">
                     <span id="multiguess-progress">Daily · Item 1 of 3</span>
@@ -107,6 +108,7 @@
                         <strong id="multiguess-review-score"></strong>
                     </div>
                 </div>
+                <div id="multiguess-review-meter" class="progress-viz" aria-live="polite"></div>
                 <p id="multiguess-review-difference" class="multiguess-review-difference"></p>
                 <button id="multiguess-next-item" class="play-again">Next Item</button>
             </div>
@@ -145,6 +147,6 @@
             <img src="closeup.png" alt="Bell Pepper Farm Closeup" class="closeup-image">
         </div>
     </footer>
-    <script src="script.js?v=native-multiguess-submit"></script>
+    <script type="module" src="src/app.js"></script>
 </body>
 </html>
