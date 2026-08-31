@@ -11,6 +11,13 @@ import { DailyStorage, STORAGE_KEYS } from '../core/storage.js';
 import { animateCount, easing, prefersReducedMotion } from '../ui/count-up.js';
 import { createCelebrationBits, setProgressBar, updateProgressBar } from '../ui/progress.js';
 
+export const REVIEW_TIMING = Object.freeze({
+    guessCountUp: 1000,
+    actualCaloriesCountUp: 4000,
+    lockImpact: 520,
+    verdictDelay: 220
+});
+
 export class MultiguessController {
     constructor({ menuData, onDailyComplete }) {
         this.menuData = menuData;
@@ -233,7 +240,7 @@ export class MultiguessController {
         this.revealStages('guess');
         const guessCompleted = await animateCount({
             to: result.guess,
-            duration: 1000,
+            duration: REVIEW_TIMING.guessCountUp,
             easingFunction: easing.outCubic,
             shouldContinue: isCurrent,
             onUpdate: value => {
@@ -249,7 +256,7 @@ export class MultiguessController {
 
         const actualCompleted = await animateCount({
             to: result.actualCalories,
-            duration: 2000,
+            duration: REVIEW_TIMING.actualCaloriesCountUp,
             easingFunction: easing.linear,
             shouldContinue: isCurrent,
             onUpdate: value => {
@@ -270,7 +277,7 @@ export class MultiguessController {
         const pointsCard = elements.review.querySelector('[data-review-stage="points"]');
         pointsCard.classList.add('is-locking');
         elements.reviewMeter.classList.add('is-locking');
-        await this.waitForSequence(520, sequenceId);
+        await this.waitForSequence(REVIEW_TIMING.lockImpact, sequenceId);
         if (!isCurrent()) return;
 
         pointsCard.classList.remove('is-locking');
@@ -280,7 +287,7 @@ export class MultiguessController {
         elements.review.classList.remove('review-phase-calculating');
         elements.review.classList.add('review-phase-locked');
 
-        await this.waitForSequence(220, sequenceId);
+        await this.waitForSequence(REVIEW_TIMING.verdictDelay, sequenceId);
         if (!isCurrent()) return;
         this.revealStages('verdict');
         elements.nextItem.disabled = false;

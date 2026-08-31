@@ -9,6 +9,7 @@ import {
     shuffleItems
 } from '../src/core/game.js';
 import { easing, interpolateCount } from '../src/ui/count-up.js';
+import { REVIEW_TIMING } from '../src/modes/multiguess.js';
 
 test('multiguess score awards full points inside the 45 calorie margin', () => {
     assert.equal(calculateMultiguessScore(1045, 1000), 1000);
@@ -44,4 +45,8 @@ test('count-up interpolation clamps progress and lands on exact values', () => {
     assert.equal(interpolateCount(0, 900, 0.5), 450);
     assert.equal(interpolateCount(0, 900, 2), 900);
     assert.equal(interpolateCount(0, 1000, 0.5, easing.outCubic), 875);
+});
+
+test('actual calorie reveal uses the slower four-second count-up', () => {
+    assert.equal(REVIEW_TIMING.actualCaloriesCountUp, 4000);
 });

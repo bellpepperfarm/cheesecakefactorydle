@@ -151,8 +151,7 @@ body {
     color: #665c68;
     font-size: .8rem;
     font-weight: 800;
-    letter-spacing: .08em;
-    text-transform: uppercase;
+    letter-spacing: .02em;
 }
 
 .progress-viz__labels strong {
@@ -225,8 +224,7 @@ body {
 .multiguess-final-kicker {
     color: var(--berry-dark);
     font-size: .76rem;
-    letter-spacing: .19em;
-    text-transform: uppercase;
+    letter-spacing: .05em;
 }
 
 .multiguess-final h2 {

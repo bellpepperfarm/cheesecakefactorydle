@@ -481,8 +481,7 @@ body {
     color: #e31837;
     font-size: 0.85rem;
     font-weight: bold;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
 
 #multiguess-review-image {
@@ -520,7 +519,6 @@ body {
     color: #666;
     font-size: 0.85rem;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 .multiguess-review-card strong {
