@@ -63,6 +63,9 @@ const imageOverlayClose = document.getElementById('image-overlay-close');
 const dailyModeBtn = document.getElementById('daily-mode-btn');
 const classicModeBtn = document.getElementById('classic-mode-btn');
 const multiguessModeBtn = document.getElementById('multiguess-mode-btn');
+const gameModeSelection = document.querySelector('.game-mode-selection');
+const otherModesToggle = document.getElementById('other-modes-toggle');
+const otherModesMenu = document.getElementById('other-modes-menu');
 const discaloriedModeBtn = document.getElementById('discaloried-mode-btn');
 const discaloriedHardModeBtn = document.getElementById('discaloried-hard-mode-btn');
 const dailyModeInfo = document.getElementById('daily-mode-info');
@@ -101,6 +104,18 @@ async function initGame() {
         multiguessModeBtn.addEventListener('click', () => switchGameMode('multiguess'));
         discaloriedModeBtn.addEventListener('click', () => switchGameMode('discaloried'));
         discaloriedHardModeBtn.addEventListener('click', () => switchGameMode('discaloried-hard'));
+        otherModesToggle.addEventListener('click', () => {
+            setOtherModesOpen(otherModesToggle.getAttribute('aria-expanded') !== 'true');
+        });
+        document.addEventListener('click', event => {
+            if (!gameModeSelection.contains(event.target)) setOtherModesOpen(false);
+        });
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && otherModesToggle.getAttribute('aria-expanded') === 'true') {
+                setOtherModesOpen(false);
+                otherModesToggle.focus();
+            }
+        });
         
         // Set up Discaloried game listeners
         discaloriedGuessBtn.addEventListener('click', handleDiscaloriedGuess);
@@ -125,6 +140,11 @@ async function initGame() {
         console.error('Error initializing game:', error);
         feedback.textContent = 'Error loading menu data. Please refresh the page.';
     }
+}
+
+function setOtherModesOpen(isOpen) {
+    otherModesToggle.setAttribute('aria-expanded', String(isOpen));
+    otherModesMenu.classList.toggle('hidden', !isOpen);
 }
 
 // Variables for rainbow animation
@@ -630,8 +650,10 @@ function switchGameMode(mode) {
     dailyModeBtn.classList.toggle('active', mode === 'daily');
     classicModeBtn.classList.toggle('active', mode === 'classic');
     multiguessModeBtn.classList.toggle('active', mode === 'multiguess');
+    otherModesToggle.classList.toggle('active', mode !== 'multiguess');
     discaloriedModeBtn.classList.toggle('active', mode === 'discaloried');
     discaloriedHardModeBtn.classList.toggle('active', mode === 'discaloried-hard');
+    setOtherModesOpen(false);
     
     const dailyHardMode = mode === 'daily' && isDailyHardMode();
     const showClassicGame = mode === 'classic' || (mode === 'daily' && !dailyHardMode);

@@ -21,6 +21,10 @@ body {
     visibility: visible;
 }
 
+.other-modes-menu:not(.hidden) {
+    animation: modes-reveal .38s var(--motion-spring) both;
+}
+
 .game-container:not(.hidden) {
     animation: surface-arrive .55s var(--motion-spring) both;
 }
@@ -301,6 +305,11 @@ body {
 
 @keyframes surface-arrive {
     from { opacity: 0; transform: translateY(18px) scale(.985); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes modes-reveal {
+    from { opacity: 0; transform: translateY(-8px) scale(.97); }
     to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
