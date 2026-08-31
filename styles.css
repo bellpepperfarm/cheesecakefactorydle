@@ -337,6 +337,36 @@ body {
     border-color: #e31837;
 }
 
+.other-modes-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.other-modes-toggle__chevron {
+    display: inline-block;
+    font-size: 1.15em;
+    line-height: 1;
+    transition: transform 0.25s ease;
+}
+
+.other-modes-toggle[aria-expanded="true"] .other-modes-toggle__chevron {
+    transform: rotate(180deg);
+}
+
+.other-modes-menu {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 4px;
+}
+
+.other-modes-menu.hidden {
+    display: none;
+}
+
 .game-container {
     background-color: white;
     border-radius: 10px;

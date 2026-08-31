@@ -33,13 +33,20 @@
         <img src="CFDle_logo-optimized.png" alt="Cheesecakefactorydle Logo" class="logo-image" width="1440" height="480">
         
         <!-- Game Mode Selection -->
-        <div class="game-mode-selection">
-            <button id="multiguess-mode-btn" class="mode-button active">Daily Multi</button>
-            <button id="daily-mode-btn" class="mode-button">Daily</button>
-            <button id="classic-mode-btn" class="mode-button">Classic</button>
-            <button id="discaloried-mode-btn" class="mode-button">Discaloried</button>
-            <button id="discaloried-hard-mode-btn" class="mode-button">Discaloried Hard Mode</button>
-        </div>
+        <nav class="game-mode-selection" aria-label="Game modes">
+            <button id="multiguess-mode-btn" class="mode-button active" type="button">Daily Multi</button>
+            <button id="other-modes-toggle" class="mode-button other-modes-toggle" type="button"
+                aria-expanded="false" aria-controls="other-modes-menu">
+                Other Modes
+                <span class="other-modes-toggle__chevron" aria-hidden="true">⌄</span>
+            </button>
+            <div id="other-modes-menu" class="other-modes-menu hidden">
+                <button id="daily-mode-btn" class="mode-button" type="button">Daily</button>
+                <button id="classic-mode-btn" class="mode-button" type="button">Classic</button>
+                <button id="discaloried-mode-btn" class="mode-button" type="button">Discaloried</button>
+                <button id="discaloried-hard-mode-btn" class="mode-button" type="button">Discaloried Hard Mode</button>
+            </div>
+        </nav>
 
         <div id="daily-mode-info" class="daily-mode-info" aria-live="polite"></div>
         
