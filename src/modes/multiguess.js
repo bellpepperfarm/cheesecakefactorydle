@@ -8,7 +8,8 @@ import {
     shuffleItems
 } from '../core/game.js';
 import { DailyStorage, STORAGE_KEYS } from '../core/storage.js';
-import { createCelebrationBits, setProgressBar } from '../ui/progress.js';
+import { animateCount, easing, prefersReducedMotion } from '../ui/count-up.js';
+import { createCelebrationBits, setProgressBar, updateProgressBar } from '../ui/progress.js';
 
 export class MultiguessController {
     constructor({ menuData, onDailyComplete }) {
@@ -19,6 +20,7 @@ export class MultiguessController {
         this.itemIndex = 0;
         this.results = [];
         this.awaitingNext = false;
+        this.reviewSequenceId = 0;
         this.elements = this.getElements();
         this.bindEvents();
     }
@@ -37,6 +39,7 @@ export class MultiguessController {
             submitGuess: byId('multiguess-submit-guess'),
             feedback: byId('multiguess-feedback'),
             review: byId('multiguess-review'),
+            reviewAnnouncement: byId('multiguess-review-announcement'),
             reviewProgress: byId('multiguess-review-progress'),
             reviewTotal: byId('multiguess-review-total'),
             reviewImage: byId('multiguess-review-image'),
@@ -95,7 +98,7 @@ export class MultiguessController {
         } else if (state.status === 'review' && this.results.length > 0) {
             this.itemIndex = this.results.length - 1;
             this.awaitingNext = true;
-            this.showReview(this.results.at(-1));
+            this.showReview(this.results.at(-1), { animate: false });
         } else {
             this.itemIndex = Math.min(this.results.length, GAME_CONFIG.multiguessItemCount - 1);
             this.displayItem();
@@ -120,6 +123,7 @@ export class MultiguessController {
     }
 
     displayItem() {
+        this.reviewSequenceId++;
         const item = this.items[this.itemIndex];
         const { elements } = this;
         elements.round.classList.remove('hidden');
@@ -157,7 +161,7 @@ export class MultiguessController {
         this.showReview(result);
     }
 
-    showReview(result) {
+    showReview(result, { animate = true } = {}) {
         // The review itself is the source of truth for the transition guard. This
         // also makes restored sessions resilient if an earlier event reset state.
         this.awaitingNext = true;
@@ -167,20 +171,26 @@ export class MultiguessController {
             ? 'Perfect guess — exactly right!'
             : `${Math.abs(difference)} calories ${difference > 0 ? 'high' : 'low'} · ${percentOff.toFixed(1)}% off`;
         const { elements } = this;
+        const previousTotal = this.totalScore - result.score;
+        const sequenceId = ++this.reviewSequenceId;
+        const shouldRunSequence = animate && !prefersReducedMotion();
 
         elements.reviewProgress.textContent = `Daily · Item ${this.itemIndex + 1} of ${GAME_CONFIG.multiguessItemCount}`;
-        elements.reviewTotal.textContent = `Total: ${this.totalScore} / ${this.maxScore}`;
+        elements.reviewAnnouncement.textContent = '';
+        elements.reviewTotal.textContent = `Total: ${shouldRunSequence ? previousTotal : this.totalScore} / ${this.maxScore}`;
         elements.reviewImage.src = `${this.menuData.imagepath}${result.item.imagefilename}`;
         elements.reviewImage.alt = result.item.name;
         elements.reviewName.textContent = result.item.name;
-        elements.reviewGuess.textContent = `${result.guess} cal`;
-        elements.reviewActual.textContent = `${result.actualCalories} cal`;
-        elements.reviewScore.textContent = `${result.score} / ${GAME_CONFIG.multiguessMaxItemScore}`;
+        elements.reviewGuess.textContent = shouldRunSequence ? '0 cal' : `${result.guess} cal`;
+        elements.reviewActual.textContent = shouldRunSequence ? '0 cal' : `${result.actualCalories} cal`;
+        elements.reviewScore.textContent = shouldRunSequence ? `0 / ${GAME_CONFIG.multiguessMaxItemScore}` : `${result.score} / ${GAME_CONFIG.multiguessMaxItemScore}`;
         elements.reviewDifference.textContent = differenceText;
         elements.nextItem.textContent = this.itemIndex === GAME_CONFIG.multiguessItemCount - 1
             ? 'See Final Score'
             : 'Next Item';
-        setProgressBar(elements.reviewMeter, result.score, GAME_CONFIG.multiguessMaxItemScore, {
+        elements.nextItem.disabled = shouldRunSequence;
+        this.resetReviewStages();
+        setProgressBar(elements.reviewMeter, shouldRunSequence ? 0 : result.score, GAME_CONFIG.multiguessMaxItemScore, {
             label: 'Points earned this round'
         });
 
@@ -188,9 +198,119 @@ export class MultiguessController {
         elements.review.classList.remove('hidden');
         elements.review.classList.remove('is-entering');
         requestAnimationFrame(() => elements.review.classList.add('is-entering'));
+
+        if (shouldRunSequence) {
+            this.runReviewSequence(result, previousTotal, sequenceId);
+        } else {
+            this.completeReviewSequence(result);
+        }
+    }
+
+    resetReviewStages() {
+        const { review, reviewMeter } = this.elements;
+        review.classList.remove('review-phase-guess', 'review-phase-calculating', 'review-phase-locked');
+        reviewMeter.classList.remove('progress-viz--live', 'is-locked');
+        review.querySelectorAll('.review-stage').forEach(stage => {
+            stage.classList.remove('is-revealed', 'is-locking', 'is-locked');
+            stage.setAttribute('aria-hidden', 'true');
+        });
+    }
+
+    revealStages(...stageNames) {
+        stageNames.forEach(stageName => {
+            this.elements.review.querySelectorAll(`[data-review-stage="${stageName}"]`).forEach(stage => {
+                stage.classList.add('is-revealed');
+                stage.setAttribute('aria-hidden', 'false');
+            });
+        });
+    }
+
+    async runReviewSequence(result, previousTotal, sequenceId) {
+        const { elements } = this;
+        const isCurrent = () => sequenceId === this.reviewSequenceId;
+
+        elements.review.classList.add('review-phase-guess');
+        this.revealStages('guess');
+        const guessCompleted = await animateCount({
+            to: result.guess,
+            duration: 1000,
+            easingFunction: easing.outCubic,
+            shouldContinue: isCurrent,
+            onUpdate: value => {
+                elements.reviewGuess.textContent = `${value.toLocaleString()} cal`;
+            }
+        });
+        if (!guessCompleted || !isCurrent()) return;
+
+        elements.review.classList.remove('review-phase-guess');
+        elements.review.classList.add('review-phase-calculating');
+        elements.reviewMeter.classList.add('progress-viz--live');
+        this.revealStages('actual', 'points', 'score');
+
+        const actualCompleted = await animateCount({
+            to: result.actualCalories,
+            duration: 2000,
+            easingFunction: easing.linear,
+            shouldContinue: isCurrent,
+            onUpdate: value => {
+                const liveScore = value > 0 ? calculateMultiguessScore(result.guess, value) : 0;
+                elements.reviewActual.textContent = `${value.toLocaleString()} cal`;
+                elements.reviewScore.textContent = `${liveScore.toLocaleString()} / ${GAME_CONFIG.multiguessMaxItemScore}`;
+                elements.reviewTotal.textContent = `Total: ${(previousTotal + liveScore).toLocaleString()} / ${this.maxScore}`;
+                updateProgressBar(elements.reviewMeter, liveScore, GAME_CONFIG.multiguessMaxItemScore);
+            }
+        });
+        if (!actualCompleted || !isCurrent()) return;
+
+        elements.reviewActual.textContent = `${result.actualCalories.toLocaleString()} cal`;
+        elements.reviewScore.textContent = `${result.score.toLocaleString()} / ${GAME_CONFIG.multiguessMaxItemScore}`;
+        elements.reviewTotal.textContent = `Total: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
+        updateProgressBar(elements.reviewMeter, result.score, GAME_CONFIG.multiguessMaxItemScore);
+
+        const pointsCard = elements.review.querySelector('[data-review-stage="points"]');
+        pointsCard.classList.add('is-locking');
+        elements.reviewMeter.classList.add('is-locking');
+        await this.waitForSequence(520, sequenceId);
+        if (!isCurrent()) return;
+
+        pointsCard.classList.remove('is-locking');
+        pointsCard.classList.add('is-locked');
+        elements.reviewMeter.classList.remove('progress-viz--live', 'is-locking');
+        elements.reviewMeter.classList.add('is-locked');
+        elements.review.classList.remove('review-phase-calculating');
+        elements.review.classList.add('review-phase-locked');
+
+        await this.waitForSequence(220, sequenceId);
+        if (!isCurrent()) return;
+        this.revealStages('verdict');
+        elements.nextItem.disabled = false;
+        elements.reviewAnnouncement.textContent = `Your guess was ${result.guess} calories. Actual calories: ${result.actualCalories}. You earned ${result.score} points.`;
+    }
+
+    completeReviewSequence(result) {
+        const { elements } = this;
+        this.revealStages('guess', 'actual', 'points', 'score', 'verdict');
+        elements.review.classList.add('review-phase-locked');
+        elements.review.querySelector('[data-review-stage="points"]').classList.add('is-locked');
+        elements.reviewMeter.classList.add('is-locked');
+        elements.reviewTotal.textContent = `Total: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
+        elements.reviewGuess.textContent = `${result.guess.toLocaleString()} cal`;
+        elements.reviewActual.textContent = `${result.actualCalories.toLocaleString()} cal`;
+        elements.reviewScore.textContent = `${result.score.toLocaleString()} / ${GAME_CONFIG.multiguessMaxItemScore}`;
+        updateProgressBar(elements.reviewMeter, result.score, GAME_CONFIG.multiguessMaxItemScore);
+        elements.nextItem.disabled = false;
+        elements.reviewAnnouncement.textContent = `Your guess was ${result.guess} calories. Actual calories: ${result.actualCalories}. You earned ${result.score} points.`;
+    }
+
+    waitForSequence(duration, sequenceId) {
+        return new Promise(resolve => {
+            setTimeout(() => resolve(sequenceId === this.reviewSequenceId), duration);
+        });
     }
 
     advance() {
+        if (this.elements.nextItem.disabled) return;
+        this.reviewSequenceId++;
         if (this.itemIndex < GAME_CONFIG.multiguessItemCount - 1) {
             this.itemIndex++;
             this.displayItem();

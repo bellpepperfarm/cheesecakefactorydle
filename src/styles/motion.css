@@ -50,13 +50,39 @@ body {
     animation: rise-in .48s .08s ease-out both;
 }
 
-.multiguess-review.is-entering .multiguess-review-card {
+.review-stage[aria-hidden="true"] {
+    display: none;
+}
+
+.multiguess-review-card.review-stage.is-revealed {
+    display: flex;
     animation: card-pop .55s var(--motion-spring) both;
 }
 
-.multiguess-review.is-entering .multiguess-review-card:nth-child(1) { animation-delay: 100ms; }
-.multiguess-review.is-entering .multiguess-review-card:nth-child(2) { animation-delay: 180ms; }
-.multiguess-review.is-entering .multiguess-review-card:nth-child(3) { animation-delay: 260ms; }
+.progress-viz.review-stage.is-revealed,
+.multiguess-review-difference.review-stage.is-revealed,
+#multiguess-next-item.review-stage.is-revealed {
+    display: block;
+    animation: stage-rise .48s var(--motion-spring) both;
+}
+
+.review-phase-guess .multiguess-review-cards {
+    grid-template-columns: minmax(220px, 340px);
+    justify-content: center;
+}
+
+.review-phase-guess [data-review-stage="guess"] {
+    min-height: 150px;
+    border-color: rgba(124, 58, 237, .3);
+    background: linear-gradient(145deg, #fbf9ff, #f3edff);
+    box-shadow: 0 16px 36px rgba(124, 58, 237, .12);
+}
+
+.review-phase-guess #multiguess-review-guess {
+    color: #6d28d9;
+    font-size: clamp(2rem, 7vw, 3.4rem);
+    font-variant-numeric: tabular-nums;
+}
 
 .multiguess-review-card:nth-child(2) {
     transform: translateY(-7px);
@@ -69,6 +95,45 @@ body {
 
 .multiguess-review-points strong {
     font-size: 1.85rem;
+    font-variant-numeric: tabular-nums;
+}
+
+#multiguess-review-actual,
+#multiguess-review-guess {
+    font-variant-numeric: tabular-nums;
+}
+
+.review-phase-calculating .multiguess-review-points {
+    border-color: #f7b32b;
+    background: #fff9e8;
+    color: #9a5b00;
+    animation: calculating-glow 1s ease-in-out infinite alternate;
+}
+
+.multiguess-review-points.is-locking,
+#multiguess-review-meter.is-locking {
+    animation: lock-impact .52s var(--motion-spring) both;
+}
+
+.multiguess-review-points.is-locked {
+    border-color: #4d8b45;
+    background: linear-gradient(145deg, #f4fff0, #dff5d8);
+    color: #2f7335;
+    box-shadow: 0 12px 30px rgba(77, 139, 69, .2);
+}
+
+#multiguess-review-meter.is-locked {
+    --progress-color: linear-gradient(90deg, #26734d, #68b55b, #a8d65e);
+}
+
+#multiguess-review-meter.is-locked .progress-viz__labels span,
+#multiguess-review-meter.is-locked .progress-viz__labels strong {
+    color: #2f7335;
+}
+
+#multiguess-review-meter.is-locked .progress-viz__fill::after {
+    animation: none;
+    opacity: 0;
 }
 
 .progress-viz {
@@ -114,6 +179,10 @@ body {
     background: var(--progress-color);
     box-shadow: 0 0 16px rgba(247, 179, 43, .46);
     transition: width 1.15s var(--progress-delay, 0ms) cubic-bezier(.2, .75, .25, 1);
+}
+
+.progress-viz--live .progress-viz__fill {
+    transition: width 70ms linear;
 }
 
 .progress-viz__fill::after {
@@ -251,6 +320,23 @@ body {
 @keyframes card-pop {
     from { opacity: 0; transform: translateY(24px) scale(.82); }
     to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes stage-rise {
+    from { opacity: 0; transform: translateY(16px) scale(.96); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes calculating-glow {
+    from { box-shadow: 0 8px 20px rgba(247, 179, 43, .12); transform: translateY(0); }
+    to { box-shadow: 0 13px 34px rgba(247, 179, 43, .3); transform: translateY(-3px); }
+}
+
+@keyframes lock-impact {
+    0% { transform: scale(1); }
+    38% { transform: scale(1.075) rotate(-.6deg); }
+    68% { transform: scale(.975) rotate(.3deg); }
+    100% { transform: scale(1) rotate(0); }
 }
 
 @keyframes progress-shine {

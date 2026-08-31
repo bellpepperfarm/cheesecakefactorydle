@@ -23,6 +23,19 @@ export function setProgressBar(container, value, max, options = {}) {
     requestAnimationFrame(() => fill.style.setProperty('--progress', `${percent}%`));
 }
 
+export function updateProgressBar(container, value, max) {
+    const safeMax = Math.max(1, max);
+    const safeValue = Math.min(safeMax, Math.max(0, value));
+    const percent = Math.round((safeValue / safeMax) * 100);
+    const progressBar = container.querySelector('[role="progressbar"]');
+    const percentLabel = container.querySelector('.progress-viz__labels strong');
+    const fill = container.querySelector('.progress-viz__fill');
+
+    progressBar?.setAttribute('aria-valuenow', String(safeValue));
+    if (percentLabel) percentLabel.textContent = `${percent}%`;
+    fill?.style.setProperty('--progress', `${percent}%`);
+}
+
 export function createCelebrationBits(container, count = 18) {
     const colors = ['#e31837', '#f7b32b', '#6aa84f', '#7c3aed', '#00a6a6'];
     const fragment = document.createDocumentFragment();

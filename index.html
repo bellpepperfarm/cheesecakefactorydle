@@ -86,7 +86,8 @@
                     <div id="multiguess-feedback" class="feedback" aria-live="polite"></div>
                 </form>
             </div>
-            <div id="multiguess-review" class="multiguess-review hidden" aria-live="polite">
+            <div id="multiguess-review" class="multiguess-review hidden">
+                <p id="multiguess-review-announcement" class="sr-only" aria-live="polite"></p>
                 <div class="multiguess-review-header">
                     <span id="multiguess-review-progress">Daily · Item 1 of 3</span>
                     <span id="multiguess-review-total">Total: 0 / 3000</span>
@@ -95,22 +96,22 @@
                 <img id="multiguess-review-image" src="" alt="">
                 <h2 id="multiguess-review-name"></h2>
                 <div class="multiguess-review-cards">
-                    <div class="multiguess-review-card">
+                    <div class="multiguess-review-card review-stage" data-review-stage="guess">
                         <span class="multiguess-review-label">Your guess</span>
                         <strong id="multiguess-review-guess"></strong>
                     </div>
-                    <div class="multiguess-review-card">
+                    <div class="multiguess-review-card review-stage" data-review-stage="actual">
                         <span class="multiguess-review-label">Actual calories</span>
                         <strong id="multiguess-review-actual"></strong>
                     </div>
-                    <div class="multiguess-review-card multiguess-review-points">
+                    <div class="multiguess-review-card multiguess-review-points review-stage" data-review-stage="points">
                         <span class="multiguess-review-label">Points earned</span>
                         <strong id="multiguess-review-score"></strong>
                     </div>
                 </div>
-                <div id="multiguess-review-meter" class="progress-viz" aria-live="polite"></div>
-                <p id="multiguess-review-difference" class="multiguess-review-difference"></p>
-                <button id="multiguess-next-item" class="play-again">Next Item</button>
+                <div id="multiguess-review-meter" class="progress-viz review-stage" data-review-stage="score" aria-live="polite"></div>
+                <p id="multiguess-review-difference" class="multiguess-review-difference review-stage" data-review-stage="verdict"></p>
+                <button id="multiguess-next-item" class="play-again review-stage" data-review-stage="verdict">Next Item</button>
             </div>
             <div id="multiguess-result" class="result-message hidden" aria-live="polite"></div>
         </div>
