@@ -1,0 +1,308 @@
+:root {
+    --berry: #e31837;
+    --berry-dark: #a70f29;
+    --cream: #fff9ee;
+    --gold: #f7b32b;
+    --leaf: #4d8b45;
+    --ink: #2d2530;
+    --motion-spring: cubic-bezier(.2, .85, .25, 1.2);
+}
+
+body {
+    min-height: 100vh;
+    background:
+        radial-gradient(circle at 12% 14%, rgba(247, 179, 43, .13), transparent 28rem),
+        radial-gradient(circle at 88% 46%, rgba(227, 24, 55, .09), transparent 32rem),
+        #f7f3ee;
+}
+
+.game-mode-selection {
+    opacity: 1;
+    visibility: visible;
+}
+
+.game-container:not(.hidden) {
+    animation: surface-arrive .55s var(--motion-spring) both;
+}
+
+.food-display img {
+    transition: transform .45s var(--motion-spring), box-shadow .45s ease;
+}
+
+.food-display img:hover {
+    transform: translateY(-5px) rotate(-.6deg) scale(1.015);
+    box-shadow: 0 18px 38px rgba(45, 37, 48, .18);
+}
+
+.multiguess-header,
+.multiguess-review-header {
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: var(--cream);
+    box-shadow: inset 0 0 0 1px rgba(227, 24, 55, .12);
+}
+
+.multiguess-review.is-entering #multiguess-review-image {
+    animation: reveal-image .7s var(--motion-spring) both;
+}
+
+.multiguess-review.is-entering #multiguess-review-name {
+    animation: rise-in .48s .08s ease-out both;
+}
+
+.multiguess-review.is-entering .multiguess-review-card {
+    animation: card-pop .55s var(--motion-spring) both;
+}
+
+.multiguess-review.is-entering .multiguess-review-card:nth-child(1) { animation-delay: 100ms; }
+.multiguess-review.is-entering .multiguess-review-card:nth-child(2) { animation-delay: 180ms; }
+.multiguess-review.is-entering .multiguess-review-card:nth-child(3) { animation-delay: 260ms; }
+
+.multiguess-review-card:nth-child(2) {
+    transform: translateY(-7px);
+}
+
+.multiguess-review-points {
+    min-height: 132px;
+    box-shadow: 0 10px 28px rgba(227, 24, 55, .12);
+}
+
+.multiguess-review-points strong {
+    font-size: 1.85rem;
+}
+
+.progress-viz {
+    --progress-color: linear-gradient(90deg, var(--berry), #ff6b35, var(--gold));
+    margin: 22px auto 14px;
+    width: min(100%, 590px);
+}
+
+.progress-viz__labels {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 8px;
+    color: #665c68;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.progress-viz__labels strong {
+    color: var(--ink);
+    font-size: 1rem;
+}
+
+.progress-viz__track {
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    border: 3px solid white;
+    border-radius: 999px;
+    background: #e7dfe3;
+    box-shadow: 0 3px 14px rgba(45, 37, 48, .14), inset 0 1px 2px rgba(45, 37, 48, .12);
+}
+
+.progress-viz__fill {
+    --progress: 0%;
+    display: block;
+    width: var(--progress);
+    height: 100%;
+    border-radius: inherit;
+    background: var(--progress-color);
+    box-shadow: 0 0 16px rgba(247, 179, 43, .46);
+    transition: width 1.15s var(--progress-delay, 0ms) cubic-bezier(.2, .75, .25, 1);
+}
+
+.progress-viz__fill::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(100deg, transparent 20%, rgba(255,255,255,.7) 50%, transparent 80%);
+    animation: progress-shine 1.7s .55s ease-in-out infinite;
+}
+
+.progress-viz--hero {
+    margin: 18px auto 30px;
+}
+
+.progress-viz--hero .progress-viz__track {
+    height: 25px;
+}
+
+.progress-viz--hero .progress-viz__labels strong {
+    font-size: 1.35rem;
+}
+
+.progress-viz--gold { --progress-color: linear-gradient(90deg, #df8d00, #ffd84d, #f59e0b); }
+.progress-viz--green { --progress-color: linear-gradient(90deg, #26734d, #68b55b, #b4d455); }
+.progress-viz--orange { --progress-color: linear-gradient(90deg, #d9562d, #ff8e3c, #ffc857); }
+.progress-viz--red { --progress-color: linear-gradient(90deg, #9e1731, #e31837, #ff667e); }
+
+.multiguess-final {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(22px, 5vw, 42px);
+    border-radius: 22px;
+    background:
+        radial-gradient(circle at 50% -20%, rgba(255,255,255,.95), transparent 45%),
+        linear-gradient(145deg, #edf9e9, #d8f0d2);
+    animation: final-bloom .7s var(--motion-spring) both;
+}
+
+.multiguess-final-kicker {
+    color: var(--berry-dark);
+    font-size: .76rem;
+    letter-spacing: .19em;
+    text-transform: uppercase;
+}
+
+.multiguess-final h2 {
+    margin-top: 3px;
+    font-size: clamp(1.9rem, 6vw, 3rem);
+    line-height: 1.05;
+}
+
+.multiguess-final-score {
+    color: var(--ink);
+    font-size: clamp(3.3rem, 12vw, 6.4rem);
+    line-height: 1;
+    letter-spacing: -.06em;
+    text-shadow: 0 5px 0 rgba(255,255,255,.65);
+    animation: score-land .8s .08s var(--motion-spring) both;
+}
+
+.multiguess-final-score small {
+    font-size: .25em;
+    letter-spacing: 0;
+}
+
+.multiguess-summary li {
+    display: block;
+    opacity: 0;
+    animation: summary-slide .5s calc(480ms + var(--summary-index) * 130ms) ease-out forwards;
+}
+
+.multiguess-summary__copy {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.multiguess-summary__copy span:first-child {
+    font-size: 1.05rem;
+}
+
+.multiguess-summary__copy span:last-child {
+    color: #52634c;
+    font-size: .88rem;
+    text-align: right;
+}
+
+.mini-progress {
+    height: 6px;
+    margin-top: 9px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(60, 118, 61, .15);
+}
+
+.mini-progress span {
+    display: block;
+    width: var(--mini-progress);
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, var(--leaf), #9ecb5c);
+    transform-origin: left;
+    animation: mini-grow .75s calc(650ms + var(--summary-index, 0) * 100ms) ease-out both;
+}
+
+.celebration-bit {
+    position: absolute;
+    top: -16px;
+    left: var(--bit-x);
+    width: 9px;
+    height: 17px;
+    border-radius: 3px;
+    background: var(--bit-color);
+    pointer-events: none;
+    animation: confetti-fall 2.2s var(--bit-delay) ease-in both;
+}
+
+@keyframes surface-arrive {
+    from { opacity: 0; transform: translateY(18px) scale(.985); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes reveal-image {
+    0% { opacity: 0; transform: scale(.72) rotate(-7deg); }
+    70% { transform: scale(1.05) rotate(1.5deg); }
+    100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+
+@keyframes rise-in {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes card-pop {
+    from { opacity: 0; transform: translateY(24px) scale(.82); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes progress-shine {
+    from { transform: translateX(-120%); }
+    to { transform: translateX(120%); }
+}
+
+@keyframes final-bloom {
+    from { opacity: 0; transform: scale(.82) rotate(-1.5deg); }
+    to { opacity: 1; transform: scale(1) rotate(0); }
+}
+
+@keyframes score-land {
+    from { opacity: 0; transform: translateY(-18px) scale(1.35); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes summary-slide {
+    from { opacity: 0; transform: translateX(-18px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes mini-grow {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+}
+
+@keyframes confetti-fall {
+    0% { opacity: 0; transform: translateY(-10px) rotate(var(--bit-rotation)); }
+    12% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(520px) rotate(calc(var(--bit-rotation) + 540deg)); }
+}
+
+@media (max-width: 560px) {
+    .multiguess-header,
+    .multiguess-review-header {
+        align-items: flex-start;
+        border-radius: 16px;
+    }
+
+    .multiguess-review-card:nth-child(2) { transform: none; }
+    .multiguess-review-points { min-height: 100px; }
+    .multiguess-summary__copy { flex-direction: column; gap: 2px; }
+    .multiguess-summary__copy span:last-child { text-align: left; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+        transition-delay: 0ms !important;
+    }
+}
