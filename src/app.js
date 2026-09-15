@@ -551,7 +551,7 @@ function handleCorrectGuess(actualCalories) {
 
     // Create and add the celebration image
     const celebrationImage = document.createElement('img');
-    celebrationImage.src = 'Aliencake.png';
+    celebrationImage.src = 'Aliencake-optimized.webp';
     celebrationImage.alt = 'Alien cake celebration';
     celebrationImage.classList.add('celebration-image');
     resultMessage.appendChild(celebrationImage);
@@ -1198,7 +1198,7 @@ function handleDiscaloriedWin() {
     
     // Create and add the celebration image
     const celebrationImage = document.createElement('img');
-    celebrationImage.src = 'Aliencake.png';
+    celebrationImage.src = 'Aliencake-optimized.webp';
     celebrationImage.alt = 'Alien cake celebration';
     celebrationImage.classList.add('celebration-image');
     discaloriedResult.appendChild(celebrationImage);
