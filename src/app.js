@@ -551,8 +551,8 @@ function handleCorrectGuess(actualCalories) {
 
     // Create and add the celebration image
     const celebrationImage = document.createElement('img');
-    celebrationImage.src = 'Sebi_cheesecake.png';
-    celebrationImage.alt = 'Celebration Image';
+    celebrationImage.src = 'Aliencake.png';
+    celebrationImage.alt = 'Alien cake celebration';
     celebrationImage.classList.add('celebration-image');
     resultMessage.appendChild(celebrationImage);
 
@@ -1198,8 +1198,8 @@ function handleDiscaloriedWin() {
     
     // Create and add the celebration image
     const celebrationImage = document.createElement('img');
-    celebrationImage.src = 'Sebi_cheesecake.png';
-    celebrationImage.alt = 'Celebration Image';
+    celebrationImage.src = 'Aliencake.png';
+    celebrationImage.alt = 'Alien cake celebration';
     celebrationImage.classList.add('celebration-image');
     discaloriedResult.appendChild(celebrationImage);
     
