@@ -352,6 +352,7 @@ export class MultiguessController {
         elements.result.className = 'result-message multiguess-final celebrate';
         elements.result.innerHTML = `
             <p class="multiguess-final-kicker">Challenge complete</p>
+            <img src="Aliencake.png" alt="Alien cake celebration" class="celebration-image">
             <h2>${scoreTier.label}</h2>
             <p class="multiguess-final-score">${this.totalScore} <small>/ ${this.maxScore}</small></p>
             <div id="multiguess-final-meter" class="progress-viz progress-viz--${scoreTier.tone}"></div>
