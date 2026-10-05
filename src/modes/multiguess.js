@@ -22,7 +22,12 @@ export class MultiguessController {
     constructor({ menuData, onDailyComplete }) {
         this.menuData = menuData;
         this.onDailyComplete = onDailyComplete;
-        this.storage = new DailyStorage(STORAGE_KEYS.multiguess);
+        this.storage = new DailyStorage(
+            STORAGE_KEYS.multiguess,
+            window.localStorage,
+            GAME_CONFIG.multiguessReplayDays + 1
+        );
+        this.dateKey = getDailyDateKey();
         this.items = [];
         this.itemIndex = 0;
         this.results = [];
@@ -69,9 +74,10 @@ export class MultiguessController {
         this.elements.nextItem.addEventListener('click', () => this.advance());
     }
 
-    init() {
+    init(dateKey = getDailyDateKey()) {
+        this.dateKey = dateKey;
         const validProducts = getValidProducts(this.menuData, true);
-        const random = createSeededRandom(`multiguess:${getDailyDateKey()}`);
+        const random = createSeededRandom(`multiguess:${this.dateKey}`);
         this.items = shuffleItems(validProducts, random).slice(0, GAME_CONFIG.multiguessItemCount);
         this.itemIndex = 0;
         this.results = [];
@@ -83,7 +89,7 @@ export class MultiguessController {
     }
 
     restore() {
-        const state = this.storage.read();
+        const state = this.storage.read(this.dateKey);
         const challengeIds = this.items.map(item => String(item.id));
         const savedIds = Array.isArray(state?.itemIds) ? state.itemIds.map(String) : [];
 
@@ -117,7 +123,7 @@ export class MultiguessController {
             status,
             itemIds: this.items.map(item => String(item.id)),
             guesses: this.results.map(result => result.guess)
-        });
+        }, this.dateKey);
     }
 
     createResult(item, guess) {
@@ -135,7 +141,7 @@ export class MultiguessController {
         const { elements } = this;
         elements.round.classList.remove('hidden');
         elements.review.classList.add('hidden');
-        elements.progress.textContent = `Daily · Item ${this.itemIndex + 1} of ${GAME_CONFIG.multiguessItemCount}`;
+        elements.progress.textContent = `${this.getChallengeLabel()} · Item ${this.itemIndex + 1} of ${GAME_CONFIG.multiguessItemCount}`;
         elements.score.textContent = `Score: ${this.totalScore} / ${this.maxScore}`;
         elements.foodImage.src = `${this.menuData.imagepath}${item.imagefilename}`;
         elements.foodImage.alt = item.name;
@@ -182,7 +188,7 @@ export class MultiguessController {
         const sequenceId = ++this.reviewSequenceId;
         const shouldRunSequence = animate && !prefersReducedMotion();
 
-        elements.reviewProgress.textContent = `Daily · Item ${this.itemIndex + 1} of ${GAME_CONFIG.multiguessItemCount}`;
+        elements.reviewProgress.textContent = `${this.getChallengeLabel()} · Item ${this.itemIndex + 1} of ${GAME_CONFIG.multiguessItemCount}`;
         elements.reviewAnnouncement.textContent = '';
         elements.reviewTotal.textContent = `Total: ${shouldRunSequence ? previousTotal : this.totalScore} / ${this.maxScore}`;
         elements.reviewImage.src = `${this.menuData.imagepath}${result.item.imagefilename}`;
@@ -332,6 +338,17 @@ export class MultiguessController {
         return GAME_CONFIG.multiguessItemCount * GAME_CONFIG.multiguessMaxItemScore;
     }
 
+    getChallengeLabel() {
+        if (this.dateKey === getDailyDateKey()) return 'Daily';
+        const dateLabel = new Intl.DateTimeFormat(undefined, {
+            weekday: 'short',
+            month: 'short',
+            day: 'numeric',
+            timeZone: 'UTC'
+        }).format(new Date(`${this.dateKey}T12:00:00Z`));
+        return `Daily · ${dateLabel}`;
+    }
+
     showResult() {
         const scoreTier = getScoreTier(this.totalScore, this.maxScore);
         const summary = this.results.map((result, index) => `
@@ -346,12 +363,15 @@ export class MultiguessController {
             </li>
         `).join('');
         const { elements } = this;
+        const resultTitle = this.dateKey === getDailyDateKey()
+            ? 'Challenge complete'
+            : `Challenge complete · ${this.getChallengeLabel().replace('Daily · ', '')}`;
 
         elements.round.classList.add('hidden');
         elements.review.classList.add('hidden');
         elements.result.className = 'result-message multiguess-final celebrate';
         elements.result.innerHTML = `
-            <p class="multiguess-final-kicker">Challenge complete</p>
+            <p class="multiguess-final-kicker">${resultTitle}</p>
             <img src="Aliencake-optimized.webp" alt="Alien cake celebration" class="celebration-image">
             <h2>${scoreTier.label}</h2>
             <p class="multiguess-final-score">${this.totalScore} <small>/ ${this.maxScore}</small></p>
