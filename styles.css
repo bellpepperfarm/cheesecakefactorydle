@@ -313,6 +313,37 @@ body {
     font-weight: bold;
 }
 
+.daily-previous-dailies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    font-size: 1rem;
+}
+
+.daily-previous-dailies__label {
+    flex-basis: 100%;
+    margin: 0 0 2px;
+}
+
+.daily-previous-button {
+    padding: 8px 12px;
+    border: 1px solid #c01530;
+    border-radius: 5px;
+    background: white;
+    color: #c01530;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.daily-previous-button:hover {
+    background: #c01530;
+    color: white;
+}
+
 .mode-button {
     padding: 12px 24px;
     margin: 0;

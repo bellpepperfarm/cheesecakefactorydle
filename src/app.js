@@ -3,6 +3,7 @@ import {
     createSeededRandom,
     getDailyDateKey,
     getDailyItemHistoryThrough as buildDailyItemHistory,
+    getPreviousDailyDateKeys,
     getValidProducts as filterValidProducts,
     isDailyHardMode,
     shuffleItems
@@ -632,6 +633,39 @@ function addDailyNextChallengeMessage(container) {
 
     updateCountdown();
     dailyCountdownInterval = setInterval(updateCountdown, 1000);
+
+    if (currentGameMode === 'multiguess') {
+        const previousDailies = document.createElement('div');
+        previousDailies.className = 'daily-previous-dailies';
+
+        const label = document.createElement('p');
+        label.className = 'daily-previous-dailies__label';
+        label.textContent = 'Play a previous daily:';
+        previousDailies.appendChild(label);
+
+        getPreviousDailyDateKeys().forEach(dateKey => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'daily-previous-button';
+            button.textContent = `Play ${formatDailyDate(dateKey)}`;
+            button.addEventListener('click', () => {
+                stopDailyCountdown();
+                multiguessController.init(dateKey);
+            });
+            previousDailies.appendChild(button);
+        });
+
+        container.appendChild(previousDailies);
+    }
+}
+
+function formatDailyDate(dateKey) {
+    return new Intl.DateTimeFormat(undefined, {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+        timeZone: 'UTC'
+    }).format(new Date(`${dateKey}T12:00:00Z`));
 }
 
 function stopDailyCountdown() {

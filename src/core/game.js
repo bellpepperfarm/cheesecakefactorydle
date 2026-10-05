@@ -2,6 +2,7 @@ export const GAME_CONFIG = Object.freeze({
     classicMaxGuesses: 6,
     dailyHistoryDays: 30,
     dailySelectionEpoch: '2025-01-01T00:00:00Z',
+    multiguessReplayDays: 3,
     multiguessItemCount: 3,
     multiguessMaxItemScore: 1000,
     multiguessFullScoreMargin: 45
@@ -20,6 +21,19 @@ export function getValidProducts(menuData, requirePositiveCalories = false) {
 
 export function getDailyDateKey(date = new Date()) {
     return date.toISOString().slice(0, 10);
+}
+
+export function getPreviousDailyDateKeys(days = GAME_CONFIG.multiguessReplayDays, date = new Date()) {
+    const previousDays = [];
+    const currentDay = new Date(`${getDailyDateKey(date)}T00:00:00Z`);
+
+    for (let offset = 1; offset <= days; offset++) {
+        const previousDay = new Date(currentDay);
+        previousDay.setUTCDate(previousDay.getUTCDate() - offset);
+        previousDays.push(getDailyDateKey(previousDay));
+    }
+
+    return previousDays;
 }
 
 export function isDailyHardMode(date = new Date()) {
