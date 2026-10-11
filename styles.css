@@ -780,3 +780,76 @@ body {
     height: auto;
     border-radius: 8px;
 }
+
+/* Publication pass: compact results, accessible controls and source-aware photos. */
+[hidden], .hidden { display: none !important; }
+:focus-visible { outline: 3px solid #6d28d9; outline-offset: 4px; }
+.skip-link { position: fixed; top: -100px; left: 12px; z-index: 3000; padding: 12px; background: white; color: #a70f29; }
+.skip-link:focus { top: 12px; }
+.game-mode-selection { opacity: 1; visibility: visible; }
+.mode-button:disabled { opacity: .5; cursor: wait; }
+.challenge-date { text-align: center; color: #665c68; font-size: .85rem; margin: -8px 0 12px; }
+.load-status { text-align: center; padding: 45px 20px; }
+.food-photo { position: relative; display: inline-block; max-width: 100%; line-height: 0; }
+.food-photo img { display: block; max-width: 100%; }
+.image-credit { position: absolute; right: 5px; bottom: 5px; padding: 2px 3px; color: #ddd; background: rgba(0,0,0,.38); border-radius: 2px; font-size: 8px; font-weight: normal; line-height: 1.2; pointer-events: none; }
+.food-photo #multiguess-food-image, .food-photo #multiguess-review-image { margin-bottom: 0; }
+.food-display > .food-photo { margin-bottom: 15px; }
+.portion-label { color: #7b3925; font-size: .88rem; font-weight: 700; margin: 4px 0 12px; }
+#multiguess-review-name { margin-bottom: 4px; }
+#multiguess-calorie-guess { min-width: 0; }
+.share-status { min-height: 1.4em; font-size: .88rem; margin: 5px 0; }
+#share-text { width: 100%; min-height: 130px; padding: 10px; font-size: 1rem; }
+#share-fallback label { display: block; font-size: 1rem; }
+.multiguess-final .celebration-image { width: 85px; margin: 10px auto; }
+.multiguess-final .daily-next-message { font-size: .95rem; margin: 18px 0 6px; }
+.multiguess-summary__copy small { display: block; font-size: .78rem; color: #52634c; font-weight: normal; }
+.multiguess-summary__copy > span { min-width: 0; }
+.fan-disclaimer, .data-note { max-width: 650px; margin: 12px auto 0; padding: 0 20px; font-size: .75rem; line-height: 1.5; color: #76716b; }
+.footer button.highlight { border: 0; background: transparent; font-size: inherit; }
+.discaloried-header { margin-bottom: 16px; }
+.sorting-help { color: #666; font-size: .85rem; max-width: 500px; margin: 6px auto; }
+.discaloried-boxes { list-style: none; }
+.discaloried-box { gap: 12px; padding: 12px; border: 2px solid #ddd; }
+.discaloried-box h3 { font-size: 1rem; line-height: 1.35; }
+.discaloried-box .portion-label { margin: 3px 0; font-size: .8rem; }
+.discaloried-box .discaloried-item-description { font-size: .8rem; margin-top: 4px; }
+.discaloried-item-info { min-width: 0; }
+.sort-position { font-weight: 800; color: #7b3925; }
+.photo-button { flex-shrink: 0; width: 80px; border: 0; background: transparent; cursor: zoom-in; }
+.photo-button img { width: 80px; height: 80px; object-fit: cover; border-radius: 6px; }
+.photo-button .image-credit { font-size: 6px; right: 2px; bottom: 2px; max-width: 76px; }
+.sort-controls { display: flex; flex-direction: column; gap: 5px; }
+.sort-controls button { width: 44px; height: 44px; border-radius: 8px; border: 1px solid #bbb; background: white; color: #a70f29; font-size: 1.3rem; cursor: pointer; }
+.sort-controls button:disabled { opacity: .35; cursor: default; }
+.locked-label { display: block; font-size: .8rem; color: #315f32; }
+.sorting-answer { margin: 16px 0; padding-left: 25px; text-align: left; font-size: 1rem; }
+.sorting-answer li { padding: 7px 0; }
+.sorting-answer small { display: block; font-size: .75rem; }
+.sorting-answer strong { white-space: nowrap; }
+#image-overlay { margin: auto; padding: 30px; border: 0; border-radius: 12px; background: #fff9ee; max-width: 92vw; max-height: 92vh; overflow: auto; }
+#image-overlay::backdrop { background: rgba(0,0,0,.8); }
+#overlay-image { max-height: 78vh; object-fit: contain; }
+#image-overlay-close { position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; }
+@media (max-width: 560px) {
+    .container { padding: 12px; }
+    .logo-image { max-width: 300px; width: 100%; }
+    .game-container { padding: 16px; }
+    .input-container { flex-direction: column; gap: 8px; }
+    #multiguess-calorie-guess, #multiguess-submit-guess { width: 100%; min-height: 46px; border-radius: 7px; }
+    .multiguess-final { padding: 20px 16px; }
+    .multiguess-final .celebration-image { width: 58px; }
+    .multiguess-final-score { margin-bottom: 12px; }
+    .multiguess-review-cards { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .multiguess-review-card { min-height: 78px; padding: 10px 6px; }
+    .multiguess-review-points { grid-column: 1 / -1; }
+    .multiguess-review-card strong { font-size: 1.25rem; }
+    .discaloried-box { display: grid; grid-template-columns: 20px 64px minmax(0,1fr); gap: 8px; padding: 8px; }
+    .photo-button, .photo-button img { width: 64px; }
+    .photo-button img { height: 64px; }
+    .sort-controls { grid-column: 2 / -1; flex-direction: row; justify-content: flex-end; }
+    .discaloried-box .discaloried-item-description { display: none; }
+}
+
+.play-again, .guess-button, #multiguess-submit-guess, .mode-button.active { background-color: #c51231; color: white; }
+.play-again:hover, .guess-button:hover, #multiguess-submit-guess:hover:not(:disabled) { background-color: #a70f29; }

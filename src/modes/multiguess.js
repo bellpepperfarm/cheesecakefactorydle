@@ -1,15 +1,16 @@
 import {
     GAME_CONFIG,
     calculateMultiguessScore,
-    createSeededRandom,
     getDailyDateKey,
     getScoreTier,
-    getValidProducts,
-    shuffleItems
 } from '../core/game.js';
-import { DailyStorage, STORAGE_KEYS } from '../core/storage.js';
+import { DailyStorage } from '../core/storage.js';
 import { animateCount, easing, prefersReducedMotion } from '../ui/count-up.js';
 import { createCelebrationBits, setProgressBar, updateProgressBar } from '../ui/progress.js';
+
+import { selectDailyItems } from '../core/menus.js';
+import { escapeHTML, setFoodImage, focusHeading } from '../ui/dom.js';
+import { buildShareText } from '../core/share.js';
 
 export const REVIEW_TIMING = Object.freeze({
     guessCountUp: 1000,
@@ -19,14 +20,8 @@ export const REVIEW_TIMING = Object.freeze({
 });
 
 export class MultiguessController {
-    constructor({ menuData, onDailyComplete }) {
-        this.menuData = menuData;
+    constructor({ onDailyComplete }) {
         this.onDailyComplete = onDailyComplete;
-        this.storage = new DailyStorage(
-            STORAGE_KEYS.multiguess,
-            window.localStorage,
-            GAME_CONFIG.multiguessReplayDays + 1
-        );
         this.dateKey = getDailyDateKey();
         this.items = [];
         this.itemIndex = 0;
@@ -46,6 +41,7 @@ export class MultiguessController {
             foodImage: byId('multiguess-food-image'),
             foodName: byId('multiguess-food-name'),
             foodDescription: byId('multiguess-food-description'),
+            foodPortion: byId('multiguess-food-portion'),
             guessForm: byId('multiguess-guess-form'),
             calorieGuess: byId('multiguess-calorie-guess'),
             submitGuess: byId('multiguess-submit-guess'),
@@ -56,6 +52,7 @@ export class MultiguessController {
             reviewTotal: byId('multiguess-review-total'),
             reviewImage: byId('multiguess-review-image'),
             reviewName: byId('multiguess-review-name'),
+            reviewPortion: byId('multiguess-review-portion'),
             reviewGuess: byId('multiguess-review-guess'),
             reviewActual: byId('multiguess-review-actual'),
             reviewScore: byId('multiguess-review-score'),
@@ -74,11 +71,15 @@ export class MultiguessController {
         this.elements.nextItem.addEventListener('click', () => this.advance());
     }
 
-    init(dateKey = getDailyDateKey()) {
-        this.dateKey = dateKey;
-        const validProducts = getValidProducts(this.menuData, true);
-        const random = createSeededRandom(`multiguess:${this.dateKey}`);
-        this.items = shuffleItems(validProducts, random).slice(0, GAME_CONFIG.multiguessItemCount);
+    init(context) {
+        this.context = context;
+        this.rules = context.rules;
+        this.menuData = context.snapshot;
+        this.dateKey = context.dateKey;
+        this.active = true;
+        this.reviewSequenceId++;
+        this.storage = new DailyStorage(`calorie-game:${context.menu.id}:daily:`, undefined, GAME_CONFIG.multiguessReplayDays + 1);
+        this.items = selectDailyItems(context.snapshot, context.version, this.dateKey);
         this.itemIndex = 0;
         this.results = [];
         this.awaitingNext = false;
@@ -89,31 +90,34 @@ export class MultiguessController {
     }
 
     restore() {
-        const state = this.storage.read(this.dateKey);
+        let state = this.storage.read(this.dateKey);
+        if (!state && ['v1', 'v2'].includes(this.context.version.id) && this.context.menu.legacyStoragePrefix) {
+            state = new DailyStorage(this.context.menu.legacyStoragePrefix).read(this.dateKey);
+        }
         const challengeIds = this.items.map(item => String(item.id));
         const savedIds = Array.isArray(state?.itemIds) ? state.itemIds.map(String) : [];
 
-        if (!state || challengeIds.join(',') !== savedIds.join(',')) {
+        if (!state || (state.menuVersion && state.menuVersion !== this.context.version.id) || challengeIds.join(',') !== savedIds.join(',')) {
             this.displayItem();
             this.save('guessing');
             return;
         }
 
         const savedGuesses = Array.isArray(state.guesses)
-            ? state.guesses.filter(guess => Number.isFinite(guess) && guess >= 0)
-                .slice(0, GAME_CONFIG.multiguessItemCount)
+            ? state.guesses.filter(guess => Number.isSafeInteger(guess) && guess >= 0)
+                .slice(0, this.rules.itemCount)
             : [];
         this.results = savedGuesses.map((guess, index) => this.createResult(this.items[index], guess));
 
-        if (state.status === 'complete' && this.results.length === GAME_CONFIG.multiguessItemCount) {
-            this.itemIndex = GAME_CONFIG.multiguessItemCount - 1;
+        if (this.results.length === this.rules.itemCount && state.status !== 'review') {
+            this.itemIndex = this.rules.itemCount - 1;
             this.showResult();
         } else if (state.status === 'review' && this.results.length > 0) {
             this.itemIndex = this.results.length - 1;
             this.awaitingNext = true;
             this.showReview(this.results.at(-1), { animate: false });
         } else {
-            this.itemIndex = Math.min(this.results.length, GAME_CONFIG.multiguessItemCount - 1);
+            this.itemIndex = Math.min(this.results.length, this.rules.itemCount - 1);
             this.displayItem();
         }
     }
@@ -121,6 +125,8 @@ export class MultiguessController {
     save(status) {
         this.storage.write({
             status,
+            menuVersion: this.context.version.id,
+            rulesVersion: this.context.version.rules,
             itemIds: this.items.map(item => String(item.id)),
             guesses: this.results.map(result => result.guess)
         }, this.dateKey);
@@ -128,7 +134,7 @@ export class MultiguessController {
 
     createResult(item, guess) {
         const actualCalories = Number.parseInt(item.basecalories, 10);
-        return { item, guess, actualCalories, score: calculateMultiguessScore(guess, actualCalories) };
+        return { item, guess, actualCalories, score: calculateMultiguessScore(guess, actualCalories, this.rules) };
     }
 
     get totalScore() {
@@ -141,10 +147,10 @@ export class MultiguessController {
         const { elements } = this;
         elements.round.classList.remove('hidden');
         elements.review.classList.add('hidden');
-        elements.progress.textContent = `${this.getChallengeLabel()} · Item ${this.itemIndex + 1} of ${GAME_CONFIG.multiguessItemCount}`;
+        elements.progress.textContent = `${this.itemIndex + 1} / ${this.rules.itemCount}`;
         elements.score.textContent = `Score: ${this.totalScore} / ${this.maxScore}`;
-        elements.foodImage.src = `${this.menuData.imagepath}${item.imagefilename}`;
-        elements.foodImage.alt = item.name;
+        setFoodImage(elements.foodImage, this.menuData, item);
+        elements.foodPortion.textContent = item.portion;
         elements.foodName.textContent = item.name;
         elements.foodDescription.textContent = item.description || '';
         elements.calorieGuess.value = '';
@@ -152,19 +158,21 @@ export class MultiguessController {
         elements.submitGuess.disabled = false;
         elements.feedback.textContent = '';
         this.awaitingNext = false;
-        elements.calorieGuess.focus();
+        focusHeading(elements.foodName);
     }
 
     handleGuess() {
         const { calorieGuess, feedback, submitGuess } = this.elements;
-        if (this.awaitingNext || this.items.length === 0) return;
+        if (!this.active || this.awaitingNext || this.items.length === 0) return;
 
         const guess = Number(calorieGuess.value);
-        if (!Number.isFinite(guess) || guess < 0 || calorieGuess.value.trim() === '') {
-            feedback.textContent = 'Please enter a valid number of calories.';
+        if (!Number.isSafeInteger(guess) || guess < 0 || calorieGuess.value.trim() === '') {
+            feedback.textContent = 'Please enter a whole number of calories.';
+            calorieGuess.setAttribute('aria-invalid', 'true');
             return;
         }
 
+        calorieGuess.removeAttribute('aria-invalid');
         const result = this.createResult(this.items[this.itemIndex], guess);
         this.results.push(result);
         this.awaitingNext = true;
@@ -188,27 +196,28 @@ export class MultiguessController {
         const sequenceId = ++this.reviewSequenceId;
         const shouldRunSequence = animate && !prefersReducedMotion();
 
-        elements.reviewProgress.textContent = `${this.getChallengeLabel()} · Item ${this.itemIndex + 1} of ${GAME_CONFIG.multiguessItemCount}`;
+        elements.reviewProgress.textContent = `${this.itemIndex + 1} / ${this.rules.itemCount}`;
         elements.reviewAnnouncement.textContent = '';
         elements.reviewTotal.textContent = `Total: ${shouldRunSequence ? previousTotal : this.totalScore} / ${this.maxScore}`;
-        elements.reviewImage.src = `${this.menuData.imagepath}${result.item.imagefilename}`;
-        elements.reviewImage.alt = result.item.name;
+        setFoodImage(elements.reviewImage, this.menuData, result.item);
+        elements.reviewPortion.textContent = result.item.portion;
         elements.reviewName.textContent = result.item.name;
         elements.reviewGuess.textContent = shouldRunSequence ? '0 cal' : `${result.guess} cal`;
         elements.reviewActual.textContent = shouldRunSequence ? '0 cal' : `${result.actualCalories} cal`;
-        elements.reviewScore.textContent = shouldRunSequence ? `0 / ${GAME_CONFIG.multiguessMaxItemScore}` : `${result.score} / ${GAME_CONFIG.multiguessMaxItemScore}`;
+        elements.reviewScore.textContent = shouldRunSequence ? `0 / ${this.rules.maxItemScore}` : `${result.score} / ${this.rules.maxItemScore}`;
         elements.reviewDifference.textContent = differenceText;
-        elements.nextItem.textContent = this.itemIndex === GAME_CONFIG.multiguessItemCount - 1
+        elements.nextItem.textContent = this.itemIndex === this.rules.itemCount - 1
             ? 'See Final Score'
             : 'Next Item';
         elements.nextItem.disabled = shouldRunSequence;
         this.resetReviewStages();
-        setProgressBar(elements.reviewMeter, shouldRunSequence ? 0 : result.score, GAME_CONFIG.multiguessMaxItemScore, {
+        setProgressBar(elements.reviewMeter, shouldRunSequence ? 0 : result.score, this.rules.maxItemScore, {
             label: 'Points earned this round'
         });
 
         elements.round.classList.add('hidden');
         elements.review.classList.remove('hidden');
+        focusHeading(elements.reviewName);
         elements.review.classList.remove('is-entering');
         requestAnimationFrame(() => elements.review.classList.add('is-entering'));
 
@@ -240,7 +249,7 @@ export class MultiguessController {
 
     async runReviewSequence(result, previousTotal, sequenceId) {
         const { elements } = this;
-        const isCurrent = () => sequenceId === this.reviewSequenceId;
+        const isCurrent = () => this.active && sequenceId === this.reviewSequenceId;
 
         elements.review.classList.add('review-phase-guess');
         this.revealStages('guess');
@@ -266,19 +275,19 @@ export class MultiguessController {
             easingFunction: easing.linear,
             shouldContinue: isCurrent,
             onUpdate: value => {
-                const liveScore = value > 0 ? calculateMultiguessScore(result.guess, value) : 0;
+                const liveScore = value > 0 ? calculateMultiguessScore(result.guess, value, this.rules) : 0;
                 elements.reviewActual.textContent = `${value.toLocaleString()} cal`;
-                elements.reviewScore.textContent = `${liveScore.toLocaleString()} / ${GAME_CONFIG.multiguessMaxItemScore}`;
+                elements.reviewScore.textContent = `${liveScore.toLocaleString()} / ${this.rules.maxItemScore}`;
                 elements.reviewTotal.textContent = `Total: ${(previousTotal + liveScore).toLocaleString()} / ${this.maxScore}`;
-                updateProgressBar(elements.reviewMeter, liveScore, GAME_CONFIG.multiguessMaxItemScore);
+                updateProgressBar(elements.reviewMeter, liveScore, this.rules.maxItemScore);
             }
         });
         if (!actualCompleted || !isCurrent()) return;
 
         elements.reviewActual.textContent = `${result.actualCalories.toLocaleString()} cal`;
-        elements.reviewScore.textContent = `${result.score.toLocaleString()} / ${GAME_CONFIG.multiguessMaxItemScore}`;
+        elements.reviewScore.textContent = `${result.score.toLocaleString()} / ${this.rules.maxItemScore}`;
         elements.reviewTotal.textContent = `Total: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
-        updateProgressBar(elements.reviewMeter, result.score, GAME_CONFIG.multiguessMaxItemScore);
+        updateProgressBar(elements.reviewMeter, result.score, this.rules.maxItemScore);
 
         const pointsCard = elements.review.querySelector('[data-review-stage="points"]');
         pointsCard.classList.add('is-locking');
@@ -309,8 +318,8 @@ export class MultiguessController {
         elements.reviewTotal.textContent = `Total: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
         elements.reviewGuess.textContent = `${result.guess.toLocaleString()} cal`;
         elements.reviewActual.textContent = `${result.actualCalories.toLocaleString()} cal`;
-        elements.reviewScore.textContent = `${result.score.toLocaleString()} / ${GAME_CONFIG.multiguessMaxItemScore}`;
-        updateProgressBar(elements.reviewMeter, result.score, GAME_CONFIG.multiguessMaxItemScore);
+        elements.reviewScore.textContent = `${result.score.toLocaleString()} / ${this.rules.maxItemScore}`;
+        updateProgressBar(elements.reviewMeter, result.score, this.rules.maxItemScore);
         elements.nextItem.disabled = false;
         elements.reviewAnnouncement.textContent = `Your guess was ${result.guess} calories. Actual calories: ${result.actualCalories}. You earned ${result.score} points.`;
     }
@@ -322,9 +331,9 @@ export class MultiguessController {
     }
 
     advance() {
-        if (this.elements.nextItem.disabled) return;
+        if (!this.active || !this.awaitingNext || this.elements.nextItem.disabled) return;
         this.reviewSequenceId++;
-        if (this.itemIndex < GAME_CONFIG.multiguessItemCount - 1) {
+        if (this.itemIndex < this.rules.itemCount - 1) {
             this.itemIndex++;
             this.displayItem();
             this.save('guessing');
@@ -335,7 +344,7 @@ export class MultiguessController {
     }
 
     get maxScore() {
-        return GAME_CONFIG.multiguessItemCount * GAME_CONFIG.multiguessMaxItemScore;
+        return this.rules.itemCount * this.rules.maxItemScore;
     }
 
     getChallengeLabel() {
@@ -354,11 +363,11 @@ export class MultiguessController {
         const summary = this.results.map((result, index) => `
             <li style="--summary-index: ${index}">
                 <div class="multiguess-summary__copy">
-                    <span>${result.item.name}</span>
+                    <span>${escapeHTML(result.item.name)} <small>${escapeHTML(result.item.portion)}</small></span>
                     <span>${result.guess} vs. ${result.actualCalories} cal — ${result.score} pts</span>
                 </div>
-                <div class="mini-progress" aria-label="${result.score} of ${GAME_CONFIG.multiguessMaxItemScore} points">
-                    <span style="--mini-progress: ${Math.round(result.score / GAME_CONFIG.multiguessMaxItemScore * 100)}%"></span>
+                <div class="mini-progress" aria-hidden="true">
+                    <span style="--mini-progress: ${Math.round(result.score / this.rules.maxItemScore * 100)}%"></span>
                 </div>
             </li>
         `).join('');
@@ -372,10 +381,13 @@ export class MultiguessController {
         elements.result.className = 'result-message multiguess-final celebrate';
         elements.result.innerHTML = `
             <p class="multiguess-final-kicker">${resultTitle}</p>
-            <img src="Aliencake-optimized.webp" alt="Alien cake celebration" class="celebration-image">
-            <h2>${scoreTier.label}</h2>
+            <h2 tabindex="-1">${scoreTier.label}</h2>
             <p class="multiguess-final-score">${this.totalScore} <small>/ ${this.maxScore}</small></p>
             <div id="multiguess-final-meter" class="progress-viz progress-viz--${scoreTier.tone}"></div>
+            <button type="button" id="share-result" class="play-again share-result">Share Result</button>
+            <p id="share-status" class="share-status" role="status"></p>
+            <div id="share-fallback" hidden><label for="share-text">Copy your result</label><textarea id="share-text" readonly></textarea></div>
+            <img src="Aliencake-optimized.webp" alt="Alien cake celebration" class="celebration-image">
             <ul class="multiguess-summary">${summary}</ul>
         `;
         setProgressBar(document.getElementById('multiguess-final-meter'), this.totalScore, this.maxScore, {
@@ -385,6 +397,42 @@ export class MultiguessController {
         });
         createCelebrationBits(elements.result);
         this.onDailyComplete(elements.result);
-        elements.result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        document.getElementById('share-result').addEventListener('click', () => this.share());
+        focusHeading(elements.result.querySelector('h2'));
     }
+    deactivate() {
+        this.active = false;
+        this.reviewSequenceId++;
+    }
+
+    async share() {
+        const url = new URL(document.baseURI);
+        url.search = '';
+        url.hash = '';
+        url.searchParams.set('menu', this.context.menu.id);
+        url.searchParams.set('date', this.dateKey);
+        const text = buildShareText({
+            title: this.context.menu.gameTitle || 'Daily Calories', menuName: this.context.menu.name,
+            dateKey: this.dateKey, results: this.results, maxItemScore: this.rules.maxItemScore, url: url.href
+        });
+        const status = document.getElementById('share-status');
+        try {
+            if (navigator.share) {
+                await navigator.share({ text });
+                status.textContent = 'Result shared.';
+            } else if (navigator.clipboard?.writeText) {
+                await navigator.clipboard.writeText(text);
+                status.textContent = 'Result copied!';
+            } else throw new Error('Clipboard unavailable');
+        } catch (error) {
+            if (error.name === 'AbortError') return;
+            document.getElementById('share-fallback').hidden = false;
+            const field = document.getElementById('share-text');
+            field.value = text;
+            field.focus();
+            field.select();
+            status.textContent = 'Select and copy your result below.';
+        }
+    }
+
 }

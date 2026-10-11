@@ -1,0 +1,2622 @@
+{
+  "menuId": "cheesecake-factory",
+  "reviewedOn": "2026-10-11",
+  "source": "https://www.thecheesecakefactory.com/nutrition",
+  "sourceEdition": "Summer 2026",
+  "minimumCalories": 100,
+  "excludeCalorieRanges": true,
+  "blockedNamePatterns": [
+    "create an omelette",
+    "build your own"
+  ],
+  "excludedItems": [
+    {
+      "id": "84712225",
+      "name": "Grilled Asparagus",
+      "category": "New Menu Items",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84712224",
+      "name": "Honey Roasted Carrots",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712223",
+      "name": "Charred Sugar Snap Peas",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712226",
+      "name": "Asian Cucumber Salad",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712227",
+      "name": "Chicken & Jalapeno Fritters",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712228",
+      "name": "Ahi Tuna & Shrimp Ceviche*",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712229",
+      "name": "Chicken Shawarma",
+      "category": "New Menu Items",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "84712230",
+      "name": "Mortadella Panino",
+      "category": "New Menu Items",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712231",
+      "name": "Double Smash Cheeseburger",
+      "category": "New Menu Items",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84712232",
+      "name": "Thai Stir Fried Noodles",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712233",
+      "name": "Thai Stir Fried Noodles with Shrimp",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712236",
+      "name": "SkinnyLicious® Branzino",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84712237",
+      "name": "Steak Frites*",
+      "category": "New Menu Items",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84712238",
+      "name": "Spicy Ginger Beef Tenderloin*",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84852126",
+      "name": "Grilled Steak & Eggs*",
+      "category": "New Menu Items",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84852128",
+      "name": "Yuzu Crush",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84852129",
+      "name": "Yuzu Drop",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84852130",
+      "name": "Margarita Verde",
+      "category": "New Menu Items",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473566",
+      "name": "Grilled Asparagus",
+      "category": "Small Plates & Snacks",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "85473567",
+      "name": "Honey Roasted Carrots",
+      "category": "Small Plates & Snacks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473568",
+      "name": "Charred Sugar Snap Peas",
+      "category": "Small Plates & Snacks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473569",
+      "name": "Asian Cucumber Salad",
+      "category": "Small Plates & Snacks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473570",
+      "name": "Chicken & Jalapeno Fritters",
+      "category": "Small Plates & Snacks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087053",
+      "name": "Chicken Taquitos",
+      "category": "Small Plates & Snacks",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "65541654",
+      "name": "Avocado Tacos",
+      "category": "Small Plates & Snacks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086825",
+      "name": "Cheeseburger Spring Rolls",
+      "category": "Small Plates & Snacks",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "85473571",
+      "name": "Ahi Tuna & Shrimp Ceviche*",
+      "category": "Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086987",
+      "name": "Quesadilla",
+      "category": "Appetizers",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087109",
+      "name": "Eggroll Sampler",
+      "category": "Appetizers",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "52850883",
+      "name": "Ahi Poke Nachos*",
+      "category": "Appetizers",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "65541640",
+      "name": "Housemade Meatballs",
+      "category": "Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086851",
+      "name": "Thai Lettuce Wraps with Chicken",
+      "category": "Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "65541642",
+      "name": "Small Thai Lettuce Wraps with Chicken",
+      "category": "Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087149",
+      "name": "Thai Lettuce Wraps with Avocado",
+      "category": "Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "65541643",
+      "name": "Small Thai Lettuce Wraps with Avocado",
+      "category": "Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087117",
+      "name": "Cheese Flatbread Pizza",
+      "category": "Flatbread Pizzas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087119",
+      "name": "Margherita Flatbread Pizza",
+      "category": "Flatbread Pizzas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087118",
+      "name": "Fresh Basil, Tomato and Cheese Flatbread Pizza",
+      "category": "Flatbread Pizzas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087120",
+      "name": "Pepperoni Flatbread Pizza",
+      "category": "Flatbread Pizzas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "65541644",
+      "name": "Bee Sting Flatbread Pizza",
+      "category": "Flatbread Pizzas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473572",
+      "name": "Double Smash Cheeseburger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42086828",
+      "name": "Old Fashioned Burger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "71139201",
+      "name": "Bistro Burger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42086832",
+      "name": "Classic Burger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42087153",
+      "name": "French Dip Cheeseburger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42086834",
+      "name": "Smokehouse B.B.Q. Burger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42086837",
+      "name": "Americana Cheeseburger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42086838",
+      "name": "Macaroni and Cheese Burger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42086839",
+      "name": "Bacon-Bacon Cheeseburger*",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42087136",
+      "name": "Impossible® Burger",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473573",
+      "name": "Factory Turkey Burger",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "78071799",
+      "name": "Veggie Burger Melt",
+      "category": "Glamburgers®",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473574",
+      "name": "Chicken Shawarma",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "85473575",
+      "name": "Mortadella Panino",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "60168858",
+      "name": "Renee’s Fresh Turkey Sandwich",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "60168857",
+      "name": "Renee’s Chicken-Almond Salad Sandwich",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086871",
+      "name": "Chicken Salad Sandwich",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42086874",
+      "name": "Cuban Sandwich",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42086872",
+      "name": "The Club",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42086873",
+      "name": "Grilled Chicken and Avocado Club",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "85473576",
+      "name": "Spicy Crispy Chicken Sandwich",
+      "category": "Sandwiches",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086875",
+      "name": "Chicken Parmesan Sandwich",
+      "category": "Sandwiches",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "70502926",
+      "name": "Tossed Green Salad",
+      "category": "Salads",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "71139186",
+      "name": "Mexicali Salad",
+      "category": "Salads",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "71139187",
+      "name": "Fried Chicken Club Salad",
+      "category": "Salads",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "54643974",
+      "name": "Renee’s Fresh Turkey Sandwich",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "54643764",
+      "name": "Renee’s Chicken-Almond Salad Sandwich",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "54643976",
+      "name": "Soup and Salad",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087190",
+      "name": "Cheese Flatbread Pizza",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087191",
+      "name": "Fresh Basil, Tomato and Cheese Flatbread Pizza",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087192",
+      "name": "Margherita Flatbread Pizza",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087194",
+      "name": "Pepperoni Flatbread Pizza",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "58683840",
+      "name": "Bee Sting Flatbread Pizza",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087200",
+      "name": "Farfalle with Chicken and Roasted Garlic",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087241",
+      "name": "Fettuccini Alfredo with Chicken",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087242",
+      "name": "Fettuccini Alfredo with Shrimp",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087205",
+      "name": "Pasta Da Vinci",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "71139191",
+      "name": "Italian Sausage & Fresh Mushroom Rigatoni",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087210",
+      "name": "Fish & Chips",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087212",
+      "name": "Fresh Grilled Salmon",
+      "category": "Lunch Favorites",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "46238194",
+      "name": "Chicken Littles",
+      "category": "Specialties",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086885",
+      "name": "Fish Tacos",
+      "category": "Specialties",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473585",
+      "name": "Thai Stir Fried Noodles",
+      "category": "Pastas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473590",
+      "name": "Thai Stir Fried Noodles with Shrimp",
+      "category": "Pastas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "43049643",
+      "name": "Fettuccini Alfredo with Chicken",
+      "category": "Pastas",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "43049857",
+      "name": "Fettuccini Alfredo with Shrimp",
+      "category": "Pastas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086862",
+      "name": "Farfalle with Chicken and Roasted Garlic",
+      "category": "Pastas",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "71139200",
+      "name": "Italian Sausage & Fresh Mushroom Rigatoni",
+      "category": "Pastas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086915",
+      "name": "Fish & Chips",
+      "category": "Fish & Seafood",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42086917",
+      "name": "Shrimp and Chicken Gumbo",
+      "category": "Fish & Seafood",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42086920",
+      "name": "Fresh Grilled Salmon",
+      "category": "Fish & Seafood",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473592",
+      "name": "Steak Frites*",
+      "category": "Steaks",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "85473593",
+      "name": "Spicy Ginger Beef Tenderloin*",
+      "category": "Steaks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086868",
+      "name": "Grilled Rib-Eye Steak*",
+      "category": "Steaks",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087099",
+      "name": "Steamed White Rice",
+      "category": "Side Dishes",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087229",
+      "name": "Steamed Brown Rice",
+      "category": "Side Dishes",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473594",
+      "name": "Grilled Asparagus",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "85473595",
+      "name": "Honey Roasted Carrots",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473596",
+      "name": "Charred Sugar Snap Peas",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473597",
+      "name": "Asian Cucumber Salad",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087113",
+      "name": "Chicken Taquitos",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087095",
+      "name": "Tossed Green Salad",
+      "category": "SkinnyLicious® Salads",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "85473602",
+      "name": "SkinnyLicious® Crispy Chicken Sandwich with Ranch",
+      "category": "SkinnyLicious® Burgers & Sandwiches",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473601",
+      "name": "SkinnyLicious® Crispy Chicken Sandwich with Sriracha Mayo",
+      "category": "SkinnyLicious® Burgers & Sandwiches",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473609",
+      "name": "SkinnyLicious® Avocado Tacos",
+      "category": "SkinnyLicious® Tacos",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473611",
+      "name": "SkinnyLicious® Branzino",
+      "category": "SkinnyLicious® Specialties",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086943",
+      "name": "Kids’ Roadside Sliders",
+      "category": "Kids' Menu",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42086944",
+      "name": "Kids’ Mini Corn Dogs",
+      "category": "Kids' Menu",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086946",
+      "name": "Kids’ Fried Chicken Strips",
+      "category": "Kids' Menu",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42087122",
+      "name": "Kids' Cheese Flatbread",
+      "category": "Kids' Menu",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087123",
+      "name": "Kids' Pepperoni Flatbread",
+      "category": "Kids' Menu",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087086",
+      "name": "Kids' Chicken Quesadilla",
+      "category": "Kids' Menu",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086945",
+      "name": "Kids’ Grilled Cheese Sandwich",
+      "category": "Kids' Menu",
+      "reasons": [
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation."
+      ]
+    },
+    {
+      "id": "42087166",
+      "name": "Factory Create an Omelette",
+      "category": "Eggs & Omelettes",
+      "reasons": [
+        "Customizable dish; base calories do not describe a fixed order.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473614",
+      "name": "Grilled Steak & Eggs*",
+      "category": "Eggs & Omelettes",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42086900",
+      "name": "Cinnamon Roll Pancakes",
+      "category": "Saturday & Sunday Brunch ",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087145",
+      "name": "Lemon-Ricotta Pancakes",
+      "category": "Saturday & Sunday Brunch ",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42086902",
+      "name": "Bruléed French Toast",
+      "category": "Saturday & Sunday Brunch ",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "65541718",
+      "name": "Brunch Flatbread*",
+      "category": "Saturday & Sunday Brunch ",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086903",
+      "name": "Eggs Benedict* with Canadian Bacon and Hollandaise",
+      "category": "Saturday & Sunday Brunch ",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "78072258",
+      "name": "Breakfast Kimchi Fried Rice & Eggs*",
+      "category": "Saturday & Sunday Brunch ",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086905",
+      "name": "Green Chilaquiles and Eggs*",
+      "category": "Saturday & Sunday Brunch ",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086908",
+      "name": "Kids’ Brunch",
+      "category": "Saturday & Sunday Brunch ",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087105",
+      "name": "Very Cherry Ghirardelli® Chocolate Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42086996",
+      "name": "To Go Arnold Palmer",
+      "category": "To Go Beverages",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "46238193",
+      "name": "Guava Sparkler",
+      "category": "To Go Beverages",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "85473616",
+      "name": "Yuzu Crush",
+      "category": "To Go Beverages",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087002",
+      "name": "Cold Brew Coffee",
+      "category": "To Go Beverages",
+      "reasons": [
+        "Near-zero drink; little useful guessing challenge.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087001",
+      "name": "To Go Freshly Brewed Coffee",
+      "category": "To Go Beverages",
+      "reasons": [
+        "Near-zero drink; little useful guessing challenge.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087060",
+      "name": "Creamy Milkshakes",
+      "category": "Frozen Drinks",
+      "reasons": [
+        "Calorie range depends on an unspecified configuration.",
+        "Photo/order can include optional sides or unspecified choices; calorie basis needs manual confirmation.",
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "42087062",
+      "name": "Strawberry Fruit Smoothie",
+      "category": "Frozen Drinks",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087063",
+      "name": "Tropical Smoothie",
+      "category": "Frozen Drinks",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087065",
+      "name": "Frozen Iced Mango",
+      "category": "Frozen Drinks",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "42087072",
+      "name": "Double Espresso",
+      "category": "Hot Drinks & Espresso",
+      "reasons": [
+        "Near-zero drink; little useful guessing challenge."
+      ]
+    },
+    {
+      "id": "84734249",
+      "name": "Sparkling Sunrise Sangria",
+      "category": "All Day Morning Cocktails",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84734250",
+      "name": "Bloody Mary",
+      "category": "All Day Morning Cocktails",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84734261",
+      "name": "Yuzu Drop",
+      "category": "Specialty Drinks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84734254",
+      "name": "Gin Rickey Crush",
+      "category": "Specialty Drinks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84734257",
+      "name": "Strawberry Negroni",
+      "category": "Specialty Drinks",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84734263",
+      "name": "The Ultimate",
+      "category": "Margaritas",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84734262",
+      "name": "Strawberry Infused Margarita",
+      "category": "Margaritas",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84734266",
+      "name": "Passion Fruit Margarita",
+      "category": "Margaritas",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84734267",
+      "name": "Margarita Verde",
+      "category": "Margaritas",
+      "reasons": [
+        "Could not confidently match this exact dish/portion to the official Summer 2026 guide; held for review, not assumed invalid."
+      ]
+    },
+    {
+      "id": "84734269",
+      "name": "Coconut Mojito",
+      "category": "Mojitos",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "84734272",
+      "name": "Whisky & Ginger",
+      "category": "Whiskey Cocktails",
+      "reasons": [
+        "Imported calories do not match a confidently identified row in the Summer 2026 guide; held for recipe/portion review."
+      ]
+    },
+    {
+      "id": "85473603",
+      "name": "SkinnyLicious® Hamburger*",
+      "category": "SkinnyLicious® Burgers & Sandwiches",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    },
+    {
+      "id": "85473605",
+      "name": "SkinnyLicious® Grilled Turkey Burger",
+      "category": "SkinnyLicious® Burgers & Sandwiches",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    },
+    {
+      "id": "85473606",
+      "name": "SkinnyLicious® Turkey & Avocado Sandwich",
+      "category": "SkinnyLicious® Burgers & Sandwiches",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    },
+    {
+      "id": "42086909",
+      "name": "Farm Fresh Eggs*",
+      "category": "Eggs & Omelettes",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    },
+    {
+      "id": "42087078",
+      "name": "Farm Fresh Eggs* with Old Smokehouse® Bacon",
+      "category": "Eggs & Omelettes",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    },
+    {
+      "id": "42087079",
+      "name": "Farm Fresh Eggs* with Grilled Ham",
+      "category": "Eggs & Omelettes",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    },
+    {
+      "id": "42086911",
+      "name": "Brioche Breakfast Sandwich",
+      "category": "Eggs & Omelettes",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    },
+    {
+      "id": "85473613",
+      "name": "California Omelette",
+      "category": "Eggs & Omelettes",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    },
+    {
+      "id": "42086913",
+      "name": "Spinach, Mushroom, Bacon and Cheese Omelette",
+      "category": "Eggs & Omelettes",
+      "reasons": [
+        "Photo shows bread, potatoes or salad alongside a base item; included-side calorie basis is not unambiguous."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "id": "84712234",
+      "name": "Seared Tuna Tataki Salad*",
+      "category": "New Menu Items",
+      "calories": 450
+    },
+    {
+      "id": "84712235",
+      "name": "Grilled Branzino",
+      "category": "New Menu Items",
+      "calories": 1410
+    },
+    {
+      "id": "84852127",
+      "name": "Kids' Strawberry Shortcake",
+      "category": "New Menu Items",
+      "calories": 450
+    },
+    {
+      "id": "84852131",
+      "name": "Japanese Whisky Sour",
+      "category": "New Menu Items",
+      "calories": 250
+    },
+    {
+      "id": "42087088",
+      "name": "Little House Salad",
+      "category": "Small Plates & Snacks",
+      "calories": 260
+    },
+    {
+      "id": "78071555",
+      "name": "Street Corn",
+      "category": "Small Plates & Snacks",
+      "calories": 710
+    },
+    {
+      "id": "42086817",
+      "name": "Korean Fried Cauliflower",
+      "category": "Small Plates & Snacks",
+      "calories": 1150
+    },
+    {
+      "id": "42087087",
+      "name": "Stuffed Mushrooms",
+      "category": "Small Plates & Snacks",
+      "calories": 510
+    },
+    {
+      "id": "42086827",
+      "name": "Fried Zucchini",
+      "category": "Small Plates & Snacks",
+      "calories": 1000
+    },
+    {
+      "id": "42087110",
+      "name": "Crispy Brussels Sprouts",
+      "category": "Small Plates & Snacks",
+      "calories": 570
+    },
+    {
+      "id": "42087125",
+      "name": "Beet and Avocado Salad",
+      "category": "Small Plates & Snacks",
+      "calories": 290
+    },
+    {
+      "id": "65541655",
+      "name": "Crispy Crab Bites",
+      "category": "Small Plates & Snacks",
+      "calories": 410
+    },
+    {
+      "id": "71728441",
+      "name": "Crispy Fried Cheese",
+      "category": "Small Plates & Snacks",
+      "calories": 1070
+    },
+    {
+      "id": "65541656",
+      "name": "Crab Wontons",
+      "category": "Small Plates & Snacks",
+      "calories": 550
+    },
+    {
+      "id": "42086840",
+      "name": "Roadside Sliders*",
+      "category": "Appetizers",
+      "calories": 800
+    },
+    {
+      "id": "42086841",
+      "name": "Chicken Pot Stickers",
+      "category": "Appetizers",
+      "calories": 380
+    },
+    {
+      "id": "42086846",
+      "name": "Tex Mex Eggrolls",
+      "category": "Appetizers",
+      "calories": 930
+    },
+    {
+      "id": "78071589",
+      "name": "Thai Chili Shrimp",
+      "category": "Appetizers",
+      "calories": 700
+    },
+    {
+      "id": "42086842",
+      "name": "Avocado Eggrolls",
+      "category": "Appetizers",
+      "calories": 930
+    },
+    {
+      "id": "65541770",
+      "name": "Warm Crab Dip",
+      "category": "Appetizers",
+      "calories": 1220
+    },
+    {
+      "id": "42086847",
+      "name": "Fried Calamari",
+      "category": "Appetizers",
+      "calories": 1520
+    },
+    {
+      "id": "52850884",
+      "name": "Spicy Tuna*",
+      "category": "Appetizers",
+      "calories": 460
+    },
+    {
+      "id": "65541639",
+      "name": "Pretzel Bites With Cheddar Cheese Fondue",
+      "category": "Appetizers",
+      "calories": 1010
+    },
+    {
+      "id": "42086843",
+      "name": "Fried Macaroni and Cheese",
+      "category": "Appetizers",
+      "calories": 1310
+    },
+    {
+      "id": "42086850",
+      "name": "Sweet Corn Tamale Cakes",
+      "category": "Appetizers",
+      "calories": 1340
+    },
+    {
+      "id": "42086845",
+      "name": "Hot Spinach and Cheese Dip",
+      "category": "Appetizers",
+      "calories": 1730
+    },
+    {
+      "id": "42086848",
+      "name": "Buffalo Blasts®",
+      "category": "Appetizers",
+      "calories": 1670
+    },
+    {
+      "id": "42086853",
+      "name": "Factory Nachos",
+      "category": "Appetizers",
+      "calories": 2670
+    },
+    {
+      "id": "42086854",
+      "name": "Buffalo Wings",
+      "category": "Appetizers",
+      "calories": 1120
+    },
+    {
+      "id": "42086855",
+      "name": "Buffalo Chicken Strips",
+      "category": "Appetizers",
+      "calories": 1090
+    },
+    {
+      "id": "70502923",
+      "name": "Caesar Salad",
+      "category": "Salads",
+      "calories": 860
+    },
+    {
+      "id": "78071800",
+      "name": "Factory Chopped Salad",
+      "category": "Salads",
+      "calories": 780
+    },
+    {
+      "id": "78071801",
+      "name": "Vegan Cobb Salad",
+      "category": "Salads",
+      "calories": 1060
+    },
+    {
+      "id": "70502929",
+      "name": "Chinese Chicken Salad",
+      "category": "Salads",
+      "calories": 1630
+    },
+    {
+      "id": "70502930",
+      "name": "Thai Chicken Salad",
+      "category": "Salads",
+      "calories": 1210
+    },
+    {
+      "id": "78071802",
+      "name": "Sheila's Chicken and Avocado Salad",
+      "category": "Salads",
+      "calories": 1820
+    },
+    {
+      "id": "70502932",
+      "name": "Barbeque Ranch Chicken Salad",
+      "category": "Salads",
+      "calories": 1950
+    },
+    {
+      "id": "70502933",
+      "name": "Santa Fe Salad",
+      "category": "Salads",
+      "calories": 1670
+    },
+    {
+      "id": "70502934",
+      "name": "Cobb Salad",
+      "category": "Salads",
+      "calories": 1480
+    },
+    {
+      "id": "85473577",
+      "name": "Seared Tuna Tataki Salad*",
+      "category": "Salads",
+      "calories": 450
+    },
+    {
+      "id": "42087185",
+      "name": "Santa Fe Salad",
+      "category": "Lunch Favorites",
+      "calories": 1130
+    },
+    {
+      "id": "42087183",
+      "name": "Chinese Chicken Salad",
+      "category": "Lunch Favorites",
+      "calories": 970
+    },
+    {
+      "id": "42087184",
+      "name": "Cobb Salad",
+      "category": "Lunch Favorites",
+      "calories": 1040
+    },
+    {
+      "id": "42087182",
+      "name": "Barbeque Ranch Chicken Salad",
+      "category": "Lunch Favorites",
+      "calories": 1210
+    },
+    {
+      "id": "78071804",
+      "name": "Vegan Cobb Salad",
+      "category": "Lunch Favorites",
+      "calories": 830
+    },
+    {
+      "id": "78071803",
+      "name": "Sheila's Chicken and Avocado Salad",
+      "category": "Lunch Favorites",
+      "calories": 1100
+    },
+    {
+      "id": "42087187",
+      "name": "Chicken Piccata",
+      "category": "Lunch Favorites",
+      "calories": 1340
+    },
+    {
+      "id": "42087188",
+      "name": "Crusted Chicken Romano",
+      "category": "Lunch Favorites",
+      "calories": 1100
+    },
+    {
+      "id": "42087189",
+      "name": "Orange Chicken",
+      "category": "Lunch Favorites",
+      "calories": 1330
+    },
+    {
+      "id": "52860785",
+      "name": "Evelyn's Favorite Pasta",
+      "category": "Lunch Favorites",
+      "calories": 940
+    },
+    {
+      "id": "42087201",
+      "name": "Fettuccini Alfredo",
+      "category": "Lunch Favorites",
+      "calories": 1450
+    },
+    {
+      "id": "42087202",
+      "name": "Four Cheese Pasta",
+      "category": "Lunch Favorites",
+      "calories": 950
+    },
+    {
+      "id": "42087203",
+      "name": "Louisiana Chicken Pasta",
+      "category": "Lunch Favorites",
+      "calories": 1380
+    },
+    {
+      "id": "42087204",
+      "name": "Pasta Carbonara",
+      "category": "Lunch Favorites",
+      "calories": 1430
+    },
+    {
+      "id": "58776594",
+      "name": "Spicy Rigatoni Vodka",
+      "category": "Lunch Favorites",
+      "calories": 1080
+    },
+    {
+      "id": "42087208",
+      "name": "Spaghetti and Meatballs",
+      "category": "Lunch Favorites",
+      "calories": 1390
+    },
+    {
+      "id": "42087209",
+      "name": "Spicy Chicken Chipotle Pasta",
+      "category": "Lunch Favorites",
+      "calories": 1290
+    },
+    {
+      "id": "42087223",
+      "name": "Famous Factory Meatloaf",
+      "category": "Lunch Favorites",
+      "calories": 1400
+    },
+    {
+      "id": "42087211",
+      "name": "Shepherd’s Pie",
+      "category": "Lunch Favorites",
+      "calories": 1030
+    },
+    {
+      "id": "42087213",
+      "name": "Herb Crusted Filet of Salmon",
+      "category": "Lunch Favorites",
+      "calories": 1150
+    },
+    {
+      "id": "42087214",
+      "name": "Miso Salmon",
+      "category": "Lunch Favorites",
+      "calories": 1000
+    },
+    {
+      "id": "71139192",
+      "name": "Cajun Salmon",
+      "category": "Lunch Favorites",
+      "calories": 1250
+    },
+    {
+      "id": "71139199",
+      "name": "Green Chile Chicken Enchiladas",
+      "category": "Specialties",
+      "calories": 1420
+    },
+    {
+      "id": "46238192",
+      "name": "Korean Fried Chicken",
+      "category": "Specialties",
+      "calories": 1810
+    },
+    {
+      "id": "42087054",
+      "name": "Chicken Parmesan \"Pizza Style\"",
+      "category": "Specialties",
+      "calories": 1940
+    },
+    {
+      "id": "42087057",
+      "name": "Crispy Pineapple Chicken and Shrimp",
+      "category": "Specialties",
+      "calories": 1630
+    },
+    {
+      "id": "42086883",
+      "name": "Shepherd’s Pie",
+      "category": "Specialties",
+      "calories": 1400
+    },
+    {
+      "id": "42087222",
+      "name": "Famous Factory Meatloaf",
+      "category": "Specialties",
+      "calories": 1930
+    },
+    {
+      "id": "42086884",
+      "name": "Baja Chicken Tacos",
+      "category": "Specialties",
+      "calories": 1410
+    },
+    {
+      "id": "78071815",
+      "name": "Grilled Steak Tacos*",
+      "category": "Specialties",
+      "calories": 1580
+    },
+    {
+      "id": "42086818",
+      "name": "Chicken Madeira",
+      "category": "Specialties",
+      "calories": 1300
+    },
+    {
+      "id": "42086881",
+      "name": "Chicken Bellagio",
+      "category": "Specialties",
+      "calories": 2020
+    },
+    {
+      "id": "42086889",
+      "name": "Crusted Chicken Romano",
+      "category": "Specialties",
+      "calories": 1800
+    },
+    {
+      "id": "42086890",
+      "name": "Orange Chicken",
+      "category": "Specialties",
+      "calories": 1750
+    },
+    {
+      "id": "42086880",
+      "name": "Truffle-Honey Chicken",
+      "category": "Specialties",
+      "calories": 1700
+    },
+    {
+      "id": "42086891",
+      "name": "Parmesan-Herb Crusted Chicken",
+      "category": "Specialties",
+      "calories": 1370
+    },
+    {
+      "id": "42086892",
+      "name": "Crispy Chicken Costoletta",
+      "category": "Specialties",
+      "calories": 1800
+    },
+    {
+      "id": "42086893",
+      "name": "Chicken Piccata",
+      "category": "Specialties",
+      "calories": 1420
+    },
+    {
+      "id": "42086819",
+      "name": "Bang-Bang Chicken and Shrimp",
+      "category": "Specialties",
+      "calories": 1370
+    },
+    {
+      "id": "42086856",
+      "name": "Tomato Basil Pasta",
+      "category": "Pastas",
+      "calories": 1720
+    },
+    {
+      "id": "43049429",
+      "name": "Fettuccini Alfredo",
+      "category": "Pastas",
+      "calories": 1930
+    },
+    {
+      "id": "42086857",
+      "name": "Pasta Carbonara",
+      "category": "Pastas",
+      "calories": 2030
+    },
+    {
+      "id": "42086858",
+      "name": "Four Cheese Pasta",
+      "category": "Pastas",
+      "calories": 1280
+    },
+    {
+      "id": "52850890",
+      "name": "Spicy Rigatoni Vodka",
+      "category": "Pastas",
+      "calories": 1570
+    },
+    {
+      "id": "42086859",
+      "name": "Spaghetti and Meatballs",
+      "category": "Pastas",
+      "calories": 1920
+    },
+    {
+      "id": "54038706",
+      "name": "Evelyn's Favorite Pasta",
+      "category": "Pastas",
+      "calories": 1270
+    },
+    {
+      "id": "42086861",
+      "name": "Pasta Da Vinci",
+      "category": "Pastas",
+      "calories": 1540
+    },
+    {
+      "id": "42086860",
+      "name": "Louisiana Chicken Pasta",
+      "category": "Pastas",
+      "calories": 2270
+    },
+    {
+      "id": "42086863",
+      "name": "Spicy Chicken Chipotle Pasta",
+      "category": "Pastas",
+      "calories": 1770
+    },
+    {
+      "id": "42086866",
+      "name": "Cajun Jambalaya Pasta",
+      "category": "Pastas",
+      "calories": 1270
+    },
+    {
+      "id": "42086918",
+      "name": "Shrimp Scampi",
+      "category": "Fish & Seafood",
+      "calories": 1260
+    },
+    {
+      "id": "42086919",
+      "name": "Jamaican Black Pepper Shrimp",
+      "category": "Fish & Seafood",
+      "calories": 1290
+    },
+    {
+      "id": "42087076",
+      "name": "Jamaican Black Pepper Chicken",
+      "category": "Fish & Seafood",
+      "calories": 1390
+    },
+    {
+      "id": "42087077",
+      "name": "Jamaican Black Pepper Chicken and Shrimp",
+      "category": "Fish & Seafood",
+      "calories": 1340
+    },
+    {
+      "id": "71139195",
+      "name": "Cajun Salmon",
+      "category": "Fish & Seafood",
+      "calories": 1570
+    },
+    {
+      "id": "42086921",
+      "name": "Herb Crusted Filet of Salmon",
+      "category": "Fish & Seafood",
+      "calories": 1350
+    },
+    {
+      "id": "42086922",
+      "name": "Miso Salmon",
+      "category": "Fish & Seafood",
+      "calories": 1340
+    },
+    {
+      "id": "85473591",
+      "name": "Grilled Branzino",
+      "category": "Fish & Seafood",
+      "calories": 1410
+    },
+    {
+      "id": "42087111",
+      "name": "Carne Asada Steak*",
+      "category": "Steaks",
+      "calories": 1290
+    },
+    {
+      "id": "42086867",
+      "name": "Steak Diane*",
+      "category": "Steaks",
+      "calories": 1150
+    },
+    {
+      "id": "42086869",
+      "name": "Filet Mignon*",
+      "category": "Steaks",
+      "calories": 840
+    },
+    {
+      "id": "42086988",
+      "name": "French Fries",
+      "category": "Side Dishes",
+      "calories": 1060
+    },
+    {
+      "id": "42086990",
+      "name": "Sweet Potato Fries",
+      "category": "Side Dishes",
+      "calories": 1010
+    },
+    {
+      "id": "42086989",
+      "name": "Green Beans",
+      "category": "Side Dishes",
+      "calories": 140
+    },
+    {
+      "id": "42087228",
+      "name": "Fresh Corn",
+      "category": "Side Dishes",
+      "calories": 270
+    },
+    {
+      "id": "42086991",
+      "name": "Mashed Potatoes",
+      "category": "Side Dishes",
+      "calories": 450
+    },
+    {
+      "id": "42086992",
+      "name": "Sauteed Spinach",
+      "category": "Side Dishes",
+      "calories": 650
+    },
+    {
+      "id": "42086993",
+      "name": "Macaroni & Cheese",
+      "category": "Side Dishes",
+      "calories": 1550
+    },
+    {
+      "id": "48293390",
+      "name": "Broccoli",
+      "category": "Side Dishes",
+      "calories": 260
+    },
+    {
+      "id": "42086994",
+      "name": "Grilled Asparagus",
+      "category": "Side Dishes",
+      "calories": 120
+    },
+    {
+      "id": "42087237",
+      "name": "Stuffed Mushrooms",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "calories": 510
+    },
+    {
+      "id": "42087234",
+      "name": "Crispy Brussels Sprouts",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "calories": 570
+    },
+    {
+      "id": "65541649",
+      "name": "Crispy Crab Bites",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "calories": 410
+    },
+    {
+      "id": "65541650",
+      "name": "Crab Wontons",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "calories": 550
+    },
+    {
+      "id": "42087094",
+      "name": "Chicken Pot Stickers",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "calories": 380
+    },
+    {
+      "id": "58683883",
+      "name": "Spicy Tuna*",
+      "category": "SkinnyLicious® Small Plates & Appetizers",
+      "calories": 460
+    },
+    {
+      "id": "85473598",
+      "name": "Little House Salad",
+      "category": "SkinnyLicious® Salads",
+      "calories": 260
+    },
+    {
+      "id": "85473599",
+      "name": "Beet and Avocado Salad",
+      "category": "SkinnyLicious® Salads",
+      "calories": 290
+    },
+    {
+      "id": "42086929",
+      "name": "SkinnyLicious® Factory Chopped Salad",
+      "category": "SkinnyLicious® Salads",
+      "calories": 530
+    },
+    {
+      "id": "42086930",
+      "name": "SkinnyLicious® Asian Chicken Salad",
+      "category": "SkinnyLicious® Salads",
+      "calories": 570
+    },
+    {
+      "id": "42086931",
+      "name": "Mexican Tortilla Salad",
+      "category": "SkinnyLicious® Salads",
+      "calories": 550
+    },
+    {
+      "id": "85473600",
+      "name": "Seared Tuna Tataki Salad*",
+      "category": "SkinnyLicious® Salads",
+      "calories": 450
+    },
+    {
+      "id": "85473608",
+      "name": "Asian Chicken Lettuce Wrap Tacos",
+      "category": "SkinnyLicious® Tacos",
+      "calories": 450
+    },
+    {
+      "id": "85473610",
+      "name": "SkinnyLicious® Chicken Soft Tacos",
+      "category": "SkinnyLicious® Tacos",
+      "calories": 520
+    },
+    {
+      "id": "85473607",
+      "name": "SkinnyLicious® Shrimp Soft Tacos",
+      "category": "SkinnyLicious® Tacos",
+      "calories": 520
+    },
+    {
+      "id": "42087112",
+      "name": "SkinnyLicious® Chicken Pasta",
+      "category": "SkinnyLicious® Specialties",
+      "calories": 590
+    },
+    {
+      "id": "71139194",
+      "name": "Sesame Ginger Chicken",
+      "category": "SkinnyLicious® Specialties",
+      "calories": 590
+    },
+    {
+      "id": "42086939",
+      "name": "Tuscan Chicken",
+      "category": "SkinnyLicious® Specialties",
+      "calories": 590
+    },
+    {
+      "id": "42086940",
+      "name": "Lemon-Garlic Shrimp",
+      "category": "SkinnyLicious® Specialties",
+      "calories": 550
+    },
+    {
+      "id": "42086941",
+      "name": "SkinnyLicious® Grilled Salmon*",
+      "category": "SkinnyLicious® Specialties",
+      "calories": 590
+    },
+    {
+      "id": "78071838",
+      "name": "Grilled Steak Medallions*",
+      "category": "SkinnyLicious® Specialties",
+      "calories": 440
+    },
+    {
+      "id": "42086947",
+      "name": "Kids' Pasta with Butter and Parmesan",
+      "category": "Kids' Menu",
+      "calories": 460
+    },
+    {
+      "id": "42086948",
+      "name": "Kids' Pasta with Marinara Sauce",
+      "category": "Kids' Menu",
+      "calories": 470
+    },
+    {
+      "id": "42086949",
+      "name": "Kids' Pasta with Alfredo Sauce",
+      "category": "Kids' Menu",
+      "calories": 910
+    },
+    {
+      "id": "42086950",
+      "name": "Kids’ Spaghetti with Meatball",
+      "category": "Kids' Menu",
+      "calories": 680
+    },
+    {
+      "id": "42086951",
+      "name": "Kids’ Macaroni and Cheese",
+      "category": "Kids' Menu",
+      "calories": 1160
+    },
+    {
+      "id": "42086952",
+      "name": "Kids’ Quesadilla",
+      "category": "Kids' Menu",
+      "calories": 820
+    },
+    {
+      "id": "48293388",
+      "name": "Kids’ Grilled Chicken",
+      "category": "Kids' Menu",
+      "calories": 460
+    },
+    {
+      "id": "48293389",
+      "name": "Kids’ Grilled Salmon",
+      "category": "Kids' Menu",
+      "calories": 540
+    },
+    {
+      "id": "42086955",
+      "name": "Kids’ Scoop of Ice Cream",
+      "category": "Kids' Menu",
+      "calories": 320
+    },
+    {
+      "id": "42086956",
+      "name": "Kids’ Mini Hot Fudge Sundae",
+      "category": "Kids' Menu",
+      "calories": 480
+    },
+    {
+      "id": "42086957",
+      "name": "Kids’ Strawberries",
+      "category": "Kids' Menu",
+      "calories": 180
+    },
+    {
+      "id": "85473612",
+      "name": "Kids' Strawberry Shortcake",
+      "category": "Kids' Menu",
+      "calories": 450
+    },
+    {
+      "id": "42086896",
+      "name": "Giant Belgian Waffle",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 690
+    },
+    {
+      "id": "42086897",
+      "name": "Giant Belgian Waffle with Strawberries, Pecans and Chantilly Cream",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 950
+    },
+    {
+      "id": "42087097",
+      "name": "Fried Chicken & Waffles",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 1190
+    },
+    {
+      "id": "42086898",
+      "name": "Buttermilk Pancakes",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 1670
+    },
+    {
+      "id": "42086901",
+      "name": "Brunch Combo*",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 1110
+    },
+    {
+      "id": "52850893",
+      "name": "Bacon and Avocado Benedict*",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 1520
+    },
+    {
+      "id": "42086904",
+      "name": "Fried Chicken & Waffles Benedict*",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 1670
+    },
+    {
+      "id": "42086906",
+      "name": "Monte Cristo Sandwich",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 1960
+    },
+    {
+      "id": "42086907",
+      "name": "Jambalaya Hash & Eggs*",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 1750
+    },
+    {
+      "id": "65541651",
+      "name": "Breakfast Burrito",
+      "category": "Saturday & Sunday Brunch ",
+      "calories": 2080
+    },
+    {
+      "id": "42086958",
+      "name": "Original",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 830
+    },
+    {
+      "id": "42086959",
+      "name": "Fresh Strawberry",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1000
+    },
+    {
+      "id": "42086962",
+      "name": "Oreo® Dream Extreme Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1510
+    },
+    {
+      "id": "42086967",
+      "name": "Ultimate Red Velvet Cake Cheesecake™",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1580
+    },
+    {
+      "id": "42086968",
+      "name": "Reese’s® Peanut Butter Chocolate Cake Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1510
+    },
+    {
+      "id": "42086966",
+      "name": "Godiva® Chocolate Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1400
+    },
+    {
+      "id": "42087231",
+      "name": "Coconut Cream Pie Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1370
+    },
+    {
+      "id": "42086965",
+      "name": "Adam’s Peanut Butter Cup Fudge Ripple",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1250
+    },
+    {
+      "id": "75705153",
+      "name": "Triple Berry Bliss",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1300
+    },
+    {
+      "id": "63267579",
+      "name": "Cookie Dough Lover's Cheesecake with Pecans",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1550
+    },
+    {
+      "id": "42087134",
+      "name": "Pineapple Upside-Down Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1260
+    },
+    {
+      "id": "42086960",
+      "name": "Celebration Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1380
+    },
+    {
+      "id": "42087106",
+      "name": "Cinnabon® Cinnamon Swirl Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1370
+    },
+    {
+      "id": "42086961",
+      "name": "Salted Caramel Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1240
+    },
+    {
+      "id": "42086963",
+      "name": "Toasted Marshmallow S’Mores Galore™",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1550
+    },
+    {
+      "id": "42086969",
+      "name": "Dulce De Leche Caramel Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1390
+    },
+    {
+      "id": "42086970",
+      "name": "White Chocolate Raspberry Truffle®",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1220
+    },
+    {
+      "id": "42087084",
+      "name": "Mango Key Lime Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1300
+    },
+    {
+      "id": "42087085",
+      "name": "Fresh Banana Cream Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1250
+    },
+    {
+      "id": "42086971",
+      "name": "Lemon Raspberry Cream Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1040
+    },
+    {
+      "id": "42086974",
+      "name": "Chocolate Tuxedo Cream® Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1250
+    },
+    {
+      "id": "42087167",
+      "name": "Chocolate Caramelicious Cheesecake Made with Snickers®",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1370
+    },
+    {
+      "id": "42086973",
+      "name": "Chocolate Mousse Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1220
+    },
+    {
+      "id": "42086964",
+      "name": "Lemon Meringue Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1170
+    },
+    {
+      "id": "42087083",
+      "name": "Hershey’s® Chocolate Bar Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1320
+    },
+    {
+      "id": "42087168",
+      "name": "Low-Licious Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 570
+    },
+    {
+      "id": "42087169",
+      "name": "Low-Licious Cheesecake with Strawberries",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 580
+    },
+    {
+      "id": "42086976",
+      "name": "Vanilla Bean Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1170
+    },
+    {
+      "id": "42086972",
+      "name": "Tiramisu Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 980
+    },
+    {
+      "id": "42086977",
+      "name": "Key Lime Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1160
+    },
+    {
+      "id": "42086978",
+      "name": "Caramel Pecan Turtle Cheesecake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1300
+    },
+    {
+      "id": "42086983",
+      "name": "Tiramisu",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1270
+    },
+    {
+      "id": "42086979",
+      "name": "Linda’s Fudge Cake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1450
+    },
+    {
+      "id": "42086980",
+      "name": "Carrot Cake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1720
+    },
+    {
+      "id": "42086984",
+      "name": "Chocolate Tower Truffle Cake™",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1770
+    },
+    {
+      "id": "42086981",
+      "name": "Warm Apple Crisp",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1000
+    },
+    {
+      "id": "42086985",
+      "name": "Fresh Strawberry Shortcake",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 1340
+    },
+    {
+      "id": "42086986",
+      "name": "Bowl of Fresh Strawberries",
+      "category": "Cheesecakes & Specialty Desserts",
+      "calories": 250
+    },
+    {
+      "id": "42087066",
+      "name": "Hot Fudge Sundae",
+      "category": "Ice Cream Delights",
+      "calories": 1280
+    },
+    {
+      "id": "42087067",
+      "name": "Godiva® Chocolate Brownie Sundae",
+      "category": "Ice Cream Delights",
+      "calories": 1750
+    },
+    {
+      "id": "42087068",
+      "name": "Bowl of Vanilla Ice Cream",
+      "category": "Ice Cream Delights",
+      "calories": 750
+    },
+    {
+      "id": "71139193",
+      "name": "Paradise Punch",
+      "category": "To Go Beverages",
+      "calories": 120
+    },
+    {
+      "id": "42087100",
+      "name": "Passion Mint Fizz",
+      "category": "To Go Beverages",
+      "calories": 110
+    },
+    {
+      "id": "42087102",
+      "name": "Pineapple Cherry Limeade",
+      "category": "To Go Beverages",
+      "calories": 150
+    },
+    {
+      "id": "42087101",
+      "name": "Tropical Ginger Cooler",
+      "category": "To Go Beverages",
+      "calories": 140
+    },
+    {
+      "id": "42086997",
+      "name": "Fresh Orange Juice",
+      "category": "To Go Beverages",
+      "calories": 170
+    },
+    {
+      "id": "42086995",
+      "name": "Apple Juice",
+      "category": "To Go Beverages",
+      "calories": 190
+    },
+    {
+      "id": "42087061",
+      "name": "Oreo® Milkshake",
+      "category": "Frozen Drinks",
+      "calories": 1630
+    },
+    {
+      "id": "42087064",
+      "name": "Peach Smoothie",
+      "category": "Frozen Drinks",
+      "calories": 330
+    },
+    {
+      "id": "42087069",
+      "name": "Cafe Latte",
+      "category": "Hot Drinks & Espresso",
+      "calories": 140
+    },
+    {
+      "id": "42087070",
+      "name": "Cafe Mocha",
+      "category": "Hot Drinks & Espresso",
+      "calories": 630
+    },
+    {
+      "id": "42087071",
+      "name": "Cappuccino",
+      "category": "Hot Drinks & Espresso",
+      "calories": 100
+    },
+    {
+      "id": "42087073",
+      "name": "Caramel Royale Macchiato",
+      "category": "Hot Drinks & Espresso",
+      "calories": 660
+    },
+    {
+      "id": "42087074",
+      "name": "Factory Hot Chocolate",
+      "category": "Hot Drinks & Espresso",
+      "calories": 820
+    },
+    {
+      "id": "84734247",
+      "name": "Factory Peach Bellini",
+      "category": "All Day Morning Cocktails",
+      "calories": 250
+    },
+    {
+      "id": "84734248",
+      "name": "Strawberry Spritz",
+      "category": "All Day Morning Cocktails",
+      "calories": 300
+    },
+    {
+      "id": "84734252",
+      "name": "Raspberry Lemon Drop",
+      "category": "Specialty Drinks",
+      "calories": 270
+    },
+    {
+      "id": "84734251",
+      "name": "Georgia Peach",
+      "category": "Specialty Drinks",
+      "calories": 350
+    },
+    {
+      "id": "84734259",
+      "name": "Pineapple Moscow Mule",
+      "category": "Specialty Drinks",
+      "calories": 320
+    },
+    {
+      "id": "84734253",
+      "name": "Sangria",
+      "category": "Specialty Drinks",
+      "calories": 160
+    },
+    {
+      "id": "84734255",
+      "name": "J.W.’s Pink Lemonade™",
+      "category": "Specialty Drinks",
+      "calories": 300
+    },
+    {
+      "id": "84734256",
+      "name": "Mai Tai",
+      "category": "Specialty Drinks",
+      "calories": 310
+    },
+    {
+      "id": "84734258",
+      "name": "The Well-Mannered Dirty Martini",
+      "category": "Specialty Drinks",
+      "calories": 250
+    },
+    {
+      "id": "84734260",
+      "name": "Espresso Martini",
+      "category": "Specialty Drinks",
+      "calories": 250
+    },
+    {
+      "id": "84734264",
+      "name": "Pineapple Mezcal",
+      "category": "Margaritas",
+      "calories": 290
+    },
+    {
+      "id": "84734265",
+      "name": "Paloma Rosa",
+      "category": "Margaritas",
+      "calories": 320
+    },
+    {
+      "id": "84734268",
+      "name": "Mojito",
+      "category": "Mojitos",
+      "calories": 240
+    },
+    {
+      "id": "84734270",
+      "name": "Passion Fruit Mojito",
+      "category": "Mojitos",
+      "calories": 270
+    },
+    {
+      "id": "84734274",
+      "name": "Whiskey Smash",
+      "category": "Whiskey Cocktails",
+      "calories": 190
+    },
+    {
+      "id": "84734273",
+      "name": "Japanese Whisky Sour",
+      "category": "Whiskey Cocktails",
+      "calories": 250
+    },
+    {
+      "id": "84734271",
+      "name": "The Old Fashioned",
+      "category": "Whiskey Cocktails",
+      "calories": 280
+    }
+  ],
+  "requireReviewedItems": true
+}

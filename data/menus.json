@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "defaultMenu": "cheesecake-factory",
+  "menus": [
+    {
+      "id": "cheesecake-factory",
+      "name": "The Cheesecake Factory",
+      "gameTitle": "Cheesecakefactorydle",
+      "legacyStoragePrefix": "cheesecakefactorydle:multiguess:daily:",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2025-01-01",
+          "path": "data/menus/cheesecake-factory/v1.json",
+          "sha256": "634ec507a0009be2c1c33d6e0b758f6cc0b9a4c3c27a39b4e6c6379c0326707c",
+          "seedPrefix": "multiguess:",
+          "rules": "daily-v1"
+        },
+        {
+          "id": "v2",
+          "effectiveFrom": "2026-10-11",
+          "path": "data/menus/cheesecake-factory/v2.json",
+          "sha256": "ca40289eba1439d408764d0f14404f337a066123d4acf23bb5935e1cde6bc0c2",
+          "seedPrefix": "multiguess:",
+          "rules": "daily-v1"
+        }
+      ],
+      "firstPlayableDate": "2026-10-11"
+    }
+  ]
+}

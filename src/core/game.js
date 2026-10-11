@@ -66,13 +66,13 @@ export function shuffleItems(items, random = Math.random) {
     return shuffled;
 }
 
-export function calculateMultiguessScore(guess, actualCalories) {
+export function calculateMultiguessScore(guess, actualCalories, rules = { fullScoreMargin: GAME_CONFIG.multiguessFullScoreMargin, maxItemScore: GAME_CONFIG.multiguessMaxItemScore }) {
     const caloriesWrong = Math.max(
         0,
-        Math.abs(guess - actualCalories) - GAME_CONFIG.multiguessFullScoreMargin
+        Math.abs(guess - actualCalories) - rules.fullScoreMargin
     );
     const percentageWrongness = caloriesWrong / actualCalories;
-    return Math.max(0, Math.round(GAME_CONFIG.multiguessMaxItemScore * (1 - percentageWrongness)));
+    return Math.max(0, Math.round(rules.maxItemScore * (1 - percentageWrongness)));
 }
 
 export function getScoreTier(score, maxScore) {
