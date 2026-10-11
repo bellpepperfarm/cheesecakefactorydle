@@ -24,14 +24,25 @@
     <meta property="twitter:description" content="Play Cheesecakefactorydle, a fun guessing game where you estimate the calories in Cheesecake Factory menu items.">
     <meta property="twitter:image" content="https://bellpepperfarm.github.io/cheesecakefactorydle/CFDle_logo-optimized.png">
 
+    <meta name="color-scheme" content="light dark">
+    <script src="src/ui/theme.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="src/styles/motion.css">
+    <link rel="stylesheet" href="src/styles/theme.css">
     <link rel="icon" href="Cheesecakenolayers.png" type="image/png">
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to game</a>
     <main class="container" id="main-content">
         <h1 class="sr-only">Cheesecakefactorydle</h1>
+        <div class="theme-control">
+            <label for="theme-preference">Appearance</label>
+            <select id="theme-preference">
+                <option value="system">System</option>
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
         <img src="CFDle_logo-optimized.png" alt="Cheesecakefactorydle Logo" class="logo-image" width="1440" height="480">
         
         <!-- Game Mode Selection -->

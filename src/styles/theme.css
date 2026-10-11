@@ -1,0 +1,98 @@
+/* Theme surfaces are separate from motion, so reveals keep their animations. */
+:root {
+    color-scheme: light;
+    --surface: #fff;
+    --surface-raised: #f8f8f8;
+    --text: #333;
+    --muted: #665c68;
+    --border: #ddd;
+    --control-border: #ddd;
+    --accent: #a70f29;
+    --focus: #6d28d9;
+}
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface: #242127;
+    --surface-raised: #302b33;
+    --text: #f2ece6;
+    --muted: #c4b9c5;
+    --border: #655a69;
+    --control-border: #89768b;
+    --accent: #ff8fa3;
+    --focus: #c4a0ff;
+    --cream: #352d2b;
+    --ink: #f2ece6;
+    --berry-dark: #ff8fa3;
+    --success-bg: #233b2b;
+    --success: #b1e2a7;
+}
+.theme-control {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+    font-size: .8rem;
+    color: var(--muted);
+}
+.theme-control select, #menu-picker {
+    min-height: 44px;
+    padding: 8px 10px;
+    border: 1px solid var(--control-border);
+    border-radius: 8px;
+    background: var(--surface);
+    color: var(--text);
+    font-size: .9rem;
+}
+:focus-visible { outline-color: var(--focus); }
+:root[data-theme="dark"] body {
+    color: var(--text);
+    background:
+        radial-gradient(circle at 12% 14%, rgba(247,179,43,.07), transparent 28rem),
+        radial-gradient(circle at 88% 46%, rgba(227,24,55,.08), transparent 32rem),
+        #19171c;
+}
+:root[data-theme="dark"] .game-container { background: var(--surface); box-shadow: 0 8px 28px #0005; }
+:root[data-theme="dark"] .logo-image { background: #fff9ee; border-radius: 16px; margin-bottom: 12px; }
+:root[data-theme="dark"] :is(.mode-button, .discaloried-box, .discaloried-item, .multiguess-review-card),
+:root[data-theme="dark"] #guesses-list li {
+    background: var(--surface-raised);
+    color: var(--text);
+    border-color: var(--border);
+}
+:root[data-theme="dark"] :is(.mode-button:hover, .discaloried-item:hover) { background: #403743; border-color: #89768b; }
+:root[data-theme="dark"] .mode-button { border-color: var(--control-border); }
+:root[data-theme="dark"] .mode-button.active { background: #c51231; color: white; border-color: #e44e68; }
+:root[data-theme="dark"] #multiguess-calorie-guess,
+:root[data-theme="dark"] #share-text,
+:root[data-theme="dark"] :is(.sort-controls button, .daily-previous-button, .skip-link) {
+    background: var(--surface-raised);
+    color: var(--text);
+    border-color: var(--control-border);
+}
+:root[data-theme="dark"] #multiguess-calorie-guess::placeholder { color: var(--muted); opacity: 1; }
+:root[data-theme="dark"] .daily-previous-button:hover { background: #a70f29; color: white; }
+:root[data-theme="dark"] :is(.daily-mode-info, .daily-next-message, .challenge-date, #multiguess-food-description, .discaloried-item-description, .sorting-help, .footer, .fan-disclaimer, .data-note, .multiguess-header, .multiguess-review-header, .multiguess-review-label, .multiguess-review-difference, .progress-viz__labels, .previous-guesses h3) { color: var(--muted); }
+:root[data-theme="dark"] :is(.portion-label, .sort-position) { color: #efb49c; }
+:root[data-theme="dark"] :is(.discaloried-header h2, .multiguess-review-kicker, .footer .highlight, .discaloried-item-calories) { color: var(--accent); }
+:root[data-theme="dark"] .discaloried-item-calories { background: var(--surface); border-color: var(--accent); }
+:root[data-theme="dark"] :is(.discaloried-box.locked, .discaloried-item.locked),
+:root[data-theme="dark"] :is(.celebrate, .right-on-cheese) { background: var(--success-bg); color: var(--success); border-color: #70a970; }
+:root[data-theme="dark"] .discaloried-item.locked:hover { background: var(--success-bg); color: var(--success); border-color: #70a970; }
+:root[data-theme="dark"] .locked-label { color: var(--success); }
+:root[data-theme="dark"] .discaloried-box.drag-over { background: #223e50; border-color: #7bc8f5; }
+:root[data-theme="dark"] .game-over { background: #48292e; color: #ffb2b9; }
+:root[data-theme="dark"] :is(.guess-button, #multiguess-submit-guess):disabled { background: #514650; color: #d5cbd6; }
+:root[data-theme="dark"] .multiguess-review-points { background: #442832; color: #ffb0bd; border-color: #d6617a; }
+:root[data-theme="dark"] .review-phase-guess [data-review-stage="guess"] { background: linear-gradient(145deg, #352a44, #2d2638); border-color: #9774c4; }
+:root[data-theme="dark"] .review-phase-guess #multiguess-review-guess { color: #d2b4ff; }
+:root[data-theme="dark"] .review-phase-calculating .multiguess-review-points { background: #43351f; color: #ffd07a; border-color: #f7b32b; }
+:root[data-theme="dark"] .multiguess-review-points.is-locked { background: linear-gradient(145deg, #2a4030, #233b2b); color: var(--success); border-color: #70a970; }
+:root[data-theme="dark"] #multiguess-review-meter.is-locked .progress-viz__labels :is(span, strong) { color: var(--success); }
+:root[data-theme="dark"] .progress-viz__track { border-color: var(--surface); background: #544754; }
+:root[data-theme="dark"] .multiguess-final { background: radial-gradient(circle at 50% -20%, #42634470, transparent 45%), linear-gradient(145deg, #293e2e, #203326); }
+:root[data-theme="dark"] .multiguess-final h2 { color: var(--success); }
+:root[data-theme="dark"] .multiguess-final-score { text-shadow: 0 5px 0 #0003; }
+:root[data-theme="dark"] .multiguess-summary__copy :is(span:last-child, small) { color: #c0d1b9; }
+:root[data-theme="dark"] .multiguess-summary li { border-color: #8aae7855; }
+:root[data-theme="dark"] .mini-progress { background: #90bd7940; }
