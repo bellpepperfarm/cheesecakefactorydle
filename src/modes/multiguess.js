@@ -360,6 +360,7 @@ export class MultiguessController {
 
     showResult() {
         const scoreTier = getScoreTier(this.totalScore, this.maxScore);
+        const goldTrophy = this.totalScore > this.maxScore * 0.9;
         const summary = this.results.map((result, index) => `
             <li style="--summary-index: ${index}">
                 <div class="multiguess-summary__copy">
@@ -387,7 +388,9 @@ export class MultiguessController {
             <button type="button" id="share-result" class="play-again share-result">Share Result</button>
             <p id="share-status" class="share-status" role="status"></p>
             <div id="share-fallback" hidden><label for="share-text">Copy your result</label><textarea id="share-text" readonly></textarea></div>
-            <img src="Aliencake-optimized.webp" alt="Alien cake celebration" class="celebration-image">
+            <span class="celebration-trophy${goldTrophy ? ' celebration-trophy--gold' : ''}">
+                <img src="Aliencake-optimized.webp" alt="${goldTrophy ? 'Gold alien trophy' : 'Alien cake celebration'}" class="celebration-image">
+            </span>
             <ul class="multiguess-summary">${summary}</ul>
         `;
         setProgressBar(document.getElementById('multiguess-final-meter'), this.totalScore, this.maxScore, {

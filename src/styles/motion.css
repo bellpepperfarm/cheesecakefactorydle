@@ -390,10 +390,18 @@ body {
     .multiguess-summary__copy span:last-child { text-align: left; }
 }
 
-.multiguess-final .celebration-image {
+.celebration-trophy {
     filter: drop-shadow(0 9px 7px rgba(55, 32, 69, .26));
     transform-origin: 50% 70%;
     animation: alien-sway 6s ease-in-out infinite;
+}
+
+.celebration-trophy--gold { filter: drop-shadow(0 9px 10px rgba(167, 111, 7, .4)); }
+.celebration-trophy--gold::after { animation: trophy-glint 5s ease-in-out infinite; }
+
+@keyframes trophy-glint {
+    0%, 20% { background-position: 100% 0; }
+    70%, 100% { background-position: 0% 0; }
 }
 
 @keyframes alien-sway {
@@ -402,7 +410,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .multiguess-final .celebration-image { animation: none !important; transform: none; }
+    .celebration-trophy, .celebration-trophy--gold::after { animation: none !important; transform: none; }
     *, *::before, *::after {
         scroll-behavior: auto !important;
         animation-duration: .01ms !important;
