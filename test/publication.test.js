@@ -45,8 +45,8 @@ test('source updates cannot reintroduce exclusions through changed IDs or calori
     assert.ok(exclusionReasons({ ...snapshot.products[0], basecalories: 9999 }, policy).length);
 });
 
-test('share text identifies menu/date without revealing dishes or calorie answers', () => {
-    const text = buildShareText({ title: 'Test game', menuName: 'Test menu', dateKey: '2026-10-11', results: [{ score: 950, item: { name: 'SECRET' }, actualCalories: 1340 }], maxItemScore: 1000, url: 'https://example.test/' });
-    assert.match(text, /2026-10-11/); assert.match(text, /950 \/ 1000/);
+test('share text leads with the game name and date without revealing dishes or calorie answers', () => {
+    const text = buildShareText({ title: 'Cheesecakefactorydle', dateKey: '2026-10-11', results: [{ score: 950, item: { name: 'SECRET' }, actualCalories: 1340 }], maxItemScore: 1000, url: 'https://example.test/' });
+    assert.equal(text, 'Cheesecakefactorydle · Daily 2026-10-11\n🟩\n950 / 1000\nhttps://example.test/');
     assert.ok(!text.includes('SECRET')); assert.ok(!text.includes('1340'));
 });

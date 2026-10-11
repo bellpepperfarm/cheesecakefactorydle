@@ -414,14 +414,15 @@ export class MultiguessController {
         url.hash = '';
         url.searchParams.set('menu', this.context.menu.id);
         url.searchParams.set('date', this.dateKey);
+        const title = this.context.menu.gameTitle || 'Daily Calories';
         const text = buildShareText({
-            title: this.context.menu.gameTitle || 'Daily Calories', menuName: this.context.menu.name,
+            title,
             dateKey: this.dateKey, results: this.results, maxItemScore: this.rules.maxItemScore, url: url.href
         });
         const status = document.getElementById('share-status');
         try {
             if (navigator.share) {
-                await navigator.share({ text });
+                await navigator.share({ title, text });
                 status.textContent = 'Result shared.';
             } else if (navigator.clipboard?.writeText) {
                 await navigator.clipboard.writeText(text);
