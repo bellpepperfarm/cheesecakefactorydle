@@ -26,16 +26,7 @@
     --success-bg: #233b2b;
     --success: #b1e2a7;
 }
-.theme-control {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 4px;
-    font-size: .8rem;
-    color: var(--muted);
-}
-.theme-control select, #menu-picker {
+#menu-picker {
     min-height: 44px;
     padding: 8px 10px;
     border: 1px solid var(--control-border);
