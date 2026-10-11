@@ -390,7 +390,19 @@ body {
     .multiguess-summary__copy span:last-child { text-align: left; }
 }
 
+.multiguess-final .celebration-image {
+    filter: drop-shadow(0 9px 7px rgba(55, 32, 69, .26));
+    transform-origin: 50% 70%;
+    animation: alien-sway 6s ease-in-out infinite;
+}
+
+@keyframes alien-sway {
+    0%, 100% { transform: perspective(500px) rotateX(4deg) rotateY(-9deg) rotateZ(-3deg) translateY(0); }
+    50% { transform: perspective(500px) rotateX(-4deg) rotateY(9deg) rotateZ(3deg) translateY(-4px); }
+}
+
 @media (prefers-reduced-motion: reduce) {
+    .multiguess-final .celebration-image { animation: none !important; transform: none; }
     *, *::before, *::after {
         scroll-behavior: auto !important;
         animation-duration: .01ms !important;

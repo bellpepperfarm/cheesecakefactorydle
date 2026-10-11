@@ -2,7 +2,7 @@ import { MultiguessController } from './modes/multiguess.js';
 import { SortingController } from './modes/sorting.js';
 import { getDailyDateKey, getPreviousDailyDateKeys } from './core/game.js';
 import { fetchJSON, MenuRepository, resolveMenuVersion } from './core/menus.js';
-import { installImageFallbacks, setFoodImage } from './ui/dom.js';
+import { installImageFallbacks } from './ui/dom.js';
 
 const byId = id => document.getElementById(id);
 const dailyButton = byId('multiguess-mode-btn');
@@ -18,13 +18,37 @@ let requestId = 0;
 let requestedDate;
 let countdown;
 let imageOpener;
+let previousBodyOverflow;
 const daily = new MultiguessController({ onDailyComplete: addNextChallenges });
-const sorting = new SortingController({ onImage: (snapshot, item, opener) => {
+const sorting = new SortingController({ onImage: (_snapshot, _item, opener) => openFoodPhoto(opener) });
+
+function openFoodPhoto(opener) {
+    const source = opener.querySelector('img');
+    const expanded = byId('overlay-image');
+    const sourceCredit = opener.querySelector('.image-credit');
+    const expandedCredit = expanded.parentElement.querySelector('.image-credit');
     imageOpener = opener;
-    setFoodImage(byId('overlay-image'), snapshot, item);
+    for (const key of ['cdn', 'cdnTried', 'fallback']) {
+        delete expanded.dataset[key];
+        if (source.dataset[key]) expanded.dataset[key] = source.dataset[key];
+    }
+    expanded.alt = source.alt;
+    expandedCredit.textContent = sourceCredit?.textContent || '';
+    expandedCredit.hidden = !expandedCredit.textContent || sourceCredit?.hidden;
+    dialog.style.setProperty('--photo-ratio', (source.naturalWidth / source.naturalHeight) || 1);
+    expanded.src = source.currentSrc || source.src;
+    previousBodyOverflow = document.body.style.overflow;
     dialog.showModal();
     document.body.style.overflow = 'hidden';
-} });
+}
+
+byId('overlay-image').addEventListener('load', event => {
+    const image = event.currentTarget;
+    dialog.style.setProperty('--photo-ratio', (image.naturalWidth / image.naturalHeight) || 1);
+});
+document.querySelectorAll('.photo-zoom').forEach(button => {
+    button.addEventListener('click', () => openFoodPhoto(button));
+});
 
 installImageFallbacks();
 function closeModes() { toggle.setAttribute('aria-expanded', 'false'); menu.classList.add('hidden'); }
@@ -39,7 +63,7 @@ document.addEventListener('keydown', event => {
 });
 byId('image-overlay-close').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
-dialog.addEventListener('close', () => { document.body.style.overflow = ''; imageOpener?.focus(); });
+dialog.addEventListener('close', () => { document.body.style.overflow = previousBodyOverflow; imageOpener?.focus({ preventScroll: true }); });
 byId('bell-pepper-farm').addEventListener('click', event => {
     const open = event.currentTarget.getAttribute('aria-expanded') !== 'true';
     event.currentTarget.setAttribute('aria-expanded', String(open));

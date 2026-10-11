@@ -63,7 +63,7 @@
                     <span id="multiguess-score">Score: 0 / 3000</span>
                 </div>
                 <div class="food-display">
-                    <span class="food-photo"><img id="multiguess-food-image" src="" alt="Food item from Cheesecake Factory"><span class="image-credit"></span></span>
+                    <button type="button" class="food-photo photo-zoom" aria-label="Enlarge dish photo" aria-haspopup="dialog" aria-controls="image-overlay"><img id="multiguess-food-image" src="" alt="Food item from Cheesecake Factory"><span class="image-credit"></span></button>
                     <h2 id="multiguess-food-name" tabindex="-1"></h2>
                     <p id="multiguess-food-portion" class="portion-label"></p>
                     <p id="multiguess-food-description"></p>
@@ -84,7 +84,7 @@
                     <span id="multiguess-review-total">Total: 0 / 3000</span>
                 </div>
                 <p class="multiguess-review-kicker">Guess review</p>
-                <span class="food-photo"><img id="multiguess-review-image" src="" alt=""><span class="image-credit"></span></span>
+                <button type="button" class="food-photo photo-zoom" aria-label="Enlarge dish photo" aria-haspopup="dialog" aria-controls="image-overlay"><img id="multiguess-review-image" src="" alt=""><span class="image-credit"></span></button>
                 <h2 id="multiguess-review-name" tabindex="-1"></h2>
                 <p id="multiguess-review-portion" class="portion-label"></p>
                 <div class="multiguess-review-cards">
@@ -125,7 +125,7 @@
     
     <!-- Image Overlay Modal -->
     <dialog id="image-overlay" aria-label="Expanded food photo">
-        <button class="image-overlay-close" id="image-overlay-close" type="button" aria-label="Close expanded photo">&times;</button>
+        <button class="image-overlay-close" id="image-overlay-close" type="button" aria-label="Close expanded photo" autofocus><span aria-hidden="true">&times;</span> Close</button>
         <span class="food-photo"><img id="overlay-image" alt="Expanded food image"><span class="image-credit"></span></span>
     </dialog>
 
