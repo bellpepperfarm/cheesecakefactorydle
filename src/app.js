@@ -3,6 +3,9 @@ import { SortingController } from './modes/sorting.js';
 import { getDailyDateKey, getPreviousDailyDateKeys } from './core/game.js';
 import { fetchJSON, MenuRepository, resolveMenuVersion } from './core/menus.js';
 import { installImageFallbacks } from './ui/dom.js';
+import { installBrand, gameTitle, isCaloriedle } from './ui/brand.js';
+
+installBrand();
 
 const byId = id => document.getElementById(id);
 const dailyButton = byId('multiguess-mode-btn');
@@ -111,6 +114,9 @@ async function loadMode(nextMode, dateKey = getDailyDateKey()) {
         status.classList.add('hidden');
         status.removeAttribute('aria-busy');
         const isDaily = mode === 'daily';
+        // One toolbar persists through rounds, reviews, results and mode changes.
+        byId(isDaily ? 'multiguess-game' : 'discaloried-game').prepend(byId('game-toolbar'));
+        byId('multiguess-status').hidden = !isDaily;
         dailyButton.classList.toggle('active', isDaily);
         dailyButton.setAttribute('aria-pressed', String(isDaily));
         toggle.classList.toggle('active', !isDaily);
@@ -129,10 +135,10 @@ async function loadMode(nextMode, dateKey = getDailyDateKey()) {
         url.searchParams.set('menu', menuId);
         if (isDaily) url.searchParams.set('date', dateKey); else url.searchParams.delete('date');
         history.replaceState(null, '', url);
-        document.title = `${context.menu.gameTitle || 'Daily Calories'} · ${context.menu.name}`;
-        document.querySelector('h1').textContent = context.menu.gameTitle || 'Daily Calories';
+        document.title = `${gameTitle(context.menu)} · ${context.menu.name}`;
+        document.querySelector('h1').textContent = gameTitle(context.menu);
         document.querySelector('.logo-image').hidden = menuId !== 'cheesecake-factory';
-        document.querySelector('h1').classList.toggle('sr-only', menuId === 'cheesecake-factory');
+        document.querySelector('h1').classList.toggle('sr-only', isCaloriedle() || menuId === 'cheesecake-factory');
         document.querySelectorAll('.mode-button').forEach(button => { button.disabled = false; });
         byId('menu-picker').disabled = false;
     } catch (error) { if (sequence === requestId) failed(error); }

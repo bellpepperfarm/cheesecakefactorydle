@@ -1,0 +1,172 @@
+/* Opt-in preview: ?theme=caloriedle. System light/dark appearance is independent. */
+.caloriedle-header { display: none; }
+
+:root[data-brand="caloriedle"] {
+    --page: #f7f1e4;
+    --surface: #fffdf7;
+    --surface-raised: #f4edde;
+    --text: #3e3025;
+    --ink: #3e3025;
+    --muted: #756451;
+    --border: #dfd1b8;
+    --control-border: #b7a68c;
+    --accent: #a33329;
+    --berry: #b23b2e;
+    --berry-dark: #8e2c23;
+    --cream: #f3ead8;
+    --gold: #e3ab42;
+    --leaf: #60713e;
+    --focus: #687b39;
+    --success-bg: #edf2dc;
+    --success: #405826;
+    --brand-button: #a33329;
+    --brand-button-hover: #84261f;
+    --brand-shadow: #60451b12;
+}
+:root[data-brand="caloriedle"][data-theme="dark"] {
+    --page: #211f19;
+    --surface: #2c2921;
+    --surface-raised: #373227;
+    --text: #f5ead4;
+    --ink: #f5ead4;
+    --muted: #c5b79f;
+    --border: #5c5140;
+    --control-border: #8e7e64;
+    --accent: #f4a18a;
+    --berry-dark: #f4a18a;
+    --cream: #373025;
+    --focus: #bdcf8e;
+    --success-bg: #303c25;
+    --success: #c4daa3;
+    --brand-button: #a53c2e;
+    --brand-button-hover: #8d3025;
+    --brand-shadow: #0003;
+}
+:root[data-brand="caloriedle"] body {
+    color: var(--text);
+    background: radial-gradient(var(--border) .65px, transparent .65px) 0 0 / 8px 8px, var(--page);
+    font-family: 'Trebuchet MS', 'Avenir Next', sans-serif;
+    border-top: 5px solid var(--brand-button);
+}
+:root[data-brand="caloriedle"] .container { max-width: 820px; padding-top: 28px; }
+:root[data-brand="caloriedle"] .logo-image { display: none; }
+:root[data-brand="caloriedle"] .caloriedle-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 12px 6px 20px;
+}
+.caloriedle-wordmark {
+    display: flex;
+    align-items: flex-end;
+    gap: clamp(6px, 1vw, 10px);
+    width: min(100%, 690px);
+    aspect-ratio: 2215 / 453;
+    margin: 4px auto 8px;
+}
+.caloriedle-wordmark img {
+    display: block;
+    /* Shrink proportionally to leave room for the gaps on narrow screens. */
+    flex: 0 1 auto;
+    height: auto;
+    min-width: 0;
+    transform-origin: 50% 85%;
+    filter: url('#caloriedle-sticker') drop-shadow(0 5px 3px #4b2d2538);
+    animation: caloriedle-sway var(--sway-duration) var(--sway-delay) ease-in-out infinite;
+}
+:root[data-brand="caloriedle"] .game-mode-selection { margin-bottom: 20px; gap: 8px; }
+:root[data-brand="caloriedle"] .mode-button {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--control-border);
+    border-radius: 999px;
+    padding: 10px 24px;
+    font-family: inherit;
+    font-size: .9rem;
+}
+:root[data-brand="caloriedle"] .mode-button:hover { background: var(--cream); border-color: var(--accent); }
+:root[data-brand="caloriedle"] :is(.mode-button.active, .play-again, .guess-button, #multiguess-submit-guess) {
+    color: #fffaf0;
+    background: var(--brand-button);
+    border-color: var(--brand-button);
+    font-family: inherit;
+}
+:root[data-brand="caloriedle"] :is(.play-again, .guess-button) { border-radius: 999px; padding: 12px 25px; }
+:root[data-brand="caloriedle"] :is(.mode-button.active:hover, .play-again:hover, .guess-button:hover, #multiguess-submit-guess:hover:not(:disabled)) { background: var(--brand-button-hover); }
+:root[data-brand="caloriedle"] :is(.guess-button, #multiguess-submit-guess):disabled { background: var(--surface-raised); color: var(--muted); }
+:root[data-brand="caloriedle"] .challenge-date { color: var(--muted); font-size: .75rem; letter-spacing: .06em; margin-bottom: 16px; }
+:root[data-brand="caloriedle"] .game-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 26px;
+    padding: 25px;
+    box-shadow: 0 6px 0 var(--brand-shadow), 0 14px 35px var(--brand-shadow);
+}
+:root[data-brand="caloriedle"] :is(.multiguess-header, .multiguess-review-header) {
+    background: var(--cream);
+    color: var(--muted);
+    box-shadow: none;
+    border: 1px solid var(--border);
+    padding: 9px 16px;
+    font-size: .8rem;
+}
+:root[data-brand="caloriedle"] :is(#multiguess-score, #multiguess-review-total) { color: var(--accent); }
+:root[data-brand="caloriedle"] :is(#multiguess-food-name, #multiguess-review-name, .discaloried-header h2, .multiguess-final h2) {
+    font-family: Georgia, 'Times New Roman', serif;
+    letter-spacing: -.035em;
+    line-height: 1.15;
+    color: var(--text);
+}
+:root[data-brand="caloriedle"] :is(#multiguess-food-image, #multiguess-review-image, .photo-zoom) { border-radius: 16px; }
+:root[data-brand="caloriedle"] :is(#multiguess-food-description, .discaloried-item-description, .sorting-help, .multiguess-review-label, .multiguess-review-difference, .daily-next-message, .progress-viz__labels, .footer, .fan-disclaimer, .data-note) { color: var(--muted); }
+:root[data-brand="caloriedle"] :is(.portion-label, .sort-position, .multiguess-review-kicker, .footer .highlight) { color: var(--accent); }
+:root[data-brand="caloriedle"] .guess-container > label { font-weight: 700; font-size: .95rem; }
+:root[data-brand="caloriedle"] .input-container { gap: 8px; }
+:root[data-brand="caloriedle"] :is(#multiguess-calorie-guess, #share-text, #menu-picker) {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--control-border);
+    border-radius: 12px;
+    font-family: inherit;
+}
+:root[data-brand="caloriedle"] #multiguess-calorie-guess { font-size: 1.05rem; padding: 13px 16px; }
+:root[data-brand="caloriedle"] #multiguess-calorie-guess::placeholder { color: var(--muted); opacity: 1; }
+:root[data-brand="caloriedle"] #multiguess-submit-guess { border-radius: 12px; padding: 13px 22px; font-weight: 700; }
+:root[data-brand="caloriedle"] :is(.discaloried-box, .discaloried-item, .multiguess-review-card, .sort-controls button, .daily-previous-button) {
+    background: var(--surface-raised);
+    color: var(--text);
+    border-color: var(--border);
+    border-radius: 14px;
+}
+:root[data-brand="caloriedle"] :is(.daily-previous-button:hover, .sort-controls button:hover:not(:disabled)) { background: var(--cream); border-color: var(--accent); }
+:root[data-brand="caloriedle"] .discaloried-item-calories { color: var(--accent); background: var(--surface); border-color: var(--accent); }
+:root[data-brand="caloriedle"] .discaloried-box.drag-over { background: var(--cream); border-color: var(--accent); }
+:root[data-brand="caloriedle"] .multiguess-review-points { background: var(--cream); color: var(--accent); border-color: var(--accent); box-shadow: none; }
+:root[data-brand="caloriedle"] .review-phase-guess [data-review-stage="guess"] { background: var(--cream); border-color: var(--control-border); box-shadow: 0 8px 22px var(--brand-shadow); }
+:root[data-brand="caloriedle"] .review-phase-guess #multiguess-review-guess { color: var(--accent); }
+:root[data-brand="caloriedle"] :is(.multiguess-final, .celebrate, .right-on-cheese, .discaloried-box.locked, .discaloried-item.locked, .multiguess-review-points.is-locked) { background: var(--success-bg); color: var(--success); border-color: var(--leaf); }
+:root[data-brand="caloriedle"] :is(.locked-label, .multiguess-final h2, .multiguess-summary__copy span:last-child, .multiguess-summary__copy small, #multiguess-review-meter.is-locked .progress-viz__labels span, #multiguess-review-meter.is-locked .progress-viz__labels strong) { color: var(--success); }
+:root[data-brand="caloriedle"] .multiguess-final-score { text-shadow: none; }
+:root[data-brand="caloriedle"] .progress-viz__track { border-color: var(--surface); background: var(--border); }
+:root[data-brand="caloriedle"] .footer { max-width: 780px; margin: 22px auto 0; padding-bottom: 28px; }
+:root[data-brand="caloriedle"] .footer > p:first-child { font-size: .85rem; }
+:root[data-brand="caloriedle"] #menu-picker-container { text-align: center; color: var(--muted); margin-bottom: 24px; }
+:root[data-brand="caloriedle"] #menu-picker-container label { margin-right: 10px; font-size: .85rem; }
+
+@keyframes caloriedle-sway {
+    0%, 100% { transform: translateY(0) rotate(-1.2deg); }
+    50% { transform: translateY(-3px) rotate(1.2deg); }
+}
+@media (max-width: 560px) {
+    :root[data-brand="caloriedle"] .container { padding: 20px 12px 12px; }
+    :root[data-brand="caloriedle"] .caloriedle-header { padding: 12px 4px 16px; }
+    .caloriedle-wordmark { margin-bottom: 8px; }
+    :root[data-brand="caloriedle"] .game-container { padding: 16px; border-radius: 20px; }
+    :root[data-brand="caloriedle"] .mode-button { padding: 9px 20px; }
+    :root[data-brand="caloriedle"] :is(.multiguess-header, .multiguess-review-header) { flex-direction: row; gap: 8px; font-size: .72rem; }
+    :root[data-brand="caloriedle"] #multiguess-food-name { font-size: 1.6rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .caloriedle-wordmark img { animation: none; transform: none; }
+}

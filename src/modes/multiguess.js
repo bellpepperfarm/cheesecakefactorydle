@@ -11,6 +11,7 @@ import { createCelebrationBits, setProgressBar, updateProgressBar } from '../ui/
 import { selectDailyItems } from '../core/menus.js';
 import { escapeHTML, setFoodImage, focusHeading } from '../ui/dom.js';
 import { buildShareText } from '../core/share.js';
+import { gameTitle, isCaloriedle } from '../ui/brand.js';
 
 export const REVIEW_TIMING = Object.freeze({
     guessCountUp: 1000,
@@ -36,6 +37,7 @@ export class MultiguessController {
         const byId = id => document.getElementById(id);
         return {
             round: byId('multiguess-round'),
+            status: byId('multiguess-status'),
             progress: byId('multiguess-progress'),
             score: byId('multiguess-score'),
             foodImage: byId('multiguess-food-image'),
@@ -48,8 +50,6 @@ export class MultiguessController {
             feedback: byId('multiguess-feedback'),
             review: byId('multiguess-review'),
             reviewAnnouncement: byId('multiguess-review-announcement'),
-            reviewProgress: byId('multiguess-review-progress'),
-            reviewTotal: byId('multiguess-review-total'),
             reviewImage: byId('multiguess-review-image'),
             reviewName: byId('multiguess-review-name'),
             reviewPortion: byId('multiguess-review-portion'),
@@ -145,6 +145,7 @@ export class MultiguessController {
         this.reviewSequenceId++;
         const item = this.items[this.itemIndex];
         const { elements } = this;
+        elements.status.setAttribute('aria-live', 'polite');
         elements.round.classList.remove('hidden');
         elements.review.classList.add('hidden');
         elements.progress.textContent = `${this.itemIndex + 1} / ${this.rules.itemCount}`;
@@ -196,9 +197,11 @@ export class MultiguessController {
         const sequenceId = ++this.reviewSequenceId;
         const shouldRunSequence = animate && !prefersReducedMotion();
 
-        elements.reviewProgress.textContent = `${this.itemIndex + 1} / ${this.rules.itemCount}`;
+        // The review announcement summarizes the animated score once it settles.
+        elements.status.setAttribute('aria-live', 'off');
+        elements.progress.textContent = `${this.itemIndex + 1} / ${this.rules.itemCount}`;
         elements.reviewAnnouncement.textContent = '';
-        elements.reviewTotal.textContent = `Total: ${shouldRunSequence ? previousTotal : this.totalScore} / ${this.maxScore}`;
+        elements.score.textContent = `Score: ${shouldRunSequence ? previousTotal : this.totalScore} / ${this.maxScore}`;
         setFoodImage(elements.reviewImage, this.menuData, result.item);
         elements.reviewPortion.textContent = result.item.portion;
         elements.reviewName.textContent = result.item.name;
@@ -278,7 +281,7 @@ export class MultiguessController {
                 const liveScore = value > 0 ? calculateMultiguessScore(result.guess, value, this.rules) : 0;
                 elements.reviewActual.textContent = `${value.toLocaleString()} cal`;
                 elements.reviewScore.textContent = `${liveScore.toLocaleString()} / ${this.rules.maxItemScore}`;
-                elements.reviewTotal.textContent = `Total: ${(previousTotal + liveScore).toLocaleString()} / ${this.maxScore}`;
+                elements.score.textContent = `Score: ${(previousTotal + liveScore).toLocaleString()} / ${this.maxScore}`;
                 updateProgressBar(elements.reviewMeter, liveScore, this.rules.maxItemScore);
             }
         });
@@ -286,7 +289,7 @@ export class MultiguessController {
 
         elements.reviewActual.textContent = `${result.actualCalories.toLocaleString()} cal`;
         elements.reviewScore.textContent = `${result.score.toLocaleString()} / ${this.rules.maxItemScore}`;
-        elements.reviewTotal.textContent = `Total: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
+        elements.score.textContent = `Score: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
         updateProgressBar(elements.reviewMeter, result.score, this.rules.maxItemScore);
 
         const pointsCard = elements.review.querySelector('[data-review-stage="points"]');
@@ -315,7 +318,7 @@ export class MultiguessController {
         elements.review.classList.add('review-phase-locked');
         elements.review.querySelector('[data-review-stage="points"]').classList.add('is-locked');
         elements.reviewMeter.classList.add('is-locked');
-        elements.reviewTotal.textContent = `Total: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
+        elements.score.textContent = `Score: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
         elements.reviewGuess.textContent = `${result.guess.toLocaleString()} cal`;
         elements.reviewActual.textContent = `${result.actualCalories.toLocaleString()} cal`;
         elements.reviewScore.textContent = `${result.score.toLocaleString()} / ${this.rules.maxItemScore}`;
@@ -379,6 +382,8 @@ export class MultiguessController {
 
         elements.round.classList.add('hidden');
         elements.review.classList.add('hidden');
+        elements.progress.textContent = `${this.rules.itemCount} / ${this.rules.itemCount}`;
+        elements.score.textContent = `Score: ${this.totalScore.toLocaleString()} / ${this.maxScore}`;
         elements.result.className = 'result-message multiguess-final celebrate';
         elements.result.innerHTML = `
             <p class="multiguess-final-kicker">${resultTitle}</p>
@@ -412,9 +417,10 @@ export class MultiguessController {
         const url = new URL(document.baseURI);
         url.search = '';
         url.hash = '';
+        if (isCaloriedle()) url.searchParams.set('theme', 'caloriedle');
         url.searchParams.set('menu', this.context.menu.id);
         url.searchParams.set('date', this.dateKey);
-        const title = this.context.menu.gameTitle || 'Daily Calories';
+        const title = gameTitle(this.context.menu);
         const text = buildShareText({
             title,
             dateKey: this.dateKey, results: this.results, maxItemScore: this.rules.maxItemScore, url: url.href

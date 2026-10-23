@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="src/styles/motion.css">
     <link rel="stylesheet" href="src/styles/theme.css">
+    <link rel="stylesheet" href="src/styles/caloriedle.css">
     <link rel="icon" href="Cheesecakenolayers.png" type="image/png">
 </head>
 <body>
@@ -36,20 +37,7 @@
     <main class="container" id="main-content">
         <h1 class="sr-only">Cheesecakefactorydle</h1>
         <img src="CFDle_logo-optimized.png" alt="Cheesecakefactorydle Logo" class="logo-image" width="1440" height="480">
-        
-        <!-- Game Mode Selection -->
-        <nav class="game-mode-selection" aria-label="Game modes">
-            <button id="multiguess-mode-btn" class="mode-button active" type="button" aria-pressed="true">Daily</button>
-            <button id="other-modes-toggle" class="mode-button other-modes-toggle" type="button"
-                aria-expanded="false" aria-controls="other-modes-menu">
-                Other Modes
-                <span class="other-modes-toggle__chevron" aria-hidden="true">⌄</span>
-            </button>
-            <div id="other-modes-menu" class="other-modes-menu hidden">
-                <button id="discaloried-mode-btn" class="mode-button" type="button">Discaloried</button>
-                <button id="discaloried-hard-mode-btn" class="mode-button" type="button">Discaloried Hard Mode</button>
-            </div>
-        </nav>
+        <header class="caloriedle-header" id="caloriedle-header"></header>
 
         <div id="load-status" class="game-container load-status" role="status">
             <p id="load-message">Loading dishes…</p>
@@ -60,11 +48,25 @@
         <p id="challenge-date" class="challenge-date"></p>
         <!-- Multiguess Game Container -->
         <div id="multiguess-game" class="game-container hidden">
-            <div id="multiguess-round" class="multiguess-round">
-                <div class="multiguess-header" aria-live="polite">
+            <div id="game-toolbar" class="multiguess-header game-toolbar">
+                <nav class="game-mode-selection" aria-label="Game modes">
+                    <button id="multiguess-mode-btn" class="mode-button active" type="button" aria-pressed="true">Daily</button>
+                    <button id="other-modes-toggle" class="mode-button other-modes-toggle" type="button"
+                        aria-expanded="false" aria-controls="other-modes-menu">
+                        Other Modes
+                        <span class="other-modes-toggle__chevron" aria-hidden="true">⌄</span>
+                    </button>
+                    <div id="other-modes-menu" class="other-modes-menu hidden">
+                        <button id="discaloried-mode-btn" class="mode-button" type="button">Discaloried</button>
+                        <button id="discaloried-hard-mode-btn" class="mode-button" type="button">Discaloried Hard Mode</button>
+                    </div>
+                </nav>
+                <div id="multiguess-status" class="game-toolbar-status" aria-live="polite">
                     <span id="multiguess-progress">1 / 3</span>
                     <span id="multiguess-score">Score: 0 / 3000</span>
                 </div>
+            </div>
+            <div id="multiguess-round" class="multiguess-round">
                 <div class="food-display">
                     <button type="button" class="food-photo photo-zoom" aria-label="Enlarge dish photo" aria-haspopup="dialog" aria-controls="image-overlay"><img id="multiguess-food-image" src="" alt="Food item from Cheesecake Factory"><span class="image-credit"></span></button>
                     <h2 id="multiguess-food-name" tabindex="-1"></h2>
@@ -82,11 +84,6 @@
             </div>
             <div id="multiguess-review" class="multiguess-review hidden">
                 <p id="multiguess-review-announcement" class="sr-only" aria-live="polite"></p>
-                <div class="multiguess-review-header">
-                    <span id="multiguess-review-progress">1 / 3</span>
-                    <span id="multiguess-review-total">Total: 0 / 3000</span>
-                </div>
-                <p class="multiguess-review-kicker">Guess review</p>
                 <button type="button" class="food-photo photo-zoom" aria-label="Enlarge dish photo" aria-haspopup="dialog" aria-controls="image-overlay"><img id="multiguess-review-image" src="" alt=""><span class="image-credit"></span></button>
                 <h2 id="multiguess-review-name" tabindex="-1"></h2>
                 <p id="multiguess-review-portion" class="portion-label"></p>
@@ -116,7 +113,7 @@
             <div class="discaloried-header">
                 <h2 id="sorting-title" tabindex="-1">Discaloried</h2>
                 <p>Order dishes from highest to lowest calories.</p>
-                <p class="sorting-help">Use the arrows or drag to swap. Correct positions lock. Equal calories can go in either order.</p>
+                <p class="sorting-help">Use the arrows or drag to swap.</p>
                 <p>Guesses remaining: <span id="discaloried-guesses">5</span></p>
             </div>
             <ol id="discaloried-items" class="discaloried-boxes" aria-label="Dishes from highest to lowest calories"></ol>

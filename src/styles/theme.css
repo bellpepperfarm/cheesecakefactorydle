@@ -87,3 +87,55 @@
 :root[data-theme="dark"] .multiguess-summary__copy :is(span:last-child, small) { color: #c0d1b9; }
 :root[data-theme="dark"] .multiguess-summary li { border-color: #8aae7855; }
 :root[data-theme="dark"] .mini-progress { background: #90bd7940; }
+
+/* Shared mode controls stay in the score bar throughout the game. */
+#game-toolbar {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+#game-toolbar .game-mode-selection {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+}
+#game-toolbar .mode-button {
+    min-height: 40px;
+    padding: 7px 12px;
+    font-size: .8rem;
+}
+.game-toolbar-status {
+    display: contents;
+    font-size: .8rem;
+    white-space: nowrap;
+}
+#multiguess-progress { grid-column: 1; grid-row: 1; justify-self: start; }
+#multiguess-score { grid-column: 3; grid-row: 1; justify-self: end; }
+#game-toolbar .other-modes-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    translate: -50% 0;
+    width: min(100%, 280px);
+    padding: 8px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--surface);
+    box-shadow: 0 8px 24px #0002;
+}
+#game-toolbar .other-modes-menu .mode-button { width: 100%; }
+@media (max-width: 560px) {
+    #game-toolbar { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    #game-toolbar .game-mode-selection { grid-column: 1 / -1; justify-content: center; }
+    #multiguess-progress { grid-column: 1; grid-row: 2; }
+    #multiguess-score { grid-column: 2; grid-row: 2; }
+}

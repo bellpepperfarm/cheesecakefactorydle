@@ -188,6 +188,16 @@ body {
     transition: width 70ms linear;
 }
 
+/* Align the round meter with the review cards, with more room for the values. */
+#multiguess-review-meter { width: 100%; }
+#multiguess-review-meter .progress-viz__track { height: 26px; }
+#multiguess-review-guess,
+#multiguess-review-actual {
+    font-size: clamp(1.65rem, 4vw, 2.25rem);
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+}
+
 .progress-viz__fill::after {
     content: '';
     display: block;
