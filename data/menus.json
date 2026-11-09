@@ -130,16 +130,8 @@
       "firstPlayableDate": "2026-11-10",
       "versions": [
         {
-          "id": "v1",
-          "effectiveFrom": "2026-11-10",
-          "path": "data/menus/tim-hortons/v1.json",
-          "seedPrefix": "tim-hortons:v1:",
-          "rules": "daily-v1",
-          "sha256": "bc7ce7ad00b11b9086249aa0234ab0db1edfdfffaaa433314eb939aa57954a79"
-        },
-        {
           "id": "v2",
-          "effectiveFrom": "2026-11-11",
+          "effectiveFrom": "2026-11-10",
           "path": "data/menus/tim-hortons/v2.json",
           "seedPrefix": "tim-hortons:v2:",
           "rules": "daily-v1",
@@ -170,23 +162,8 @@
       "firstPlayableDate": "2026-11-10",
       "versions": [
         {
-          "id": "v1",
-          "effectiveFrom": "2026-11-10",
-          "menuIds": [
-            "cheesecake-factory",
-            "chilis",
-            "wagamama",
-            "yard-house",
-            "ihop",
-            "cheddars",
-            "dairy-queen"
-          ],
-          "seedPrefix": "all:v1:",
-          "rules": "daily-v1"
-        },
-        {
           "id": "v2",
-          "effectiveFrom": "2026-11-11",
+          "effectiveFrom": "2026-11-10",
           "menuIds": [
             "cheesecake-factory",
             "chilis",

@@ -58,27 +58,20 @@ test('mixed dailies preserve photo credits and pick from distinct restaurants', 
     assert.deepEqual(restaurants, new Set(version.menuIds));
 });
 
-test('the Vancouver menus join the mixed pool on the new effective date', async t => {
+test('the mixed menu launches with both Vancouver restaurants and the five-donut lineup', async t => {
     t.mock.method(globalThis, 'fetch', async path => new Response(fs.readFileSync(path)));
     const repository = new MenuRepository(registry);
-    const before = await repository.load('all', '2026-11-10');
-    const after = await repository.load('all', '2026-11-11');
-    const restaurants = [
-        ['tim-hortons', '© Tim Hortons'],
-        ['cactus-club', '© Cactus Club Cafe']
-    ];
-    assert.equal(before.version.id, 'v1');
-    assert.equal(after.version.id, 'v2');
-    assert.deepEqual(after.version.menuIds, [...before.version.menuIds, ...restaurants.map(([id]) => id)]);
-    for (const [id, credit] of restaurants) {
-        const source = await repository.load(id, '2026-11-10');
-        const mixedItems = after.snapshot.products.filter(item => item.sourceMenuId === id);
-        assert.equal(mixedItems.length, source.snapshot.products.length);
-        assert.ok(mixedItems.every(item => item.imageCredit === credit));
-    }
-    const picks = selectDailyItems(after.snapshot, after.version, '2026-11-11');
-    assert.equal(new Set(picks.map(item => item.sourceMenuId)).size, 3);
-    assert.ok(picks.every(item => !item.hidden));
+    const launchDate = '2026-11-10';
+    const mixed = await repository.load('all', launchDate);
+    const timHortons = await repository.load('tim-hortons', launchDate);
+    assert.ok(mixed.version.menuIds.includes('tim-hortons'));
+    assert.ok(mixed.version.menuIds.includes('cactus-club'));
+    const playableDonuts = products => products.filter(item => item.category === 'Donuts' && !item.hidden);
+    const donuts = playableDonuts(timHortons.snapshot.products);
+    assert.equal(donuts.length, 5);
+    assert.ok(donuts.some(item => item.id === 'item_45377'));
+    const mixedDonuts = playableDonuts(mixed.snapshot.products.filter(item => item.sourceMenuId === 'tim-hortons'));
+    assert.deepEqual(mixedDonuts.map(item => item.id), donuts.map(item => `tim-hortons:${item.id}`));
 });
 
 test('both game modes exclude hidden variants even when their IDs are in the snapshot order', () => {
