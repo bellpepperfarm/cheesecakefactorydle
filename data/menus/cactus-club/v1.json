@@ -1,0 +1,625 @@
+{
+  "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+  "sourceEdition": "Bentall 5 pickup menu, 588 Burrard Street, Vancouver, November 9, 2026. Cactus Club Cafe nutrition report updated August 5, 2026.",
+  "imagepath": "",
+  "imageCredit": "© Cactus Club Cafe",
+  "products": [
+    {
+      "id": "9707697962",
+      "name": "Ravioli & Prawn Trio",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One starter (3 ravioli with prawns)",
+      "basecalories": 560,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/7ba69ec3-2563-4b59-908c-5ed42ee47bf9-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707697962.webp"
+    },
+    {
+      "id": "9707697955",
+      "name": "Mini Crispy Chicken Sandwiches",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One order (3 mini sandwiches)",
+      "basecalories": 930,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/25db0eba-b9bf-4e70-a5d3-1429ce6ac24f-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707697955.webp"
+    },
+    {
+      "id": "9707697958",
+      "name": "Szechuan Chicken Lettuce Wraps",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One order with spicy yogurt and Korean chili sauce",
+      "basecalories": 1140,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/4ab5eef9-3552-46d2-8895-9715e08b80ca-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Chicken lettuce wraps (503 g)",
+          "calories": 790
+        },
+        {
+          "name": "Spicy yogurt (45 g)",
+          "calories": 180
+        },
+        {
+          "name": "Korean chili sauce (45 g)",
+          "calories": 170
+        }
+      ],
+      "localImage": "images/cactus-club/9707697958.webp"
+    },
+    {
+      "id": "9707697967",
+      "name": "Szechuan Tofu Lettuce Wraps",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One order with spicy yogurt and Korean chili sauce",
+      "basecalories": 1010,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/39e97f1f-6cc3-4a38-a209-89b91fb99c63-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Tofu lettuce wraps (489 g)",
+          "calories": 660
+        },
+        {
+          "name": "Spicy yogurt (45 g)",
+          "calories": 180
+        },
+        {
+          "name": "Korean chili sauce (45 g)",
+          "calories": 170
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "9707697958",
+      "comment": "Hidden because Szechuan Chicken Lettuce Wraps already represents this menu style.",
+      "localImage": "images/cactus-club/9707697967.webp"
+    },
+    {
+      "id": "21362201543",
+      "name": "Creole Fries",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One starter with garlic aioli",
+      "basecalories": 1270,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/3a2b4d40-8d1a-4f1a-873b-300f588d7293-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Creole fries (289 g)",
+          "calories": 980
+        },
+        {
+          "name": "Garlic aioli (45 g)",
+          "calories": 290
+        }
+      ],
+      "localImage": "images/cactus-club/21362201543.webp"
+    },
+    {
+      "id": "9707697959",
+      "name": "Truffle Fries",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One starter with garlic aioli",
+      "basecalories": 960,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/abc69ee9-2c9d-4a93-9619-ad13fc03607d-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Truffle fries (249 g)",
+          "calories": 670
+        },
+        {
+          "name": "Garlic aioli (45 g)",
+          "calories": 290
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "21362201543",
+      "comment": "Hidden because Creole Fries already represents this menu style.",
+      "localImage": "images/cactus-club/9707697959.webp"
+    },
+    {
+      "id": "9707697960",
+      "name": "Crispy Yam Fries",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One starter with garlic aioli",
+      "basecalories": 1130,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/6a83f38e-8b08-422b-acce-b9cfc6601a3e-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Yam fries (292 g)",
+          "calories": 840
+        },
+        {
+          "name": "Garlic aioli (45 g)",
+          "calories": 290
+        }
+      ],
+      "localImage": "images/cactus-club/9707697960.webp"
+    },
+    {
+      "id": "9707697954",
+      "name": "Hot Chicken & Pickles",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One starter with creamy Parmesan dip",
+      "basecalories": 1040,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/98716d4c-f613-4383-afe6-7e061038482c-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Hot chicken and pickles (277 g)",
+          "calories": 790
+        },
+        {
+          "name": "Creamy Parmesan dip (45 g)",
+          "calories": 250
+        }
+      ],
+      "localImage": "images/cactus-club/9707697954.webp"
+    },
+    {
+      "id": "9707697951",
+      "name": "Avocado Dip",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One starter with tortilla chips (217 g)",
+      "basecalories": 390,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/f67c69f3-ae38-4fa0-a391-aa0063f752d2-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707697951.webp"
+    },
+    {
+      "id": "25655431560",
+      "name": "Creole Crab & Spinach Dip",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One starter with tortilla chips (421 g)",
+      "basecalories": 1290,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/20140028-1305-4005-a985-680d4e8374c6-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/25655431560.webp"
+    },
+    {
+      "id": "34791276416",
+      "name": "Sticky Garlic Ribs",
+      "category": "Start & Share",
+      "description": "",
+      "portion": "One starter (431 g)",
+      "basecalories": 1070,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/19f3973c-8199-4692-a470-0a2dd99e138d-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/34791276416.webp"
+    },
+    {
+      "id": "9707693072",
+      "name": "Crispy Tofu Bowl",
+      "category": "Bowls",
+      "description": "",
+      "portion": "One bowl (604 g)",
+      "basecalories": 900,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/05f1a66a-04d4-4dd8-9ffb-5ffc72b585fd-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707693072.webp"
+    },
+    {
+      "id": "9707693071",
+      "name": "Tuna Poke Bowl",
+      "category": "Bowls",
+      "description": "",
+      "portion": "One bowl (577 g)",
+      "basecalories": 880,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/4427b0de-a7e1-406f-be7e-705a70c963c4-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707693071.webp"
+    },
+    {
+      "id": "9707693070",
+      "name": "The Med Bowl with Chicken",
+      "category": "Bowls",
+      "description": "",
+      "portion": "One bowl (548 g)",
+      "basecalories": 870,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/53a1a2a4-ad89-403f-8469-5f681defd8a9-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707693070.webp"
+    },
+    {
+      "id": "9707697971",
+      "name": "The Med Bowl with Falafel",
+      "category": "Bowls",
+      "description": "",
+      "portion": "One bowl (459 g)",
+      "basecalories": 680,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/69ae928b-e90a-4f47-8c77-6551b559eee0-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "hidden": true,
+      "coveredBy": "9707693070",
+      "comment": "Hidden because The Med Bowl with Chicken already represents this menu style.",
+      "localImage": "images/cactus-club/9707697971.webp"
+    },
+    {
+      "id": "9707697972",
+      "name": "Vegan Med Bowl",
+      "category": "Bowls",
+      "description": "",
+      "portion": "One bowl (444 g)",
+      "basecalories": 700,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/60797558-f20e-4c3c-89ca-eb4b6ae9b9b8-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "hidden": true,
+      "coveredBy": "9707693070",
+      "comment": "Hidden because The Med Bowl with Chicken already represents this menu style.",
+      "localImage": "images/cactus-club/9707697972.webp"
+    },
+    {
+      "id": "44242778120",
+      "name": "Green Goddess Salad",
+      "category": "Greens",
+      "description": "",
+      "portion": "One entrée salad with its dressings",
+      "basecalories": 450,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/9412ac1c-ad4d-4afb-8ff8-88b2485e1f22-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Salad without dressing (297 g)",
+          "calories": 290
+        },
+        {
+          "name": "Maple mustard vinaigrette (30 g)",
+          "calories": 130
+        },
+        {
+          "name": "Green goddess dressing (10 g)",
+          "calories": 30
+        }
+      ],
+      "localImage": "images/cactus-club/44242778120.webp"
+    },
+    {
+      "id": "44244109458",
+      "name": "Lemongrass Noodle Salad with Seared Tuna",
+      "category": "Greens",
+      "description": "",
+      "portion": "One entrée salad with seared tuna and dressings",
+      "basecalories": 790,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/59fd5999-0411-4c0a-8c28-1f0d8c6ecc95-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Salad without dressing (351 g)",
+          "calories": 566
+        },
+        {
+          "name": "Sweet chili nuoc cham (40 g)",
+          "calories": 70
+        },
+        {
+          "name": "Mango lime purée (5 g)",
+          "calories": 4
+        },
+        {
+          "name": "Seared tuna (100 g)",
+          "calories": 150
+        }
+      ],
+      "localImage": "images/cactus-club/44244109458.webp"
+    },
+    {
+      "id": "9707689200",
+      "name": "Prawn Crunch Roll",
+      "category": "Sushi",
+      "description": "",
+      "portion": "One roll with soy sauce",
+      "basecalories": 580,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/ddefec75-6611-4b8b-b97f-f6455f418570-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Roll (258 g)",
+          "calories": 560
+        },
+        {
+          "name": "Soy sauce (30 mL)",
+          "calories": 20
+        }
+      ],
+      "localImage": "images/cactus-club/9707689200.webp"
+    },
+    {
+      "id": "26938412241",
+      "name": "Salmon Aburi",
+      "category": "Sushi",
+      "description": "",
+      "portion": "One order (268 g), no extra soy sauce",
+      "basecalories": 500,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/b96987f0-3b60-4dfa-974a-fd8779853626-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/26938412241.webp"
+    },
+    {
+      "id": "25655431557",
+      "name": "Tuna Temaki",
+      "category": "Sushi",
+      "description": "",
+      "portion": "One order (193 g), no extra soy sauce",
+      "basecalories": 340,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/0d0ff72a-d7ab-4e62-a393-eb339533f2d8-retina-large.png",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "hidden": true,
+      "coveredBy": "44244109455",
+      "comment": "Hidden because Yuzu Crab Temaki already represents this menu style.",
+      "localImage": "images/cactus-club/25655431557.webp"
+    },
+    {
+      "id": "44244109455",
+      "name": "Yuzu Crab Temaki",
+      "category": "Sushi",
+      "description": "",
+      "portion": "One order with soy sauce",
+      "basecalories": 280,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/e4fd63b9-83ad-446c-a7f8-5850586e440c-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Temaki (188 g)",
+          "calories": 260
+        },
+        {
+          "name": "Soy sauce (30 mL)",
+          "calories": 20
+        }
+      ],
+      "localImage": "images/cactus-club/44244109455.webp"
+    },
+    {
+      "id": "33014896571",
+      "name": "Cactus Burger",
+      "category": "Handhelds",
+      "description": "",
+      "portion": "One burger with sea salted fries and ketchup",
+      "basecalories": 1715,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/465f7dc8-0fe3-4214-86cc-f83f905a202d-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Bentall burger (448 g)",
+          "calories": 1280
+        },
+        {
+          "name": "Sea salted fries (154 g)",
+          "calories": 400
+        },
+        {
+          "name": "Ketchup (30 g)",
+          "calories": 35
+        }
+      ],
+      "localImage": "images/cactus-club/33014896571.webp"
+    },
+    {
+      "id": "33014896572",
+      "name": "Bacon Cheddar Burger",
+      "category": "Handhelds",
+      "description": "",
+      "portion": "One burger with sea salted fries and ketchup",
+      "basecalories": 1605,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/40b0ecdf-20d5-4e60-96d3-8febf7fec8b2-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Bentall burger (398 g)",
+          "calories": 1170
+        },
+        {
+          "name": "Sea salted fries (154 g)",
+          "calories": 400
+        },
+        {
+          "name": "Ketchup (30 g)",
+          "calories": 35
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "33014896571",
+      "comment": "Hidden because Cactus Burger already represents this menu style.",
+      "localImage": "images/cactus-club/33014896572.webp"
+    },
+    {
+      "id": "9707691796",
+      "name": "Cajun Chicken Sandwich",
+      "category": "Handhelds",
+      "description": "",
+      "portion": "One sandwich with sea salted fries",
+      "basecalories": 1210,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/247f0044-8b00-497d-be40-dc4eab4432c9-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "Sandwich (312 g)",
+          "calories": 810
+        },
+        {
+          "name": "Sea salted fries (154 g)",
+          "calories": 400
+        }
+      ],
+      "localImage": "images/cactus-club/9707691796.webp"
+    },
+    {
+      "id": "9707700551",
+      "name": "Blackened Creole Chicken",
+      "category": "Mains",
+      "description": "",
+      "portion": "One entrée with mashed potatoes and vegetables (503 g)",
+      "basecalories": 800,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/53b3fd4e-d6bc-4f2f-8c6b-2e143b6ac354-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707700551.webp"
+    },
+    {
+      "id": "9707700549",
+      "name": "Butternut Squash Ravioli with Prawns",
+      "category": "Mains",
+      "description": "",
+      "portion": "One entrée (373 g)",
+      "basecalories": 920,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/627aa7cd-0df1-46d1-8a96-fede4ba32eca-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707700549.webp"
+    },
+    {
+      "id": "10388012907",
+      "name": "Truffle Parmesan Chicken",
+      "category": "Mains",
+      "description": "",
+      "portion": "One entrée with potato gnocchi (550 g)",
+      "basecalories": 1400,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/45de57ba-8976-4484-aa53-ab26bbdfea42-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/10388012907.webp"
+    },
+    {
+      "id": "44364646550",
+      "name": "Miso Caramel Sea Bass",
+      "category": "Mains",
+      "description": "",
+      "portion": "One entrée with rice and vegetables (505 g)",
+      "basecalories": 690,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/2b81afd0-b73e-44b5-b4d7-3dd1f38699d3-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/44364646550.webp"
+    },
+    {
+      "id": "23713477942",
+      "name": "Thai Red Curry with Chicken",
+      "category": "Mains",
+      "description": "",
+      "portion": "One entrée with chicken and jasmine rice (657 g)",
+      "basecalories": 1020,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/29a4e513-1d80-4177-906b-d8e4e617cf11-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/23713477942.webp"
+    },
+    {
+      "id": "23732441167",
+      "name": "Filet & Lobster",
+      "category": "Signature Steaks",
+      "description": "",
+      "portion": "One 6 oz filet with lobster, mashed potatoes and vegetables",
+      "basecalories": 830,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/e9621aac-cc71-4ffe-ba7e-70bb16b86f4c-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "calorieComponents": [
+        {
+          "name": "6 oz filet mignon (138 g cooked)",
+          "calories": 280
+        },
+        {
+          "name": "Atlantic lobster tail (98 g)",
+          "calories": 150
+        },
+        {
+          "name": "Buttered mashed potatoes (227 g)",
+          "calories": 330
+        },
+        {
+          "name": "Seasonal vegetables (90 g)",
+          "calories": 70
+        }
+      ],
+      "localImage": "images/cactus-club/23732441167.webp"
+    },
+    {
+      "id": "10388003635",
+      "name": "Six Layer Chocolate Slice",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One shareable slice with vanilla ice cream (480 g)",
+      "basecalories": 1730,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/849207c7-e599-40ae-9c2a-644aa32e3350-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/10388003635.webp"
+    },
+    {
+      "id": "34791276417",
+      "name": "Chocolate Peanut Butter Crunch Bar",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One dessert with vanilla ice cream (235 g)",
+      "basecalories": 960,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/51c8d029-79b9-422c-8668-0075feac060e-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/34791276417.webp"
+    },
+    {
+      "id": "9707697964",
+      "name": "Key Lime Pie",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One slice with whipped cream (253 g)",
+      "basecalories": 840,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/d550ea40-3884-44d2-a5ea-fb988e73cc97-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707697964.webp"
+    },
+    {
+      "id": "9707697965",
+      "name": "New York Cheesecake",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One slice with raspberries and whipped cream (226 g)",
+      "basecalories": 750,
+      "imagefilename": "https://doordash-static.s3.amazonaws.com/media/photosV2/8af74755-8880-4d5e-8114-428ee917098a-retina-large.jpg",
+      "sourceURL": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+      "nutritionURL": "https://www.cactusclubcafe.com/wp-content/uploads/2026/08/080526_Nutritional_Info.pdf",
+      "localImage": "images/cactus-club/9707697965.webp"
+    }
+  ],
+  "schemaVersion": 1,
+  "menuId": "cactus-club",
+  "version": "v1"
+}

@@ -1,0 +1,1492 @@
+{
+  "menuId": "tim-hortons",
+  "reviewedOn": "2026-11-09",
+  "source": "https://www.timhortons.ca/menu",
+  "sourceEdition": "Tim Hortons Canada web menu and 463 Robson Street pickup catalog, Vancouver, November 9, 2026. Lunch items matched to the July 2026 Canadian nutrition guide.",
+  "minimumCalories": 50,
+  "excludeCalorieRanges": true,
+  "requireReviewedItems": true,
+  "excludedItems": [
+    {
+      "id": "item_26546",
+      "name": "Small Coffee Original Blend",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26547",
+      "name": "Medium Coffee Original Blend",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26548",
+      "name": "Large Coffee Original Blend",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26549",
+      "name": "Extra Large Coffee Original Blend",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26550",
+      "name": "Small Coffee Dark Roast",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26551",
+      "name": "Medium Coffee Dark Roast",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26552",
+      "name": "Large Coffee Dark Roast",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26553",
+      "name": "Extra Large Coffee Dark Roast",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26554",
+      "name": "Small Coffee Decaf",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26555",
+      "name": "Medium Coffee Decaf",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26556",
+      "name": "Large Coffee Decaf",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26557",
+      "name": "Extra Large Coffee Decaf",
+      "category": "Brewed Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_46118",
+      "name": "Small Americano",
+      "category": "Espresso Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_46120",
+      "name": "Medium Americano",
+      "category": "Espresso Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_46121",
+      "name": "Large Americano",
+      "category": "Espresso Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_30081",
+      "name": "Espresso Shot",
+      "category": "Espresso Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_28494",
+      "name": "Double Espresso Shot",
+      "category": "Espresso Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26578",
+      "name": "Small Steeped Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26579",
+      "name": "Medium Steeped Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26580",
+      "name": "Large Steeped Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26581",
+      "name": "Extra Large Steeped Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26582",
+      "name": "Small Specialty Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26583",
+      "name": "Medium Specialty Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26584",
+      "name": "Large Specialty Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26585",
+      "name": "Extra Large Specialty Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_74895",
+      "name": "Small Tropical Green Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_74896",
+      "name": "Medium Tropical Green Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_74897",
+      "name": "Large Tropical Green Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_74898",
+      "name": "XLarge Tropical Green Tea",
+      "category": "Tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_27452",
+      "name": "Take 12 Original Blend",
+      "category": "Hot Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_27453",
+      "name": "Take 12 Dark Roast",
+      "category": "Hot Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_27454",
+      "name": "Take 12 Decaf",
+      "category": "Hot Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_27456",
+      "name": "Take 12 Specialty Tea",
+      "category": "Hot Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_27455",
+      "name": "Take 12 Steeped Tea",
+      "category": "Hot Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_27472",
+      "name": "Take 12 French Vanilla",
+      "category": "Hot Drinks",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_27467",
+      "name": "Take 12 Hot Chocolate",
+      "category": "Hot Drinks",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_73123",
+      "name": "Small Black Iced Coffee",
+      "category": "Iced Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_73124",
+      "name": "Medium Black Iced Coffee",
+      "category": "Iced Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_73125",
+      "name": "Large Black Iced Coffee",
+      "category": "Iced Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_114553",
+      "name": "Pink Energy Infusr® Zero Sugar, powered by Monster Energy Zero Ultra",
+      "category": "Energy Infusr®",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_73331",
+      "name": "Small Black Cold Brew",
+      "category": "Cold Brew",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_73332",
+      "name": "Medium Black Cold Brew",
+      "category": "Cold Brew",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_73333",
+      "name": "Large Black Cold Brew",
+      "category": "Cold Brew",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_90499",
+      "name": "Small Raspberry Mojito Zero Sugar Sparkling Quencher",
+      "category": "Fruit Quenchers",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_90497",
+      "name": "Medium Raspberry Mojito Zero Sugar Sparkling Quencher",
+      "category": "Fruit Quenchers",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_90495",
+      "name": "Large Raspberry Mojito Zero Sugar Sparkling Quencher",
+      "category": "Fruit Quenchers",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_78474",
+      "name": "Small Strawberry Watermelon Sparkling Quencher",
+      "category": "Fruit Quenchers",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_44224",
+      "name": "Diet Coke® 500mL Bottle",
+      "category": "Bottled Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_26633",
+      "name": "Spring Water",
+      "category": "Bottled Drinks",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "item_56701",
+      "name": "Classic Breakfast Bundle for 2",
+      "category": "Breakfast Bundles",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_56708",
+      "name": "Farmer's Breakfast Bundle for 2",
+      "category": "Breakfast Bundles",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_54740",
+      "name": "Farmer's Breakfast Bundle (serves 4-6)",
+      "category": "Breakfast Bundles",
+      "reasons": [
+        "No product-specific photo or fixed calorie answer."
+      ]
+    },
+    {
+      "id": "item_26650",
+      "name": "6 Assorted Donuts",
+      "category": "Donuts",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_26651",
+      "name": "12 Assorted Donuts",
+      "category": "Donuts",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_26670",
+      "name": "10 Assorted Timbits",
+      "category": "Timbits",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_26671",
+      "name": "20 Assorted Timbits",
+      "category": "Timbits",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_26672",
+      "name": "50 Assorted Timbits",
+      "category": "Timbits",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_26661",
+      "name": "6 Assorted Bagels",
+      "category": "Bagels",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_52468",
+      "name": "PHILADELPHIA® Original Cream Cheese",
+      "category": "Bagels",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_26658",
+      "name": "6 Assorted Muffins",
+      "category": "Muffins",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_26659",
+      "name": "12 Assorted Muffins",
+      "category": "Muffins",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_27499",
+      "name": "6 Assorted Cookies",
+      "category": "Cookies",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_27501",
+      "name": "12 Assorted Cookies",
+      "category": "Cookies",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "item_54992",
+      "name": "Family Bundle (serves 12+)",
+      "category": "Baked Goods",
+      "reasons": [
+        "Shared, variable assortment, retail product or add-on."
+      ]
+    },
+    {
+      "id": "404956a3-cddb-4f77-9841-36645b5fcd67",
+      "name": "NHL® Trading Cards",
+      "category": "New & Seasonal",
+      "reasons": [
+        "No product-specific photo or fixed calorie answer."
+      ]
+    },
+    {
+      "id": "item_100361",
+      "name": "Chicken Noodle Soup",
+      "category": "Soup & Chili",
+      "reasons": [
+        "The photographed serving could not be matched to a named size in the Canadian guide."
+      ]
+    },
+    {
+      "id": "item_100360",
+      "name": "Chili",
+      "category": "Soup & Chili",
+      "reasons": [
+        "The catalog and the July 2026 Canadian guide disagree for the photographed serving."
+      ]
+    },
+    {
+      "id": "item_107159",
+      "name": "Cookies & Cream Shake",
+      "category": "Cream Shakes",
+      "reasons": [
+        "The Canada menu contains this product record, but the Robson Street pickup catalog and July 2026 Canadian guide do not establish availability."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "name": "Protein Latte",
+      "category": "Espresso Drinks",
+      "calories": 230
+    },
+    {
+      "name": "Latte",
+      "category": "Espresso Drinks",
+      "calories": 190
+    },
+    {
+      "name": "Mocha Latte",
+      "category": "Espresso Drinks",
+      "calories": 300
+    },
+    {
+      "name": "Vanilla Latte",
+      "category": "Espresso Drinks",
+      "calories": 310
+    },
+    {
+      "name": "Cappuccino",
+      "category": "Espresso Drinks",
+      "calories": 170
+    },
+    {
+      "name": "Chai Latte",
+      "category": "Tea",
+      "calories": 310
+    },
+    {
+      "name": "London Fog",
+      "category": "Tea",
+      "calories": 240
+    },
+    {
+      "name": "Strawberry Matcha Latte",
+      "category": "Matcha",
+      "calories": 300
+    },
+    {
+      "name": "Matcha Latte",
+      "category": "Matcha",
+      "calories": 210
+    },
+    {
+      "name": "Vanilla Matcha Latte",
+      "category": "Matcha",
+      "calories": 320
+    },
+    {
+      "name": "Candy Cane Hot Chocolate",
+      "category": "Hot Chocolate",
+      "calories": 600
+    },
+    {
+      "name": "Candy Cane White Hot Chocolate",
+      "category": "Hot Chocolate",
+      "calories": 680
+    },
+    {
+      "name": "Hot Chocolate",
+      "category": "Hot Chocolate",
+      "calories": 500
+    },
+    {
+      "name": "Coffee Mocha",
+      "category": "Hot Drinks",
+      "calories": 200
+    },
+    {
+      "name": "French Vanilla",
+      "category": "Hot Drinks",
+      "calories": 570
+    },
+    {
+      "name": "Original Iced Coffee",
+      "category": "Iced Coffee",
+      "calories": 150
+    },
+    {
+      "name": "Original Iced Coffee",
+      "category": "Iced Coffee",
+      "calories": 240
+    },
+    {
+      "name": "Blue Energy Infusr®, powered by Monster Energy Zero Ultra®",
+      "category": "Energy Infusr®",
+      "calories": 170
+    },
+    {
+      "name": "Original Iced Capp",
+      "category": "Iced Capp®",
+      "calories": 430
+    },
+    {
+      "name": "Mocha Iced Capp",
+      "category": "Iced Capp®",
+      "calories": 650
+    },
+    {
+      "name": "Vanilla Iced Capp",
+      "category": "Iced Capp®",
+      "calories": 660
+    },
+    {
+      "name": "Strawberry Iced Matcha Latte",
+      "category": "Matcha",
+      "calories": 360
+    },
+    {
+      "name": "Original Iced Matcha Latte",
+      "category": "Matcha",
+      "calories": 260
+    },
+    {
+      "name": "Vanilla Iced Matcha Latte",
+      "category": "Matcha",
+      "calories": 370
+    },
+    {
+      "name": "Unsweetened Iced Matcha Latte",
+      "category": "Matcha",
+      "calories": 160
+    },
+    {
+      "name": "Pumpkin Spice Cold Brew",
+      "category": "Cold Brew",
+      "calories": 230
+    },
+    {
+      "name": "Original Cold Brew",
+      "category": "Cold Brew",
+      "calories": 240
+    },
+    {
+      "name": "Caramel Cold Brew",
+      "category": "Cold Brew",
+      "calories": 250
+    },
+    {
+      "name": "Roasted Hazelnut Cold Brew made with Espresso Cold Foam",
+      "category": "Cold Brew",
+      "calories": 300
+    },
+    {
+      "name": "Vanilla Cream Cold Brew",
+      "category": "Cold Brew",
+      "calories": 240
+    },
+    {
+      "name": "Protein Iced Chai Latte",
+      "category": "Iced Lattes",
+      "calories": 340
+    },
+    {
+      "name": "Brown Sugar Protein Iced Latte",
+      "category": "Iced Lattes",
+      "calories": 300
+    },
+    {
+      "name": "Original Iced Latte",
+      "category": "Iced Lattes",
+      "calories": 250
+    },
+    {
+      "name": "Unsweetened Iced Latte",
+      "category": "Iced Lattes",
+      "calories": 140
+    },
+    {
+      "name": "Original Protein Iced Latte",
+      "category": "Iced Lattes",
+      "calories": 310
+    },
+    {
+      "name": "Iced Chai Latte",
+      "category": "Iced Lattes",
+      "calories": 250
+    },
+    {
+      "name": "Brown Sugar Iced Latte",
+      "category": "Iced Lattes",
+      "calories": 250
+    },
+    {
+      "name": "Vanilla Iced Latte",
+      "category": "Iced Lattes",
+      "calories": 260
+    },
+    {
+      "name": "Mocha Iced Latte",
+      "category": "Iced Lattes",
+      "calories": 250
+    },
+    {
+      "name": "Blueberry Raspberry Sparkling Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 270
+    },
+    {
+      "name": "Blueberry Raspberry Lemonade Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 270
+    },
+    {
+      "name": "Blueberry Raspberry Frozen Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 400
+    },
+    {
+      "name": "Blueberry Raspberry Iced Tea Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 240
+    },
+    {
+      "name": "Strawberry Watermelon Poppin' Frozen Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 340
+    },
+    {
+      "name": "Orange Tangerine Poppin' Frozen Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 380
+    },
+    {
+      "name": "Raspberry Mojito Poppin' Frozen Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 300
+    },
+    {
+      "name": "Raspberry Mojito Iced Tea Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 80
+    },
+    {
+      "name": "Peach Iced Tea Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 170
+    },
+    {
+      "name": "Strawberry Watermelon Iced Tea Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 150
+    },
+    {
+      "name": "Blackberry Yuzu Iced Tea Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 230
+    },
+    {
+      "name": "Orange Tangerine Iced Tea Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 130
+    },
+    {
+      "name": "Raspberry Mojito Frozen Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 260
+    },
+    {
+      "name": "Blackberry Yuzu Frozen Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 390
+    },
+    {
+      "name": "Peach Frozen Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 310
+    },
+    {
+      "name": "Raspberry Mojito Lemonade Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 80
+    },
+    {
+      "name": "Blackberry Yuzu Lemonade Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 220
+    },
+    {
+      "name": "Peach Lemonade Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 170
+    },
+    {
+      "name": "Strawberry Watermelon Lemonade Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 150
+    },
+    {
+      "name": "Blackberry Yuzu Sparkling Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 150
+    },
+    {
+      "name": "Peach Sparkling Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 100
+    },
+    {
+      "name": "Strawberry Watermelon Sparkling Quencher",
+      "category": "Fruit Quenchers",
+      "calories": 80
+    },
+    {
+      "name": "Classic Lemonade Quenchers",
+      "category": "Fruit Quenchers",
+      "calories": 140
+    },
+    {
+      "name": "Strawberry Soda Swirl",
+      "category": "Fountain Pop",
+      "calories": 480
+    },
+    {
+      "name": "Vanilla Soda Swirl",
+      "category": "Fountain Pop",
+      "calories": 500
+    },
+    {
+      "name": "Coke",
+      "category": "Fountain Pop",
+      "calories": 150
+    },
+    {
+      "name": "Fuze Iced Tea",
+      "category": "Fountain Pop",
+      "calories": 120
+    },
+    {
+      "name": "Minute Maid Lemonade",
+      "category": "Fountain Pop",
+      "calories": 150
+    },
+    {
+      "name": "Coca-Cola® 500mL Bottle",
+      "category": "Bottled Drinks",
+      "calories": 200
+    },
+    {
+      "name": "Apple Juice",
+      "category": "Bottled Drinks",
+      "calories": 130
+    },
+    {
+      "name": "Orange Juice",
+      "category": "Bottled Drinks",
+      "calories": 140
+    },
+    {
+      "name": "Peach Drink",
+      "category": "Bottled Drinks",
+      "calories": 200
+    },
+    {
+      "name": "1% Chocolate Milk",
+      "category": "Bottled Drinks",
+      "calories": 160
+    },
+    {
+      "name": "2% White Milk",
+      "category": "Bottled Drinks",
+      "calories": 120
+    },
+    {
+      "name": "Avocado Sausage English Muffin",
+      "category": "Breakfast Sandwiches",
+      "calories": 480
+    },
+    {
+      "name": "Avocado Bacon English Muffin",
+      "category": "Breakfast Sandwiches",
+      "calories": 350
+    },
+    {
+      "name": "Avocado Egg & Cheese English Muffin",
+      "category": "Breakfast Sandwiches",
+      "calories": 300
+    },
+    {
+      "name": "Avocado Double Stacked English Muffin",
+      "category": "Breakfast Sandwiches",
+      "calories": 530
+    },
+    {
+      "name": "Chipotle Veggie Croissant",
+      "category": "Breakfast Sandwiches",
+      "calories": 530
+    },
+    {
+      "name": "Protein Bagel BELT Bacon",
+      "category": "Breakfast Sandwiches",
+      "calories": 480
+    },
+    {
+      "name": "Protein Bagel BELT Sausage",
+      "category": "Breakfast Sandwiches",
+      "calories": 610
+    },
+    {
+      "name": "Protein Bagel BELT Egg & Cheese",
+      "category": "Breakfast Sandwiches",
+      "calories": 430
+    },
+    {
+      "name": "Sausage Scrambled Egg Croissant",
+      "category": "Breakfast Sandwiches",
+      "calories": 590
+    },
+    {
+      "name": "Bacon Scrambled Egg Croissant",
+      "category": "Breakfast Sandwiches",
+      "calories": 460
+    },
+    {
+      "name": "Scrambled Egg and Cheese Croissant",
+      "category": "Breakfast Sandwiches",
+      "calories": 410
+    },
+    {
+      "name": "Sausage & Bacon Double Stacked Scrambled Egg Croissant",
+      "category": "Breakfast Sandwiches",
+      "calories": 640
+    },
+    {
+      "name": "Sausage Breakfast Sandwich",
+      "category": "Breakfast Sandwiches",
+      "calories": 530
+    },
+    {
+      "name": "Bacon Breakfast Sandwich",
+      "category": "Breakfast Sandwiches",
+      "calories": 330
+    },
+    {
+      "name": "Egg & Cheese Breakfast Sandwich",
+      "category": "Breakfast Sandwiches",
+      "calories": 270
+    },
+    {
+      "name": "Double Stacked Breakfast Sandwich",
+      "category": "Breakfast Sandwiches",
+      "calories": 580
+    },
+    {
+      "name": "Simply Sausage Sandwich",
+      "category": "Breakfast Sandwiches",
+      "calories": 450
+    },
+    {
+      "name": "Sausage Farmer's Breakfast Sandwich",
+      "category": "Breakfast Sandwiches",
+      "calories": 680
+    },
+    {
+      "name": "Bacon Farmer's Breakfast Sandwich",
+      "category": "Breakfast Sandwiches",
+      "calories": 560
+    },
+    {
+      "name": "Egg & Cheese Farmer's Breakfast Sandwich",
+      "category": "Breakfast Sandwiches",
+      "calories": 500
+    },
+    {
+      "name": "Bacon Bagel BELT",
+      "category": "Breakfast Sandwiches",
+      "calories": 490
+    },
+    {
+      "name": "Steak Bagel BELT",
+      "category": "Breakfast Sandwiches",
+      "calories": 490
+    },
+    {
+      "name": "Sausage Bagel BELT",
+      "category": "Breakfast Sandwiches",
+      "calories": 620
+    },
+    {
+      "name": "Egg & Cheese Bagel BELT",
+      "category": "Breakfast Sandwiches",
+      "calories": 440
+    },
+    {
+      "name": "Avocado Sausage Farmers Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 750
+    },
+    {
+      "name": "Avocado Bacon Farmers Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 620
+    },
+    {
+      "name": "Avocado Egg & Cheese Farmers Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 570
+    },
+    {
+      "name": "Avocado Double Stacked Farmer’s Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 800
+    },
+    {
+      "name": "Avocado Bacon Scrambled Farmers Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 630
+    },
+    {
+      "name": "Avocado Sausage Scrambled Farmers Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 760
+    },
+    {
+      "name": "Avocado Egg & Cheese Scrambled Farmers Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 580
+    },
+    {
+      "name": "Avocado Double Stacked Scrambled Egg Farmer’s Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 810
+    },
+    {
+      "name": "Steak Farmer's Breakfast Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 560
+    },
+    {
+      "name": "Sausage Scrambled Egg Farmer's Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 650
+    },
+    {
+      "name": "Steak Scrambled Egg Farmer's Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 570
+    },
+    {
+      "name": "Bacon Scrambled Egg Farmer's Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 530
+    },
+    {
+      "name": "Scrambled Egg Farmer's Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 470
+    },
+    {
+      "name": "Sausage & Bacon Double Stacked Scrambled Egg Farmer's Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 710
+    },
+    {
+      "name": "Sausage Farmer's Breakfast Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 640
+    },
+    {
+      "name": "Bacon Farmer's Breakfast Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 520
+    },
+    {
+      "name": "Egg & Cheese Farmer's Breakfast Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 460
+    },
+    {
+      "name": "Double Stacked Farmer's Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 700
+    },
+    {
+      "name": "Sausage Classic Breakfast Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 580
+    },
+    {
+      "name": "Egg Classic Breakfast Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 400
+    },
+    {
+      "name": "Bacon Classic Breakfast Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 450
+    },
+    {
+      "name": "Sausage & Bacon Double Stacked Classic Breakfast Wrap",
+      "category": "Breakfast Wraps",
+      "calories": 630
+    },
+    {
+      "name": "Sausage Scrambled Egg Loaded Box",
+      "category": "Breakfast Boxes",
+      "calories": 600
+    },
+    {
+      "name": "Steak Scrambled Egg Loaded Breakfast Box",
+      "category": "Breakfast Boxes",
+      "calories": 490
+    },
+    {
+      "name": "Scrambled Egg Loaded Box",
+      "category": "Breakfast Boxes",
+      "calories": 440
+    },
+    {
+      "name": "Bacon Scrambled Egg Loaded Box",
+      "category": "Breakfast Boxes",
+      "calories": 490
+    },
+    {
+      "name": "Double Stacked Scrambled Egg Loaded Box",
+      "category": "Breakfast Boxes",
+      "calories": 650
+    },
+    {
+      "name": "White Cheddar Hashbrown",
+      "category": "Breakfast",
+      "calories": 120
+    },
+    {
+      "name": "Hashbrown",
+      "category": "Breakfast",
+      "calories": 120
+    },
+    {
+      "name": "Bacon & Cheese Omelette Bites",
+      "category": "Breakfast",
+      "calories": 210
+    },
+    {
+      "name": "Chicken Parmesan Flatbread Pizza",
+      "category": "Flatbread Pizzas",
+      "calories": 760
+    },
+    {
+      "name": "Pepperoni Flatbread Pizza",
+      "category": "Flatbread Pizzas",
+      "calories": 750
+    },
+    {
+      "name": "Simply Cheese Flatbread Pizza",
+      "category": "Flatbread Pizzas",
+      "calories": 630
+    },
+    {
+      "name": "Crispy Chicken Cilantro Lime Loaded Wrap with Cheese",
+      "category": "Wraps",
+      "calories": 690
+    },
+    {
+      "name": "Slow-Cooked Chicken Cilantro Lime Loaded Wrap with Cheese",
+      "category": "Wraps",
+      "calories": 590
+    },
+    {
+      "name": "Cilantro Lime Veggie Loaded Wrap with Cheese",
+      "category": "Wraps",
+      "calories": 570
+    },
+    {
+      "name": "Crispy Chicken Habanero Loaded Wrap with Cheese",
+      "category": "Wraps",
+      "calories": 660
+    },
+    {
+      "name": "Slow-Cooked Chicken Habanero Loaded Wrap with Cheese",
+      "category": "Wraps",
+      "calories": 560
+    },
+    {
+      "name": "Habanero Veggie Loaded Wrap with Cheese",
+      "category": "Wraps",
+      "calories": 540
+    },
+    {
+      "name": "Slow-Cooked Chicken Bacon Ranch Wrap",
+      "category": "Wraps",
+      "calories": 420
+    },
+    {
+      "name": "Crispy Chicken Bacon Ranch Wrap",
+      "category": "Wraps",
+      "calories": 530
+    },
+    {
+      "name": "Slow-Cooked Chicken Wrap",
+      "category": "Wraps",
+      "calories": 380
+    },
+    {
+      "name": "Turkey Bacon Club Sandwich with Mayo",
+      "category": "Sandwiches",
+      "calories": 550
+    },
+    {
+      "name": "Bacon Grilled Cheese Melt",
+      "category": "Sandwiches",
+      "calories": 650
+    },
+    {
+      "name": "Grilled Cheese Melt",
+      "category": "Sandwiches",
+      "calories": 560
+    },
+    {
+      "name": "Crispy Chicken Sandwich",
+      "category": "Sandwiches",
+      "calories": 660
+    },
+    {
+      "name": "Supreme Stack",
+      "category": "Sandwiches",
+      "calories": 620
+    },
+    {
+      "name": "Steak & Cheddar Artisan Sandwich",
+      "category": "Sandwiches",
+      "calories": 560
+    },
+    {
+      "name": "BLT Artisan Sandwich",
+      "category": "Sandwiches",
+      "calories": 490
+    },
+    {
+      "name": "Steak Craveable",
+      "category": "Sandwiches",
+      "calories": 450
+    },
+    {
+      "name": "Crispy Chicken Craveable",
+      "category": "Sandwiches",
+      "calories": 470
+    },
+    {
+      "name": "Ham & Cheddar Artisan Sandwich",
+      "category": "Sandwiches",
+      "calories": 520
+    },
+    {
+      "name": "Slow-Cooked Chicken Cilantro Lime Loaded Bowl with Cheese",
+      "category": "Bowls",
+      "calories": 550
+    },
+    {
+      "name": "Crispy Chicken Cilantro Lime Loaded Bowl with Cheese",
+      "category": "Bowls",
+      "calories": 710
+    },
+    {
+      "name": "Cilantro Lime Veggie Loaded Bowl with Cheese",
+      "category": "Bowls",
+      "calories": 570
+    },
+    {
+      "name": "Slow-Cooked Chicken Habanero Loaded Bowl with Cheese",
+      "category": "Bowls",
+      "calories": 530
+    },
+    {
+      "name": "Crispy Chicken Habanero Loaded Bowl with Cheese",
+      "category": "Bowls",
+      "calories": 690
+    },
+    {
+      "name": "Habanero Veggie Loaded Bowl with Cheese",
+      "category": "Bowls",
+      "calories": 550
+    },
+    {
+      "name": "Reindeer Donut",
+      "category": "Donuts",
+      "calories": 250
+    },
+    {
+      "name": "Maple Glazed Donut",
+      "category": "Donuts",
+      "calories": 260
+    },
+    {
+      "name": "Apple Fritter Donut",
+      "category": "Donuts",
+      "calories": 330
+    },
+    {
+      "name": "Boston Cream Donut",
+      "category": "Donuts",
+      "calories": 240
+    },
+    {
+      "name": "Honey Cruller Donut",
+      "category": "Donuts",
+      "calories": 320
+    },
+    {
+      "name": "Old Fashioned Plain Donut",
+      "category": "Donuts",
+      "calories": 280
+    },
+    {
+      "name": "Chocolate Dip Donut",
+      "category": "Donuts",
+      "calories": 220
+    },
+    {
+      "name": "Chocolate Glazed Donut",
+      "category": "Donuts",
+      "calories": 330
+    },
+    {
+      "name": "Vanilla Dip Donut",
+      "category": "Donuts",
+      "calories": 250
+    },
+    {
+      "name": "Honey Dip Donut",
+      "category": "Donuts",
+      "calories": 250
+    },
+    {
+      "name": "Sugar Loop Donut",
+      "category": "Donuts",
+      "calories": 200
+    },
+    {
+      "name": "Chocolate Glazed Timbit",
+      "category": "Timbits",
+      "calories": 80
+    },
+    {
+      "name": "Birthday Cake Timbit",
+      "category": "Timbits",
+      "calories": 80
+    },
+    {
+      "name": "Honey Dip Timbit",
+      "category": "Timbits",
+      "calories": 50
+    },
+    {
+      "name": "Old Fashioned Plain Timbit",
+      "category": "Timbits",
+      "calories": 60
+    },
+    {
+      "name": "Sour Cream Glazed Timbit",
+      "category": "Timbits",
+      "calories": 90
+    },
+    {
+      "name": "Protein Bagel",
+      "category": "Bagels",
+      "calories": 280
+    },
+    {
+      "name": "Plain Bagel",
+      "category": "Bagels",
+      "calories": 290
+    },
+    {
+      "name": "Everything Bagel",
+      "category": "Bagels",
+      "calories": 290
+    },
+    {
+      "name": "Cinnamon Raisin Bagel",
+      "category": "Bagels",
+      "calories": 290
+    },
+    {
+      "name": "Chocolate Hazelnut Muffin",
+      "category": "Muffins",
+      "calories": 430
+    },
+    {
+      "name": "Chocolate Chip Muffin",
+      "category": "Muffins",
+      "calories": 420
+    },
+    {
+      "name": "Fruit Explosion Muffin",
+      "category": "Muffins",
+      "calories": 360
+    },
+    {
+      "name": "Wild Blueberry Muffin",
+      "category": "Muffins",
+      "calories": 380
+    },
+    {
+      "name": "Peanut Butter Cookie",
+      "category": "Cookies",
+      "calories": 320
+    },
+    {
+      "name": "Oatmeal Raisin Cookie",
+      "category": "Cookies",
+      "calories": 290
+    },
+    {
+      "name": "Chocolate Chunk Cookie",
+      "category": "Cookies",
+      "calories": 310
+    },
+    {
+      "name": "Cheese Croissant",
+      "category": "Croissants",
+      "calories": 290
+    },
+    {
+      "name": "Plain Croissant",
+      "category": "Croissants",
+      "calories": 260
+    },
+    {
+      "name": "Chocolate Croissant",
+      "category": "Croissants",
+      "calories": 350
+    },
+    {
+      "name": "Double Chocolate Brownie",
+      "category": "Baked Goods",
+      "calories": 410
+    },
+    {
+      "name": "Pumpkin Spice Iced Capp",
+      "category": "Iced Capp®",
+      "calories": 630
+    }
+  ]
+}

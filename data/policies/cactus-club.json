@@ -1,0 +1,268 @@
+{
+  "menuId": "cactus-club",
+  "reviewedOn": "2026-11-09",
+  "source": "https://order.online/store/cactus-club-cafe-vancouver-894710/?hideModal=true&pickup=true",
+  "sourceEdition": "Bentall 5 pickup menu, 588 Burrard Street, Vancouver, November 9, 2026. Cactus Club Cafe nutrition report updated August 5, 2026.",
+  "minimumCalories": 50,
+  "excludeCalorieRanges": true,
+  "requireReviewedItems": true,
+  "excludedItems": [
+    {
+      "id": "9707701791",
+      "name": "STEAK FRITES",
+      "category": "Signature Steaks",
+      "reasons": [
+        "The Bentall plate includes a Caesar salad and béarnaise aioli without matching nutrition rows."
+      ]
+    },
+    {
+      "id": "44478863336",
+      "name": "LOBSTER PORTOFINO *NEW*",
+      "category": "Pasta",
+      "reasons": [
+        "The current lobster recipe is distinct from the spaghetti Portofino in the nutrition report."
+      ]
+    },
+    {
+      "id": "23732444738",
+      "name": "STEAK & MUSHROOMS",
+      "category": "Signature Steaks",
+      "reasons": [
+        "The photo could not be matched to a single steak cut and size."
+      ]
+    },
+    {
+      "id": "44478863337",
+      "name": "BOLOGNESE *NEW*",
+      "category": "Pasta",
+      "reasons": [
+        "The new Bolognese could not be matched to the older rigatoni recipe with confidence."
+      ]
+    },
+    {
+      "id": "44479135501",
+      "name": "PAN SEARED SALMON *NEW*",
+      "category": "Mains",
+      "reasons": [
+        "The salmon preparation and accompaniments differ from the documented soy Dijon salmon."
+      ]
+    },
+    {
+      "id": "44478863335",
+      "name": "CAESAR SALAD *NEW*",
+      "category": "Greens",
+      "reasons": [
+        "The current Caesar salad does not have a matching row in the nutrition report."
+      ]
+    },
+    {
+      "id": "23732284007",
+      "name": "PEPPERCORN STEAK",
+      "category": "Signature Steaks",
+      "reasons": [
+        "The photo could not be matched to a single steak cut and size."
+      ]
+    },
+    {
+      "id": "44804876420",
+      "name": "DYNAMITE EBI *NEW*",
+      "category": "Start & Share",
+      "reasons": [
+        "The new starter has no matching nutrition row or pickup photo."
+      ]
+    },
+    {
+      "id": "25655431558",
+      "name": "WARM PULL APART BRIOCHE",
+      "category": "Start & Share",
+      "reasons": [
+        "The pickup catalog has no product photo."
+      ]
+    },
+    {
+      "id": "9707701790",
+      "name": "CREOLE STEAK & PRAWNS",
+      "category": "Signature Steaks",
+      "reasons": [
+        "The pictured steak cut and size could not be confirmed."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "name": "Ravioli & Prawn Trio",
+      "category": "Start & Share",
+      "calories": 560
+    },
+    {
+      "name": "Mini Crispy Chicken Sandwiches",
+      "category": "Start & Share",
+      "calories": 930
+    },
+    {
+      "name": "Szechuan Chicken Lettuce Wraps",
+      "category": "Start & Share",
+      "calories": 1140
+    },
+    {
+      "name": "Szechuan Tofu Lettuce Wraps",
+      "category": "Start & Share",
+      "calories": 1010
+    },
+    {
+      "name": "Creole Fries",
+      "category": "Start & Share",
+      "calories": 1270
+    },
+    {
+      "name": "Truffle Fries",
+      "category": "Start & Share",
+      "calories": 960
+    },
+    {
+      "name": "Crispy Yam Fries",
+      "category": "Start & Share",
+      "calories": 1130
+    },
+    {
+      "name": "Hot Chicken & Pickles",
+      "category": "Start & Share",
+      "calories": 1040
+    },
+    {
+      "name": "Avocado Dip",
+      "category": "Start & Share",
+      "calories": 390
+    },
+    {
+      "name": "Creole Crab & Spinach Dip",
+      "category": "Start & Share",
+      "calories": 1290
+    },
+    {
+      "name": "Sticky Garlic Ribs",
+      "category": "Start & Share",
+      "calories": 1070
+    },
+    {
+      "name": "Crispy Tofu Bowl",
+      "category": "Bowls",
+      "calories": 900
+    },
+    {
+      "name": "Tuna Poke Bowl",
+      "category": "Bowls",
+      "calories": 880
+    },
+    {
+      "name": "The Med Bowl with Chicken",
+      "category": "Bowls",
+      "calories": 870
+    },
+    {
+      "name": "The Med Bowl with Falafel",
+      "category": "Bowls",
+      "calories": 680
+    },
+    {
+      "name": "Vegan Med Bowl",
+      "category": "Bowls",
+      "calories": 700
+    },
+    {
+      "name": "Green Goddess Salad",
+      "category": "Greens",
+      "calories": 450
+    },
+    {
+      "name": "Lemongrass Noodle Salad with Seared Tuna",
+      "category": "Greens",
+      "calories": 790
+    },
+    {
+      "name": "Prawn Crunch Roll",
+      "category": "Sushi",
+      "calories": 580
+    },
+    {
+      "name": "Salmon Aburi",
+      "category": "Sushi",
+      "calories": 500
+    },
+    {
+      "name": "Tuna Temaki",
+      "category": "Sushi",
+      "calories": 340
+    },
+    {
+      "name": "Yuzu Crab Temaki",
+      "category": "Sushi",
+      "calories": 280
+    },
+    {
+      "name": "Cactus Burger",
+      "category": "Handhelds",
+      "calories": 1715
+    },
+    {
+      "name": "Bacon Cheddar Burger",
+      "category": "Handhelds",
+      "calories": 1605
+    },
+    {
+      "name": "Cajun Chicken Sandwich",
+      "category": "Handhelds",
+      "calories": 1210
+    },
+    {
+      "name": "Blackened Creole Chicken",
+      "category": "Mains",
+      "calories": 800
+    },
+    {
+      "name": "Butternut Squash Ravioli with Prawns",
+      "category": "Mains",
+      "calories": 920
+    },
+    {
+      "name": "Truffle Parmesan Chicken",
+      "category": "Mains",
+      "calories": 1400
+    },
+    {
+      "name": "Miso Caramel Sea Bass",
+      "category": "Mains",
+      "calories": 690
+    },
+    {
+      "name": "Thai Red Curry with Chicken",
+      "category": "Mains",
+      "calories": 1020
+    },
+    {
+      "name": "Filet & Lobster",
+      "category": "Signature Steaks",
+      "calories": 830
+    },
+    {
+      "name": "Six Layer Chocolate Slice",
+      "category": "Desserts",
+      "calories": 1730
+    },
+    {
+      "name": "Chocolate Peanut Butter Crunch Bar",
+      "category": "Desserts",
+      "calories": 960
+    },
+    {
+      "name": "Key Lime Pie",
+      "category": "Desserts",
+      "calories": 840
+    },
+    {
+      "name": "New York Cheesecake",
+      "category": "Desserts",
+      "calories": 750
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 import { shuffleItems } from '../core/game.js';
+import { playableMenuItems } from '../core/menus.js';
 import { escapeHTML, photoHTML, focusHeading } from '../ui/dom.js';
 
-export function selectSortingItems(products, hard = false, random = Math.random) {
+export function selectSortingItems(candidates, hard = false, random = Math.random) {
+    const products = playableMenuItems(candidates);
     if (products.length < 5) throw new Error('At least five dishes are required.');
     if (!hard) return shuffleItems(products, random).slice(0, 5);
     const unique = [...new Map(shuffleItems(products, random).map(item => [item.basecalories, item])).values()];

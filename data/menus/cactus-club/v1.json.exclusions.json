@@ -1,0 +1,82 @@
+[
+  {
+    "id": "9707701791",
+    "name": "STEAK FRITES",
+    "reasons": [
+      "The Bentall plate includes a Caesar salad and béarnaise aioli without matching nutrition rows.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "44478863336",
+    "name": "LOBSTER PORTOFINO *NEW*",
+    "reasons": [
+      "The current lobster recipe is distinct from the spaghetti Portofino in the nutrition report.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "23732444738",
+    "name": "STEAK & MUSHROOMS",
+    "reasons": [
+      "The photo could not be matched to a single steak cut and size.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "44478863337",
+    "name": "BOLOGNESE *NEW*",
+    "reasons": [
+      "The new Bolognese could not be matched to the older rigatoni recipe with confidence.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "44479135501",
+    "name": "PAN SEARED SALMON *NEW*",
+    "reasons": [
+      "The salmon preparation and accompaniments differ from the documented soy Dijon salmon.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "44478863335",
+    "name": "CAESAR SALAD *NEW*",
+    "reasons": [
+      "The current Caesar salad does not have a matching row in the nutrition report.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "23732284007",
+    "name": "PEPPERCORN STEAK",
+    "reasons": [
+      "The photo could not be matched to a single steak cut and size.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "44804876420",
+    "name": "DYNAMITE EBI *NEW*",
+    "reasons": [
+      "The new starter has no matching nutrition row or pickup photo.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "25655431558",
+    "name": "WARM PULL APART BRIOCHE",
+    "reasons": [
+      "The pickup catalog has no product photo.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "9707701790",
+    "name": "CREOLE STEAK & PRAWNS",
+    "reasons": [
+      "The pictured steak cut and size could not be confirmed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  }
+]

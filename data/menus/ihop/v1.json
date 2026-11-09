@@ -1,0 +1,1074 @@
+{
+  "sourceURL": "https://www.ihop.com/en/menu?StoreNumber=601&action=viewmenu",
+  "sourceEdition": "U.S. store 601",
+  "imagepath": "",
+  "imageCredit": "© IHOP",
+  "products": [
+    {
+      "id": "269154",
+      "name": "Spicy Poblano Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "description": "",
+      "portion": "One omelette",
+      "basecalories": 990,
+      "imagefilename": "https://olo-images-live.imgix.net/0f/0ffdcfd326f04245a43e382c60d5a735.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=13612fc438d320babd00ec48afa9a541",
+      "sourceURL": "https://www.ihop.com/en/menu/omelettes/spicy-poblano-omelette",
+      "hidden": true,
+      "coveredBy": "269157",
+      "comment": "Hidden because Colorado Omelette already covers the loaded omelette format.",
+      "localImage": "images/ihop/269154.webp"
+    },
+    {
+      "id": "269155",
+      "name": "Big Steak Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "description": "",
+      "portion": "One omelette",
+      "basecalories": 1010,
+      "imagefilename": "https://olo-images-live.imgix.net/3a/3a4a4e874a644a7aa80cc67717f96df3.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=d4ef9ea7ceff6fef221d0fd1981a8796",
+      "sourceURL": "https://www.ihop.com/en/menu/omelettes/big-steak-omelette",
+      "hidden": true,
+      "coveredBy": "269157",
+      "comment": "Hidden because Colorado Omelette already covers the loaded omelette format.",
+      "localImage": "images/ihop/269155.webp"
+    },
+    {
+      "id": "269156",
+      "name": "Chicken Fajita Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "description": "",
+      "portion": "One omelette",
+      "basecalories": 890,
+      "imagefilename": "https://olo-images-live.imgix.net/54/543fc1ac3dd6463aadc0949f6be40eaa.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=d0f4ba2b3059c977f4fd92d0f77fa6db",
+      "sourceURL": "https://www.ihop.com/en/menu/omelettes/chicken-fajita-omelette",
+      "hidden": true,
+      "coveredBy": "269157",
+      "comment": "Hidden because Colorado Omelette already covers the loaded omelette format.",
+      "localImage": "images/ihop/269156.webp"
+    },
+    {
+      "id": "269157",
+      "name": "Colorado Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "description": "",
+      "portion": "One omelette",
+      "basecalories": 1240,
+      "imagefilename": "https://olo-images-live.imgix.net/ab/abf6b7dd5d394db8add7ee72d8193a26.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=ea11747ceea82ca65482997b0648be1c",
+      "sourceURL": "https://www.ihop.com/en/menu/omelettes/colorado-omelette",
+      "localImage": "images/ihop/269157.webp"
+    },
+    {
+      "id": "269158",
+      "name": "Bacon Temptation Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "description": "",
+      "portion": "One omelette",
+      "basecalories": 1160,
+      "imagefilename": "https://olo-images-live.imgix.net/4f/4f90f5ed3ba44bfa8fb2ef5739f2b746.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=7e29c9b17581f55f350591de57f2d631",
+      "sourceURL": "https://www.ihop.com/en/menu/omelettes/bacon-temptation-omelette",
+      "hidden": true,
+      "coveredBy": "269157",
+      "comment": "Hidden because Colorado Omelette already covers the loaded omelette format.",
+      "localImage": "images/ihop/269158.webp"
+    },
+    {
+      "id": "269159",
+      "name": "Spinach & Mushroom Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "description": "",
+      "portion": "One omelette",
+      "basecalories": 890,
+      "imagefilename": "https://olo-images-live.imgix.net/b1/b1bd7aa250a7411ebdedd805ce9cf68b.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=dbf13b920c500f90b7c24784062cf3d2",
+      "sourceURL": "https://www.ihop.com/en/menu/omelettes/spinach-and-mushroom-omelette",
+      "localImage": "images/ihop/269159.webp"
+    },
+    {
+      "id": "623313",
+      "name": "Veggie Egg White Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "description": "",
+      "portion": "One omelette with seasonal fresh fruit",
+      "basecalories": 510,
+      "imagefilename": "https://olo-images-live.imgix.net/37/373e4591167144d2b373344264f7063a.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=09ab16f604860278d3d37ec00c91c13b",
+      "sourceURL": "https://www.ihop.com/en/menu/omelettes/veggie-egg-white-omelette",
+      "localImage": "images/ihop/623313.webp"
+    },
+    {
+      "id": "913378",
+      "name": "Country Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "description": "",
+      "portion": "One omelette",
+      "basecalories": 1090,
+      "imagefilename": "https://olo-images-live.imgix.net/c5/c51536a9f62c406d9b341631cac1e43c.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=40cf5558ed8a1bf4fa47e68ac69c1d15",
+      "sourceURL": "https://www.ihop.com/en/menu/omelettes/country-omelette",
+      "hidden": true,
+      "coveredBy": "269157",
+      "comment": "Hidden because Colorado Omelette already covers the loaded omelette format.",
+      "localImage": "images/ihop/913378.webp"
+    },
+    {
+      "id": "819169",
+      "name": "New Pumpkin Spice Pancakes - (Full Stack)",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 630,
+      "imagefilename": "https://olo-images-live.imgix.net/5c/5c00f87ef26b4c1c84345a954d5ea91f.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=8de461c88736004d616c77cf04bb4cb4",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/new-pumpkin-spice-pancakes-full-stack",
+      "localImage": "images/ihop/819169.webp"
+    },
+    {
+      "id": "819170",
+      "name": "Pumpkin Spice Pancakes - Side",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "2 pancakes",
+      "basecalories": 330,
+      "imagefilename": "https://olo-images-live.imgix.net/ae/ae3420af6b4e491882ab920b1fa797b6.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=cd208139b9fbe134e7d13dd1741c9f18",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/pumpkin-spice-pancakes-side",
+      "hidden": true,
+      "coveredBy": "819169",
+      "comment": "Hidden because New Pumpkin Spice Pancakes - (Full Stack) already covers pumpkin spice pancakes.",
+      "localImage": "images/ihop/819170.webp"
+    },
+    {
+      "id": "269131",
+      "name": "Original Buttermilk Pancakes - (Full Stack)",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "5 pancakes",
+      "basecalories": 720,
+      "imagefilename": "https://olo-images-live.imgix.net/87/87dc95f6068b433eb3597ead85f78dd7.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=d87006da587ccf5de89aa1288f6de0f1",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/original-buttermilk-pancakes-full-stack",
+      "localImage": "images/ihop/269131.webp"
+    },
+    {
+      "id": "269132",
+      "name": "Original Buttermilk Pancakes - (Short Stack)",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "3 pancakes",
+      "basecalories": 460,
+      "imagefilename": "https://olo-images-live.imgix.net/ea/ea69d249debd47b1b22736f364956a56.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=6b8a541285f62c489d80026ba4e78ae5",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/original-buttermilk-pancakes-short-stack",
+      "hidden": true,
+      "coveredBy": "269131",
+      "comment": "Hidden because Original Buttermilk Pancakes - (Full Stack) already covers the buttered pancake stack.",
+      "localImage": "images/ihop/269132.webp"
+    },
+    {
+      "id": "269136",
+      "name": "New York Cheesecake Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 880,
+      "imagefilename": "https://olo-images-live.imgix.net/08/0844f00be0c848649b5cb6dcb698ea51.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=683606180036bc429b319412754bfbff",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/new-york-cheesecake-pancake",
+      "hidden": true,
+      "coveredBy": "913365",
+      "comment": "Hidden because OREO® Cheesecake Pancakes already covers the cheesecake pancake stack.",
+      "localImage": "images/ihop/269136.webp"
+    },
+    {
+      "id": "623374",
+      "name": "Cinn-A-Stack® Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 890,
+      "imagefilename": "https://olo-images-live.imgix.net/cb/cb900ab26fc942d1ba00e45f7dee7924.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=3e823d31679cd90a05ae0eb977d029c6",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/cinn-a-stack-pancakes",
+      "localImage": "images/ihop/623374.webp"
+    },
+    {
+      "id": "269137",
+      "name": "Double Blueberry Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 630,
+      "imagefilename": "https://olo-images-live.imgix.net/b5/b58b5443028e4468acab4465eb208784.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=566e2c15dde0030b7d649e90f10a0620",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/double-blueberry-pancakes",
+      "hidden": true,
+      "coveredBy": "269138",
+      "comment": "Hidden because Strawberry Banana Pancakes already covers the fruit-topped pancake stack.",
+      "localImage": "images/ihop/269137.webp"
+    },
+    {
+      "id": "269134",
+      "name": "Mexican Tres Leches Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 710,
+      "imagefilename": "https://olo-images-live.imgix.net/78/78ff644cbd274ffd994f0b91e2f8ae26.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=53d616b71c21cce3f46c11065d6c3cca",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/mexican-tres-leches-pancakes",
+      "localImage": "images/ihop/269134.webp"
+    },
+    {
+      "id": "269138",
+      "name": "Strawberry Banana Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 700,
+      "imagefilename": "https://olo-images-live.imgix.net/38/38052c999edf4783aa9ea04726e21d33.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=c95bd074e619ab81c32f7babb4275af8",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/strawberry-banana-pancake",
+      "localImage": "images/ihop/269138.webp"
+    },
+    {
+      "id": "505832",
+      "name": "Protein Power Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 660,
+      "imagefilename": "https://olo-images-live.imgix.net/18/182b57e222de403f80ddc0dd1a2fea73.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=e09ebc209bbde4dab2c6f9a895987d72",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/protein-power-pancakes",
+      "hidden": true,
+      "coveredBy": "269131",
+      "comment": "Hidden because Original Buttermilk Pancakes - (Full Stack) already covers the buttered pancake stack.",
+      "localImage": "images/ihop/505832.webp"
+    },
+    {
+      "id": "683188",
+      "name": "Chocolate Chocolate Chip Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 790,
+      "imagefilename": "https://olo-images-live.imgix.net/55/555f5b1e1ab04f4099acbe8f687ce3a8.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=3900f2999c7fa69a9bbbca63a6c65f0a",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/chocolate-chocolate-chip-pancakes",
+      "localImage": "images/ihop/683188.webp"
+    },
+    {
+      "id": "683189",
+      "name": "Buttermilk Chocolate Chip Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 770,
+      "imagefilename": "https://olo-images-live.imgix.net/f3/f3d298208cdd4ff7aa07ac8448b0912d.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=3437550f81dad2a2ee716300024e69c6",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/buttermilk-chocolate-chip-pancakes",
+      "hidden": true,
+      "coveredBy": "683188",
+      "comment": "Hidden because Chocolate Chocolate Chip Pancakes already covers the chocolate-chip pancake stack.",
+      "localImage": "images/ihop/683189.webp"
+    },
+    {
+      "id": "913360",
+      "name": "Cupcake Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 740,
+      "imagefilename": "https://olo-images-live.imgix.net/54/54ee22cfcef84fd2bc98cfb348a96df6.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=ede197a6199c28e6fd1eedd87ca635bb",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/cupcake-pancakes",
+      "localImage": "images/ihop/913360.webp"
+    },
+    {
+      "id": "913365",
+      "name": "OREO® Cheesecake Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "description": "",
+      "portion": "4 pancakes",
+      "basecalories": 1280,
+      "imagefilename": "https://olo-images-live.imgix.net/33/33f73433ba4745ebbf84448506249887.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=a065d549324bbfe34d9229abdf9d9633",
+      "sourceURL": "https://www.ihop.com/en/menu/world-famous-buttermilk-pancakes/oreo-cheesecake-pancakes",
+      "localImage": "images/ihop/913365.webp"
+    },
+    {
+      "id": "843534",
+      "name": "Bacon Avocado Eggs Benedict",
+      "category": "Eggs Benedict",
+      "description": "",
+      "portion": "One Eggs Benedict order with hash browns",
+      "basecalories": 1040,
+      "imagefilename": "https://olo-images-live.imgix.net/42/4205880e23934335b7f5bc00293f1552.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=dca3ee53f7687046212bb52fe9730a35",
+      "sourceURL": "https://www.ihop.com/en/menu/eggs-benedict/bacon-avocado-eggs-benedict",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 820
+        },
+        {
+          "name": "Hash browns",
+          "calories": 220
+        }
+      ],
+      "localImage": "images/ihop/843534.webp"
+    },
+    {
+      "id": "623351",
+      "name": "Spicy Poblano Eggs Benedict",
+      "category": "Eggs Benedict",
+      "description": "",
+      "portion": "One Eggs Benedict order",
+      "basecalories": 570,
+      "imagefilename": "https://olo-images-live.imgix.net/ff/ffe0407feb8c482fa04734d7d80ff539.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=811cf9819a94b577b4148af98e401e7d",
+      "sourceURL": "https://www.ihop.com/en/menu/eggs-benedict/spicy-poblano-eggs-benedict",
+      "hidden": true,
+      "coveredBy": "843534",
+      "comment": "Hidden because Bacon Avocado Eggs Benedict already covers the Eggs Benedict format.",
+      "localImage": "images/ihop/623351.webp"
+    },
+    {
+      "id": "623347",
+      "name": "Classic Eggs Benedict",
+      "category": "Eggs Benedict",
+      "description": "",
+      "portion": "One Eggs Benedict order",
+      "basecalories": 480,
+      "imagefilename": "https://olo-images-live.imgix.net/30/300d2843bfcc4fa4882137cbfe688b4a.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=8e2fc9a48e4017edcf38b982e82234da",
+      "sourceURL": "https://www.ihop.com/en/menu/eggs-benedict/classic-eggs-benedict",
+      "hidden": true,
+      "coveredBy": "843534",
+      "comment": "Hidden because Bacon Avocado Eggs Benedict already covers the Eggs Benedict format.",
+      "localImage": "images/ihop/623347.webp"
+    },
+    {
+      "id": "679773",
+      "name": "Breakfast Biscuit Sandwich",
+      "category": "Biscuits & Burritos",
+      "description": "",
+      "portion": "One breakfast biscuit sandwich with hash browns",
+      "basecalories": 1330,
+      "imagefilename": "https://olo-images-live.imgix.net/60/6086b85c789347bea8efb22e71906f82.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=d93aebde388f4d34f0004da43b8b3c61",
+      "sourceURL": "https://www.ihop.com/en/menu/biscuits-and-burritos/breakfast-biscuit-sandwich",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1110
+        },
+        {
+          "name": "Hash browns",
+          "calories": 220
+        }
+      ],
+      "localImage": "images/ihop/679773.webp"
+    },
+    {
+      "id": "766057",
+      "name": "Buttermilk Biscuit",
+      "category": "Biscuits & Burritos",
+      "description": "",
+      "portion": "One biscuit with whipped butter",
+      "basecalories": 810,
+      "imagefilename": "https://olo-images-live.imgix.net/13/13b859dce61b441580c759bb8b66b6c9.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=ab922454c1f5c976e0a8f6845fd4d28d",
+      "sourceURL": "https://www.ihop.com/en/menu/biscuits-and-burritos/buttermilk-biscuit",
+      "localImage": "images/ihop/766057.webp"
+    },
+    {
+      "id": "829848",
+      "name": "Big Breakfast Burrito",
+      "category": "Biscuits & Burritos",
+      "description": "",
+      "portion": "One burrito with bacon, sausage, scrambled eggs and a side of hash browns",
+      "basecalories": 1810,
+      "imagefilename": "https://olo-images-live.imgix.net/46/46790e84bd4f425aac952fa89f281e80.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=b489b092953f0d97667dd35ecf942a6f",
+      "sourceURL": "https://www.ihop.com/en/menu/biscuits-and-burritos/big-breakfast-burrito",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1590
+        },
+        {
+          "name": "Hash browns",
+          "calories": 220
+        }
+      ],
+      "localImage": "images/ihop/829848.webp"
+    },
+    {
+      "id": "679801",
+      "name": "Strawberry Cheesecake Waffle",
+      "category": "Waffles",
+      "description": "",
+      "portion": "One waffle",
+      "basecalories": 710,
+      "imagefilename": "https://olo-images-live.imgix.net/bd/bd042dc7794540c891ae01e830d2512f.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=f19bf18e56d365d8915728cbf0d42502",
+      "sourceURL": "https://www.ihop.com/en/menu/house-made-belgian-waffles/strawberry-cheesecake-waffle",
+      "localImage": "images/ihop/679801.webp"
+    },
+    {
+      "id": "271865",
+      "name": "Belgian Waffle",
+      "category": "Waffles",
+      "description": "",
+      "portion": "One waffle",
+      "basecalories": 560,
+      "imagefilename": "https://olo-images-live.imgix.net/37/378362389b104a8abbb83d202b5d802f.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=0f721004888acfda8d288457ebb6a05e",
+      "sourceURL": "https://www.ihop.com/en/menu/house-made-belgian-waffles/belgian-waffles",
+      "localImage": "images/ihop/271865.webp"
+    },
+    {
+      "id": "843535",
+      "name": "Chicken Florentine Crepes",
+      "category": "Sweet & Savory Crepes",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 870,
+      "imagefilename": "https://olo-images-live.imgix.net/94/948075f67d794e56b604defd96ea01d2.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=862cbfe475f313746309727c199744e6",
+      "sourceURL": "https://www.ihop.com/en/menu/crepes/chicken-florentine-crepes",
+      "localImage": "images/ihop/843535.webp"
+    },
+    {
+      "id": "614375",
+      "name": "Breakfast Crepes",
+      "category": "Sweet & Savory Crepes",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1270,
+      "imagefilename": "https://olo-images-live.imgix.net/79/79ee7ba3e35840d1b929cb906c30f50f.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=5ca301b5d090b217b9991eec890095b1",
+      "sourceURL": "https://www.ihop.com/en/menu/crepes/breakfast-crepes",
+      "localImage": "images/ihop/614375.webp"
+    },
+    {
+      "id": "614374",
+      "name": "Cinnamon Bun Crepes",
+      "category": "Sweet & Savory Crepes",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 680,
+      "imagefilename": "https://olo-images-live.imgix.net/b0/b07f34096f1249aeab9fe628a8678362.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=dc417e57efa7da8a1cd460bcf59cffe6",
+      "sourceURL": "https://www.ihop.com/en/menu/crepes/cinnamon-bun-crepes",
+      "localImage": "images/ihop/614374.webp"
+    },
+    {
+      "id": "614371",
+      "name": "Fresh Berry Crepes",
+      "category": "Sweet & Savory Crepes",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 650,
+      "imagefilename": "https://olo-images-live.imgix.net/dd/ddbbd89c13324c2792b43c6a8ed42a0a.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=8e28419cddd49418d59b292d371027b2",
+      "sourceURL": "https://www.ihop.com/en/menu/crepes/new-fresh-berry-crepes",
+      "localImage": "images/ihop/614371.webp"
+    },
+    {
+      "id": "560075",
+      "name": "Thick ‘N Fluffy Classic French Toast",
+      "category": "Thick ‘N Fluffy French Toast",
+      "description": "",
+      "portion": "2 slices",
+      "basecalories": 900,
+      "imagefilename": "https://olo-images-live.imgix.net/3e/3efbd351d3a645f697999d29de9f671e.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=94d0a532122c42249a5a6b26ca153ef2",
+      "sourceURL": "https://www.ihop.com/en/menu/thick-n-fluffy-french-toast/new-thick-n-fluffy-classic-french-toast",
+      "hidden": true,
+      "coveredBy": "560073",
+      "comment": "Hidden because Thick ‘N Fluffy Strawberry Banana French Toast already covers the thick French toast format.",
+      "localImage": "images/ihop/560075.webp"
+    },
+    {
+      "id": "560073",
+      "name": "Thick ‘N Fluffy Strawberry Banana French Toast",
+      "category": "Thick ‘N Fluffy French Toast",
+      "description": "",
+      "portion": "2 slices",
+      "basecalories": 960,
+      "imagefilename": "https://olo-images-live.imgix.net/54/540d77c04a7743129478f85acc2b4adb.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=3c129f6b24b748564fc5f02971f072d3",
+      "sourceURL": "https://www.ihop.com/en/menu/thick-n-fluffy-french-toast/new-thick-n-fluffy-strawberry-banana-french-toast",
+      "localImage": "images/ihop/560073.webp"
+    },
+    {
+      "id": "766058",
+      "name": "Buttermilk Biscuit",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 810,
+      "imagefilename": "https://olo-images-live.imgix.net/13/13b859dce61b441580c759bb8b66b6c9.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=ab922454c1f5c976e0a8f6845fd4d28d",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/buttermilk-biscuit",
+      "hidden": true,
+      "coveredBy": "766057",
+      "comment": "Hidden because Buttermilk Biscuit already covers the same buttered biscuit portion.",
+      "localImage": "images/ihop/766057.webp"
+    },
+    {
+      "id": "271886",
+      "name": "Slice of Ham",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 130,
+      "imagefilename": "https://olo-images-live.imgix.net/1b/1ba046864d2e45748488c73be17436da.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=080d7ed2b71d89e36bbd71771273e4d4",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/slice-of-ham",
+      "localImage": "images/ihop/271886.webp"
+    },
+    {
+      "id": "452863",
+      "name": "Seasonal Fresh Fruit",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 50,
+      "imagefilename": "https://olo-images-live.imgix.net/77/77a6c629e9a647bbaba4e4da6a184688.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=b26096db05c35a630dbada8ffc74a657",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/seasonal-fresh-fruit",
+      "localImage": "images/ihop/452863.webp"
+    },
+    {
+      "id": "623457",
+      "name": "Buttered English Muffin",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 180,
+      "imagefilename": "https://olo-images-live.imgix.net/75/758e1e257d1c4a5f977208760f9f0c9c.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=1da8d74657fe35cd4d78a6ea526bbe44",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/buttered-english-muffin",
+      "localImage": "images/ihop/623457.webp"
+    },
+    {
+      "id": "271882",
+      "name": "Hash Browns",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 220,
+      "imagefilename": "https://olo-images-live.imgix.net/0b/0b02ecf803154f7c9a072dcc8405ba6d.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=3686b1a8f4964b0c93152d0247c05b24",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/hash-browns",
+      "localImage": "images/ihop/271882.webp"
+    },
+    {
+      "id": "324546",
+      "name": "Crispy Breakfast Potatoes",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 310,
+      "imagefilename": "https://olo-images-live.imgix.net/f9/f95a546b860844a68ecffbfc0a03b177.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=c8f0f3fe8bd91dd2f729f8895c15402e",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/crispy-breakfast-potatoes",
+      "localImage": "images/ihop/324546.webp"
+    },
+    {
+      "id": "271891",
+      "name": "French Fries",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 320,
+      "imagefilename": "https://olo-images-live.imgix.net/98/986598768b2b438fb495f5861b376a04.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=41dbf52e438ca39ebfcddbd92a26010c",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/french-fries",
+      "localImage": "images/ihop/271891.webp"
+    },
+    {
+      "id": "578127",
+      "name": "Onion Rings",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 470,
+      "imagefilename": "https://olo-images-live.imgix.net/d4/d493004a12f74202ba8dfeafb01ef1fb.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=bbc51abce446028b7dda77d06b9bd9b3",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/onion-rings",
+      "localImage": "images/ihop/578127.webp"
+    },
+    {
+      "id": "1137054",
+      "name": "Avocado",
+      "category": "Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 80,
+      "imagefilename": "https://olo-images-live.imgix.net/dd/dd8e49ad1029434597ecb66be141a11c.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=1b3704329506ebf7605e3eb732954714",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/avocado",
+      "localImage": "images/ihop/1137054.webp"
+    },
+    {
+      "id": "766056",
+      "name": "Smoked Sausage Links (2)",
+      "category": "Sides",
+      "description": "",
+      "portion": "2 sausage links",
+      "basecalories": 490,
+      "imagefilename": "https://olo-images-live.imgix.net/80/802555a680e94b4f8983ccb29d495a69.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=1cac6fdefa2be024930877a7dc609513",
+      "sourceURL": "https://www.ihop.com/en/menu/sides/smoked-sausage-links-2",
+      "localImage": "images/ihop/766056.webp"
+    },
+    {
+      "id": "567357",
+      "name": "Chicken Quesadilla",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1030,
+      "imagefilename": "https://olo-images-live.imgix.net/fd/fd93e933d51748da956abc9bdbf1d062.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=58c13e7c00eb647912b25510fd28e268",
+      "sourceURL": "https://www.ihop.com/en/menu/apps-soup-and-salad/new-chicken-quesadilla",
+      "localImage": "images/ihop/567357.webp"
+    },
+    {
+      "id": "623354",
+      "name": "Crispy Shrimp",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "10 shrimp with cocktail sauce",
+      "basecalories": 460,
+      "imagefilename": "https://olo-images-live.imgix.net/5f/5fa8b4e224bb4c47b2960d760229c0b3.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=ee3246d29895c6e59b35bc2261aeb438",
+      "sourceURL": "https://www.ihop.com/en/menu/apps-soup-and-salad/crispy-shrimp",
+      "localImage": "images/ihop/623354.webp"
+    },
+    {
+      "id": "843537",
+      "name": "Bacon Avocado Ranch",
+      "category": "Ultimate Steakburgers",
+      "description": "",
+      "portion": "One burger with French fries",
+      "basecalories": 1480,
+      "imagefilename": "https://olo-images-live.imgix.net/ab/abd1b0c6cb9c48eeb187e04ae665efd5.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=6f63382b9bce4dcf9999f59e70230267",
+      "sourceURL": "https://www.ihop.com/en/menu/ultimate-steakburgers/bacon-avocado-ranch",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1160
+        },
+        {
+          "name": "French fries",
+          "calories": 320
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "680878",
+      "comment": "Hidden because Jalapeño Kick already covers the stacked burger and fries format.",
+      "localImage": "images/ihop/843537.webp"
+    },
+    {
+      "id": "680873",
+      "name": "The Classic",
+      "category": "Ultimate Steakburgers",
+      "description": "",
+      "portion": "One burger with French fries",
+      "basecalories": 1120,
+      "imagefilename": "https://olo-images-live.imgix.net/50/50d0d72dfc174a21a818bbbfc5aed437.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=2d340e0065176687be06e0cc5db89194",
+      "sourceURL": "https://www.ihop.com/en/menu/ultimate-steakburgers/the-classic",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 800
+        },
+        {
+          "name": "French fries",
+          "calories": 320
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "680878",
+      "comment": "Hidden because Jalapeño Kick already covers the stacked burger and fries format.",
+      "localImage": "images/ihop/680873.webp"
+    },
+    {
+      "id": "680874",
+      "name": "The Classic with Bacon",
+      "category": "Ultimate Steakburgers",
+      "description": "",
+      "portion": "One burger with French fries",
+      "basecalories": 1250,
+      "imagefilename": "https://olo-images-live.imgix.net/d1/d1c5d28b92794f91ad5bf32fc4be1678.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=0990498859e3861a81c76901c35f7a75",
+      "sourceURL": "https://www.ihop.com/en/menu/ultimate-steakburgers/the-classic-with-bacon",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 930
+        },
+        {
+          "name": "French fries",
+          "calories": 320
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "680878",
+      "comment": "Hidden because Jalapeño Kick already covers the stacked burger and fries format.",
+      "localImage": "images/ihop/680874.webp"
+    },
+    {
+      "id": "680877",
+      "name": "Cowboy BBQ",
+      "category": "Ultimate Steakburgers",
+      "description": "",
+      "portion": "One burger with French fries",
+      "basecalories": 1380,
+      "imagefilename": "https://olo-images-live.imgix.net/2e/2e4f31f2c9b84169bd0e13359182837d.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=538a94a9703db1f9aca089ad7c8eddd5",
+      "sourceURL": "https://www.ihop.com/en/menu/ultimate-steakburgers/cowboy-bbq",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1060
+        },
+        {
+          "name": "French fries",
+          "calories": 320
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "680878",
+      "comment": "Hidden because Jalapeño Kick already covers the stacked burger and fries format.",
+      "localImage": "images/ihop/680877.webp"
+    },
+    {
+      "id": "680878",
+      "name": "Jalapeño Kick",
+      "category": "Ultimate Steakburgers",
+      "description": "",
+      "portion": "One burger with French fries",
+      "basecalories": 1500,
+      "imagefilename": "https://olo-images-live.imgix.net/77/77cb318cdeac449387ffbf492a4c4730.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=e4aedfaf81e528f5e20ef312c0a27f58",
+      "sourceURL": "https://www.ihop.com/en/menu/ultimate-steakburgers/jalapeno-kick",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1180
+        },
+        {
+          "name": "French fries",
+          "calories": 320
+        }
+      ],
+      "localImage": "images/ihop/680878.webp"
+    },
+    {
+      "id": "680876",
+      "name": "Big Brunch",
+      "category": "Ultimate Steakburgers",
+      "description": "",
+      "portion": "One burger with French fries",
+      "basecalories": 1330,
+      "imagefilename": "https://olo-images-live.imgix.net/e5/e547ce103b0f44a3bda28e3d8c4a6bbd.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=264c16bd72ad2fe6d0ef31f63b77be59",
+      "sourceURL": "https://www.ihop.com/en/menu/ultimate-steakburgers/big-brunch",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1010
+        },
+        {
+          "name": "French fries",
+          "calories": 320
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "680878",
+      "comment": "Hidden because Jalapeño Kick already covers the stacked burger and fries format.",
+      "localImage": "images/ihop/680876.webp"
+    },
+    {
+      "id": "623324",
+      "name": "Cali Roasted Turkey Melt",
+      "category": "Hand-Crafted Sandwiches",
+      "description": "",
+      "portion": "One sandwich with French fries",
+      "basecalories": 1470,
+      "imagefilename": "https://olo-images-live.imgix.net/99/996fdd1c956c4d7da347c2d3a8a5ab37.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=dc09d0c681b1a25ccad7ba15a598bc85",
+      "sourceURL": "https://www.ihop.com/en/menu/hand-crafted-sandwiches/cali-roasted-turkey-melt",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1150
+        },
+        {
+          "name": "French fries",
+          "calories": 320
+        }
+      ],
+      "localImage": "images/ihop/623324.webp"
+    },
+    {
+      "id": "449546",
+      "name": "Philly Cheese Steak Stacker",
+      "category": "Hand-Crafted Sandwiches",
+      "description": "",
+      "portion": "One sandwich with French fries",
+      "basecalories": 1130,
+      "imagefilename": "https://olo-images-live.imgix.net/83/83c4da9c808343a6a80db124670afa91.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=b7ba974682513e5386d722d63bc2bec0",
+      "sourceURL": "https://www.ihop.com/en/menu/hand-crafted-sandwiches/philly-cheese-steak-stacker",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 810
+        },
+        {
+          "name": "French fries",
+          "calories": 320
+        }
+      ],
+      "localImage": "images/ihop/449546.webp"
+    },
+    {
+      "id": "624410",
+      "name": "Crispy Shrimp & Fries Platter",
+      "category": "Platters",
+      "description": "",
+      "portion": "One platter with French fries and dipping sauce",
+      "basecalories": 990,
+      "imagefilename": "https://olo-images-live.imgix.net/cd/cdc8e26823a44c519a9f194f5c39814c.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=bd881fa51b99769bef32801587d5e95d",
+      "sourceURL": "https://www.ihop.com/en/menu/platters/crispy-shrimp-and-fries-platter",
+      "hidden": true,
+      "coveredBy": "624411",
+      "comment": "Hidden because Fisherman's Platter already covers the fried seafood and fries platter.",
+      "localImage": "images/ihop/624410.webp"
+    },
+    {
+      "id": "624412",
+      "name": "Crispy Fish & Fries Platter",
+      "category": "Platters",
+      "description": "",
+      "portion": "One platter with French fries and dipping sauce",
+      "basecalories": 1060,
+      "imagefilename": "https://olo-images-live.imgix.net/4f/4f9ae00dcac546478e61a38e4e908e34.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=20fccf9e4546c192c82eedbb922be204",
+      "sourceURL": "https://www.ihop.com/en/menu/platters/crispy-fish-and-fries-platter",
+      "hidden": true,
+      "coveredBy": "624411",
+      "comment": "Hidden because Fisherman's Platter already covers the fried seafood and fries platter.",
+      "localImage": "images/ihop/624412.webp"
+    },
+    {
+      "id": "624411",
+      "name": "Fisherman's Platter",
+      "category": "Platters",
+      "description": "",
+      "portion": "One platter with French fries and dipping sauce",
+      "basecalories": 1140,
+      "imagefilename": "https://olo-images-live.imgix.net/7a/7a066dca9bfd48df9394064fa675c2cb.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=55ba41901d761d4bedc03ad6ecd81830",
+      "sourceURL": "https://www.ihop.com/en/menu/platters/fishermans-platter",
+      "localImage": "images/ihop/624411.webp"
+    },
+    {
+      "id": "623320",
+      "name": "55+ Crispy Shrimp",
+      "category": "55+ Menu",
+      "description": "",
+      "portion": "One platter with French fries and dipping sauce",
+      "basecalories": 780,
+      "imagefilename": "https://olo-images-live.imgix.net/fc/fc9b490dad2f4c998f2787b61f36253d.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=5e0cfdf6678d5a947975becef294879e",
+      "sourceURL": "https://www.ihop.com/en/menu/55and-menu/55and-crispy-shrimp",
+      "hidden": true,
+      "coveredBy": "624411",
+      "comment": "Hidden because Fisherman's Platter already covers the fried seafood and fries platter.",
+      "localImage": "images/ihop/623320.webp"
+    },
+    {
+      "id": "623319",
+      "name": "55+ Crispy Fish",
+      "category": "55+ Menu",
+      "description": "",
+      "portion": "One platter with French fries and dipping sauce",
+      "basecalories": 880,
+      "imagefilename": "https://olo-images-live.imgix.net/7f/7fcef6486c2b487aa20f55459ab8ef6f.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=f526da27d2ad709ec724875d0d5b0f1f",
+      "sourceURL": "https://www.ihop.com/en/menu/55and-menu/55and-crispy-fish",
+      "hidden": true,
+      "coveredBy": "624411",
+      "comment": "Hidden because Fisherman's Platter already covers the fried seafood and fries platter.",
+      "localImage": "images/ihop/623319.webp"
+    },
+    {
+      "id": "1072914",
+      "name": "NEW BLT",
+      "category": "Value Menu",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 580,
+      "imagefilename": "https://olo-images-live.imgix.net/2d/2d02ccfd3c214023b43ecf3cae903d9f.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=cd4f946d2d1bc40f95f6d68c616bba92",
+      "sourceURL": "https://www.ihop.com/en/menu/value-menu/new-blt",
+      "localImage": "images/ihop/1072914.webp"
+    },
+    {
+      "id": "903904",
+      "name": "Ham & Cheese Omelette",
+      "category": "Value Menu",
+      "description": "",
+      "portion": "One omelette with 2 buttermilk pancakes",
+      "basecalories": 820,
+      "imagefilename": "https://olo-images-live.imgix.net/32/32240ef9ab2f41a6aaeb4d66b3149a3a.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=b1d1f67bfdb783d304f2cf741e0dd6da",
+      "sourceURL": "https://www.ihop.com/en/menu/value-menu/ham-and-cheese-omelette",
+      "hidden": true,
+      "coveredBy": "269157",
+      "comment": "Hidden because Colorado Omelette already covers the loaded omelette format.",
+      "localImage": "images/ihop/903904.webp"
+    },
+    {
+      "id": "903906",
+      "name": "House Scramble",
+      "category": "Value Menu",
+      "description": "",
+      "portion": "One scramble with hash browns",
+      "basecalories": 730,
+      "imagefilename": "https://olo-images-live.imgix.net/7d/7d8adfbff2b948bf96f275e1230b1941.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=1f39b7882efc79cd952f365a8fc60cdb",
+      "sourceURL": "https://www.ihop.com/en/menu/value-menu/house-scramble",
+      "localImage": "images/ihop/903906.webp"
+    },
+    {
+      "id": "914673",
+      "name": "French Toast Sticks",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "One kids’ order",
+      "basecalories": 630,
+      "imagefilename": "https://olo-images-live.imgix.net/d8/d805cea933dc4371932d28fee723b46b.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=f1122ffd7b578cef83952f422cbec86d",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/french-toast-sticks",
+      "localImage": "images/ihop/914673.webp"
+    },
+    {
+      "id": "929900",
+      "name": "Jr. Waffle",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "One kids’ waffle",
+      "basecalories": 240,
+      "imagefilename": "https://olo-images-live.imgix.net/56/561d702a6b7a451ca9ecb9ffcd5228f3.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=01cb7654e4283519b9dd6e130133b50b",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/jr-waffle",
+      "localImage": "images/ihop/929900.webp"
+    },
+    {
+      "id": "929903",
+      "name": "Jr. Cheeseburger",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "One kids’ cheeseburger",
+      "basecalories": 710,
+      "imagefilename": "https://olo-images-live.imgix.net/d8/d883d5e10fc4471583813ebc244c73fd.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=acdbf3c556185e9c986d0d91c53cb419",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/jr-cheeseburger",
+      "localImage": "images/ihop/929903.webp"
+    },
+    {
+      "id": "914679",
+      "name": "Jr. Chicken Strips",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "2 kids’ chicken strips",
+      "basecalories": 230,
+      "imagefilename": "https://olo-images-live.imgix.net/7a/7aec7df216594c65a0be406703036abe.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=6814dbe4209a112c071332d86e876494",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/jr-chicken-strips",
+      "localImage": "images/ihop/914679.webp"
+    },
+    {
+      "id": "913392",
+      "name": "Jr. Protein Pancake",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "One kids’ order",
+      "basecalories": 180,
+      "imagefilename": "https://olo-images-live.imgix.net/99/993a4859bc9c405dad44f43fa3e657a3.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=eb5161a90733486a1af1ff4c2a90d296",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/jr-protein-pancake",
+      "localImage": "images/ihop/913392.webp"
+    },
+    {
+      "id": "929910",
+      "name": "Jr. Cinn-A-Dippers™",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "4 cinnamon doughnut holes with chocolate dip",
+      "basecalories": 420,
+      "imagefilename": "https://olo-images-live.imgix.net/14/142663ba73f544e6ae999a4761e51e21.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=6d66c68e0c773bc9a86d4b9af7dd29cd",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/jr-cinnamon-dippers",
+      "hidden": true,
+      "coveredBy": "623317",
+      "comment": "Hidden because Cinn-A-Dippers™ already covers the cinnamon doughnut-hole format.",
+      "localImage": "images/ihop/929910.webp"
+    },
+    {
+      "id": "914676",
+      "name": "Jr. Cupcake Pancake",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "One kids’ order",
+      "basecalories": 310,
+      "imagefilename": "https://olo-images-live.imgix.net/5f/5f06cc2ae5bf465e88259accdf3fb350.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=1942dfe3534b5c5dd2b6cd113cb01524",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/jr-cupcake-pancake",
+      "localImage": "images/ihop/914676.webp"
+    },
+    {
+      "id": "929914",
+      "name": "Kraft® Mac & Cheese",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "One kids’ order",
+      "basecalories": 310,
+      "imagefilename": "https://olo-images-live.imgix.net/4b/4b8fd983417f458aa0b571290fa8b06f.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=edb1d0d9406827e8aa5ae1eb1953e904",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/kraft-mac-and-cheese",
+      "localImage": "images/ihop/929914.webp"
+    },
+    {
+      "id": "914674",
+      "name": "Silver 5",
+      "category": "Kids Menu (12 & Under)",
+      "description": "",
+      "portion": "5 mini pancakes",
+      "basecalories": 290,
+      "imagefilename": "https://olo-images-live.imgix.net/59/59186b112b144ac3a3d8adf580a5990b.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=a613d37ca7b614b5205d875868c24051",
+      "sourceURL": "https://www.ihop.com/en/menu/kids-menu-12-and-under/silver-5",
+      "localImage": "images/ihop/914674.webp"
+    },
+    {
+      "id": "623317",
+      "name": "Cinn-A-Dippers™",
+      "category": "Sweet Shareables",
+      "description": "",
+      "portion": "One order of cinnamon doughnut holes with both dips",
+      "basecalories": 760,
+      "imagefilename": "https://olo-images-live.imgix.net/1d/1d4ac1ab170144beb5401e26b3153f03.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=f532a74f144cbe5cdc7d7475768fc8ea",
+      "sourceURL": "https://www.ihop.com/en/menu/sweet-shareables/cinn-a-dippers",
+      "localImage": "images/ihop/623317.webp"
+    },
+    {
+      "id": "1159519",
+      "name": "NEW French Toast Hot Chocolate",
+      "category": "Try Our New Menu Items",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 220,
+      "imagefilename": "https://olo-images-live.imgix.net/2c/2c10911d787d450e845fa12409a2ee30.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=72ab8a5491dc57e40379cf2fffd5a270",
+      "sourceURL": "https://www.ihop.com/en/menu/try-our-new-menu-items/new-french-toast-hot-chocolate",
+      "localImage": "images/ihop/1159519.webp"
+    },
+    {
+      "id": "1148032",
+      "name": "NEW Vanilla Cola Float",
+      "category": "Try Our New Menu Items",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 300,
+      "imagefilename": "https://olo-images-live.imgix.net/d1/d11aab7ca29f49db992ff2610b5a4778.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=834c17265c31714c533204f79f9708c5",
+      "sourceURL": "https://www.ihop.com/en/menu/try-our-new-menu-items/new-vanilla-cola-float",
+      "localImage": "images/ihop/1148032.webp"
+    },
+    {
+      "id": "1143440",
+      "name": "New Pumpkin Spice Pancakes - (Full Stack)",
+      "category": "Try Our New Menu Items",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 630,
+      "imagefilename": "https://olo-images-live.imgix.net/5c/5c00f87ef26b4c1c84345a954d5ea91f.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=8de461c88736004d616c77cf04bb4cb4",
+      "sourceURL": "https://www.ihop.com/en/menu/try-our-new-menu-items/new-pumpkin-spice-pancakes-full-stack",
+      "hidden": true,
+      "coveredBy": "819169",
+      "comment": "Hidden because New Pumpkin Spice Pancakes - (Full Stack) already covers pumpkin spice pancakes.",
+      "localImage": "images/ihop/819169.webp"
+    },
+    {
+      "id": "1143441",
+      "name": "Pumpkin Spice Pancakes - Side",
+      "category": "Try Our New Menu Items",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 330,
+      "imagefilename": "https://olo-images-live.imgix.net/ae/ae3420af6b4e491882ab920b1fa797b6.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=cd208139b9fbe134e7d13dd1741c9f18",
+      "sourceURL": "https://www.ihop.com/en/menu/try-our-new-menu-items/pumpkin-spice-pancakes-side",
+      "hidden": true,
+      "coveredBy": "819169",
+      "comment": "Hidden because New Pumpkin Spice Pancakes - (Full Stack) already covers pumpkin spice pancakes.",
+      "localImage": "images/ihop/819170.webp"
+    },
+    {
+      "id": "1110128",
+      "name": "New Pumpkin Spice Milkshake",
+      "category": "Try Our New Menu Items",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 700,
+      "imagefilename": "https://olo-images-live.imgix.net/df/dfebdff665a54b00a87f9d5e83f51ef5.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=860&h=484&fit=fill&bg=%23fff&s=9e2842c76f6562b1c0bf8f45d2c86bf8",
+      "sourceURL": "https://www.ihop.com/en/menu/try-our-new-menu-items/new-pumpkin-spice-milkshake",
+      "localImage": "images/ihop/1110128.webp"
+    }
+  ],
+  "schemaVersion": 1,
+  "menuId": "ihop",
+  "version": "v1"
+}

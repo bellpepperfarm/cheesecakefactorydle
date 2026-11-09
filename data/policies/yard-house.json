@@ -1,0 +1,1194 @@
+{
+  "menuId": "yard-house",
+  "reviewedOn": "2026-11-09",
+  "source": "https://www.yardhouse.com/menu/mains/steaks-chops?setRestaurant=8321",
+  "sourceEdition": "Los Angeles – LA Live menu; nutrition guide effective 8 June 2026",
+  "minimumCalories": 50,
+  "excludeCalorieRanges": true,
+  "requireReviewedItems": true,
+  "excludedItems": [
+    {
+      "id": "prod840092",
+      "name": "BONELESS WINGS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840086",
+      "name": "10 CRISPY TRADITIONAL WINGS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod4780049",
+      "name": "GARDEIN® WINGS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod1240644",
+      "name": "KALE & ROMAINE CAESAR",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod12620041",
+      "name": "WHISKEY & AGED WHITE CHEDDAR*",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod19930009",
+      "name": "TWO TACO COMBO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840394",
+      "name": "THREE TACO COMBO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7140086",
+      "name": "SPICY JAMBALAYA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod2030011",
+      "name": "COBB SALAD",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7620045",
+      "name": "KALE & ROMAINE CAESAR",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod8770072",
+      "name": "GARDEIN® COBB SALAD",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod4770019",
+      "name": "STEAMED EDAMAME",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4370194",
+      "name": "GUAC & VEGGIES",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4420042",
+      "name": "MIGUEL'S QUESO DIP",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod19920031",
+      "name": "SPICY ZA'ATAR HUMMUS",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod1130018",
+      "name": "TOMATO BISQUE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod8630002",
+      "name": "HOUSE SALAD",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4370191",
+      "name": "BBQ CHICKEN SALAD",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod1390790",
+      "name": "KALE & ROMAINE CAESAR",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7630039",
+      "name": "COBB SALAD",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7770081",
+      "name": "20 oz BONE-IN RIBEYE*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7770082",
+      "name": "20 oz BONE-IN RIBEYE & SHRIMP*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod1130031",
+      "name": "8 oz FILET MIGNON*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod9170016",
+      "name": "CILANTRO LIME CHICKEN",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod8250017",
+      "name": "SESAME CRUSTED AHI*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod1130020",
+      "name": "GRILLED CHICKEN & AVOCADO SANDWICH",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod8250016",
+      "name": "STACKED TURKEY CLUB SANDWICH",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod8250018",
+      "name": "DOUBLE-DECKER BLT",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod8260007",
+      "name": "\"EVERYTHING-CRUSTED\" AHI TUNA*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4370193",
+      "name": "TWO PEPPER JACK*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod1130014",
+      "name": "CLASSIC CHEESE*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod3780105",
+      "name": "KUROBUTA PORK*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod3780104",
+      "name": "BBQ BACON CHEDDAR*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod11390011",
+      "name": "BLEU CHEESE AND BACON*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod1560144",
+      "name": "TWO TACO COMBO",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod1560145",
+      "name": "THREE TACO COMBO",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod840564",
+      "name": "JASMINE RICE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod8750015",
+      "name": "PINTO BEANS",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod840580",
+      "name": "PARMESAN MASHED POTATOES",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod848848",
+      "name": "TRADITIONAL WINGS PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod848849",
+      "name": "BONELESS WINGS PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod848847",
+      "name": "GARDEIN® WINGS PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod848844",
+      "name": "CHICKEN LETTUCE WRAPS PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod848845",
+      "name": "FOUR CHEESE SPINACH CHEESE DIP PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4730045",
+      "name": "STEAMED EDAMAME PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4730043",
+      "name": "SPICY EDAMAME PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod848853",
+      "name": "TRADITIONAL CAESAR SALAD PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod848857",
+      "name": "BBQ CHICKEN SALAD PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4440859",
+      "name": "CHICKEN COBB SALAD PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4730048",
+      "name": "KALE & ROMAINE CAESAR SALAD PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4730047",
+      "name": "GRILLED CHICKEN & AVOCADO PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod8600045",
+      "name": "STACKED TURKEY CLUB",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod848863",
+      "name": "ADULT MAC + CHEESE PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod4730050",
+      "name": "NASHVILLE HOT CHICKEN PLATTER",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod19540023",
+      "name": "HIBISCUS MULE'ISH",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod19540022",
+      "name": "SCORCHED MELON",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod12630005",
+      "name": "PINA SPRITZ",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod14700030",
+      "name": "BUZZ-FREE MOJITO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod6910062",
+      "name": "SPARKLING REFRESHERS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod16270068",
+      "name": "ACQUA PANNA SPRING 750ML",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840795",
+      "name": "SAN PELLEGRINO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840784",
+      "name": "HOUSE-BREWED ICED TEA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840789",
+      "name": "LEMONADE",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840773",
+      "name": "ESPRESSO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840755",
+      "name": "CAPPUCCINO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840783",
+      "name": "HOT TEA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod4730191",
+      "name": "JUICE",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod4730190",
+      "name": "SODA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod3510119",
+      "name": "VITAMIN WATER",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod840797",
+      "name": "RED BULL",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod5060182",
+      "name": "GRAND PATRÓN MARGARITA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod8360122",
+      "name": "PINK DRAGON",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod841726",
+      "name": "SALTED WATERMELON MARGARITA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod5060183",
+      "name": "HOUSE MARGARITA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod8360121",
+      "name": "GRAPEFRUIT PALOMA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod11180011",
+      "name": "PICANTE MARGARITA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7430037",
+      "name": "ESPRESSO MARTINI",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod6640017",
+      "name": "DRAGON FRUIT COSMO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod8360116",
+      "name": "LAVENDER DROP",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod6650026",
+      "name": "GREY GOOSE STRAWBERRY MULE",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod841603",
+      "name": "HAWAIIAN MULE",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod841601",
+      "name": "MOSCOW MULE",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod19540019",
+      "name": "TOKYO CITRUS GIMLET",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod19540020",
+      "name": "LYCHEE COSMO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod6640015",
+      "name": "APEROL SPRITZ",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod8360119",
+      "name": "SMOKED OLD FASHIONED",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod841572",
+      "name": "OLD 43",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod12620043",
+      "name": "COCO PASSION",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod841586",
+      "name": "PINEAPPLE EXPRESS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod841485",
+      "name": "FLAVORED MOJITO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod5130023",
+      "name": "CLASSIC MOJITO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod841447",
+      "name": "MALIBU PEACH",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod14700029",
+      "name": "PASSION FRUIT SPRITZ",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod6640020",
+      "name": "LONG BEACH TEA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod16200052",
+      "name": "BLACKBERRY GIN RICKEY",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod4240071",
+      "name": "SUNSET SANGRIA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod2510037",
+      "name": "MIDNIGHT SANGRIA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod849032",
+      "name": "Kids’ Gardein™ BBQ Chicken",
+      "reasons": [
+        "The photo includes an alternate accompaniment whose calorie count could not be matched."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "name": "Spicy Za'Atar Hummus",
+      "category": "Starters",
+      "calories": 1220
+    },
+    {
+      "name": "Poke Nachos",
+      "category": "Starters",
+      "calories": 880
+    },
+    {
+      "name": "Chicken Nachos",
+      "category": "Starters",
+      "calories": 2580
+    },
+    {
+      "name": "Blackened Ahi Sashimi",
+      "category": "Starters",
+      "calories": 450
+    },
+    {
+      "name": "Spicy Tuna Stack",
+      "category": "Starters",
+      "calories": 550
+    },
+    {
+      "name": "Fried Calamari",
+      "category": "Starters",
+      "calories": 1070
+    },
+    {
+      "name": "Onion Ring Tower",
+      "category": "Starters",
+      "calories": 1330
+    },
+    {
+      "name": "Classic Sliders",
+      "category": "Starters",
+      "calories": 1320
+    },
+    {
+      "name": "Jumbo Bavarian Pretzel",
+      "category": "Starters",
+      "calories": 1230
+    },
+    {
+      "name": "Firecracker Shrimp",
+      "category": "Starters",
+      "calories": 1320
+    },
+    {
+      "name": "Miguel's Queso Dip",
+      "category": "Starters",
+      "calories": 1560
+    },
+    {
+      "name": "Chicken Lettuce Wraps",
+      "category": "Starters",
+      "calories": 730
+    },
+    {
+      "name": "Four Cheese Spinach Dip",
+      "category": "Starters",
+      "calories": 800
+    },
+    {
+      "name": "Hot & Spicy Edamame",
+      "category": "Starters",
+      "calories": 490
+    },
+    {
+      "name": "Steamed Edamame",
+      "category": "Starters",
+      "calories": 180
+    },
+    {
+      "name": "Guac & Chips",
+      "category": "Starters",
+      "calories": 540
+    },
+    {
+      "name": "Shiitake Garlic Noodles",
+      "category": "Starters",
+      "calories": 770
+    },
+    {
+      "name": "Crispy Brussels Sprouts",
+      "category": "Starters",
+      "calories": 1270
+    },
+    {
+      "name": "Parm Truffle Fries",
+      "category": "Starters",
+      "calories": 500
+    },
+    {
+      "name": "Sweet Potato Fries",
+      "category": "Starters",
+      "calories": 650
+    },
+    {
+      "name": "Wisconsin Fried Cheese Curds",
+      "category": "Starters",
+      "calories": 1980
+    },
+    {
+      "name": "Hand-Battered Chicken Tenders",
+      "category": "Starters",
+      "calories": 1320
+    },
+    {
+      "name": "Cali Roll Stack",
+      "category": "Starters",
+      "calories": 970
+    },
+    {
+      "name": "Creamy Chicken Tortilla Soup",
+      "category": "Starters",
+      "calories": 1110
+    },
+    {
+      "name": "Tomato Bisque",
+      "category": "Starters",
+      "calories": 480
+    },
+    {
+      "name": "Traditional Caesar",
+      "category": "Starters",
+      "calories": 410
+    },
+    {
+      "name": "House Salad",
+      "category": "Starters",
+      "calories": 430
+    },
+    {
+      "name": "Nashville Hot Chicken Sandwich",
+      "category": "Sandwiches",
+      "calories": 1460
+    },
+    {
+      "name": "Grilled Chicken & Avocado Sandwich",
+      "category": "Sandwiches",
+      "calories": 1410
+    },
+    {
+      "name": "Stacked Turkey Club",
+      "category": "Sandwiches",
+      "calories": 1720
+    },
+    {
+      "name": "Double-Decker BLT",
+      "category": "Sandwiches",
+      "calories": 1500
+    },
+    {
+      "name": "\"Everything-Crusted\" Ahi Tuna",
+      "category": "Sandwiches",
+      "calories": 1320
+    },
+    {
+      "name": "Korean BBQ Cheesesteak",
+      "category": "Sandwiches",
+      "calories": 1370
+    },
+    {
+      "name": "House Cheesesteak",
+      "category": "Sandwiches",
+      "calories": 1320
+    },
+    {
+      "name": "Grilled Cheese & Tomato Bisque",
+      "category": "Sandwiches",
+      "calories": 1320
+    },
+    {
+      "name": "Two Pepper Jack",
+      "category": "Burgers & Tacos",
+      "calories": 1090
+    },
+    {
+      "name": "Classic Cheese",
+      "category": "Burgers & Tacos",
+      "calories": 1100
+    },
+    {
+      "name": "Truffle Cheese",
+      "category": "Burgers & Tacos",
+      "calories": 1280
+    },
+    {
+      "name": "Kurobuta Pork",
+      "category": "Burgers & Tacos",
+      "calories": 1170
+    },
+    {
+      "name": "BBQ Bacon Cheddar",
+      "category": "Burgers & Tacos",
+      "calories": 1730
+    },
+    {
+      "name": "Bleu Cheese & Bacon",
+      "category": "Burgers & Tacos",
+      "calories": 1100
+    },
+    {
+      "name": "Mediterranean Veggie Burger",
+      "category": "Burgers & Tacos",
+      "calories": 980
+    },
+    {
+      "name": "Three Cheese",
+      "category": "Pizzas",
+      "calories": 1110
+    },
+    {
+      "name": "Loaded Pepperoni",
+      "category": "Pizzas",
+      "calories": 1130
+    },
+    {
+      "name": "Margherita",
+      "category": "Pizzas",
+      "calories": 890
+    },
+    {
+      "name": "Buffalo Chicken",
+      "category": "Pizzas",
+      "calories": 1510
+    },
+    {
+      "name": "Truffled Mushroom",
+      "category": "Pizzas",
+      "calories": 1220
+    },
+    {
+      "name": "The Carnivore",
+      "category": "Pizzas",
+      "calories": 1440
+    },
+    {
+      "name": "Korean Ribeye",
+      "category": "Steaks & Chops",
+      "calories": 1930
+    },
+    {
+      "name": "Korean Ribeye & Shrimp",
+      "category": "Steaks & Chops",
+      "calories": 2050
+    },
+    {
+      "name": "20 oz Bone-In Ribeye",
+      "category": "Steaks & Chops",
+      "calories": 1420
+    },
+    {
+      "name": "20 oz Bone-In Ribeye & Shrimp",
+      "category": "Steaks & Chops",
+      "calories": 1530
+    },
+    {
+      "name": "8 oz Filet Mignon",
+      "category": "Steaks & Chops",
+      "calories": 900
+    },
+    {
+      "name": "Steak Bowl",
+      "category": "Steaks & Chops",
+      "calories": 500
+    },
+    {
+      "name": "Thai Grilled Pork Chop",
+      "category": "Steaks & Chops",
+      "calories": 660
+    },
+    {
+      "name": "Spicy Beef Garlic Noodles",
+      "category": "Steaks & Chops",
+      "calories": 1770
+    },
+    {
+      "name": "Chicken Enchilada Stack",
+      "category": "Chicken",
+      "calories": 1490
+    },
+    {
+      "name": "Maui Pineapple Chicken",
+      "category": "Chicken",
+      "calories": 1320
+    },
+    {
+      "name": "Cilantro Lime Chicken",
+      "category": "Chicken",
+      "calories": 590
+    },
+    {
+      "name": "Orange Chicken",
+      "category": "Chicken",
+      "calories": 1730
+    },
+    {
+      "name": "Nashville Hot Chicken & Pancakes",
+      "category": "Chicken",
+      "calories": 1610
+    },
+    {
+      "name": "Chicken Bowl",
+      "category": "Chicken",
+      "calories": 480
+    },
+    {
+      "name": "Twisted Fettuccine Alfredo",
+      "category": "Chicken",
+      "calories": 1750
+    },
+    {
+      "name": "Fettuccine Alfredo",
+      "category": "Chicken",
+      "calories": 1640
+    },
+    {
+      "name": "Fontina Vodka Penne",
+      "category": "Chicken",
+      "calories": 1570
+    },
+    {
+      "name": "Adult Mac + Cheese",
+      "category": "Chicken",
+      "calories": 2620
+    },
+    {
+      "name": "Whiskey Glazed Salmon",
+      "category": "Seafood",
+      "calories": 920
+    },
+    {
+      "name": "Mediterranean Salmon",
+      "category": "Seafood",
+      "calories": 630
+    },
+    {
+      "name": "Beer-Battered Fish & Chips",
+      "category": "Seafood",
+      "calories": 1920
+    },
+    {
+      "name": "Sesame-Crusted Ahi Tuna",
+      "category": "Seafood",
+      "calories": 670
+    },
+    {
+      "name": "Shrimp Bowl",
+      "category": "Seafood",
+      "calories": 400
+    },
+    {
+      "name": "Lobster Garlic Noodles",
+      "category": "Seafood",
+      "calories": 1230
+    },
+    {
+      "name": "Poke Salad",
+      "category": "Salads",
+      "calories": 730
+    },
+    {
+      "name": "Ahi Tuna Crunchy",
+      "category": "Salads",
+      "calories": 780
+    },
+    {
+      "name": "Maui Salmon",
+      "category": "Salads",
+      "calories": 1100
+    },
+    {
+      "name": "BBQ Chicken Salad",
+      "category": "Salads",
+      "calories": 1650
+    },
+    {
+      "name": "Whiskey Caramel Butter Cake",
+      "category": "Sweets",
+      "calories": 970
+    },
+    {
+      "name": "OREO® Brookie",
+      "category": "Sweets",
+      "calories": 1010
+    },
+    {
+      "name": "\"S'Mores\" Brownie Meltdown",
+      "category": "Sweets",
+      "calories": 1310
+    },
+    {
+      "name": "Cheesecake Brulee",
+      "category": "Sweets",
+      "calories": 620
+    },
+    {
+      "name": "Kids’ Fried Chicken Tenders",
+      "category": "Kids",
+      "calories": 860
+    },
+    {
+      "name": "Kids’ Gardein® Kids Tenders",
+      "category": "Kids",
+      "calories": 800
+    },
+    {
+      "name": "Kids’ Grilled Chicken",
+      "category": "Kids",
+      "calories": 760
+    },
+    {
+      "name": "Kids’ Pepperoni Pizza",
+      "category": "Kids",
+      "calories": 860
+    },
+    {
+      "name": "Kids’ Cheese Pizza",
+      "category": "Kids",
+      "calories": 830
+    },
+    {
+      "name": "Kids’ Cheeseburger Sliders",
+      "category": "Kids",
+      "calories": 1030
+    },
+    {
+      "name": "Kids’ Grilled Cheese",
+      "category": "Kids",
+      "calories": 930
+    },
+    {
+      "name": "Kids’ Mac & Cheese",
+      "category": "Kids",
+      "calories": 1050
+    },
+    {
+      "name": "Kids’ Sirloin Steak",
+      "category": "Kids",
+      "calories": 700
+    },
+    {
+      "name": "Kids’ OREO® Sundae",
+      "category": "Kids",
+      "calories": 330
+    },
+    {
+      "name": "Gardein® Orange Chicken",
+      "category": "Gardein®",
+      "calories": 1720
+    },
+    {
+      "name": "Gardein® Adult Mac + Cheese",
+      "category": "Gardein®",
+      "calories": 2230
+    },
+    {
+      "name": "Gardein® BBQ Chicken Salad",
+      "category": "Gardein®",
+      "calories": 1640
+    },
+    {
+      "name": "Gardein® Grilled Chicken & Avocado Sandwich",
+      "category": "Gardein®",
+      "calories": 1400
+    },
+    {
+      "name": "Gardein® Chicken Tenders",
+      "category": "Gardein®",
+      "calories": 1230
+    },
+    {
+      "name": "Gardein® Bowl",
+      "category": "Gardein®",
+      "calories": 470
+    },
+    {
+      "name": "Gardein® Nashville Hot Chicken And Pancakes",
+      "category": "Gardein®",
+      "calories": 1470
+    },
+    {
+      "name": "Gardein® Nashville Hot Sandwich",
+      "category": "Gardein®",
+      "calories": 1390
+    },
+    {
+      "name": "Gardein® Chicken Nachos",
+      "category": "Gardein®",
+      "calories": 2530
+    }
+  ]
+}

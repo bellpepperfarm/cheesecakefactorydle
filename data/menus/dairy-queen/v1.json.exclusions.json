@@ -1,0 +1,137 @@
+[
+  {
+    "id": "40",
+    "name": "Peanut Brittle Crunch Cone & Sundae",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "69",
+    "name": "Sprite®",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Barq’s Root Beer Soda",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Coca-Cola®",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "85",
+    "name": "Original Cheeseburger",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "94",
+    "name": "Chicken Bacon Ranch",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "102",
+    "name": "Original Cheeseburger Meal Deal",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "103",
+    "name": "3-Piece Chicken Strip Meal Deal",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "108",
+    "name": "Regular Fries",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "110",
+    "name": "Pretzel Sticks with Zesty Queso",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "122",
+    "name": "Kids' Hamburger",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "123",
+    "name": "Kids' Hot Dog",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "124",
+    "name": "2-Piece Chicken Strips (kids)",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "125",
+    "name": "Kid's Cone",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Duplicate, configurable meal, or no official count for the pictured configuration.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "applesauce",
+    "name": "Applesauce",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  }
+]

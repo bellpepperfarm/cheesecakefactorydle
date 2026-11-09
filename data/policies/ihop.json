@@ -1,0 +1,912 @@
+{
+  "menuId": "ihop",
+  "reviewedOn": "2026-11-09",
+  "source": "https://www.ihop.com/en/menu?StoreNumber=601&action=viewmenu",
+  "sourceEdition": "U.S. store 601",
+  "minimumCalories": 50,
+  "excludeCalorieRanges": true,
+  "requireReviewedItems": true,
+  "excludedItems": [
+    {
+      "id": "1144378",
+      "name": "Breakfast Family Feast",
+      "reasons": [
+        "Family or group order."
+      ]
+    },
+    {
+      "id": "679836",
+      "name": "Buttermilk Crispy Chicken Family Feast",
+      "reasons": [
+        "Family or group order."
+      ]
+    },
+    {
+      "id": "282996",
+      "name": "Breakfast Beverage Bundle",
+      "reasons": [
+        "Family or group order."
+      ]
+    },
+    {
+      "id": "279047",
+      "name": "Lunch/Dinner Beverage Bundle",
+      "reasons": [
+        "Family or group order."
+      ]
+    },
+    {
+      "id": "623375",
+      "name": "Breakfast Sampler",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "271948",
+      "name": "Country Fried Steak & Eggs",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "271848",
+      "name": "Split Decision Breakfast",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "455015",
+      "name": "T-Bone Steak & Eggs",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "271847",
+      "name": "Sirloin Steak Tips & Eggs",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "452860",
+      "name": "Quick 2-Egg Breakfast",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "521453",
+      "name": "Chicken & Pancakes",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "567353",
+      "name": "Avocado Toast",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "271850",
+      "name": "Smokehouse Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "623371",
+      "name": "Build Your Own Omelette+",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1144375",
+      "name": "NEW Pancake Flight Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "819168",
+      "name": "Pumpkin Spice Pancake Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "623370",
+      "name": "World-Famous Pancake Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1086368",
+      "name": "Protein Power Pancakes Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "679774",
+      "name": "Buttermilk Biscuit & Gravy Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "766059",
+      "name": "Buttermilk Biscuit & Gravy",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "679772",
+      "name": "Chicken Biscuit Sandwich",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "679800",
+      "name": "Waffle Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "521454",
+      "name": "Chicken & Waffles",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "623411",
+      "name": "Crepe Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1167216",
+      "name": "NEW Stuffed French Toast BreakFEAST",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1144377",
+      "name": "NEW Stuffed French Toast Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1144376",
+      "name": "NEW Stuffed French Toast",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "560071",
+      "name": "Thick ‘N Fluffy French Toast Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "271883",
+      "name": "Hickory-Smoked Bacon Strips",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "271884",
+      "name": "Pork Sausage Links",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "388209",
+      "name": "2 Eggs",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "452861",
+      "name": "Buttered Toast",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "503999",
+      "name": "IHOP Syrup",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "913320",
+      "name": "Turkey Sausage Links",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "521460",
+      "name": "Appetizer Sampler",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "766052",
+      "name": "Classic Chicken Sandwich",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "624413",
+      "name": "Buttermilk Crispy Chicken Strips & Fries",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "679768",
+      "name": "Country Fried Steak",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "624396",
+      "name": "T-Bone Steak Dinner",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "449531",
+      "name": "Sirloin Steak Tips",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "567355",
+      "name": "Atlantic Salmon",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "913385",
+      "name": "Smoked Sausage",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "913386",
+      "name": "Sirloin Steak Tips & Crispy Shrimp",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "449429",
+      "name": "55+ Breakfast Sampler",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "449431",
+      "name": "55+ Rise 'N Shine",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "567361",
+      "name": "55+ Thick ‘N Fluffy French Toast",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "903903",
+      "name": "Breakfast Faves Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "903905",
+      "name": "French Toast Faves Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "914675",
+      "name": "Happy Face Pancake",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1144379",
+      "name": "NEW World-Famous Pancake Flight",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1144380",
+      "name": "NEW Vanilla Cola Float",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "271992",
+      "name": "House-Made Milkshakes",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1076484",
+      "name": "NEW Coffee",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1076513",
+      "name": "NEW Iced Coffee",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1158508",
+      "name": "NEW French Toast Hot Chocolate",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1076491",
+      "name": "Hot Chocolate",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "646581",
+      "name": "Tea & Lemonade",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "646584",
+      "name": "Fruit Juices",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "646587",
+      "name": "Milk & Chocolate Milk",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "646589",
+      "name": "Fountain Drinks",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "646591",
+      "name": "Splashers",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "646598",
+      "name": "Breakfast Beverage Bundle",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "646592",
+      "name": "Lunch/Dinner Beverage Bundle",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1158507",
+      "name": "NEW Stuffed French Toast BreakFEAST",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1148029",
+      "name": "NEW Stuffed French Toast Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1148028",
+      "name": "NEW Stuffed French Toast",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1148027",
+      "name": "NEW Pancake Flight Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1148031",
+      "name": "NEW World-Famous Pancake Flight",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1143442",
+      "name": "Pumpkin Spice Pancake Combo",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1091217",
+      "name": "NEW Coffee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "1091206",
+      "name": "NEW Iced Coffee",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    },
+    {
+      "id": "1080269",
+      "name": "NEW Raspberry Iced Tea",
+      "reasons": [
+        "Calorie count or photographed configuration is not fixed."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "name": "Spicy Poblano Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "calories": 990
+    },
+    {
+      "name": "Big Steak Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "calories": 1010
+    },
+    {
+      "name": "Chicken Fajita Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "calories": 890
+    },
+    {
+      "name": "Colorado Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "calories": 1240
+    },
+    {
+      "name": "Bacon Temptation Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "calories": 1160
+    },
+    {
+      "name": "Spinach & Mushroom Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "calories": 890
+    },
+    {
+      "name": "Veggie Egg White Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "calories": 510
+    },
+    {
+      "name": "Country Omelette",
+      "category": "Stuffed 'N Stacked™ Omelettes",
+      "calories": 1090
+    },
+    {
+      "name": "New Pumpkin Spice Pancakes - (Full Stack)",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 630
+    },
+    {
+      "name": "Pumpkin Spice Pancakes - Side",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 330
+    },
+    {
+      "name": "Original Buttermilk Pancakes - (Full Stack)",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 720
+    },
+    {
+      "name": "Original Buttermilk Pancakes - (Short Stack)",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 460
+    },
+    {
+      "name": "New York Cheesecake Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 880
+    },
+    {
+      "name": "Cinn-A-Stack® Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 890
+    },
+    {
+      "name": "Double Blueberry Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 630
+    },
+    {
+      "name": "Mexican Tres Leches Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 710
+    },
+    {
+      "name": "Strawberry Banana Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 700
+    },
+    {
+      "name": "Protein Power Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 660
+    },
+    {
+      "name": "Chocolate Chocolate Chip Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 790
+    },
+    {
+      "name": "Buttermilk Chocolate Chip Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 770
+    },
+    {
+      "name": "Cupcake Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 740
+    },
+    {
+      "name": "OREO® Cheesecake Pancakes",
+      "category": "World-Famous Buttermilk Pancakes",
+      "calories": 1280
+    },
+    {
+      "name": "Bacon Avocado Eggs Benedict",
+      "category": "Eggs Benedict",
+      "calories": 1040
+    },
+    {
+      "name": "Spicy Poblano Eggs Benedict",
+      "category": "Eggs Benedict",
+      "calories": 570
+    },
+    {
+      "name": "Classic Eggs Benedict",
+      "category": "Eggs Benedict",
+      "calories": 480
+    },
+    {
+      "name": "Breakfast Biscuit Sandwich",
+      "category": "Biscuits & Burritos",
+      "calories": 1330
+    },
+    {
+      "name": "Buttermilk Biscuit",
+      "category": "Biscuits & Burritos",
+      "calories": 810
+    },
+    {
+      "name": "Big Breakfast Burrito",
+      "category": "Biscuits & Burritos",
+      "calories": 1810
+    },
+    {
+      "name": "Strawberry Cheesecake Waffle",
+      "category": "Waffles",
+      "calories": 710
+    },
+    {
+      "name": "Belgian Waffle",
+      "category": "Waffles",
+      "calories": 560
+    },
+    {
+      "name": "Chicken Florentine Crepes",
+      "category": "Sweet & Savory Crepes",
+      "calories": 870
+    },
+    {
+      "name": "Breakfast Crepes",
+      "category": "Sweet & Savory Crepes",
+      "calories": 1270
+    },
+    {
+      "name": "Cinnamon Bun Crepes",
+      "category": "Sweet & Savory Crepes",
+      "calories": 680
+    },
+    {
+      "name": "Fresh Berry Crepes",
+      "category": "Sweet & Savory Crepes",
+      "calories": 650
+    },
+    {
+      "name": "Thick ‘N Fluffy Classic French Toast",
+      "category": "Thick ‘N Fluffy French Toast",
+      "calories": 900
+    },
+    {
+      "name": "Thick ‘N Fluffy Strawberry Banana French Toast",
+      "category": "Thick ‘N Fluffy French Toast",
+      "calories": 960
+    },
+    {
+      "name": "Buttermilk Biscuit",
+      "category": "Sides",
+      "calories": 810
+    },
+    {
+      "name": "Slice of Ham",
+      "category": "Sides",
+      "calories": 130
+    },
+    {
+      "name": "Seasonal Fresh Fruit",
+      "category": "Sides",
+      "calories": 50
+    },
+    {
+      "name": "Buttered English Muffin",
+      "category": "Sides",
+      "calories": 180
+    },
+    {
+      "name": "Hash Browns",
+      "category": "Sides",
+      "calories": 220
+    },
+    {
+      "name": "Crispy Breakfast Potatoes",
+      "category": "Sides",
+      "calories": 310
+    },
+    {
+      "name": "French Fries",
+      "category": "Sides",
+      "calories": 320
+    },
+    {
+      "name": "Onion Rings",
+      "category": "Sides",
+      "calories": 470
+    },
+    {
+      "name": "Avocado",
+      "category": "Sides",
+      "calories": 80
+    },
+    {
+      "name": "Smoked Sausage Links (2)",
+      "category": "Sides",
+      "calories": 490
+    },
+    {
+      "name": "Chicken Quesadilla",
+      "category": "Appetizers",
+      "calories": 1030
+    },
+    {
+      "name": "Crispy Shrimp",
+      "category": "Appetizers",
+      "calories": 460
+    },
+    {
+      "name": "Bacon Avocado Ranch",
+      "category": "Ultimate Steakburgers",
+      "calories": 1480
+    },
+    {
+      "name": "The Classic",
+      "category": "Ultimate Steakburgers",
+      "calories": 1120
+    },
+    {
+      "name": "The Classic with Bacon",
+      "category": "Ultimate Steakburgers",
+      "calories": 1250
+    },
+    {
+      "name": "Cowboy BBQ",
+      "category": "Ultimate Steakburgers",
+      "calories": 1380
+    },
+    {
+      "name": "Jalapeño Kick",
+      "category": "Ultimate Steakburgers",
+      "calories": 1500
+    },
+    {
+      "name": "Big Brunch",
+      "category": "Ultimate Steakburgers",
+      "calories": 1330
+    },
+    {
+      "name": "Cali Roasted Turkey Melt",
+      "category": "Hand-Crafted Sandwiches",
+      "calories": 1470
+    },
+    {
+      "name": "Philly Cheese Steak Stacker",
+      "category": "Hand-Crafted Sandwiches",
+      "calories": 1130
+    },
+    {
+      "name": "Crispy Shrimp & Fries Platter",
+      "category": "Platters",
+      "calories": 990
+    },
+    {
+      "name": "Crispy Fish & Fries Platter",
+      "category": "Platters",
+      "calories": 1060
+    },
+    {
+      "name": "Fisherman's Platter",
+      "category": "Platters",
+      "calories": 1140
+    },
+    {
+      "name": "55+ Crispy Shrimp",
+      "category": "55+ Menu",
+      "calories": 780
+    },
+    {
+      "name": "55+ Crispy Fish",
+      "category": "55+ Menu",
+      "calories": 880
+    },
+    {
+      "name": "NEW BLT",
+      "category": "Value Menu",
+      "calories": 580
+    },
+    {
+      "name": "Ham & Cheese Omelette",
+      "category": "Value Menu",
+      "calories": 820
+    },
+    {
+      "name": "House Scramble",
+      "category": "Value Menu",
+      "calories": 730
+    },
+    {
+      "name": "French Toast Sticks",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 630
+    },
+    {
+      "name": "Jr. Waffle",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 240
+    },
+    {
+      "name": "Jr. Cheeseburger",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 710
+    },
+    {
+      "name": "Jr. Chicken Strips",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 230
+    },
+    {
+      "name": "Jr. Protein Pancake",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 180
+    },
+    {
+      "name": "Jr. Cinn-A-Dippers™",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 420
+    },
+    {
+      "name": "Jr. Cupcake Pancake",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 310
+    },
+    {
+      "name": "Kraft® Mac & Cheese",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 310
+    },
+    {
+      "name": "Silver 5",
+      "category": "Kids Menu (12 & Under)",
+      "calories": 290
+    },
+    {
+      "name": "Cinn-A-Dippers™",
+      "category": "Sweet Shareables",
+      "calories": 760
+    },
+    {
+      "name": "NEW French Toast Hot Chocolate",
+      "category": "Try Our New Menu Items",
+      "calories": 220
+    },
+    {
+      "name": "NEW Vanilla Cola Float",
+      "category": "Try Our New Menu Items",
+      "calories": 300
+    },
+    {
+      "name": "New Pumpkin Spice Pancakes - (Full Stack)",
+      "category": "Try Our New Menu Items",
+      "calories": 630
+    },
+    {
+      "name": "Pumpkin Spice Pancakes - Side",
+      "category": "Try Our New Menu Items",
+      "calories": 330
+    },
+    {
+      "name": "New Pumpkin Spice Milkshake",
+      "category": "Try Our New Menu Items",
+      "calories": 700
+    }
+  ]
+}

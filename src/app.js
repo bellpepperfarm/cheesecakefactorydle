@@ -76,7 +76,6 @@ dailyButton.addEventListener('click', () => loadMode('daily'));
 byId('discaloried-mode-btn').addEventListener('click', () => loadMode('sorting'));
 byId('discaloried-hard-mode-btn').addEventListener('click', () => loadMode('hard'));
 retry.addEventListener('click', () => repository ? loadMode(mode, requestedDate) : boot());
-byId('menu-picker').addEventListener('change', event => { menuId = event.target.value; loadMode('daily'); });
 
 function loading() {
     daily.deactivate();
@@ -88,7 +87,6 @@ function loading() {
     byId('multiguess-game').classList.add('hidden');
     byId('discaloried-game').classList.add('hidden');
     document.querySelectorAll('.mode-button').forEach(button => { button.disabled = true; });
-    byId('menu-picker').disabled = true;
 }
 function failed(error) {
     status.removeAttribute('aria-busy');
@@ -135,12 +133,12 @@ async function loadMode(nextMode, dateKey = getDailyDateKey()) {
         url.searchParams.set('menu', menuId);
         if (isDaily) url.searchParams.set('date', dateKey); else url.searchParams.delete('date');
         history.replaceState(null, '', url);
-        document.title = `${gameTitle(context.menu)} · ${context.menu.name}`;
-        document.querySelector('h1').textContent = gameTitle(context.menu);
-        document.querySelector('.logo-image').hidden = menuId !== 'cheesecake-factory';
-        document.querySelector('h1').classList.toggle('sr-only', isCaloriedle() || menuId === 'cheesecake-factory');
+        const credit = context.snapshot.imageCredit;
+        byId('menu-credit').textContent = credit
+            ? `Unofficial fan game. Food photos ${credit.replace(/\.$/, '')}.`
+            : 'Unofficial fan game. Each photo is credited to its restaurant.';
+        byId('menu-credit').hidden = false;
         document.querySelectorAll('.mode-button').forEach(button => { button.disabled = false; });
-        byId('menu-picker').disabled = false;
     } catch (error) { if (sequence === requestId) failed(error); }
 }
 
@@ -192,12 +190,17 @@ async function boot() {
         const date = params.get('date');
         const today = getDailyDateKey();
         const selectedMenu = registry.menus.find(menu => menu.id === menuId);
+        document.title = `${gameTitle(selectedMenu)} · ${selectedMenu.name}`;
+        document.querySelector('h1').textContent = gameTitle(selectedMenu);
+        document.querySelector('.logo-image').hidden = menuId !== 'cheesecake-factory';
+        document.querySelector('h1').classList.toggle('sr-only', isCaloriedle() || menuId === 'cheesecake-factory');
+        byId('menu-credit').hidden = true;
         const validDate = (!selectedMenu.firstPlayableDate || date >= selectedMenu.firstPlayableDate) && /^\d{4}-\d{2}-\d{2}$/.test(date || '') && Number.isFinite(Date.parse(date)) && new Date(date).toISOString().slice(0, 10) === date && date <= today;
-        byId('menu-picker').replaceChildren(...registry.menus.map(menu => {
-            const option = document.createElement('option'); option.value = menu.id; option.textContent = menu.name; return option;
-        }));
-        byId('menu-picker').value = menuId;
-        byId('menu-picker-container').hidden = registry.menus.length < 2;
+        if (selectedMenu.firstPlayableDate && today < selectedMenu.firstPlayableDate) {
+            status.removeAttribute('aria-busy');
+            byId('load-message').textContent = `This menu opens on ${dateLabel(selectedMenu.firstPlayableDate)} (UTC).`;
+            return;
+        }
         await loadMode('daily', validDate ? date : today);
     } catch (error) { failed(error); }
 }

@@ -1,0 +1,1476 @@
+{
+  "sourceURL": "https://www.yardhouse.com/menu/mains/steaks-chops?setRestaurant=8321",
+  "sourceEdition": "Los Angeles – LA Live menu; nutrition guide effective 8 June 2026",
+  "imagepath": "",
+  "imageCredit": "© Yard House",
+  "products": [
+    {
+      "id": "prod840066",
+      "name": "Spicy Za'Atar Hummus",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1220,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JUN25_SpicyZaatarHummus-590x395.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/spicy-zaatar-hummus/prod840066",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840066.webp"
+    },
+    {
+      "id": "prod2950052",
+      "name": "Poke Nachos",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 880,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_NOV25_Poke_Nachos.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/poke-nachos/prod2950052",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod2950052.webp"
+    },
+    {
+      "id": "prod840097",
+      "name": "Chicken Nachos",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 2580,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_May23_Chicken_Nachos.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/chicken-nachos/prod840097",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840097.webp"
+    },
+    {
+      "id": "prod840101",
+      "name": "Blackened Ahi Sashimi",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 450,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Blackened_Ahi_Sashimi_0103JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/blackened-ahi-sashimi/prod840101",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840101.webp"
+    },
+    {
+      "id": "prod2030068",
+      "name": "Spicy Tuna Stack",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 550,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Spicy-Tuna-Roll-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/spicy-tuna-stack/prod2030068",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod2030068.webp"
+    },
+    {
+      "id": "prod840084",
+      "name": "Fried Calamari",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1070,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JUN25_Calamari-590x395.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/fried-calamari/prod840084",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840084.webp"
+    },
+    {
+      "id": "prod840078",
+      "name": "Onion Ring Tower",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1330,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Onion-Ring-Tower-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/onion-ring-tower/prod840078",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840078.webp"
+    },
+    {
+      "id": "prod840102",
+      "name": "Classic Sliders",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1320,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHNOV26_Sliders2.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/classic-sliders/prod840102",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840102.webp"
+    },
+    {
+      "id": "prod5040033",
+      "name": "Jumbo Bavarian Pretzel",
+      "category": "Starters",
+      "description": "",
+      "portion": "One pretzel with dips",
+      "basecalories": 1230,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Jumbo-Bavarian-Pretzel-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/jumbo-bavarian-pretzel/prod5040033",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod5040033.webp"
+    },
+    {
+      "id": "prod7970106",
+      "name": "Firecracker Shrimp",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1320,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/2021-firecracker-shrimp-m-590x365.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/firecracker-shrimp/prod7970106",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod7970106.webp"
+    },
+    {
+      "id": "prod840063",
+      "name": "Miguel's Queso Dip",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1560,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Miguels-Queso-Dip_0058JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/miguels-queso-dip/prod840063",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840063.webp"
+    },
+    {
+      "id": "prod1430026",
+      "name": "Chicken Lettuce Wraps",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 730,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Chicken_Lettuce_Wraps.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/chicken-lettuce-wraps/prod1430026",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod1430026.webp"
+    },
+    {
+      "id": "prod840081",
+      "name": "Four Cheese Spinach Dip",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 800,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Four_Cheese_Spinach_Dip_0091JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/four-cheese-spinach-dip/prod840081",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840081.webp"
+    },
+    {
+      "id": "prod840061",
+      "name": "Hot & Spicy Edamame",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 490,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Hot-and-Spicy-Edamame-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/hot-spicy-edamame/prod840061",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840061.webp"
+    },
+    {
+      "id": "prod840073",
+      "name": "Steamed Edamame",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 180,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Chilled-Edamame-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/steamed-edamame/prod840073",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840061",
+      "comment": "Hidden because Hot & Spicy Edamame already covers the edamame side format.",
+      "localImage": "images/yard-house/prod840073.webp"
+    },
+    {
+      "id": "prod840068",
+      "name": "Guac & Chips",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 540,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_FEB24_Guac_and_Chips.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/guac-chips/prod840068",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840068.webp"
+    },
+    {
+      "id": "prod840079",
+      "name": "Shiitake Garlic Noodles",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 770,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Shiitake_Garlic_Noodles_0129JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/shiitake-garlic-noodles/prod840079",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840079.webp"
+    },
+    {
+      "id": "prod14700026",
+      "name": "Crispy Brussels Sprouts",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1270,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_FEB24_Brussels_Sprouts.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/crispy-brussels-sprouts/prod14700026",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod14700026.webp"
+    },
+    {
+      "id": "prod840070",
+      "name": "Parm Truffle Fries",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 500,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/truffle-fries-thick-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/parm-truffle-fries/prod840070",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840071",
+      "comment": "Hidden because Sweet Potato Fries already covers the seasoned fries side format.",
+      "localImage": "images/yard-house/prod840070.webp"
+    },
+    {
+      "id": "prod840071",
+      "name": "Sweet Potato Fries",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 650,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Sweet-Potato-Fries-2020.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/sweet-potato-fries/prod840071",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840071.webp"
+    },
+    {
+      "id": "prod1770168",
+      "name": "Wisconsin Fried Cheese Curds",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1980,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Wisconsin-Fried-Cheese-Curds-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/wisconsin-fried-cheese-curds/prod1770168",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod1770168.webp"
+    },
+    {
+      "id": "prod840080",
+      "name": "Hand-Battered Chicken Tenders",
+      "category": "Starters",
+      "description": "",
+      "portion": "One tender order with fries",
+      "basecalories": 1320,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Fried-Chicken-Tenders-Appetizer_0166JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/hand-battered-chicken-tenders/prod840080",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840080.webp"
+    },
+    {
+      "id": "prod840090",
+      "name": "Cali Roll Stack",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 970,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/California-Roll-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/cali-roll-stack/prod840090",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840090.webp"
+    },
+    {
+      "id": "prod1130140",
+      "name": "Creamy Chicken Tortilla Soup",
+      "category": "Starters",
+      "description": "",
+      "portion": "Bowl",
+      "basecalories": 1110,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Soup-Tortilla-Bowl-4149v2.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/creamy-chicken-tortilla-soup/prod1130140",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod1130140.webp"
+    },
+    {
+      "id": "prod1130137",
+      "name": "Tomato Bisque",
+      "category": "Starters",
+      "description": "",
+      "portion": "Bowl",
+      "basecalories": 480,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Soup-Tomato-Bisque-Bowl-v2.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/tomato-bisque/prod1130137",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod1130140",
+      "comment": "Hidden because Creamy Chicken Tortilla Soup already covers the soup serving format.",
+      "localImage": "images/yard-house/prod1130137.webp"
+    },
+    {
+      "id": "prod840065",
+      "name": "Traditional Caesar",
+      "category": "Starters",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 410,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Traditional_Caesar.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/traditional-caesar/prod840065",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7220005",
+      "comment": "Hidden because House Salad already covers the starter salad format.",
+      "localImage": "images/yard-house/prod840065.webp"
+    },
+    {
+      "id": "prod7220005",
+      "name": "House Salad",
+      "category": "Starters",
+      "description": "",
+      "portion": "One salad order",
+      "basecalories": 430,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/House-Salad.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/house-salad/prod7220005",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod7220005.webp"
+    },
+    {
+      "id": "prod2950050",
+      "name": "Nashville Hot Chicken Sandwich",
+      "category": "Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries",
+      "basecalories": 1460,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Nashville-Hot-Chicken-Sandwich.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/nashville-hot-chicken-sandwich/prod2950050",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod2950050.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1100
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod840362",
+      "name": "Grilled Chicken & Avocado Sandwich",
+      "category": "Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries",
+      "basecalories": 1410,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Grilled-Chicken-n-Avocado-Sandwich_0066JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/grilled-chicken-avocado-sandwich/prod840362",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod2950050",
+      "comment": "Hidden because Nashville Hot Chicken Sandwich already covers the chicken sandwich and fries format.",
+      "localImage": "images/yard-house/prod840362.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1050
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod8250019",
+      "name": "Stacked Turkey Club",
+      "category": "Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries",
+      "basecalories": 1720,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Stacked-Turkey-Club_0027JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/stacked-turkey-club/prod8250019",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod8250019.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1360
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod8250014",
+      "name": "Double-Decker BLT",
+      "category": "Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries",
+      "basecalories": 1500,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Double-Decker-BLT_0042JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/double-decker-blt/prod8250014",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod8250019",
+      "comment": "Hidden because Stacked Turkey Club already covers the stacked deli sandwich format.",
+      "localImage": "images/yard-house/prod8250014.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1140
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod8260010",
+      "name": "\"Everything-Crusted\" Ahi Tuna",
+      "category": "Sandwiches",
+      "description": "",
+      "portion": "One entrée with fries",
+      "basecalories": 1320,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Everything_Crusted_Ahi_Sandwich.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/everything-crusted-ahi-tuna/prod8260010",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod8260010.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 960
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod8260004",
+      "name": "Korean BBQ Cheesesteak",
+      "category": "Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries",
+      "basecalories": 1370,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHNOV26_Korean_Cheesesteak.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/korean-bbq-cheesesteak/prod8260004",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod8260004.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1010
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod8260005",
+      "name": "House Cheesesteak",
+      "category": "Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries",
+      "basecalories": 1320,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHNOV26_Cheesesteak.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/house-cheesesteak/prod8260005",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod8260004",
+      "comment": "Hidden because Korean BBQ Cheesesteak already covers the cheesesteak and fries format.",
+      "localImage": "images/yard-house/prod8260005.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 960
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod840366",
+      "name": "Grilled Cheese & Tomato Bisque",
+      "category": "Sandwiches",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1320,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Grilled-Cheese-Organic-Tomato-Bisque.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/grilled-cheese-tomato-bisque/prod840366",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840366.webp"
+    },
+    {
+      "id": "prod840376",
+      "name": "Two Pepper Jack",
+      "category": "Burgers & Tacos",
+      "description": "",
+      "portion": "One burger",
+      "basecalories": 1090,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_Two_Pepper_Jack.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/two-pepper-jack/prod840376",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840377",
+      "comment": "Hidden because BBQ Bacon Cheddar already covers the pub burger format, with barbecue bacon and fries.",
+      "localImage": "images/yard-house/prod840376.webp"
+    },
+    {
+      "id": "prod840371",
+      "name": "Classic Cheese",
+      "category": "Burgers & Tacos",
+      "description": "",
+      "portion": "One burger",
+      "basecalories": 1100,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_Classic_Cheeseburger_copy.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/classic-cheese/prod840371",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840377",
+      "comment": "Hidden because BBQ Bacon Cheddar already covers the pub burger format, with barbecue bacon and fries.",
+      "localImage": "images/yard-house/prod840371.webp"
+    },
+    {
+      "id": "prod840523",
+      "name": "Truffle Cheese",
+      "category": "Burgers & Tacos",
+      "description": "",
+      "portion": "One burger",
+      "basecalories": 1280,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_Truffle_Cheeseburger_copy.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/truffle-cheese/prod840523",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840377",
+      "comment": "Hidden because BBQ Bacon Cheddar already covers the pub burger format, with barbecue bacon and fries.",
+      "localImage": "images/yard-house/prod840523.webp"
+    },
+    {
+      "id": "prod2950047",
+      "name": "Kurobuta Pork",
+      "category": "Burgers & Tacos",
+      "description": "",
+      "portion": "One burger",
+      "basecalories": 1170,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_Kurobuta_Burger.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/kurobuta-pork/prod2950047",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840377",
+      "comment": "Hidden because BBQ Bacon Cheddar already covers the pub burger format, with barbecue bacon and fries.",
+      "localImage": "images/yard-house/prod2950047.webp"
+    },
+    {
+      "id": "prod840377",
+      "name": "BBQ Bacon Cheddar",
+      "category": "Burgers & Tacos",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1730,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_June25_BBQ_Bacon_Burger.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/bbq-bacon-cheddar/prod840377",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840377.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1370
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod11180012",
+      "name": "Bleu Cheese & Bacon",
+      "category": "Burgers & Tacos",
+      "description": "",
+      "portion": "One burger",
+      "basecalories": 1100,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26z_Blue_Cheese_Burger.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/bleu-cheese-bacon/prod11180012",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840377",
+      "comment": "Hidden because BBQ Bacon Cheddar already covers the pub burger format, with barbecue bacon and fries.",
+      "localImage": "images/yard-house/prod11180012.webp"
+    },
+    {
+      "id": "prod14700025",
+      "name": "Mediterranean Veggie Burger",
+      "category": "Burgers & Tacos",
+      "description": "",
+      "portion": "One veggie burger with side salad",
+      "basecalories": 980,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_FEB24_California_Veggie_Burger.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/mediterranean-veggie-burger/prod14700025",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod14700025.webp"
+    },
+    {
+      "id": "prod840380",
+      "name": "Three Cheese",
+      "category": "Pizzas",
+      "description": "",
+      "portion": "One whole menu pizza",
+      "basecalories": 1110,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JULY24_Classic_Cheese_Pizza.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/three-cheese/prod840380",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod16080020",
+      "comment": "Hidden because Buffalo Chicken already covers the whole menu pizza format.",
+      "localImage": "images/yard-house/prod840380.webp"
+    },
+    {
+      "id": "prod16090027",
+      "name": "Loaded Pepperoni",
+      "category": "Pizzas",
+      "description": "",
+      "portion": "One whole menu pizza",
+      "basecalories": 1130,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JULY24_Loaded_Pepperoni_Pizza.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/loaded-pepperoni/prod16090027",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod16080020",
+      "comment": "Hidden because Buffalo Chicken already covers the whole menu pizza format.",
+      "localImage": "images/yard-house/prod16090027.webp"
+    },
+    {
+      "id": "prod840379",
+      "name": "Margherita",
+      "category": "Pizzas",
+      "description": "",
+      "portion": "One whole menu pizza",
+      "basecalories": 890,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_Margherita2.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/margherita/prod840379",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod16080020",
+      "comment": "Hidden because Buffalo Chicken already covers the whole menu pizza format.",
+      "localImage": "images/yard-house/prod840379.webp"
+    },
+    {
+      "id": "prod16080020",
+      "name": "Buffalo Chicken",
+      "category": "Pizzas",
+      "description": "",
+      "portion": "One whole menu pizza",
+      "basecalories": 1510,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JULY24_Buffalo_Chicken_Pizza.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/buffalo-chicken/prod16080020",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod16080020.webp"
+    },
+    {
+      "id": "prod16090012",
+      "name": "Truffled Mushroom",
+      "category": "Pizzas",
+      "description": "",
+      "portion": "One whole menu pizza",
+      "basecalories": 1220,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JULY24_Truffled_Mushroom_Pizza.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/truffled-mushroom/prod16090012",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod16080020",
+      "comment": "Hidden because Buffalo Chicken already covers the whole menu pizza format.",
+      "localImage": "images/yard-house/prod16090012.webp"
+    },
+    {
+      "id": "prod3480416",
+      "name": "The Carnivore",
+      "category": "Pizzas",
+      "description": "",
+      "portion": "One whole menu pizza",
+      "basecalories": 1440,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JULY24_The_Carnivore.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/the-carnivore/prod3480416",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod16080020",
+      "comment": "Hidden because Buffalo Chicken already covers the whole menu pizza format.",
+      "localImage": "images/yard-house/prod3480416.webp"
+    },
+    {
+      "id": "prod8360166",
+      "name": "Korean Ribeye",
+      "category": "Steaks & Chops",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 1930,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_FEB24_Korean_Ribeye.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/korean-ribeye/prod8360166",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod9320032",
+      "comment": "Hidden because Korean Ribeye & Shrimp already covers the Korean ribeye format.",
+      "localImage": "images/yard-house/prod8360166.webp"
+    },
+    {
+      "id": "prod9320032",
+      "name": "Korean Ribeye & Shrimp",
+      "category": "Steaks & Chops",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 2050,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_FEB24_KoreanRibeye_Shrimp.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/korean-ribeye-shrimp/prod9320032",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod9320032.webp"
+    },
+    {
+      "id": "prod7770038",
+      "name": "20 oz Bone-In Ribeye",
+      "category": "Steaks & Chops",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 1420,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Ribeye-0189JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/20-oz-bone-in-ribeye/prod7770038",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7770039",
+      "comment": "Hidden because 20 oz Bone-In Ribeye & Shrimp already covers the bone-in ribeye format.",
+      "localImage": "images/yard-house/prod7770038.webp"
+    },
+    {
+      "id": "prod7770039",
+      "name": "20 oz Bone-In Ribeye & Shrimp",
+      "category": "Steaks & Chops",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 1530,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Ribeye-with-Shrimp_0197JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/20-oz-bone-in-ribeye-shrimp/prod7770039",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod7770039.webp"
+    },
+    {
+      "id": "prod840514",
+      "name": "8 oz Filet Mignon",
+      "category": "Steaks & Chops",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 900,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Filet_0145JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/8-oz-filet-mignon/prod840514",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840514.webp"
+    },
+    {
+      "id": "prod5790044",
+      "name": "Steak Bowl",
+      "category": "Steaks & Chops",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 500,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Steak_Bowl_0156JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/steak-bowl/prod5790044",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod5790044.webp"
+    },
+    {
+      "id": "prod2030094",
+      "name": "Thai Grilled Pork Chop",
+      "category": "Steaks & Chops",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 660,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/THAI-GRILLED-PORK-CHOP_0119JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/thai-grilled-pork-chop/prod2030094",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod2030094.webp"
+    },
+    {
+      "id": "prod11430017",
+      "name": "Spicy Beef Garlic Noodles",
+      "category": "Steaks & Chops",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 1770,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHNOV26_Beef_Noodles.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/spicy-beef-garlic-noodles/prod11430017",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod11430017.webp"
+    },
+    {
+      "id": "prod840495",
+      "name": "Chicken Enchilada Stack",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1490,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_FEB25_Enchilada_Stack.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/chicken-enchilada-stack/prod840495",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840495.webp"
+    },
+    {
+      "id": "prod7140083",
+      "name": "Maui Pineapple Chicken",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1320,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Maui_Pineapple_Chicken_051122_0162JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/maui-pineapple-chicken/prod7140083",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod7140083.webp"
+    },
+    {
+      "id": "prod8360167",
+      "name": "Cilantro Lime Chicken",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 590,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/CILANTRO-LIME_CHICKEN_0036JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/cilantro-lime-chicken/prod8360167",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod8360167.webp"
+    },
+    {
+      "id": "prod7140084",
+      "name": "Orange Chicken",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1730,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Orange-Chicken-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/orange-chicken/prod7140084",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod7140084.webp"
+    },
+    {
+      "id": "prod7140088",
+      "name": "Nashville Hot Chicken & Pancakes",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One hot chicken and sweet potato pancake entrée",
+      "basecalories": 1610,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Nashville_Hot_Chicken_and_Pancakes_051122_023.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/nashville-hot-chicken-pancakes/prod7140088",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod7140088.webp"
+    },
+    {
+      "id": "prod5790032",
+      "name": "Chicken Bowl",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 480,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Chicken_Bowl_0150JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/chicken-bowl/prod5790032",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod5790044",
+      "comment": "Hidden because Steak Bowl already covers the protein and vegetable bowl format.",
+      "localImage": "images/yard-house/prod5790032.webp"
+    },
+    {
+      "id": "prod21070015",
+      "name": "Twisted Fettuccine Alfredo",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One pasta entrée with garlic bread",
+      "basecalories": 1750,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHFEB26_TwistedFettuccineAlfredo_SeanCrop.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/twisted-fettuccine-alfredo/prod21070015",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod21070015.webp"
+    },
+    {
+      "id": "prod21750055",
+      "name": "Fettuccine Alfredo",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One pasta entrée with garlic bread",
+      "basecalories": 1640,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHFEB26_Chicken_Fettuccine_crop.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/fettuccine-alfredo/prod21750055",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod21070015",
+      "comment": "Hidden because Twisted Fettuccine Alfredo already covers the creamy Italian pasta format.",
+      "localImage": "images/yard-house/prod21750055.webp"
+    },
+    {
+      "id": "prod8360165",
+      "name": "Fontina Vodka Penne",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1570,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/FONTAINAVODKAPENNE_0051JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/fontina-vodka-penne/prod8360165",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod21070015",
+      "comment": "Hidden because Twisted Fettuccine Alfredo already covers the creamy Italian pasta format.",
+      "localImage": "images/yard-house/prod8360165.webp"
+    },
+    {
+      "id": "prod7140085",
+      "name": "Adult Mac + Cheese",
+      "category": "Chicken",
+      "description": "",
+      "portion": "Large entrée",
+      "basecalories": 2620,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Mac_Cheese_0280JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/adult-mac-cheese/prod7140085",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod7140085.webp"
+    },
+    {
+      "id": "prod7140089",
+      "name": "Whiskey Glazed Salmon",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 920,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_NOV25_Whiskey_Glazed_Salmon.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/whiskey-glazed-salmon/prod7140089",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod21750053",
+      "comment": "Hidden because Maui Salmon already covers the glazed salmon entrée format.",
+      "localImage": "images/yard-house/prod7140089.webp"
+    },
+    {
+      "id": "prod8360168",
+      "name": "Mediterranean Salmon",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 630,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/MEDITERRANEAN-SALMON_0060JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/mediterranean-salmon/prod8360168",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod8360168.webp"
+    },
+    {
+      "id": "prod840441",
+      "name": "Beer-Battered Fish & Chips",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1920,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JULY24_Fish_and_Chips.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/beer-battered-fish-chips/prod840441",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840441.webp"
+    },
+    {
+      "id": "prod8250015",
+      "name": "Sesame-Crusted Ahi Tuna",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 670,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Sesame-Crusted-Ahi_0148JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/sesame-crusted-ahi-tuna/prod8250015",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod8250015.webp"
+    },
+    {
+      "id": "prod5790064",
+      "name": "Shrimp Bowl",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 400,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/ShrimpBowl.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/shrimp-bowl/prod5790064",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod5790044",
+      "comment": "Hidden because Steak Bowl already covers the protein and vegetable bowl format.",
+      "localImage": "images/yard-house/prod5790064.webp"
+    },
+    {
+      "id": "prod840404",
+      "name": "Lobster Garlic Noodles",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1230,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Lobster_Garlic_Noodles_0138JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/lobster-garlic-noodles/prod840404",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod840404.webp"
+    },
+    {
+      "id": "prod5790065",
+      "name": "Poke Salad",
+      "category": "Salads",
+      "description": "",
+      "portion": "One salad order",
+      "basecalories": 730,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Poke-Salad-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/poke-salad/prod5790065",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod5790065.webp"
+    },
+    {
+      "id": "prod1130145",
+      "name": "Ahi Tuna Crunchy",
+      "category": "Salads",
+      "description": "",
+      "portion": "Full entrée salad",
+      "basecalories": 780,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Ahi-Crunchy-Salad-Large-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/ahi-tuna-crunchy/prod1130145",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod1130145.webp"
+    },
+    {
+      "id": "prod21750053",
+      "name": "Maui Salmon",
+      "category": "Salads",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1100,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHFEB26_SalmonSalad_SeanCrop.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/maui-salmon/prod21750053",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod21750053.webp"
+    },
+    {
+      "id": "prod1130142",
+      "name": "BBQ Chicken Salad",
+      "category": "Salads",
+      "description": "",
+      "portion": "Full entrée salad",
+      "basecalories": 1650,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/BBQ-Chicken-Salad.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/bbq-chicken-salad/prod1130142",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod1130142.webp"
+    },
+    {
+      "id": "prod22280064",
+      "name": "Whiskey Caramel Butter Cake",
+      "category": "Sweets",
+      "description": "",
+      "portion": "One dessert order",
+      "basecalories": 970,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/STPAT26_Whiskey_Caramel_Cakeb.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/whiskey-caramel-butter-cake/prod22280064",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod22280064.webp"
+    },
+    {
+      "id": "prod12740035",
+      "name": "OREO® Brookie",
+      "category": "Sweets",
+      "description": "",
+      "portion": "One dessert order",
+      "basecalories": 1010,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_FEB24_Desserts_Oreo_Brookie.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/oreo-brookie/prod12740035",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod21750054",
+      "comment": "Hidden because \"S'Mores\" Brownie Meltdown already covers the warm brownie dessert format.",
+      "localImage": "images/yard-house/prod12740035.webp"
+    },
+    {
+      "id": "prod21750054",
+      "name": "\"S'Mores\" Brownie Meltdown",
+      "category": "Sweets",
+      "description": "",
+      "portion": "One dessert order",
+      "basecalories": 1310,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHFEB26_SmoresBrownie_SeanCrop.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/smores-brownie-meltdown/prod21750054",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod21750054.webp"
+    },
+    {
+      "id": "prod12740034",
+      "name": "Cheesecake Brulee",
+      "category": "Sweets",
+      "description": "",
+      "portion": "One dessert order",
+      "basecalories": 620,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHFEB26_Cheesecake_Brulee_crop.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/cheesecake-brulee/prod12740034",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod12740034.webp"
+    },
+    {
+      "id": "prod849043",
+      "name": "Kids’ Fried Chicken Tenders",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 860,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_May23_Kids_Chicken_Tenders.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/fried-chicken-tenders/prod849043",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 500
+        },
+        {
+          "name": "Kids’ French fries",
+          "calories": 360
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "prod840080",
+      "comment": "Hidden because Hand-Battered Chicken Tenders already covers the tenders and fries format.",
+      "localImage": "images/yard-house/prod849043.webp"
+    },
+    {
+      "id": "prod8860106",
+      "name": "Kids’ Gardein® Kids Tenders",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 800,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_Gardein_Kids_Tenders.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-kids-tenders/prod8860106",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 440
+        },
+        {
+          "name": "Kids’ French fries",
+          "calories": 360
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "prod840080",
+      "comment": "Hidden because Hand-Battered Chicken Tenders already covers the tenders and fries format.",
+      "localImage": "images/yard-house/prod8860106.webp"
+    },
+    {
+      "id": "prod7630013",
+      "name": "Kids’ Grilled Chicken",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 760,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_May23_Kids_Grilled_Chicken.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/grilled-chicken/prod7630013",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 400
+        },
+        {
+          "name": "Kids’ French fries",
+          "calories": 360
+        }
+      ],
+      "localImage": "images/yard-house/prod7630013.webp"
+    },
+    {
+      "id": "prod849051",
+      "name": "Kids’ Pepperoni Pizza",
+      "category": "Kids",
+      "description": "",
+      "portion": "One whole kids’ pizza",
+      "basecalories": 860,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Kids-Pepperoni-Pizza-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/pepperoni-pizza/prod849051",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod16080020",
+      "comment": "Hidden because Buffalo Chicken already covers the whole menu pizza format.",
+      "localImage": "images/yard-house/prod849051.webp"
+    },
+    {
+      "id": "prod849041",
+      "name": "Kids’ Cheese Pizza",
+      "category": "Kids",
+      "description": "",
+      "portion": "One whole kids’ pizza",
+      "basecalories": 830,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Kids-Cheese-Pizza-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/cheese-pizza/prod849041",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod16080020",
+      "comment": "Hidden because Buffalo Chicken already covers the whole menu pizza format.",
+      "localImage": "images/yard-house/prod849041.webp"
+    },
+    {
+      "id": "prod849039",
+      "name": "Kids’ Cheeseburger Sliders",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 1030,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Kids_Sliders_with_Cheese.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/cheeseburger-sliders/prod849039",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 670
+        },
+        {
+          "name": "Kids’ French fries",
+          "calories": 360
+        }
+      ],
+      "localImage": "images/yard-house/prod849039.webp"
+    },
+    {
+      "id": "prod849048",
+      "name": "Kids’ Grilled Cheese",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 930,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_May23_Kids_Grilled_Cheese.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/grilled-cheese/prod849048",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 570
+        },
+        {
+          "name": "Kids’ French fries",
+          "calories": 360
+        }
+      ],
+      "localImage": "images/yard-house/prod849048.webp"
+    },
+    {
+      "id": "prod849046",
+      "name": "Kids’ Mac & Cheese",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 1050,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Kids-Mac-n-Cheese-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/mac-cheese/prod849046",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7140085",
+      "comment": "Hidden because Adult Mac + Cheese already covers the mac and cheese format.",
+      "localImage": "images/yard-house/prod849046.webp"
+    },
+    {
+      "id": "prod19420015",
+      "name": "Kids’ Sirloin Steak",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 700,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JUN25_KidsSirloinSteak-590x395.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/sirloin-steak/prod19420015",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 340
+        },
+        {
+          "name": "Kids’ French fries",
+          "calories": 360
+        }
+      ],
+      "localImage": "images/yard-house/prod19420015.webp"
+    },
+    {
+      "id": "prod17410024",
+      "name": "Kids’ OREO® Sundae",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 330,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_JUN25_Kids_Oreo_Sundae.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/oreo-sundae/prod17410024",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "localImage": "images/yard-house/prod17410024.webp"
+    },
+    {
+      "id": "prod840419",
+      "name": "Gardein® Orange Chicken",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 1720,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Gardein-Orange-Chicken-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-orange-chicken/prod840419",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7140084",
+      "comment": "Hidden because Orange Chicken already covers the orange chicken plate format.",
+      "localImage": "images/yard-house/prod840419.webp"
+    },
+    {
+      "id": "prod1130131",
+      "name": "Gardein® Adult Mac + Cheese",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "Large Gardein entrée",
+      "basecalories": 2230,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Gardein-Mac-n-Cheese-Full-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-adult-mac-cheese/prod1130131",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7140085",
+      "comment": "Hidden because Adult Mac + Cheese already covers the mac and cheese format.",
+      "localImage": "images/yard-house/prod1130131.webp"
+    },
+    {
+      "id": "prod1130135",
+      "name": "Gardein® BBQ Chicken Salad",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "Full Gardein entrée salad",
+      "basecalories": 1640,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Gardein-BBQ-Chicken-Salad-Full-590x365-06132019.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-bbq-chicken-salad/prod1130135",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod1130142",
+      "comment": "Hidden because BBQ Chicken Salad already covers the BBQ chicken salad format.",
+      "localImage": "images/yard-house/prod1130135.webp"
+    },
+    {
+      "id": "prod840415",
+      "name": "Gardein® Grilled Chicken & Avocado Sandwich",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "One entrée with fries",
+      "basecalories": 1400,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/product/Grilled-Chicken-n-Avocado-Sandwich_0066JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-grilled-chicken-avocado-sandwich/prod840415",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod2950050",
+      "comment": "Hidden because Nashville Hot Chicken Sandwich already covers the chicken sandwich and fries format.",
+      "localImage": "images/yard-house/prod840362.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1040
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod840127",
+      "name": "Gardein® Chicken Tenders",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "One Gardein tender order with fries",
+      "basecalories": 1230,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_Gardein_Chicken_Tenders.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-chicken-tenders/prod840127",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840080",
+      "comment": "Hidden because Hand-Battered Chicken Tenders already covers the tenders and fries format.",
+      "localImage": "images/yard-house/prod840127.webp"
+    },
+    {
+      "id": "prod8770071",
+      "name": "Gardein® Bowl",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 470,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/Chicken_Bowl_0150JD.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-bowl/prod8770071",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod5790044",
+      "comment": "Hidden because Steak Bowl already covers the protein and vegetable bowl format.",
+      "localImage": "images/yard-house/prod5790032.webp"
+    },
+    {
+      "id": "prod8770073",
+      "name": "Gardein® Nashville Hot Chicken And Pancakes",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "One Gardein hot chicken and pancake entrée",
+      "basecalories": 1470,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_GS_Nashville_Chicken_Pancakes.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-nashville-hot-chicken-and-pancakes/prod8770073",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7140088",
+      "comment": "Hidden because Nashville Hot Chicken & Pancakes already covers the hot chicken and pancakes format.",
+      "localImage": "images/yard-house/prod8770073.webp"
+    },
+    {
+      "id": "prod3050267",
+      "name": "Gardein® Nashville Hot Sandwich",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "One entrée with fries",
+      "basecalories": 1390,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YHJUN26_GS_Nashville_Chicken_Sandwich.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-nashville-hot-sandwich/prod3050267",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod2950050",
+      "comment": "Hidden because Nashville Hot Chicken Sandwich already covers the chicken sandwich and fries format.",
+      "localImage": "images/yard-house/prod3050267.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1030
+        },
+        {
+          "name": "French fries",
+          "calories": 360
+        }
+      ]
+    },
+    {
+      "id": "prod2030054",
+      "name": "Gardein® Chicken Nachos",
+      "category": "Gardein®",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 2530,
+      "imagefilename": "https://media.yardhouse.com/en_us/images/marketing/YH_May23_Chicken_Nachos.jpg",
+      "sourceURL": "https://www.yardhouse.com/menu/gardein-chicken-nachos/prod2030054",
+      "nutritionURL": "https://media.yardhouse.com/en_us/pdf/Nutrition_Dietary_Allergen_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod840097",
+      "comment": "Hidden because Chicken Nachos already covers the loaded chicken-style nacho platter.",
+      "localImage": "images/yard-house/prod840097.webp"
+    }
+  ],
+  "schemaVersion": 1,
+  "menuId": "yard-house",
+  "version": "v1"
+}

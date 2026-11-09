@@ -26,15 +26,6 @@
     --success-bg: #233b2b;
     --success: #b1e2a7;
 }
-#menu-picker {
-    min-height: 44px;
-    padding: 8px 10px;
-    border: 1px solid var(--control-border);
-    border-radius: 8px;
-    background: var(--surface);
-    color: var(--text);
-    font-size: .9rem;
-}
 :focus-visible { outline-color: var(--focus); }
 :root[data-theme="dark"] body {
     color: var(--text);

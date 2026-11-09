@@ -1,0 +1,650 @@
+[
+  {
+    "id": "1144378",
+    "name": "Breakfast Family Feast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Family or group order.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "679836",
+    "name": "Buttermilk Crispy Chicken Family Feast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Family or group order.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "282996",
+    "name": "Breakfast Beverage Bundle",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Family or group order.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "279047",
+    "name": "Lunch/Dinner Beverage Bundle",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Family or group order.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "623375",
+    "name": "Breakfast Sampler",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "271948",
+    "name": "Country Fried Steak & Eggs",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "271848",
+    "name": "Split Decision Breakfast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "455015",
+    "name": "T-Bone Steak & Eggs",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "271847",
+    "name": "Sirloin Steak Tips & Eggs",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "452860",
+    "name": "Quick 2-Egg Breakfast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "521453",
+    "name": "Chicken & Pancakes",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "567353",
+    "name": "Avocado Toast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "271850",
+    "name": "Smokehouse Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "623371",
+    "name": "Build Your Own Omelette+",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1144375",
+    "name": "NEW Pancake Flight Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "819168",
+    "name": "Pumpkin Spice Pancake Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "623370",
+    "name": "World-Famous Pancake Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1086368",
+    "name": "Protein Power Pancakes Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "679774",
+    "name": "Buttermilk Biscuit & Gravy Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "766059",
+    "name": "Buttermilk Biscuit & Gravy",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "679772",
+    "name": "Chicken Biscuit Sandwich",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "679800",
+    "name": "Waffle Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "521454",
+    "name": "Chicken & Waffles",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "623411",
+    "name": "Crepe Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1167216",
+    "name": "NEW Stuffed French Toast BreakFEAST",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1144377",
+    "name": "NEW Stuffed French Toast Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1144376",
+    "name": "NEW Stuffed French Toast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "560071",
+    "name": "Thick ‘N Fluffy French Toast Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "271883",
+    "name": "Hickory-Smoked Bacon Strips",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "271884",
+    "name": "Pork Sausage Links",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "388209",
+    "name": "2 Eggs",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "452861",
+    "name": "Buttered Toast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "503999",
+    "name": "IHOP Syrup",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "913320",
+    "name": "Turkey Sausage Links",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "521460",
+    "name": "Appetizer Sampler",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "766052",
+    "name": "Classic Chicken Sandwich",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "624413",
+    "name": "Buttermilk Crispy Chicken Strips & Fries",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "679768",
+    "name": "Country Fried Steak",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "624396",
+    "name": "T-Bone Steak Dinner",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "449531",
+    "name": "Sirloin Steak Tips",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "567355",
+    "name": "Atlantic Salmon",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "913385",
+    "name": "Smoked Sausage",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "913386",
+    "name": "Sirloin Steak Tips & Crispy Shrimp",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "449429",
+    "name": "55+ Breakfast Sampler",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "449431",
+    "name": "55+ Rise 'N Shine",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "567361",
+    "name": "55+ Thick ‘N Fluffy French Toast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "903903",
+    "name": "Breakfast Faves Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "903905",
+    "name": "French Toast Faves Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "914675",
+    "name": "Happy Face Pancake",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1144379",
+    "name": "NEW World-Famous Pancake Flight",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1144380",
+    "name": "NEW Vanilla Cola Float",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "271992",
+    "name": "House-Made Milkshakes",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1076484",
+    "name": "NEW Coffee",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1076513",
+    "name": "NEW Iced Coffee",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1158508",
+    "name": "NEW French Toast Hot Chocolate",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1076491",
+    "name": "Hot Chocolate",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "646581",
+    "name": "Tea & Lemonade",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "646584",
+    "name": "Fruit Juices",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "646587",
+    "name": "Milk & Chocolate Milk",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "646589",
+    "name": "Fountain Drinks",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "646591",
+    "name": "Splashers",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "646598",
+    "name": "Breakfast Beverage Bundle",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "646592",
+    "name": "Lunch/Dinner Beverage Bundle",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1158507",
+    "name": "NEW Stuffed French Toast BreakFEAST",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1148029",
+    "name": "NEW Stuffed French Toast Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1148028",
+    "name": "NEW Stuffed French Toast",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1148027",
+    "name": "NEW Pancake Flight Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1148031",
+    "name": "NEW World-Famous Pancake Flight",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1143442",
+    "name": "Pumpkin Spice Pancake Combo",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1091217",
+    "name": "NEW Coffee",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1091206",
+    "name": "NEW Iced Coffee",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "1080269",
+    "name": "NEW Raspberry Iced Tea",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Calorie count or photographed configuration is not fixed.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  }
+]

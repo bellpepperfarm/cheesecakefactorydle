@@ -13,19 +13,26 @@ export function resolveMenuVersion(menu, dateKey) {
     return version;
 }
 
+export function playableMenuItems(products) {
+    return products.filter(item => !item.hidden);
+}
+
 export function validateMenuSnapshot(snapshot, menu, version) {
     if (snapshot.schemaVersion !== 1 || snapshot.menuId !== menu.id || snapshot.version !== version.id ||
-        !Array.isArray(snapshot.products) || snapshot.products.length < 5) {
+        !Array.isArray(snapshot.products) || playableMenuItems(snapshot.products).length < 5) {
         throw new Error('Invalid menu snapshot.');
     }
     const ids = new Set();
     const displays = new Map();
+    const playableIds = new Set(playableMenuItems(snapshot.products).map(item => item.id));
     for (const item of snapshot.products) {
         if (typeof item.id !== 'string' || !item.id || ids.has(item.id) ||
             typeof item.name !== 'string' || !item.name.trim() ||
             typeof item.portion !== 'string' || !item.portion.trim() ||
             !Number.isSafeInteger(item.basecalories) || item.basecalories <= 0 ||
-            typeof item.imagefilename !== 'string' || !item.imagefilename) {
+            typeof item.imagefilename !== 'string' || !item.imagefilename ||
+            (item.hidden !== undefined && typeof item.hidden !== 'boolean') ||
+            (item.hidden && (typeof item.comment !== 'string' || !item.comment.trim() || !playableIds.has(item.coveredBy)))) {
             throw new Error('Menu items need unique IDs, names, portions, images and positive calories.');
         }
         ids.add(item.id);
@@ -39,12 +46,23 @@ export function validateMenuSnapshot(snapshot, menu, version) {
 }
 
 export function selectDailyItems(snapshot, version, dateKey) {
-    const products = new Map(snapshot.products.map(item => [item.id, item]));
+    const random = createSeededRandom(`${version.seedPrefix}${dateKey}`);
+    const { itemCount } = DAILY_RULES[version.rules];
+    const eligible = playableMenuItems(snapshot.products);
+    if (version.menuIds) {
+        const byMenu = new Map(version.menuIds.map(id => [id, []]));
+        for (const item of eligible) byMenu.get(item.sourceMenuId).push(item);
+        return shuffleItems(version.menuIds, random).slice(0, itemCount).map(id => {
+            const items = byMenu.get(id);
+            return items[Math.floor(random() * items.length)];
+        });
+    }
+    const products = new Map(eligible.map(item => [item.id, item]));
     // A frozen ID order preserves existing clean challenges during the initial
     // safety migration, without exposing blacklisted dishes to play.
     const order = snapshot.selectionOrder || snapshot.products.map(item => item.id);
-    return shuffleItems(order, createSeededRandom(`${version.seedPrefix}${dateKey}`))
-        .filter(id => products.has(id)).slice(0, DAILY_RULES[version.rules].itemCount)
+    return shuffleItems(order, random)
+        .filter(id => products.has(id)).slice(0, itemCount)
         .map(id => products.get(id));
 }
 
@@ -66,6 +84,22 @@ export class MenuRepository {
         if (!menu) throw new Error('This menu is not available.');
         if (menu.firstPlayableDate && dateKey < menu.firstPlayableDate) throw new Error('This date predates the reviewed menu.');
         const version = resolveMenuVersion(menu, dateKey);
+        if (menu.id === 'all') {
+            const ids = version.menuIds;
+            const rules = DAILY_RULES[version.rules];
+            if (!Array.isArray(ids) || ids.length < rules.itemCount || new Set(ids).size !== ids.length || ids.includes('all')) {
+                throw new Error('Invalid mixed menu membership.');
+            }
+            const sources = await Promise.all(ids.map(id => this.load(id, dateKey)));
+            const products = sources.flatMap(({ menu: source, snapshot }) => snapshot.products.map(item => ({
+                ...item,
+                id: `${source.id}:${item.id}`,
+                sourceMenuId: source.id,
+                imagepath: snapshot.imagepath,
+                imageCredit: snapshot.imageCredit
+            })));
+            return { menu, version, snapshot: { products }, dateKey, rules };
+        }
         const key = `${menuId}:${version.id}`;
         if (!this.cache.has(key)) {
             const response = await fetch(version.path, { signal: AbortSignal.timeout(15000) });

@@ -26,6 +26,182 @@
         }
       ],
       "firstPlayableDate": "2026-10-11"
+    },
+    {
+      "id": "chilis",
+      "name": "Chili’s",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "path": "data/menus/chilis/v1.json",
+          "seedPrefix": "chilis:v1:",
+          "rules": "daily-v1",
+          "sha256": "34e1ed9c9ecb4f585980fa82e64b8da3b19ad168060bc19c60274ce56509769f"
+        }
+      ]
+    },
+    {
+      "id": "wagamama",
+      "name": "Wagamama",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "path": "data/menus/wagamama/v1.json",
+          "seedPrefix": "wagamama:v1:",
+          "rules": "daily-v1",
+          "sha256": "75e625735fa09a85b2d0a5d6a47944fc2eeba09e91cb0d936e88cecadcced239"
+        }
+      ]
+    },
+    {
+      "id": "yard-house",
+      "name": "Yard House",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "path": "data/menus/yard-house/v1.json",
+          "seedPrefix": "yard-house:v1:",
+          "rules": "daily-v1",
+          "sha256": "37703e7ace05b62c5c2a5bfe394450a7434101e44b4c4f73c9ffd06c678b522c"
+        }
+      ]
+    },
+    {
+      "id": "ihop",
+      "name": "IHOP",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "path": "data/menus/ihop/v1.json",
+          "seedPrefix": "ihop:v1:",
+          "rules": "daily-v1",
+          "sha256": "aaa2ee3c8081142540a5286b6a7388781b978ec193c07edad915d0cb455ff84d"
+        }
+      ]
+    },
+    {
+      "id": "cheddars",
+      "name": "Cheddar’s Scratch Kitchen",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "path": "data/menus/cheddars/v1.json",
+          "seedPrefix": "cheddars:v1:",
+          "rules": "daily-v1",
+          "sha256": "1afbc5b3b8de8659ac1b608c9657de5c172e46795dcfacafbd320ee7e51cedb3"
+        }
+      ]
+    },
+    {
+      "id": "dairy-queen",
+      "name": "Dairy Queen",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "path": "data/menus/dairy-queen/v1.json",
+          "seedPrefix": "dairy-queen:v1:",
+          "rules": "daily-v1",
+          "sha256": "79a6119474676a9d4cdd01cf350703f9a8893c4dd5b97e5b049dad297331b586"
+        }
+      ]
+    },
+    {
+      "id": "tim-hortons",
+      "name": "Tim Hortons",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "path": "data/menus/tim-hortons/v1.json",
+          "seedPrefix": "tim-hortons:v1:",
+          "rules": "daily-v1",
+          "sha256": "bc7ce7ad00b11b9086249aa0234ab0db1edfdfffaaa433314eb939aa57954a79"
+        },
+        {
+          "id": "v2",
+          "effectiveFrom": "2026-11-11",
+          "path": "data/menus/tim-hortons/v2.json",
+          "seedPrefix": "tim-hortons:v2:",
+          "rules": "daily-v1",
+          "sha256": "a4358e89701f1ed306240d82fc39ddb3d79ff2d6ddb96534d3e5979f8f60e94f"
+        }
+      ]
+    },
+    {
+      "id": "cactus-club",
+      "name": "Cactus Club Cafe",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "path": "data/menus/cactus-club/v1.json",
+          "seedPrefix": "cactus-club:v1:",
+          "rules": "daily-v1",
+          "sha256": "9baa15642cbc2dc08632978b108c9636e546776c3077c069fe228081a61f241c"
+        }
+      ]
+    },
+    {
+      "id": "all",
+      "name": "All restaurants",
+      "gameTitle": "Caloriedle",
+      "firstPlayableDate": "2026-11-10",
+      "versions": [
+        {
+          "id": "v1",
+          "effectiveFrom": "2026-11-10",
+          "menuIds": [
+            "cheesecake-factory",
+            "chilis",
+            "wagamama",
+            "yard-house",
+            "ihop",
+            "cheddars",
+            "dairy-queen"
+          ],
+          "seedPrefix": "all:v1:",
+          "rules": "daily-v1"
+        },
+        {
+          "id": "v2",
+          "effectiveFrom": "2026-11-11",
+          "menuIds": [
+            "cheesecake-factory",
+            "chilis",
+            "wagamama",
+            "yard-house",
+            "ihop",
+            "cheddars",
+            "dairy-queen",
+            "tim-hortons",
+            "cactus-club"
+          ],
+          "seedPrefix": "all:v2:",
+          "rules": "daily-v1"
+        }
+      ]
     }
   ]
 }

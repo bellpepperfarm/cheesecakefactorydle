@@ -1,0 +1,493 @@
+{
+  "menuId": "dairy-queen",
+  "reviewedOn": "2026-11-09",
+  "source": "https://www.dairyqueen.com/en-us/sitemap/",
+  "sourceEdition": "U.S. product pages and official nutrition tables",
+  "minimumCalories": 50,
+  "excludeCalorieRanges": true,
+  "requireReviewedItems": true,
+  "excludedItems": [
+    {
+      "id": "40",
+      "name": "Peanut Brittle Crunch Cone & Sundae",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Sprite®",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Barq’s Root Beer Soda",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Coca-Cola®",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Original Cheeseburger",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Chicken Bacon Ranch",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Original Cheeseburger Meal Deal",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "103",
+      "name": "3-Piece Chicken Strip Meal Deal",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Regular Fries",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Pretzel Sticks with Zesty Queso",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "122",
+      "name": "Kids' Hamburger",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Kids' Hot Dog",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "124",
+      "name": "2-Piece Chicken Strips (kids)",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "125",
+      "name": "Kid's Cone",
+      "reasons": [
+        "Duplicate, configurable meal, or no official count for the pictured configuration."
+      ]
+    },
+    {
+      "id": "applesauce",
+      "name": "Applesauce",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "name": "Peppermint Bark Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1100
+    },
+    {
+      "name": "Peanut Butter Blossom made with mini HERSHEY'S KISSES® Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1390
+    },
+    {
+      "name": "Mint OREO® Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 400
+    },
+    {
+      "name": "Mocha Brownie Mudslide Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1170
+    },
+    {
+      "name": "Turtle Pecan Cluster Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1370
+    },
+    {
+      "name": "M&M'S® Milk Chocolate Candies Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1160
+    },
+    {
+      "name": "OREO® Cookie Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1050
+    },
+    {
+      "name": "SNICKERS® Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1060
+    },
+    {
+      "name": "REESE’S® Peanut Butter Cup® Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1080
+    },
+    {
+      "name": "Choco Brownie Extreme Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1330
+    },
+    {
+      "name": "Royal Ultimate Choco Brownie Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1340
+    },
+    {
+      "name": "HEATH® Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1190
+    },
+    {
+      "name": "Butterfinger® Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1060
+    },
+    {
+      "name": "Chocolate Chip Cookie Dough Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1370
+    },
+    {
+      "name": "Royal New York Cheesecake Blizzard® Treat",
+      "category": "Blizzards",
+      "calories": 1320
+    },
+    {
+      "name": "Cherry Dipped Cone",
+      "category": "Classic Treats",
+      "calories": 210
+    },
+    {
+      "name": "Brownie and OREO® Cupfection",
+      "category": "Classic Treats",
+      "calories": 720
+    },
+    {
+      "name": "Chocolate Sundae",
+      "category": "Classic Treats",
+      "calories": 270
+    },
+    {
+      "name": "Caramel Sundae",
+      "category": "Classic Treats",
+      "calories": 300
+    },
+    {
+      "name": "Strawberry Sundae",
+      "category": "Classic Treats",
+      "calories": 240
+    },
+    {
+      "name": "Vanilla Cone",
+      "category": "Classic Treats",
+      "calories": 160
+    },
+    {
+      "name": "Dilly® Bar",
+      "category": "Classic Treats",
+      "calories": 220
+    },
+    {
+      "name": "Chocolate Dipped Cone",
+      "category": "Classic Treats",
+      "calories": 320
+    },
+    {
+      "name": "Banana Split",
+      "category": "Classic Treats",
+      "calories": 520
+    },
+    {
+      "name": "HEATH® Caramel Brownie Cupfection",
+      "category": "Classic Treats",
+      "calories": 760
+    },
+    {
+      "name": "Hot Fudge Sundae",
+      "category": "Classic Treats",
+      "calories": 300
+    },
+    {
+      "name": "BUSTER BAR® Treat",
+      "category": "Classic Treats",
+      "calories": 480
+    },
+    {
+      "name": "Non-Dairy Dilly® Bar",
+      "category": "Classic Treats",
+      "calories": 240
+    },
+    {
+      "name": "Peanut Butter Sundae",
+      "category": "Classic Treats",
+      "calories": 380
+    },
+    {
+      "name": "Peanut Buster® Parfait",
+      "category": "Classic Treats",
+      "calories": 710
+    },
+    {
+      "name": "Toasted Marshmallow Mocha DQ® Coffee Cooler",
+      "category": "Drinks",
+      "calories": 520
+    },
+    {
+      "name": "OREO® DQ® Coffee Cooler",
+      "category": "Drinks",
+      "calories": 470
+    },
+    {
+      "name": "Salted Caramel DQ® Coffee Cooler",
+      "category": "Drinks",
+      "calories": 460
+    },
+    {
+      "name": "Vanilla Shake",
+      "category": "Drinks",
+      "calories": 520
+    },
+    {
+      "name": "Chocolate Shake",
+      "category": "Drinks",
+      "calories": 530
+    },
+    {
+      "name": "Caramel Shake",
+      "category": "Drinks",
+      "calories": 550
+    },
+    {
+      "name": "Peanut Butter Shake",
+      "category": "Drinks",
+      "calories": 640
+    },
+    {
+      "name": "Strawberry Shake",
+      "category": "Drinks",
+      "calories": 490
+    },
+    {
+      "name": "Hot Fudge Shake",
+      "category": "Drinks",
+      "calories": 550
+    },
+    {
+      "name": "Vanilla MooLatté®",
+      "category": "Drinks",
+      "calories": 450
+    },
+    {
+      "name": "Bubble Brew DQ® Sparkler",
+      "category": "Drinks",
+      "calories": 250
+    },
+    {
+      "name": "DQ® Lemonade Sparkler",
+      "category": "Drinks",
+      "calories": 180
+    },
+    {
+      "name": "Lemonade DQ® Cooler",
+      "category": "Drinks",
+      "calories": 420
+    },
+    {
+      "name": "Misty® Slush",
+      "category": "Drinks",
+      "calories": 200
+    },
+    {
+      "name": "Misty® Freeze",
+      "category": "Drinks",
+      "calories": 360
+    },
+    {
+      "name": "Orange Julius® Original",
+      "category": "Drinks",
+      "calories": 210
+    },
+    {
+      "name": "Tripleberry® Premium Fruit Smoothie",
+      "category": "Drinks",
+      "calories": 280
+    },
+    {
+      "name": "Strawberry Banana Julius® Original",
+      "category": "Drinks",
+      "calories": 410
+    },
+    {
+      "name": "Strawberry Banana Premium Fruit Smoothie",
+      "category": "Drinks",
+      "calories": 260
+    },
+    {
+      "name": "Mango Pineapple Premium Fruit Smoothie",
+      "category": "Drinks",
+      "calories": 250
+    },
+    {
+      "name": "Wild Alaska Fish Sandwich",
+      "category": "Burgers & Sandwiches",
+      "calories": 420
+    },
+    {
+      "name": "Hot Dog",
+      "category": "Burgers & Sandwiches",
+      "calories": 330
+    },
+    {
+      "name": "Spicy Chicken Strip Sandwich",
+      "category": "Burgers & Sandwiches",
+      "calories": 530
+    },
+    {
+      "name": "Original Cheeseburger Signature Stackburgers™",
+      "category": "Burgers & Sandwiches",
+      "calories": 370
+    },
+    {
+      "name": "Chili Cheese Dog",
+      "category": "Burgers & Sandwiches",
+      "calories": 420
+    },
+    {
+      "name": "Hamburger",
+      "category": "Burgers & Sandwiches",
+      "calories": 350
+    },
+    {
+      "name": "Cheese Deluxe Signature Stackburgers™",
+      "category": "Burgers & Sandwiches",
+      "calories": 620
+    },
+    {
+      "name": "Original Chicken Strip Sandwich",
+      "category": "Burgers & Sandwiches",
+      "calories": 550
+    },
+    {
+      "name": "Bacon Cheese Deluxe Signature Stackburgers™",
+      "category": "Burgers & Sandwiches",
+      "calories": 720
+    },
+    {
+      "name": "FlameThrower® Signature Stackburgers™",
+      "category": "Burgers & Sandwiches",
+      "calories": 720
+    },
+    {
+      "name": "Backyard Bacon Ranch Signature Stackburgers™",
+      "category": "Burgers & Sandwiches",
+      "calories": 820
+    },
+    {
+      "name": "FlameThrower® Chicken Strip Basket",
+      "category": "Chicken Baskets",
+      "calories": 940
+    },
+    {
+      "name": "Parmesan Garlic Sauced & Tossed Chicken Strip Basket",
+      "category": "Chicken Baskets",
+      "calories": 1220
+    },
+    {
+      "name": "Sauced & Tossed Honey BBQ Chicken Strip Basket",
+      "category": "Chicken Baskets",
+      "calories": 1140
+    },
+    {
+      "name": "Chicken Strip Basket",
+      "category": "Chicken Baskets",
+      "calories": 1020
+    },
+    {
+      "name": "2 Piece Chicken Strips",
+      "category": "Sides & Salads",
+      "calories": 280
+    },
+    {
+      "name": "Chili Dog",
+      "category": "Sides & Salads",
+      "calories": 360
+    },
+    {
+      "name": "Crispy Chicken Strips Salad",
+      "category": "Sides & Salads",
+      "calories": 430
+    },
+    {
+      "name": "Fries",
+      "category": "Sides & Salads",
+      "calories": 280
+    },
+    {
+      "name": "Cheese Curds",
+      "category": "Sides & Salads",
+      "calories": 500
+    },
+    {
+      "name": "Pretzel Sticks with Zesty Queso",
+      "category": "Sides & Salads",
+      "calories": 330
+    },
+    {
+      "name": "Onion Rings",
+      "category": "Sides & Salads",
+      "calories": 360
+    },
+    {
+      "name": "Fries (small)",
+      "category": "Kids",
+      "calories": 170
+    },
+    {
+      "name": "Milk",
+      "category": "Kids",
+      "calories": 110
+    },
+    {
+      "name": "Banana",
+      "category": "Kids",
+      "calories": 110
+    }
+  ]
+}

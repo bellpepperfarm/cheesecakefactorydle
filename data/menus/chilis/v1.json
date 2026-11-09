@@ -1,0 +1,1179 @@
+{
+  "sourceURL": "https://www.chilis.com/menu",
+  "sourceEdition": "U.S. national menu",
+  "imagepath": "",
+  "imageCredit": "© Chili’s Grill & Bar",
+  "products": [
+    {
+      "id": "P100608",
+      "name": "Southwestern Eggrolls™",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1020,
+      "imagefilename": "https://olo-images-live.imgix.net/4c/4cd7dfde450d477cb29b74491d194796.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=a4137ea29d32c1c785008c05f14cac9b",
+      "sourceURL": "https://www.chilis.com/menu/appetizers/southwestern-eggrolls",
+      "localImage": "images/chilis/p100608.webp"
+    },
+    {
+      "id": "P113724",
+      "name": "Southwestern Queso",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1360,
+      "imagefilename": "https://olo-images-live.imgix.net/1f/1f2ad9964e9b4c9fa931371c2c9db555.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=39311a1f517b9740a604e09b6f9aebf8",
+      "sourceURL": "https://www.chilis.com/menu/appetizers/southwestern-queso",
+      "localImage": "images/chilis/p113724.webp"
+    },
+    {
+      "id": "P101752",
+      "name": "Skillet Beef Queso",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1340,
+      "imagefilename": "https://olo-images-live.imgix.net/13/13f51257ab8643d790a30624f7b594ab.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=22db6b9353d02c9fa1ef80d804872f26",
+      "sourceURL": "https://www.chilis.com/menu/appetizers/skillet-beef-queso",
+      "hidden": true,
+      "coveredBy": "P113724",
+      "comment": "Hidden because Southwestern Queso already covers the skillet queso and chips format.",
+      "localImage": "images/chilis/p101752.webp"
+    },
+    {
+      "id": "P102578",
+      "name": "House-made Guacamole",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1150,
+      "imagefilename": "https://olo-images-live.imgix.net/f2/f27a27cab2274043aa52c9823e4a9a1e.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=0516b8af9476d26a2dca2ae07b91337d",
+      "sourceURL": "https://www.chilis.com/menu/appetizers/house-made-guacamole",
+      "localImage": "images/chilis/p102578.webp"
+    },
+    {
+      "id": "P101751",
+      "name": "Chips & Salsa",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 910,
+      "imagefilename": "https://olo-images-live.imgix.net/d4/d497c7704b304f7d92690411ba201abc.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=2a5a33837ff754a8f5966b50622bd680",
+      "sourceURL": "https://www.chilis.com/menu",
+      "hidden": true,
+      "coveredBy": "P102578",
+      "comment": "Hidden because House-made Guacamole already covers the chips and dip format.",
+      "localImage": "images/chilis/p101751.webp"
+    },
+    {
+      "id": "P101953",
+      "name": "Texas Cheese Fries",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1790,
+      "imagefilename": "https://olo-images-live.imgix.net/c2/c2675192aefa4408b17c73e7f6fb1810.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=8d6328e816a979bcbf0e4c35b114a0a2",
+      "sourceURL": "https://www.chilis.com/menu",
+      "localImage": "images/chilis/p101953.webp"
+    },
+    {
+      "id": "P113089",
+      "name": "Big Smasher™ Burger",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1370,
+      "imagefilename": "https://olo-images-live.imgix.net/c1/c19dee03cdd34819b15f7302b27f01da.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=68b4e799821f60c04ad19e4476e7610e",
+      "sourceURL": "https://www.chilis.com/menu/big-mouth-burgers/big-smasher-burger",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 950
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P110749",
+      "comment": "Hidden because Double Bacon Rancher already covers the loaded beef burger with fries format.",
+      "localImage": "images/chilis/p113089.webp"
+    },
+    {
+      "id": "P113505",
+      "name": "The Big QP Burger",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1310,
+      "imagefilename": "https://olo-images-live.imgix.net/13/13c19a738b40430694c32afbeae56d9d.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=97b014e014003feebd7ba0688a7a3d33",
+      "sourceURL": "https://www.chilis.com/menu/big-mouth-burgers/the-big-qp-burger",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 890
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P110749",
+      "comment": "Hidden because Double Bacon Rancher already covers the loaded beef burger with fries format.",
+      "localImage": "images/chilis/p113505.webp"
+    },
+    {
+      "id": "P113973",
+      "name": "Double Big Smasher™ Burger",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1910,
+      "imagefilename": "https://olo-images-live.imgix.net/19/19ce75fa7f3a43c48fe81b1ffc28c845.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=622aec3c6cc8288d07ffbcac0ac138ad",
+      "sourceURL": "https://www.chilis.com/menu/big-mouth-burgers/double-big-smasher-burger",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1490
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P110749",
+      "comment": "Hidden because Double Bacon Rancher already covers the loaded beef burger with fries format.",
+      "localImage": "images/chilis/p113973.webp"
+    },
+    {
+      "id": "P106795",
+      "name": "Alex's Santa Fe Burger",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1350,
+      "imagefilename": "https://olo-images-live.imgix.net/29/29a69e0489b64c4b9cd01d0b443da876.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=a7878c50534bc01f130217a62eb816a2",
+      "sourceURL": "https://www.chilis.com/menu/big-mouth-burgers/alex_s-santa-fe-burger",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 930
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P110749",
+      "comment": "Hidden because Double Bacon Rancher already covers the loaded beef burger with fries format.",
+      "localImage": "images/chilis/p106795.webp"
+    },
+    {
+      "id": "P110749",
+      "name": "Double Bacon Rancher",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 2130,
+      "imagefilename": "https://olo-images-live.imgix.net/b1/b1e2f51df1bf4b67bf820ba1db36541a.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=b54e14fc29fff37de178f77a24685e94",
+      "sourceURL": "https://www.chilis.com/menu/big-mouth-burgers/double-bacon-rancher",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1710
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "localImage": "images/chilis/p110749.webp"
+    },
+    {
+      "id": "P101552",
+      "name": "Big Mouth® Bites",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "4 sliders with fries",
+      "basecalories": 1640,
+      "imagefilename": "https://olo-images-live.imgix.net/3a/3a8d528aace0449c836b61efce7bbe29.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=e2155863c61de0ab75006082963beddb",
+      "sourceURL": "https://www.chilis.com/menu/big-mouth-burgers/big-mouth-bites",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1220
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "localImage": "images/chilis/p101552.webp"
+    },
+    {
+      "id": "P113689",
+      "name": "Bacon Cheeseburger",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1550,
+      "imagefilename": "https://olo-images-live.imgix.net/6a/6ab26131e18148fa8848a7f9c94bdc6f.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=547c0a508f8a2b6da9f5dc9de7c2490b",
+      "sourceURL": "https://www.chilis.com/menu/big-mouth-burgers/bacon-cheeseburger",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1130
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P110749",
+      "comment": "Hidden because Double Bacon Rancher already covers the loaded beef burger with fries format.",
+      "localImage": "images/chilis/p113689.webp"
+    },
+    {
+      "id": "P102596",
+      "name": "Oldtimer® Burger W/ Cheese",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1270,
+      "imagefilename": "https://olo-images-live.imgix.net/b1/b180807e10324a65a424f101e09aa17c.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=5e7561b44c8562afcbd8d046240ce232",
+      "sourceURL": "https://www.chilis.com/menu/big-mouth-burgers/oldtimer-burger-w-cheese",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 850
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P110749",
+      "comment": "Hidden because Double Bacon Rancher already covers the loaded beef burger with fries format.",
+      "localImage": "images/chilis/p102596.webp"
+    },
+    {
+      "id": "P100039",
+      "name": "Mushroom Swiss Burger",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1430,
+      "imagefilename": "https://olo-images-live.imgix.net/6f/6f4439ebae96457dae7c6043f31905b3.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=7df5c95c635ab987c674df2b22ae272d",
+      "sourceURL": "https://www.chilis.com/menu",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1010
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P110749",
+      "comment": "Hidden because Double Bacon Rancher already covers the loaded beef burger with fries format.",
+      "localImage": "images/chilis/p100039.webp"
+    },
+    {
+      "id": "P113298",
+      "name": "Veggie Santa Fe Burger",
+      "category": "Big Mouth Burgers®",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1060,
+      "imagefilename": "https://olo-images-live.imgix.net/6c/6c9061de36204260a0dff541b0fb45cc.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=67b1f7675f8bb8fcf510a7331b9ebb37",
+      "sourceURL": "https://www.chilis.com/menu",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 640
+        },
+        {
+          "name": "Homestyle fries",
+          "calories": 420
+        }
+      ],
+      "localImage": "images/chilis/p113298.webp"
+    },
+    {
+      "id": "P113825",
+      "name": "Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries and white cheddar mac & cheese",
+      "basecalories": 1560,
+      "imagefilename": "https://olo-images-live.imgix.net/1e/1eda3268d40d4aec8fa514f76b3fc7d6.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=9614a73fc42871dd40d3eb23a610c5ce",
+      "sourceURL": "https://www.chilis.com/menu/crispy-chicken-sandwiches/big-crispy-chicken-sandwich",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 880
+        },
+        {
+          "name": "Fries",
+          "calories": 420
+        },
+        {
+          "name": "White cheddar mac & cheese",
+          "calories": 260
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P113692",
+      "comment": "Hidden because Deluxe Big Crispy® Chicken Sandwich already covers the chicken sandwich plate with fries and mac & cheese.",
+      "localImage": "images/chilis/p113825.webp"
+    },
+    {
+      "id": "P113826",
+      "name": "Spicy Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries and white cheddar mac & cheese",
+      "basecalories": 1550,
+      "imagefilename": "https://olo-images-live.imgix.net/cd/cdc272fbb55f4237974c8f5195eedb81.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=fc4b80023904481c5e460c1e2788c360",
+      "sourceURL": "https://www.chilis.com/menu/crispy-chicken-sandwiches/spicy-big-crispy-chicken-sandwich",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 870
+        },
+        {
+          "name": "Fries",
+          "calories": 420
+        },
+        {
+          "name": "White cheddar mac & cheese",
+          "calories": 260
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P113692",
+      "comment": "Hidden because Deluxe Big Crispy® Chicken Sandwich already covers the chicken sandwich plate with fries and mac & cheese.",
+      "localImage": "images/chilis/p113826.webp"
+    },
+    {
+      "id": "P113819",
+      "name": "Honey-Chipotle Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries and white cheddar mac & cheese",
+      "basecalories": 1520,
+      "imagefilename": "https://olo-images-live.imgix.net/b2/b2449bf055e04f3199bdba5ecf2ea16f.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=4b5f34d1d37011062f09664102812413",
+      "sourceURL": "https://www.chilis.com/menu/crispy-chicken-sandwiches/honey-chipotle-big-crispy-chicken-sandwich",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 840
+        },
+        {
+          "name": "Fries",
+          "calories": 420
+        },
+        {
+          "name": "White cheddar mac & cheese",
+          "calories": 260
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P113692",
+      "comment": "Hidden because Deluxe Big Crispy® Chicken Sandwich already covers the chicken sandwich plate with fries and mac & cheese.",
+      "localImage": "images/chilis/p113819.webp"
+    },
+    {
+      "id": "P113818",
+      "name": "Nashville Hot Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries and white cheddar mac & cheese",
+      "basecalories": 1630,
+      "imagefilename": "https://olo-images-live.imgix.net/60/600765f960db46b8aec03ff1f91592b3.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=b1ab085e9a03409a39524a7691a6ec83",
+      "sourceURL": "https://www.chilis.com/menu/crispy-chicken-sandwiches/nashville-hot-big-crispy-chicken-sandwich",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 950
+        },
+        {
+          "name": "Fries",
+          "calories": 420
+        },
+        {
+          "name": "White cheddar mac & cheese",
+          "calories": 260
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P113692",
+      "comment": "Hidden because Deluxe Big Crispy® Chicken Sandwich already covers the chicken sandwich plate with fries and mac & cheese.",
+      "localImage": "images/chilis/p113818.webp"
+    },
+    {
+      "id": "P113820",
+      "name": "Buffalo Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries and white cheddar mac & cheese",
+      "basecalories": 1390,
+      "imagefilename": "https://olo-images-live.imgix.net/ca/ca7e78e9e95b4038a9a6e4bce4e47028.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=f14172061ef872cd9abfad3aa7e38416",
+      "sourceURL": "https://www.chilis.com/menu/crispy-chicken-sandwiches/buffalo-big-crispy-chicken-sandwich",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 710
+        },
+        {
+          "name": "Fries",
+          "calories": 420
+        },
+        {
+          "name": "White cheddar mac & cheese",
+          "calories": 260
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P113692",
+      "comment": "Hidden because Deluxe Big Crispy® Chicken Sandwich already covers the chicken sandwich plate with fries and mac & cheese.",
+      "localImage": "images/chilis/p113820.webp"
+    },
+    {
+      "id": "P113692",
+      "name": "Deluxe Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries and white cheddar mac & cheese",
+      "basecalories": 1730,
+      "imagefilename": "https://olo-images-live.imgix.net/fc/fcd67b3956ff40528b320037739a4036.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=838b5cae1a7af192309a1c04ffd5b16a",
+      "sourceURL": "https://www.chilis.com/menu/crispy-chicken-sandwiches/deluxe-big-crispy-chicken-sandwich",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1050
+        },
+        {
+          "name": "Fries",
+          "calories": 420
+        },
+        {
+          "name": "White cheddar mac & cheese",
+          "calories": 260
+        }
+      ],
+      "localImage": "images/chilis/p113692.webp"
+    },
+    {
+      "id": "P113675",
+      "name": "Deluxe Grilled Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "description": "",
+      "portion": "One sandwich with fries and white cheddar mac & cheese",
+      "basecalories": 1480,
+      "imagefilename": "https://olo-images-live.imgix.net/e1/e1b09304b8f748ad9e02a829d8dc8d29.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=a57081f9a20c0bd417ce67b6c6bb86b4",
+      "sourceURL": "https://www.chilis.com/menu/crispy-chicken-sandwiches/deluxe-grilled-chicken-sandwich",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 800
+        },
+        {
+          "name": "Fries",
+          "calories": 420
+        },
+        {
+          "name": "White cheddar mac & cheese",
+          "calories": 260
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P113692",
+      "comment": "Hidden because Deluxe Big Crispy® Chicken Sandwich already covers the chicken sandwich plate with fries and mac & cheese.",
+      "localImage": "images/chilis/p113675.webp"
+    },
+    {
+      "id": "P101931",
+      "name": "Full Rack of Ribs",
+      "category": "BBQ Classics",
+      "description": "",
+      "portion": "Full rack with fries and white cheddar mac & cheese",
+      "basecalories": 2160,
+      "imagefilename": "https://olo-images-live.imgix.net/55/55b91b8509604c01a8f6564efad5a0e7.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=ef493c54b47c3862e9e18f0690bb0ca3",
+      "sourceURL": "https://www.chilis.com/menu/bbq-classics/full-rack-of-ribs",
+      "localImage": "images/chilis/p101931.webp"
+    },
+    {
+      "id": "P112049",
+      "name": "Half Rack of Ribs",
+      "category": "BBQ Classics",
+      "description": "",
+      "portion": "Half rack with fries and white cheddar mac & cheese",
+      "basecalories": 1130,
+      "imagefilename": "https://olo-images-live.imgix.net/23/234c34f602614e03b93677f4e7a67529.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=da993e6cbcc2e276eb594c1225b75844",
+      "sourceURL": "https://www.chilis.com/menu/bbq-classics/half-rack-of-ribs",
+      "localImage": "images/chilis/p112049.webp"
+    },
+    {
+      "id": "P114054",
+      "name": "Sausage & Chicken Cajun Pasta",
+      "category": "Pasta",
+      "description": "",
+      "portion": "One pasta entrée with garlic toast",
+      "basecalories": 1540,
+      "imagefilename": "https://olo-images-live.imgix.net/d6/d612186814a54d1e8a072f79d0b9ab1a.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=271189bc6afabff3a3317c8f7117390c",
+      "sourceURL": "https://www.chilis.com/menu/pasta/sausage-chicken-cajun-pasta",
+      "localImage": "images/chilis/p114054.webp"
+    },
+    {
+      "id": "P112045",
+      "name": "Shrimp & Chicken Cajun Pasta",
+      "category": "Pasta",
+      "description": "",
+      "portion": "One pasta entrée with garlic toast",
+      "basecalories": 1230,
+      "imagefilename": "https://olo-images-live.imgix.net/8f/8f471b5ac73c4c1bb8942ce8179aa2eb.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=e1b0c220d68629576fdf69610d715dab",
+      "sourceURL": "https://www.chilis.com/menu/pasta/shrimp-chicken-cajun-pasta",
+      "localImage": "images/chilis/p112045.webp"
+    },
+    {
+      "id": "P112250",
+      "name": "Surf & Turf Ribeye",
+      "category": "Steaks",
+      "description": "",
+      "portion": "Entrée with loaded mashed potatoes and broccoli",
+      "basecalories": 1070,
+      "imagefilename": "https://olo-images-live.imgix.net/e5/e513627e0f3c4b3e98962a8ab9b523f9.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=c303e9b08e98e78242e0ab37baadbf5e",
+      "sourceURL": "https://www.chilis.com/menu/steaks/surf-turf-ribeye",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 690
+        },
+        {
+          "name": "Loaded mashed potatoes",
+          "calories": 340
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 40
+        }
+      ],
+      "localImage": "images/chilis/p112250.webp"
+    },
+    {
+      "id": "P112251",
+      "name": "Surf & Turf Sirloin* - 10oz",
+      "category": "Steaks",
+      "description": "",
+      "portion": "10 oz entrée with loaded mashed potatoes and broccoli",
+      "basecalories": 830,
+      "imagefilename": "https://olo-images-live.imgix.net/bb/bbd689b689be45ea9a5230ece4862cdb.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=46046fafadf65a60e31bdcf69baafb11",
+      "sourceURL": "https://www.chilis.com/menu/steaks/surf-turf-sirloin-10oz",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 450
+        },
+        {
+          "name": "Loaded mashed potatoes",
+          "calories": 340
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 40
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P112250",
+      "comment": "Hidden because Surf & Turf Ribeye already covers the surf and turf plate.",
+      "localImage": "images/chilis/p112251.webp"
+    },
+    {
+      "id": "P101648",
+      "name": "Classic Ribeye",
+      "category": "Steaks",
+      "description": "",
+      "portion": "Entrée with loaded mashed potatoes and broccoli",
+      "basecalories": 1000,
+      "imagefilename": "https://olo-images-live.imgix.net/3e/3e5647c12c92454bb62235fe49a29dd2.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=62a1325499a3b4ba576ad6ff35174b82",
+      "sourceURL": "https://www.chilis.com/menu/steaks/classic-ribeye",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 620
+        },
+        {
+          "name": "Loaded mashed potatoes",
+          "calories": 340
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 40
+        }
+      ],
+      "localImage": "images/chilis/p101648.webp"
+    },
+    {
+      "id": "P103671",
+      "name": "Classic Sirloin* - 6oz",
+      "category": "Steaks",
+      "description": "",
+      "portion": "6 oz entrée with loaded mashed potatoes and broccoli",
+      "basecalories": 610,
+      "imagefilename": "https://olo-images-live.imgix.net/2f/2f8abdbcb025473c9f7c5631e2f3dae8.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=cc3c39282ca79c4bab298fe17838525a",
+      "sourceURL": "https://www.chilis.com/menu/steaks/classic-sirloin-6oz",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 250
+        },
+        {
+          "name": "Loaded mashed potatoes",
+          "calories": 320
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 40
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P101648",
+      "comment": "Hidden because Classic Ribeye already covers the classic steak with potatoes and broccoli format.",
+      "localImage": "images/chilis/p103671.webp"
+    },
+    {
+      "id": "P103670",
+      "name": "Classic Sirloin* - 10oz",
+      "category": "Steaks",
+      "description": "",
+      "portion": "10 oz entrée with loaded mashed potatoes and broccoli",
+      "basecalories": 750,
+      "imagefilename": "https://olo-images-live.imgix.net/29/29674d63f8b9431abb4d0c7f7eec901b.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=be7995412c1622ddbd6f18b38ec1ac90",
+      "sourceURL": "https://www.chilis.com/menu/steaks/classic-sirloin-10oz",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 390
+        },
+        {
+          "name": "Loaded mashed potatoes",
+          "calories": 320
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 40
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "P101648",
+      "comment": "Hidden because Classic Ribeye already covers the classic steak with potatoes and broccoli format.",
+      "localImage": "images/chilis/p103670.webp"
+    },
+    {
+      "id": "P102501",
+      "name": "Guiltless Sirloin* - 6oz",
+      "category": "Steaks",
+      "description": "",
+      "portion": "6 oz sirloin with roasted asparagus",
+      "basecalories": 300,
+      "imagefilename": "https://olo-images-live.imgix.net/db/db7942185b694ea8b26af5953e0eb321.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=9e2a0f7c540caa7850e86bb5148f4c9d",
+      "sourceURL": "https://www.chilis.com/menu/guiltless-grill/guiltless-sirloin-6oz",
+      "hidden": true,
+      "coveredBy": "P102217",
+      "comment": "Hidden because Guiltless Sirloin* - 10oz. already covers the asparagus-topped sirloin format.",
+      "localImage": "images/chilis/p102501.webp"
+    },
+    {
+      "id": "P102217",
+      "name": "Guiltless Sirloin* - 10oz.",
+      "category": "Steaks",
+      "description": "",
+      "portion": "10 oz sirloin with roasted asparagus",
+      "basecalories": 450,
+      "imagefilename": "https://olo-images-live.imgix.net/7a/7a420d52b4b7443a8b44c38ee77ffff5.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=49e24759657e8255a3ffd58af39b2bdf",
+      "sourceURL": "https://www.chilis.com/menu/guiltless-grill/guiltless-sirloin-10oz",
+      "localImage": "images/chilis/p102217.webp"
+    },
+    {
+      "id": "P102483",
+      "name": "Ancho Salmon",
+      "category": "Guiltless Grill®",
+      "description": "",
+      "portion": "One salmon entrée with rice and broccoli",
+      "basecalories": 590,
+      "imagefilename": "https://olo-images-live.imgix.net/15/15a06f76789143f3b9102bb93436c392.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=b6711e217400a56dafaed4043208d76a",
+      "sourceURL": "https://www.chilis.com/menu/guiltless-grill/ancho-salmon",
+      "localImage": "images/chilis/p102483.webp"
+    },
+    {
+      "id": "P112046",
+      "name": "Santa Fe Salad",
+      "category": "Guiltless Grill®",
+      "description": "",
+      "portion": "One salad with house-made ranch",
+      "basecalories": 540,
+      "imagefilename": "https://olo-images-live.imgix.net/56/56b625c734a34bca901ef9198f81c601.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=a78b9eb00319cc6a93cdd92ffb4e0bc2",
+      "sourceURL": "https://www.chilis.com/menu/guiltless-grill/santa-fe-salad",
+      "hidden": true,
+      "coveredBy": "P106265",
+      "comment": "Hidden because Santa Fe Crispers® Salad already covers the Santa Fe salad format.",
+      "localImage": "images/chilis/p112046.webp"
+    },
+    {
+      "id": "P100606",
+      "name": "Margarita Grilled Chicken™",
+      "category": "Guiltless Grill®",
+      "description": "",
+      "portion": "One chicken entrée with rice and black beans",
+      "basecalories": 640,
+      "imagefilename": "https://olo-images-live.imgix.net/55/552e67611f5345e7bef69dcee1f8ea4c.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=664ed8633ecb49cd12ca44b8c089c49d",
+      "sourceURL": "https://www.chilis.com/menu/guiltless-grill/margarita-grilled-chicken",
+      "localImage": "images/chilis/p100606.webp"
+    },
+    {
+      "id": "P103823",
+      "name": "Chicken Bacon Ranch Quesadillas",
+      "category": "Bowls & Quesadillas",
+      "description": "",
+      "portion": "One quesadilla order with pico, sour cream and ranch",
+      "basecalories": 1700,
+      "imagefilename": "https://olo-images-live.imgix.net/5a/5ae364391fbe4724a3d86950b3905aa0.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=7d5416ea0e6e41696730c0578dbfb3fa",
+      "sourceURL": "https://www.chilis.com/menu/bowls-quesadillas/chicken-bacon-ranch-quesadillas",
+      "localImage": "images/chilis/p103823.webp"
+    },
+    {
+      "id": "P108480",
+      "name": "Brisket Quesadillas",
+      "category": "Bowls & Quesadillas",
+      "description": "",
+      "portion": "One quesadilla order with pico, sour cream and ranch",
+      "basecalories": 1620,
+      "imagefilename": "https://olo-images-live.imgix.net/37/37551514ee0347d4884dc1ad14d20467.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=a7ff2fa4e4c438aea11865ab710d774a",
+      "sourceURL": "https://www.chilis.com/menu/bowls-quesadillas/brisket-quesadillas",
+      "hidden": true,
+      "coveredBy": "P103823",
+      "comment": "Hidden because Chicken Bacon Ranch Quesadillas already covers the loaded quesadilla plate.",
+      "localImage": "images/chilis/p108480.webp"
+    },
+    {
+      "id": "P112048",
+      "name": "Chipotle Fresh Mex Bowl",
+      "category": "Bowls & Quesadillas",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 880,
+      "imagefilename": "https://olo-images-live.imgix.net/0b/0b68d9705731495b9efeede940ac057e.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=781b345fbcc03403bbd82f7d533a1b25",
+      "sourceURL": "https://www.chilis.com/menu/bowls-quesadillas/chipotle-fresh-mex-bowl",
+      "localImage": "images/chilis/p112048.webp"
+    },
+    {
+      "id": "P106265",
+      "name": "Santa Fe Crispers® Salad",
+      "category": "Salads & Soups",
+      "description": "",
+      "portion": "One entrée salad",
+      "basecalories": 780,
+      "imagefilename": "https://olo-images-live.imgix.net/eb/ebc74cd0fed84dec8e66e9d88ee7278f.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=1fd276d339b7fec2709dc37b20158ba7",
+      "sourceURL": "https://www.chilis.com/menu/salads-soups/santa-fe-crispers-salad",
+      "localImage": "images/chilis/p106265.webp"
+    },
+    {
+      "id": "P112154",
+      "name": "Quesadilla Explosion Crispers® Salad",
+      "category": "Salads & Soups",
+      "description": "",
+      "portion": "One salad with cheese quesadillas and dressing",
+      "basecalories": 1420,
+      "imagefilename": "https://olo-images-live.imgix.net/4d/4df541218460464aaa1153b5829e8831.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=067857382434e657a7fee017485d3b2d",
+      "sourceURL": "https://www.chilis.com/menu/salads-soups/quesadilla-explosion-crispers-salad",
+      "localImage": "images/chilis/p112154.webp"
+    },
+    {
+      "id": "P112047",
+      "name": "Quesadilla Explosion Salad",
+      "category": "Salads & Soups",
+      "description": "",
+      "portion": "One salad with cheese quesadillas and dressing",
+      "basecalories": 1180,
+      "imagefilename": "https://olo-images-live.imgix.net/00/001c0c33bc9d40e48896617aa98c3e5f.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=dfbd3628fe54fbb97381b3e3c9ce9290",
+      "sourceURL": "https://www.chilis.com/menu/salads-soups/quesadilla-explosion-salad",
+      "hidden": true,
+      "coveredBy": "P112154",
+      "comment": "Hidden because Quesadilla Explosion Crispers® Salad already covers the salad topped with quesadillas.",
+      "localImage": "images/chilis/p112047.webp"
+    },
+    {
+      "id": "P113330",
+      "name": "Don Julio® Marg",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 180,
+      "imagefilename": "https://olo-images-live.imgix.net/47/47ce531232b844ba9e3178402d25c3f5.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=ddbd7ddf49045b37275950ccbd3fde9d",
+      "sourceURL": "https://www.chilis.com/menu/to-go-alcohol/don-julio-marg",
+      "hidden": true,
+      "coveredBy": "P109344",
+      "comment": "Hidden because El Niño Marg already covers the margarita format.",
+      "localImage": "images/chilis/p113330.webp"
+    },
+    {
+      "id": "P112190",
+      "name": "Tito's Watermelon Spritz",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 280,
+      "imagefilename": "https://olo-images-live.imgix.net/9c/9c38e0a577094050a00a8a3de96bddab.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=3cf8b4d038f832ec348e11af8ca9bea4",
+      "sourceURL": "https://www.chilis.com/menu/to-go-alcohol/tito_s-watermelon-spritz",
+      "hidden": true,
+      "coveredBy": "P109352",
+      "comment": "Hidden because Tito's® Punch† already covers the fruit-flavored vodka cocktail format.",
+      "localImage": "images/chilis/p112190.webp"
+    },
+    {
+      "id": "P112128",
+      "name": "Henny Marg",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 320,
+      "imagefilename": "https://olo-images-live.imgix.net/b0/b045f101186447a185391e0643e982ad.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=d6560662a6f06661f1593222bfcb9560",
+      "sourceURL": "https://www.chilis.com/menu/to-go-alcohol/henny-marg",
+      "hidden": true,
+      "coveredBy": "P109344",
+      "comment": "Hidden because El Niño Marg already covers the margarita format.",
+      "localImage": "images/chilis/p112128.webp"
+    },
+    {
+      "id": "P112069",
+      "name": "Casamigos® Marg",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 240,
+      "imagefilename": "https://olo-images-live.imgix.net/71/71b2c6ab354e4678bea90526c581ff29.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=43c431b1ed13200f99573c5b56f17f2d",
+      "sourceURL": "https://www.chilis.com/menu/to-go-alcohol/casamigos-marg",
+      "hidden": true,
+      "coveredBy": "P109344",
+      "comment": "Hidden because El Niño Marg already covers the margarita format.",
+      "localImage": "images/chilis/p112069.webp"
+    },
+    {
+      "id": "P112070",
+      "name": "Skinny Marg",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 150,
+      "imagefilename": "https://olo-images-live.imgix.net/17/1722a36b2d3d4871af4db6a19fb552cf.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=26298eedc6b5eff122dfc323d52062ab",
+      "sourceURL": "https://www.chilis.com/menu/to-go-alcohol/skinny-marg",
+      "hidden": true,
+      "coveredBy": "P109344",
+      "comment": "Hidden because El Niño Marg already covers the margarita format.",
+      "localImage": "images/chilis/p112070.webp"
+    },
+    {
+      "id": "P112851",
+      "name": "Spice-A-Rita",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 250,
+      "imagefilename": "https://olo-images-live.imgix.net/62/626590b664834208b1af872396ea0ede.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=46e5e9dfe0a45b7e520f6c02df89af28",
+      "sourceURL": "https://www.chilis.com/menu",
+      "hidden": true,
+      "coveredBy": "P109344",
+      "comment": "Hidden because El Niño Marg already covers the margarita format.",
+      "localImage": "images/chilis/p112851.webp"
+    },
+    {
+      "id": "P109354",
+      "name": "Tequila Classic Marg-Go-Rita®",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 190,
+      "imagefilename": "https://olo-images-live.imgix.net/b2/b2a18a09a27e45dc80f1eb4076677cd7.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=6b80c5a33c6759a2af52900fcfee5357",
+      "sourceURL": "https://www.chilis.com/menu",
+      "hidden": true,
+      "coveredBy": "P109344",
+      "comment": "Hidden because El Niño Marg already covers the margarita format.",
+      "localImage": "images/chilis/p109354.webp"
+    },
+    {
+      "id": "P109352",
+      "name": "Tito's® Punch†",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 330,
+      "imagefilename": "https://olo-images-live.imgix.net/73/7391722817de4c05ba75bf8582d42b99.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=0a845bdc17f91f80329ab73b4213c0a7",
+      "sourceURL": "https://www.chilis.com/menu",
+      "localImage": "images/chilis/p109352.webp"
+    },
+    {
+      "id": "P109349",
+      "name": "Premium Long Island Iced Tea",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 290,
+      "imagefilename": "https://olo-images-live.imgix.net/b5/b5cfc557086546d09e119bead2ca2514.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=83133982af073cbc1de1fbc7768e6082",
+      "sourceURL": "https://www.chilis.com/menu",
+      "localImage": "images/chilis/p109349.webp"
+    },
+    {
+      "id": "P109347",
+      "name": "Deep Eddy® Strawberry Texas Lemonade",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 280,
+      "imagefilename": "https://olo-images-live.imgix.net/a2/a22e8bebe2e745f88b451c61c9505326.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=3ce8db4d9973ad39b142efcb059374fb",
+      "sourceURL": "https://www.chilis.com/menu",
+      "hidden": true,
+      "coveredBy": "P109352",
+      "comment": "Hidden because Tito's® Punch† already covers the fruit-flavored vodka cocktail format.",
+      "localImage": "images/chilis/p109347.webp"
+    },
+    {
+      "id": "P109344",
+      "name": "El Niño Marg",
+      "category": "To-Go Alcohol",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 330,
+      "imagefilename": "https://olo-images-live.imgix.net/5e/5e4eaeb5984b4021a8b60d47d6f11092.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=172ee9d098742b34ee2998b8e55bd80b",
+      "sourceURL": "https://www.chilis.com/menu",
+      "localImage": "images/chilis/p109344.webp"
+    },
+    {
+      "id": "P113046",
+      "name": "Skillet Chocolate Chip Cookie",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One skillet cookie with ice cream",
+      "basecalories": 1210,
+      "imagefilename": "https://olo-images-live.imgix.net/40/40f2fc29852b4f1d92979174279ed5fc.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=444b2520edaf38ce7fc793e832b78c82",
+      "sourceURL": "https://www.chilis.com/menu/desserts/skillet-chocolate-chip-cookie",
+      "localImage": "images/chilis/p113046.webp"
+    },
+    {
+      "id": "P113047",
+      "name": "Molten Chocolate Cake",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One molten cake with ice cream",
+      "basecalories": 1140,
+      "imagefilename": "https://olo-images-live.imgix.net/59/5990c9304b2a460e80643212279bf551.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=80d6f0a48c1212d95ecaf3311adecb8f",
+      "sourceURL": "https://www.chilis.com/menu/desserts/molten-chocolate-cake",
+      "localImage": "images/chilis/p113047.webp"
+    },
+    {
+      "id": "P113045",
+      "name": "Classic Cheesecake",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One slice with strawberry purée",
+      "basecalories": 870,
+      "imagefilename": "https://olo-images-live.imgix.net/26/2607ef7e014f42249248a5688b9cf39e.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=1b1a8d1ee3b34b47329c2364a1df7187",
+      "sourceURL": "https://www.chilis.com/menu/desserts/classic-cheesecake",
+      "localImage": "images/chilis/p113045.webp"
+    },
+    {
+      "id": "P102585",
+      "name": "Kids Cheeseburger Bites",
+      "category": "Kids Menu",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 450,
+      "imagefilename": "https://olo-images-live.imgix.net/ef/ef9e35b2a80749b196f9f78e7f0e7677.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=016b1b4ab4ec85c499b7d1a8300c3101",
+      "sourceURL": "https://www.chilis.com/menu/kids-menu/kids-cheeseburger-bites",
+      "localImage": "images/chilis/p102585.webp"
+    },
+    {
+      "id": "P102348",
+      "name": "Kids Burger Bites",
+      "category": "Kids Menu",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 420,
+      "imagefilename": "https://olo-images-live.imgix.net/b0/b0e3b0db82124620a7986f09956150fc.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=b905781d5395259c0146fc84f3be23f1",
+      "sourceURL": "https://www.chilis.com/menu/kids-menu/kids-burger-bites",
+      "hidden": true,
+      "coveredBy": "P102585",
+      "comment": "Hidden because Kids Cheeseburger Bites already covers the kids’ sliders format.",
+      "localImage": "images/chilis/p102348.webp"
+    },
+    {
+      "id": "P100225",
+      "name": "Kids Crispy Crispers®",
+      "category": "Kids Menu",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 570,
+      "imagefilename": "https://olo-images-live.imgix.net/8e/8eafd200c8e0470c96157c958e121f61.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=a9b8e7f2eada2b8b3c6c3c7d9f5abbbe",
+      "sourceURL": "https://www.chilis.com/menu/kids-menu/kids-crispy-crispers",
+      "localImage": "images/chilis/p100225.webp"
+    },
+    {
+      "id": "P102030",
+      "name": "Kids Chicken Grillers",
+      "category": "Kids Menu",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 280,
+      "imagefilename": "https://olo-images-live.imgix.net/e4/e46916c2fd9b49fbb05525f6216b85ce.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=71cde46cde11d688ba6ad6eade17cf18",
+      "sourceURL": "https://www.chilis.com/menu/kids-menu/kids-chicken-grillers",
+      "localImage": "images/chilis/p102030.webp"
+    },
+    {
+      "id": "P106221",
+      "name": "Kids Cheesy Chicken Pasta",
+      "category": "Kids Menu",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 620,
+      "imagefilename": "https://olo-images-live.imgix.net/3a/3a744e8aa1674ead9b16d5aa213dc812.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=47f22de38e5a5cbf03b49c860466bfb7",
+      "sourceURL": "https://www.chilis.com/menu/kids-menu/kids-cheesy-chicken-pasta",
+      "localImage": "images/chilis/p106221.webp"
+    },
+    {
+      "id": "P100117",
+      "name": "Kids Kraft® Macaroni & Cheese",
+      "category": "Kids Menu",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 310,
+      "imagefilename": "https://olo-images-live.imgix.net/56/56f308d0edda4ec0889112f7df1cff72.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=ad4c81a83551c098325e10c947169b27",
+      "sourceURL": "https://www.chilis.com/menu/kids-menu/kids-kraft-macaroni-cheese",
+      "localImage": "images/chilis/p100117.webp"
+    },
+    {
+      "id": "P103325",
+      "name": "Kids Cheese Pizza",
+      "category": "Kids Menu",
+      "description": "",
+      "portion": "One 6-inch kids’ pizza",
+      "basecalories": 500,
+      "imagefilename": "https://olo-images-live.imgix.net/21/217d52a5391540cc9098b2953d9c7666.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=b984a0aa0daf3c3152c0d67862861687",
+      "sourceURL": "https://www.chilis.com/menu/kids-menu/kids-cheese-pizza",
+      "localImage": "images/chilis/p103325.webp"
+    },
+    {
+      "id": "P104625",
+      "name": "Kids Cheese Quesadilla",
+      "category": "Kids Menu",
+      "description": "",
+      "portion": "One kids’ entrée",
+      "basecalories": 460,
+      "imagefilename": "https://olo-images-live.imgix.net/42/42c36a5e17094488b51afcdc59d3422c.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=83747baa07decbbcecb5d4e3a3100472",
+      "sourceURL": "https://www.chilis.com/menu/kids-menu/kids-cheese-quesadilla",
+      "localImage": "images/chilis/p104625.webp"
+    },
+    {
+      "id": "P113515",
+      "name": "Dragonfruit Lemonade",
+      "category": "Beverages",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 180,
+      "imagefilename": "https://olo-images-live.imgix.net/c3/c35e0408cb374f0cb0079904f6202eea.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=6e931f9eb7e65428e87d409e283a1f98",
+      "sourceURL": "https://www.chilis.com/menu/beverages/dragonfruit-lemonade",
+      "localImage": "images/chilis/p113515.webp"
+    },
+    {
+      "id": "P101859",
+      "name": "Strawberry Lemonade",
+      "category": "Beverages",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 240,
+      "imagefilename": "https://olo-images-live.imgix.net/aa/aacba5126d6d4dcb88981fd1d546a8e7.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=53d4703751271572bea47a3b84a4aaa5",
+      "sourceURL": "https://www.chilis.com/menu/beverages/strawberry-lemonade",
+      "hidden": true,
+      "coveredBy": "P113515",
+      "comment": "Hidden because Dragonfruit Lemonade already covers the flavored lemonade format.",
+      "localImage": "images/chilis/p101859.webp"
+    },
+    {
+      "id": "P112095",
+      "name": "Watermelon Lemonade",
+      "category": "Beverages",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 270,
+      "imagefilename": "https://olo-images-live.imgix.net/3e/3e28d15c62884308be0d9d10af634f09.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=65d7ad08032799d7f01228f743bba070",
+      "sourceURL": "https://www.chilis.com/menu/beverages/watermelon-lemonade",
+      "hidden": true,
+      "coveredBy": "P113515",
+      "comment": "Hidden because Dragonfruit Lemonade already covers the flavored lemonade format.",
+      "localImage": "images/chilis/p112095.webp"
+    },
+    {
+      "id": "P100232",
+      "name": "Blackberry Iced Tea",
+      "category": "Beverages",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 80,
+      "imagefilename": "https://olo-images-live.imgix.net/24/24438fd7d7ac45e1b386f18d16bef671.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=5c8c200ae7fa0f16113136c0dfc2d3b8",
+      "sourceURL": "https://www.chilis.com/menu/beverages/blackberry-iced-tea",
+      "hidden": true,
+      "coveredBy": "P113582",
+      "comment": "Hidden because Dragonfruit Iced Tea already covers the flavored iced tea format.",
+      "localImage": "images/chilis/p100232.webp"
+    },
+    {
+      "id": "P100233",
+      "name": "Mango Iced Tea",
+      "category": "Beverages",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 80,
+      "imagefilename": "https://olo-images-live.imgix.net/3d/3d052152745c48c8a4533010cc61d545.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=a61e9be246f34f371153b23d7a5439ad",
+      "sourceURL": "https://www.chilis.com/menu/beverages/mango-iced-tea",
+      "hidden": true,
+      "coveredBy": "P113582",
+      "comment": "Hidden because Dragonfruit Iced Tea already covers the flavored iced tea format.",
+      "localImage": "images/chilis/p100233.webp"
+    },
+    {
+      "id": "P112094",
+      "name": "Watermelon Iced Tea",
+      "category": "Beverages",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 80,
+      "imagefilename": "https://olo-images-live.imgix.net/0a/0aeb76811e374157bbfc57a57e88e5c3.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=2b2a78e0cd14382edfb0cda196fba8ce",
+      "sourceURL": "https://www.chilis.com/menu/beverages/watermelon-iced-tea",
+      "hidden": true,
+      "coveredBy": "P113582",
+      "comment": "Hidden because Dragonfruit Iced Tea already covers the flavored iced tea format.",
+      "localImage": "images/chilis/p112094.webp"
+    },
+    {
+      "id": "P113582",
+      "name": "Dragonfruit Iced Tea",
+      "category": "Beverages",
+      "description": "",
+      "portion": "One standard drink",
+      "basecalories": 80,
+      "imagefilename": "https://olo-images-live.imgix.net/81/81595a27f651430da55de421c1588724.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=72c4fbce6e8346b29f9180c64147490e",
+      "sourceURL": "https://www.chilis.com/menu",
+      "localImage": "images/chilis/p113582.webp"
+    }
+  ],
+  "schemaVersion": 1,
+  "menuId": "chilis",
+  "version": "v1"
+}

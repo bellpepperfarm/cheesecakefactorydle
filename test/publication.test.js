@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
-import { resolveMenuVersion, selectDailyItems, validateMenuSnapshot } from '../src/core/menus.js';
+import { MenuRepository, resolveMenuVersion, selectDailyItems, validateMenuSnapshot } from '../src/core/menus.js';
 import { correctPositions, selectSortingItems } from '../src/modes/sorting.js';
 import { exclusionReasons } from '../src/core/menu-policy.js';
 import { buildShareText } from '../src/core/share.js';
@@ -14,13 +14,82 @@ const snapshot = JSON.parse(fs.readFileSync(version.path));
 const policy = JSON.parse(fs.readFileSync('data/policies/cheesecake-factory.json'));
 
 test('published menu hashes, item identities, hosted photos and disambiguation remain valid', () => {
-    for (const version of menu.versions) {
-        const bytes = fs.readFileSync(version.path);
-        assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'), version.sha256);
-        const data = validateMenuSnapshot(JSON.parse(bytes), menu, version);
-        for (const item of data.products) assert.ok(fs.existsSync(item.localImage));
+    for (const restaurant of registry.menus.filter(menu => menu.id !== 'all')) {
+        for (const version of restaurant.versions) {
+            const bytes = fs.readFileSync(version.path);
+            assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'), version.sha256);
+            const data = validateMenuSnapshot(JSON.parse(bytes), restaurant, version);
+            assert.match(data.imageCredit, /^© /);
+            for (const item of data.products) {
+                assert.ok(fs.existsSync(item.localImage), item.localImage);
+                if (restaurant.id !== menu.id) assert.match(item.sourceURL, /^https:\/\//);
+                if (item.calorieComponents) {
+                    assert.equal(item.calorieComponents.reduce((sum, component) => sum + component.calories, 0), item.basecalories);
+                }
+            }
+        }
     }
     for (const item of snapshot.products) assert.deepEqual(exclusionReasons(item, policy), [], item.name);
+});
+
+test('mixed dailies preserve photo credits and pick from distinct restaurants', async t => {
+    t.mock.method(globalThis, 'fetch', async path => new Response(fs.readFileSync(path)));
+    const repository = new MenuRepository(registry);
+    const mixed = registry.menus.find(menu => menu.id === 'all');
+    const date = mixed.firstPlayableDate;
+    const context = await repository.load('all', date);
+    const { snapshot, version } = context;
+    assert.equal(new Set(snapshot.products.map(item => item.id)).size, snapshot.products.length);
+    for (const id of version.menuIds) {
+        const source = await repository.load(id, date);
+        const mixedItems = snapshot.products.filter(item => item.sourceMenuId === id);
+        assert.equal(mixedItems.length, source.snapshot.products.length);
+        assert.ok(mixedItems.every(item => item.imageCredit === source.snapshot.imageCredit));
+    }
+    const restaurants = new Set();
+    for (let day = 10; day <= 30; day++) {
+        const dateKey = `2026-11-${day}`;
+        const picks = selectDailyItems(snapshot, version, dateKey);
+        assert.equal(new Set(picks.map(item => item.sourceMenuId)).size, 3);
+        assert.ok(picks.every(item => !item.hidden));
+        assert.deepEqual(selectDailyItems(snapshot, version, dateKey), picks);
+        picks.forEach(item => restaurants.add(item.sourceMenuId));
+    }
+    assert.deepEqual(restaurants, new Set(version.menuIds));
+});
+
+test('the Vancouver menus join the mixed pool on the new effective date', async t => {
+    t.mock.method(globalThis, 'fetch', async path => new Response(fs.readFileSync(path)));
+    const repository = new MenuRepository(registry);
+    const before = await repository.load('all', '2026-11-10');
+    const after = await repository.load('all', '2026-11-11');
+    const restaurants = [
+        ['tim-hortons', '© Tim Hortons'],
+        ['cactus-club', '© Cactus Club Cafe']
+    ];
+    assert.equal(before.version.id, 'v1');
+    assert.equal(after.version.id, 'v2');
+    assert.deepEqual(after.version.menuIds, [...before.version.menuIds, ...restaurants.map(([id]) => id)]);
+    for (const [id, credit] of restaurants) {
+        const source = await repository.load(id, '2026-11-10');
+        const mixedItems = after.snapshot.products.filter(item => item.sourceMenuId === id);
+        assert.equal(mixedItems.length, source.snapshot.products.length);
+        assert.ok(mixedItems.every(item => item.imageCredit === credit));
+    }
+    const picks = selectDailyItems(after.snapshot, after.version, '2026-11-11');
+    assert.equal(new Set(picks.map(item => item.sourceMenuId)).size, 3);
+    assert.ok(picks.every(item => !item.hidden));
+});
+
+test('both game modes exclude hidden variants even when their IDs are in the snapshot order', () => {
+    const products = Array.from({ length: 100 }, (_, id) => ({ id: String(id), basecalories: 100 + id * 100, hidden: id > 4 }));
+    const fixture = { products, selectionOrder: products.map(item => item.id) };
+    assert.ok(selectDailyItems(fixture, version, '2026-11-10').every(item => !item.hidden));
+    for (const hard of [false, true]) {
+        const picks = selectSortingItems(products, hard, createSeededRandom('hidden'));
+        assert.equal(picks.length, 5);
+        assert.ok(picks.every(item => !item.hidden));
+    }
 });
 
 test('future menu versions cannot change an earlier daily selection', () => {

@@ -123,7 +123,7 @@
 :root[data-brand="caloriedle"] :is(.portion-label, .sort-position, .multiguess-review-kicker, .footer .highlight) { color: var(--accent); }
 :root[data-brand="caloriedle"] .guess-container > label { font-weight: 700; font-size: .95rem; }
 :root[data-brand="caloriedle"] .input-container { gap: 8px; }
-:root[data-brand="caloriedle"] :is(#multiguess-calorie-guess, #share-text, #menu-picker) {
+:root[data-brand="caloriedle"] :is(#multiguess-calorie-guess, #share-text) {
     background: var(--surface);
     color: var(--text);
     border: 1px solid var(--control-border);
@@ -151,8 +151,6 @@
 :root[data-brand="caloriedle"] .progress-viz__track { border-color: var(--surface); background: var(--border); }
 :root[data-brand="caloriedle"] .footer { max-width: 780px; margin: 22px auto 0; padding-bottom: 28px; }
 :root[data-brand="caloriedle"] .footer > p:first-child { font-size: .85rem; }
-:root[data-brand="caloriedle"] #menu-picker-container { text-align: center; color: var(--muted); margin-bottom: 24px; }
-:root[data-brand="caloriedle"] #menu-picker-container label { margin-right: 10px; font-size: .85rem; }
 
 @keyframes caloriedle-sway {
     0%, 100% { transform: translateY(0) rotate(-1.2deg); }

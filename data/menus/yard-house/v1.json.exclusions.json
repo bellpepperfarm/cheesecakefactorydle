@@ -1,0 +1,884 @@
+[
+  {
+    "id": "prod840092",
+    "name": "BONELESS WINGS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840086",
+    "name": "10 CRISPY TRADITIONAL WINGS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4780049",
+    "name": "GARDEIN® WINGS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod1240644",
+    "name": "KALE & ROMAINE CAESAR",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod12620041",
+    "name": "WHISKEY & AGED WHITE CHEDDAR*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod19930009",
+    "name": "TWO TACO COMBO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840394",
+    "name": "THREE TACO COMBO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7140086",
+    "name": "SPICY JAMBALAYA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod2030011",
+    "name": "COBB SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7620045",
+    "name": "KALE & ROMAINE CAESAR",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8770072",
+    "name": "GARDEIN® COBB SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4770019",
+    "name": "STEAMED EDAMAME",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4370194",
+    "name": "GUAC & VEGGIES",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4420042",
+    "name": "MIGUEL'S QUESO DIP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod19920031",
+    "name": "SPICY ZA'ATAR HUMMUS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod1130018",
+    "name": "TOMATO BISQUE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8630002",
+    "name": "HOUSE SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4370191",
+    "name": "BBQ CHICKEN SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod1390790",
+    "name": "KALE & ROMAINE CAESAR",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7630039",
+    "name": "COBB SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7770081",
+    "name": "20 oz BONE-IN RIBEYE*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7770082",
+    "name": "20 oz BONE-IN RIBEYE & SHRIMP*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod1130031",
+    "name": "8 oz FILET MIGNON*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod9170016",
+    "name": "CILANTRO LIME CHICKEN",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8250017",
+    "name": "SESAME CRUSTED AHI*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod1130020",
+    "name": "GRILLED CHICKEN & AVOCADO SANDWICH",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8250016",
+    "name": "STACKED TURKEY CLUB SANDWICH",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8250018",
+    "name": "DOUBLE-DECKER BLT",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8260007",
+    "name": "\"EVERYTHING-CRUSTED\" AHI TUNA*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4370193",
+    "name": "TWO PEPPER JACK*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod1130014",
+    "name": "CLASSIC CHEESE*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod3780105",
+    "name": "KUROBUTA PORK*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod3780104",
+    "name": "BBQ BACON CHEDDAR*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod11390011",
+    "name": "BLEU CHEESE AND BACON*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod1560144",
+    "name": "TWO TACO COMBO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod1560145",
+    "name": "THREE TACO COMBO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840564",
+    "name": "JASMINE RICE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8750015",
+    "name": "PINTO BEANS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840580",
+    "name": "PARMESAN MASHED POTATOES",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod848848",
+    "name": "TRADITIONAL WINGS PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod848849",
+    "name": "BONELESS WINGS PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod848847",
+    "name": "GARDEIN® WINGS PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod848844",
+    "name": "CHICKEN LETTUCE WRAPS PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod848845",
+    "name": "FOUR CHEESE SPINACH CHEESE DIP PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4730045",
+    "name": "STEAMED EDAMAME PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4730043",
+    "name": "SPICY EDAMAME PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod848853",
+    "name": "TRADITIONAL CAESAR SALAD PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod848857",
+    "name": "BBQ CHICKEN SALAD PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4440859",
+    "name": "CHICKEN COBB SALAD PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4730048",
+    "name": "KALE & ROMAINE CAESAR SALAD PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4730047",
+    "name": "GRILLED CHICKEN & AVOCADO PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8600045",
+    "name": "STACKED TURKEY CLUB",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod848863",
+    "name": "ADULT MAC + CHEESE PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4730050",
+    "name": "NASHVILLE HOT CHICKEN PLATTER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod19540023",
+    "name": "HIBISCUS MULE'ISH",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod19540022",
+    "name": "SCORCHED MELON",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod12630005",
+    "name": "PINA SPRITZ",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod14700030",
+    "name": "BUZZ-FREE MOJITO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod6910062",
+    "name": "SPARKLING REFRESHERS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod16270068",
+    "name": "ACQUA PANNA SPRING 750ML",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840795",
+    "name": "SAN PELLEGRINO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840784",
+    "name": "HOUSE-BREWED ICED TEA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840789",
+    "name": "LEMONADE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840773",
+    "name": "ESPRESSO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840755",
+    "name": "CAPPUCCINO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840783",
+    "name": "HOT TEA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4730191",
+    "name": "JUICE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4730190",
+    "name": "SODA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod3510119",
+    "name": "VITAMIN WATER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod840797",
+    "name": "RED BULL",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod5060182",
+    "name": "GRAND PATRÓN MARGARITA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8360122",
+    "name": "PINK DRAGON",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod841726",
+    "name": "SALTED WATERMELON MARGARITA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod5060183",
+    "name": "HOUSE MARGARITA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8360121",
+    "name": "GRAPEFRUIT PALOMA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod11180011",
+    "name": "PICANTE MARGARITA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7430037",
+    "name": "ESPRESSO MARTINI",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod6640017",
+    "name": "DRAGON FRUIT COSMO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8360116",
+    "name": "LAVENDER DROP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod6650026",
+    "name": "GREY GOOSE STRAWBERRY MULE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod841603",
+    "name": "HAWAIIAN MULE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod841601",
+    "name": "MOSCOW MULE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod19540019",
+    "name": "TOKYO CITRUS GIMLET",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod19540020",
+    "name": "LYCHEE COSMO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod6640015",
+    "name": "APEROL SPRITZ",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod8360119",
+    "name": "SMOKED OLD FASHIONED",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod841572",
+    "name": "OLD 43",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod12620043",
+    "name": "COCO PASSION",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod841586",
+    "name": "PINEAPPLE EXPRESS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod841485",
+    "name": "FLAVORED MOJITO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod5130023",
+    "name": "CLASSIC MOJITO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod841447",
+    "name": "MALIBU PEACH",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod14700029",
+    "name": "PASSION FRUIT SPRITZ",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod6640020",
+    "name": "LONG BEACH TEA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod16200052",
+    "name": "BLACKBERRY GIN RICKEY",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod4240071",
+    "name": "SUNSET SANGRIA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod2510037",
+    "name": "MIDNIGHT SANGRIA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod849032",
+    "name": "Kids’ Gardein™ BBQ Chicken",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "The photo includes an alternate accompaniment whose calorie count could not be matched.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  }
+]

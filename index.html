@@ -44,7 +44,6 @@
             <button id="retry-load" class="play-again" type="button" hidden>Try Again</button>
         </div>
         <noscript><p>This game needs JavaScript enabled to load dishes and save your guesses.</p></noscript>
-        <div id="menu-picker-container" hidden><label for="menu-picker">Restaurant</label><select id="menu-picker"></select></div>
         <p id="challenge-date" class="challenge-date"></p>
         <!-- Multiguess Game Container -->
         <div id="multiguess-game" class="game-container hidden">
@@ -68,7 +67,7 @@
             </div>
             <div id="multiguess-round" class="multiguess-round">
                 <div class="food-display">
-                    <button type="button" class="food-photo photo-zoom" aria-label="Enlarge dish photo" aria-haspopup="dialog" aria-controls="image-overlay"><img id="multiguess-food-image" src="" alt="Food item from Cheesecake Factory"><span class="image-credit"></span></button>
+                    <button type="button" class="food-photo photo-zoom" aria-label="Enlarge dish photo" aria-haspopup="dialog" aria-controls="image-overlay"><img id="multiguess-food-image" src="" alt=""><span class="image-credit"></span></button>
                     <h2 id="multiguess-food-name" tabindex="-1"></h2>
                     <p id="multiguess-food-portion" class="portion-label"></p>
                     <p id="multiguess-food-description"></p>
@@ -134,7 +133,7 @@
         <div id="closeup-container" class="closeup-container hidden">
             <img src="closeup.png" alt="Bell Pepper Farm Closeup" class="closeup-image">
         </div>
-        <p class="fan-disclaimer">Made by fans, for fans. This unofficial game is not affiliated with, endorsed by, or sponsored by The Cheesecake Factory. Names, trademarks and food photos belong to their respective owners. No copyright infringement is intended.</p>
+        <p id="menu-credit" class="fan-disclaimer">Unofficial fan game. Food photos © The Cheesecake Factory.</p>
         <p class="data-note">For entertainment. Calories reflect the indicated menu version and portion; recipes and customizations may vary.</p>
     </footer>
     <script type="module" src="src/app.js"></script>

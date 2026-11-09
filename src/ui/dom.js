@@ -5,13 +5,14 @@ export function escapeHTML(value) {
 }
 
 export function imageURL(snapshot, item) {
-    return new URL(item.imagefilename, new URL(snapshot.imagepath || './', document.baseURI)).href;
+    return new URL(item.imagefilename, new URL((item.imagepath ?? snapshot.imagepath) || './', document.baseURI)).href;
 }
 
 export function photoHTML(snapshot, item, className = '') {
     const remote = imageURL(snapshot, item);
     const src = item.localImage || remote;
-    return `<span class="food-photo"><img class="${escapeHTML(className)}" src="${escapeHTML(src)}" data-cdn="${escapeHTML(remote)}" alt="${escapeHTML(item.name)}" draggable="false">${snapshot.imageCredit ? `<span class="image-credit">${escapeHTML(snapshot.imageCredit)}</span>` : ''}</span>`;
+    const credit = item.imageCredit ?? snapshot.imageCredit;
+    return `<span class="food-photo"><img class="${escapeHTML(className)}" src="${escapeHTML(src)}" data-cdn="${escapeHTML(remote)}" alt="${escapeHTML(item.name)}" draggable="false">${credit ? `<span class="image-credit">${escapeHTML(credit)}</span>` : ''}</span>`;
 }
 
 export function setFoodImage(image, snapshot, item) {
@@ -21,7 +22,8 @@ export function setFoodImage(image, snapshot, item) {
     image.src = item.localImage || image.dataset.cdn;
     image.alt = item.name;
     const caption = image.parentElement.querySelector('.image-credit');
-    if (caption) { caption.textContent = snapshot.imageCredit || ''; caption.hidden = !snapshot.imageCredit; }
+    const credit = item.imageCredit ?? snapshot.imageCredit;
+    if (caption) { caption.textContent = credit || ''; caption.hidden = !credit; }
 }
 
 export function installImageFallbacks() {

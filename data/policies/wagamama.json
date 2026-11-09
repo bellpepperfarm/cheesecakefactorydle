@@ -1,0 +1,1034 @@
+{
+  "menuId": "wagamama",
+  "reviewedOn": "2026-11-09",
+  "source": "https://www.wagamama.com/menu",
+  "sourceEdition": "Great Britain main website menu, 7 October 2026",
+  "minimumCalories": 50,
+  "excludeCalorieRanges": true,
+  "requireReviewedItems": true,
+  "excludedItems": [
+    {
+      "id": "c337e37a-f434-4298-9306-d0ea1dd15bb7",
+      "name": "Chillies",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "da0d7c66-b88f-4f9c-a638-cd5ef3cedf07",
+      "name": "Katsu pickles",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "4a0f4dd5-80e5-4f37-921e-d0600c7ef92b",
+      "name": "Kimchee",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "79e7c61c-111e-4394-83a6-82ead6c8e819",
+      "name": "Diet coke",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "a1de234b-58c6-41e6-8ae6-14cb52990ea8",
+      "name": "Coke zero",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "8a0612d3-d56c-4af4-be5b-aa819cc1da7a",
+      "name": "Sprite zero",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "a526a388-a8a3-4419-9e3e-987e6e763bfe",
+      "name": "Still water",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "303d1ccb-7e24-4f1e-ad03-c0c3d61fd898",
+      "name": "Sparkling water",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "f89242a3-e91d-456c-bf88-26e7f7d1cd59",
+      "name": "Ginger kombucha",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "c15c1f56-47b8-4b14-afdb-e860a113cecd",
+      "name": "strawbiscus spritz",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "ab348495-48d2-41d7-a1ec-1b4f62e4b79e",
+      "name": "bright + stormy",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "3126f0bf-0807-416b-a4a9-b1620b3e27d6",
+      "name": "passion fruit paloma",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "51bb2d58-d5e8-460a-812b-08310b4180a4",
+      "name": "lychee blush sangria",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "f8aec26e-1330-4d9d-b6fb-c5562b743055",
+      "name": "thai chilli margarita",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "ecf9ce15-12af-4e02-8a4c-3dc4f3d2763e",
+      "name": "roku g+t",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "a55674b2-6154-426d-bfb2-d54e25d27527",
+      "name": "camden pale ale",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "9a7fe055-f209-45f7-bb2a-12eac4823e4e",
+      "name": "sxollie cider",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "a171272e-7db1-4fb4-8e2b-f641e2b92714",
+      "name": "asahi 330ml",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "081e3232-abe8-4231-aa90-78d27558f5d4",
+      "name": "pinot noir",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "2d6758af-ec4c-4c15-85a8-34eb85109a25",
+      "name": "pinot grigio",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "0fccefed-e4f4-4f07-a3bd-b80ba7f709d3",
+      "name": "merlot",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "232ab70b-6777-442e-b9f2-d357426d13b4",
+      "name": "marlborough sauvignon blanc",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "2d705c25-d26d-46ff-8365-e62833dbc70f",
+      "name": "pinot grigio blush",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "b60b8719-1641-4381-8e93-04fd1fb1ae78",
+      "name": "organic prosecco",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "82af3fab-6c0f-49bb-a7a4-e025918a6922",
+      "name": "kaori sake",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "7fcbd51a-b9fc-445c-8c54-d0181fb81b1a",
+      "name": "Iced pumpkin spiced matcha",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "f2b1b9f4-b2fe-4726-8281-7274c94d78f6",
+      "name": "Miso maple iced latte",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "ae1519b4-34b8-422d-a036-57d5bb1dfcd7",
+      "name": "Americano - whole milk",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "b00069e5-3eba-4c73-bc94-83cd5fb42724",
+      "name": "Double espresso",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "38038655-bd98-4d11-aebe-24b8f65077bd",
+      "name": "Iced matcha + strawberry latte",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "2e88835e-9c82-49e0-98bb-940b0e662604",
+      "name": "Green tea",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "f39946d0-8f8e-454e-a81f-48adcd7ec5cb",
+      "name": "Cococino - whole milk",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "107a6bc7-0711-4b8a-89c8-e3a696362653",
+      "name": "Tropical fruit ice lolly",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "9f2647c3-e922-4ccb-8053-e766e08297cf",
+      "name": "Revive",
+      "reasons": [
+        "No dish-specific image in the source."
+      ]
+    },
+    {
+      "id": "358f780c-73fa-45f9-8bf1-de7d33ae8aa6",
+      "name": "pinot grigio",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "6bf917ed-7574-4644-97f5-694c63916299",
+      "name": "marlborough sauvignon blanc",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "ac16bcdb-72ca-4d21-a54b-5c3f7ffa0005",
+      "name": "pinot grigio blush",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    },
+    {
+      "id": "d5d1c603-ecee-44da-9dfd-a65e6e326707",
+      "name": "organic prosecco",
+      "reasons": [
+        "No exact per-serving energy row for the pictured portion."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "name": "Katsu chicken wrap",
+      "category": "Lunch time",
+      "calories": 481
+    },
+    {
+      "name": "Yasai katsu wrap",
+      "category": "Lunch time",
+      "calories": 596
+    },
+    {
+      "name": "Miso k-chicken lunch box",
+      "category": "Lunch time",
+      "calories": 736
+    },
+    {
+      "name": "Miso cauliflower lunch box",
+      "category": "Lunch time",
+      "calories": 797
+    },
+    {
+      "name": "Nasi goreng lunch box",
+      "category": "Lunch time",
+      "calories": 765
+    },
+    {
+      "name": "Spicy smashed cucumber",
+      "category": "Lighter bites",
+      "calories": 224
+    },
+    {
+      "name": "Wok-fried greens",
+      "category": "Lighter bites",
+      "calories": 163
+    },
+    {
+      "name": "Edamame with salt",
+      "category": "Lighter bites",
+      "calories": 280
+    },
+    {
+      "name": "Edamame with chilli + garlic salt",
+      "category": "Lighter bites",
+      "calories": 287
+    },
+    {
+      "name": "Koko 'prawn' crackers",
+      "category": "Lighter bites",
+      "calories": 255
+    },
+    {
+      "name": "Spicy firecracker wings",
+      "category": "Big flavour bites",
+      "calories": 747
+    },
+    {
+      "name": "Gochujang tamarind pork ribs",
+      "category": "Big flavour bites",
+      "calories": 599
+    },
+    {
+      "name": "Gochujang tamarind corn ribs",
+      "category": "Big flavour bites",
+      "calories": 467
+    },
+    {
+      "name": "Hot honey fried chicken | yuzu",
+      "category": "Big flavour bites",
+      "calories": 786
+    },
+    {
+      "name": "Hot honey fried chicken | teriyaki",
+      "category": "Big flavour bites",
+      "calories": 806
+    },
+    {
+      "name": "Hot honey fried chicken | firecracker",
+      "category": "Big flavour bites",
+      "calories": 842
+    },
+    {
+      "name": "Chilli squid",
+      "category": "Big flavour bites",
+      "calories": 411
+    },
+    {
+      "name": "Ebi katsu",
+      "category": "Big flavour bites",
+      "calories": 284
+    },
+    {
+      "name": "Bang bang cauliflower",
+      "category": "Big flavour bites",
+      "calories": 447
+    },
+    {
+      "name": "Lollipop prawn kushiyaki",
+      "category": "Big flavour bites",
+      "calories": 188
+    },
+    {
+      "name": "Tonkatsu pork bao buns",
+      "category": "Bao buns",
+      "calories": 797
+    },
+    {
+      "name": "Korean barbecue brisket bao buns",
+      "category": "Bao buns",
+      "calories": 521
+    },
+    {
+      "name": "Oyster + shiitake mushrooms bao buns",
+      "category": "Bao buns",
+      "calories": 577
+    },
+    {
+      "name": "Hoisin pulled duck bao buns",
+      "category": "Bao buns",
+      "calories": 626
+    },
+    {
+      "name": "Duck gyoza",
+      "category": "Gyoza",
+      "calories": 313
+    },
+    {
+      "name": "Beef brisket + kimchee gyoza",
+      "category": "Gyoza",
+      "calories": 232
+    },
+    {
+      "name": "Chicken gyoza",
+      "category": "Gyoza",
+      "calories": 195
+    },
+    {
+      "name": "Yasai | vegetable gyoza",
+      "category": "Gyoza",
+      "calories": 208
+    },
+    {
+      "name": "Duck akakare",
+      "category": "Chef's picks",
+      "calories": 1271
+    },
+    {
+      "name": "Pork tonkatsu",
+      "category": "Chef's picks",
+      "calories": 716
+    },
+    {
+      "name": "Signature seafood ramen",
+      "category": "Chef's picks",
+      "calories": 974
+    },
+    {
+      "name": "Prawn firecracker",
+      "category": "Curries",
+      "calories": 1139
+    },
+    {
+      "name": "Chicken firecracker",
+      "category": "Curries",
+      "calories": 1239
+    },
+    {
+      "name": "Tofu firecracker",
+      "category": "Curries",
+      "calories": 1252
+    },
+    {
+      "name": "Chicken katsu curry",
+      "category": "Curries",
+      "calories": 988
+    },
+    {
+      "name": "Yasai katsu curry",
+      "category": "Curries",
+      "calories": 1216
+    },
+    {
+      "name": "Hot chicken katsu curry",
+      "category": "Curries",
+      "calories": 1115
+    },
+    {
+      "name": "Hot yasai katsu curry",
+      "category": "Curries",
+      "calories": 1343
+    },
+    {
+      "name": "Prawn raisukaree",
+      "category": "Curries",
+      "calories": 1022
+    },
+    {
+      "name": "Chicken raisukaree",
+      "category": "Curries",
+      "calories": 1092
+    },
+    {
+      "name": "Tofu raisukaree",
+      "category": "Curries",
+      "calories": 1135
+    },
+    {
+      "name": "Chicken + prawn turmeric rice bowl",
+      "category": "Donburi",
+      "calories": 677
+    },
+    {
+      "name": "Gochujang salmon rice bowl",
+      "category": "Donburi",
+      "calories": 786
+    },
+    {
+      "name": "Grilled duck donburi",
+      "category": "Donburi",
+      "calories": 1127
+    },
+    {
+      "name": "Beef brisket teriyaki donburi",
+      "category": "Donburi",
+      "calories": 815
+    },
+    {
+      "name": "Chicken thigh teriyaki donburi",
+      "category": "Donburi",
+      "calories": 804
+    },
+    {
+      "name": "Pulled shiitake donburi",
+      "category": "Donburi",
+      "calories": 924
+    },
+    {
+      "name": "Saku saku duck soba",
+      "category": "Teppanyaki",
+      "calories": 933
+    },
+    {
+      "name": "Katsu udon",
+      "category": "Teppanyaki",
+      "calories": 848
+    },
+    {
+      "name": "Chicken + prawn yaki soba",
+      "category": "Teppanyaki",
+      "calories": 789
+    },
+    {
+      "name": "Yasai yaki soba | mushroom",
+      "category": "Teppanyaki",
+      "calories": 768
+    },
+    {
+      "name": "Yasai yaki soba | rice noodles",
+      "category": "Teppanyaki",
+      "calories": 660
+    },
+    {
+      "name": "Yasai yaki soba | udon",
+      "category": "Teppanyaki",
+      "calories": 638
+    },
+    {
+      "name": "Steak teriyaki soba",
+      "category": "Teppanyaki",
+      "calories": 864
+    },
+    {
+      "name": "Salmon teriyaki soba",
+      "category": "Teppanyaki",
+      "calories": 994
+    },
+    {
+      "name": "Chicken teriyaki soba",
+      "category": "Teppanyaki",
+      "calories": 769
+    },
+    {
+      "name": "Chicken + prawn yaki udon",
+      "category": "Teppanyaki",
+      "calories": 714
+    },
+    {
+      "name": "Fish + chips ramen",
+      "category": "Ramen",
+      "calories": 1006
+    },
+    {
+      "name": "Tantanmen beef brisket ramen",
+      "category": "Ramen",
+      "calories": 630
+    },
+    {
+      "name": "Gochujang pork belly ramen",
+      "category": "Ramen",
+      "calories": 920
+    },
+    {
+      "name": "Chilli chicken ramen",
+      "category": "Ramen",
+      "calories": 589
+    },
+    {
+      "name": "Grilled chicken ramen",
+      "category": "Ramen",
+      "calories": 498
+    },
+    {
+      "name": "Kare burosu ramen",
+      "category": "Ramen",
+      "calories": 706
+    },
+    {
+      "name": "Teriyaki mayo",
+      "category": "Extras",
+      "calories": 176
+    },
+    {
+      "name": "Gochujang mayo",
+      "category": "Extras",
+      "calories": 180
+    },
+    {
+      "name": "Chilli honey",
+      "category": "Extras",
+      "calories": 123
+    },
+    {
+      "name": "Tea-stained egg",
+      "category": "Extras",
+      "calories": 69
+    },
+    {
+      "name": "Katsu curry sauce",
+      "category": "Extras",
+      "calories": 227
+    },
+    {
+      "name": "Hot katsu sauce",
+      "category": "Extras",
+      "calories": 351
+    },
+    {
+      "name": "Firecracker sauce",
+      "category": "Extras",
+      "calories": 269
+    },
+    {
+      "name": "Raisukaree sauce",
+      "category": "Extras",
+      "calories": 310
+    },
+    {
+      "name": "Amai sauce",
+      "category": "Extras",
+      "calories": 69
+    },
+    {
+      "name": "Ube + cherry bao nut",
+      "category": "Desserts + sweet treats",
+      "calories": 533
+    },
+    {
+      "name": "Matcha + chocolate bao nut",
+      "category": "Desserts + sweet treats",
+      "calories": 454
+    },
+    {
+      "name": "Miso caramel + toffee bao nut",
+      "category": "Desserts + sweet treats",
+      "calories": 468
+    },
+    {
+      "name": "Banana katsu",
+      "category": "Desserts + sweet treats",
+      "calories": 327
+    },
+    {
+      "name": "White chocolate + ginger cheesecake",
+      "category": "Desserts + sweet treats",
+      "calories": 487
+    },
+    {
+      "name": "Miso caramel banana bread",
+      "category": "Desserts + sweet treats",
+      "calories": 469
+    },
+    {
+      "name": "Smoked chocolate caramel cake",
+      "category": "Desserts + sweet treats",
+      "calories": 492
+    },
+    {
+      "name": "Popcorn affogato",
+      "category": "Desserts + sweet treats",
+      "calories": 224
+    },
+    {
+      "name": "Coconut reika ice cream",
+      "category": "Desserts + sweet treats",
+      "calories": 409
+    },
+    {
+      "name": "Miso caramel ice cream",
+      "category": "Desserts + sweet treats",
+      "calories": 418
+    },
+    {
+      "name": "Miso chocolate brownie",
+      "category": "Desserts + sweet treats",
+      "calories": 427
+    },
+    {
+      "name": "Miso caramel cookie",
+      "category": "Desserts + sweet treats",
+      "calories": 499
+    },
+    {
+      "name": "Revive - regular",
+      "category": "Freshly made juices",
+      "calories": 165
+    },
+    {
+      "name": "High five",
+      "category": "Freshly made juices",
+      "calories": 120
+    },
+    {
+      "name": "Positive",
+      "category": "Freshly made juices",
+      "calories": 122
+    },
+    {
+      "name": "Tropical",
+      "category": "Freshly made juices",
+      "calories": 139
+    },
+    {
+      "name": "Power",
+      "category": "Freshly made juices",
+      "calories": 138
+    },
+    {
+      "name": "Cherry blossom lemonade",
+      "category": "Soft drinks",
+      "calories": 110
+    },
+    {
+      "name": "Peach iced tea",
+      "category": "Soft drinks",
+      "calories": 52
+    },
+    {
+      "name": "Cloudy lemonade",
+      "category": "Soft drinks",
+      "calories": 86
+    },
+    {
+      "name": "Double dutch ginger beer",
+      "category": "Soft drinks",
+      "calories": 84
+    },
+    {
+      "name": "Coke",
+      "category": "Soft drinks",
+      "calories": 139
+    },
+    {
+      "name": "Strawberry spritz",
+      "category": "Soft drinks",
+      "calories": 88
+    },
+    {
+      "name": "Asahi zero",
+      "category": "Beers + cider",
+      "calories": 83
+    },
+    {
+      "name": "Flat white - whole milk",
+      "category": "Coffee by UESHIMA",
+      "calories": 99
+    },
+    {
+      "name": "Latte - whole milk",
+      "category": "Coffee by UESHIMA",
+      "calories": 115
+    },
+    {
+      "name": "Cappucino - whole milk",
+      "category": "Coffee by UESHIMA",
+      "calories": 124
+    },
+    {
+      "name": "Iced latte - whole milk",
+      "category": "Coffee by UESHIMA",
+      "calories": 99
+    },
+    {
+      "name": "Chicken katsu with katsu curry sauce",
+      "category": "Katsu",
+      "calories": 419
+    },
+    {
+      "name": "Chicken katsu with amai sauce",
+      "category": "Katsu",
+      "calories": 397
+    },
+    {
+      "name": "Yasai katsu with katsu curry sauce",
+      "category": "Katsu",
+      "calories": 600
+    },
+    {
+      "name": "Yasai katsu with amai sauce",
+      "category": "Katsu",
+      "calories": 578
+    },
+    {
+      "name": "Chicken ramen",
+      "category": "Ramen",
+      "calories": 358
+    },
+    {
+      "name": "Yasai ramen",
+      "category": "Ramen",
+      "calories": 317
+    },
+    {
+      "name": "Yasai ramen | udon noodles",
+      "category": "Ramen",
+      "calories": 295
+    },
+    {
+      "name": "Yasai ramen | rice noodles",
+      "category": "Ramen",
+      "calories": 295
+    },
+    {
+      "name": "Chicken yaki soba",
+      "category": "Noodles",
+      "calories": 394
+    },
+    {
+      "name": "Yasai yaki soba",
+      "category": "Noodles",
+      "calories": 404
+    },
+    {
+      "name": "Yasai yaki soba | rice noodles",
+      "category": "Noodles",
+      "calories": 343
+    },
+    {
+      "name": "Yasai yaki soba | udon noodles",
+      "category": "Noodles",
+      "calories": 332
+    },
+    {
+      "name": "Chicken cha han",
+      "category": "Rice",
+      "calories": 387
+    },
+    {
+      "name": "Yasai cha han",
+      "category": "Rice",
+      "calories": 397
+    },
+    {
+      "name": "Yasai cha han",
+      "category": "Rice",
+      "calories": 358
+    },
+    {
+      "name": "Mini orange juice",
+      "category": "Drinks",
+      "calories": 84
+    },
+    {
+      "name": "Mini apple juice",
+      "category": "Drinks",
+      "calories": 80
+    },
+    {
+      "name": "Mini apple + orange juice",
+      "category": "Drinks",
+      "calories": 89
+    },
+    {
+      "name": "Cawston press apple + pear juice drink",
+      "category": "Drinks",
+      "calories": 54
+    },
+    {
+      "name": "Cawston press apple + summer berries juice drink",
+      "category": "Drinks",
+      "calories": 50
+    },
+    {
+      "name": "Chocolate brownie bite",
+      "category": "Desserts",
+      "calories": 216
+    },
+    {
+      "name": "Vanilla pod ice cream with toffee sauce",
+      "category": "Desserts",
+      "calories": 145
+    },
+    {
+      "name": "Vanilla pod ice cream with passion fruit sauce",
+      "category": "Desserts",
+      "calories": 138
+    },
+    {
+      "name": "Vanilla pod ice cream with chocolate sauce",
+      "category": "Desserts",
+      "calories": 144
+    },
+    {
+      "name": "Lollipop prawn kushiyaki",
+      "category": "Sides",
+      "calories": 184
+    },
+    {
+      "name": "Edamame with salt",
+      "category": "Sides",
+      "calories": 280
+    },
+    {
+      "name": "Edamame with chilli garlic salt",
+      "category": "Sides",
+      "calories": 287
+    },
+    {
+      "name": "Wok-fried greens",
+      "category": "Sides",
+      "calories": 163
+    },
+    {
+      "name": "Spicy smashed cucumber",
+      "category": "Sides",
+      "calories": 224
+    },
+    {
+      "name": "Gochujang tamarind corn ribs",
+      "category": "Sides",
+      "calories": 467
+    },
+    {
+      "name": "Duck akakare",
+      "category": "The main event",
+      "calories": 1271
+    },
+    {
+      "name": "Prawn raisukaree curry",
+      "category": "The main event",
+      "calories": 1022
+    },
+    {
+      "name": "Chicken raisukaree curry",
+      "category": "The main event",
+      "calories": 1092
+    },
+    {
+      "name": "Tofu raisukaree curry",
+      "category": "The main event",
+      "calories": 1135
+    },
+    {
+      "name": "Prawn firecracker",
+      "category": "The main event",
+      "calories": 1139
+    },
+    {
+      "name": "Chicken firecracker",
+      "category": "The main event",
+      "calories": 1239
+    },
+    {
+      "name": "Tofu firecracker",
+      "category": "The main event",
+      "calories": 1252
+    },
+    {
+      "name": "Grilled chicken ramen",
+      "category": "The main event",
+      "calories": 494
+    },
+    {
+      "name": "Signature seafood ramen",
+      "category": "The main event",
+      "calories": 1028
+    },
+    {
+      "name": "Gochujang pork belly ramen",
+      "category": "The main event",
+      "calories": 950
+    },
+    {
+      "name": "Grilled duck",
+      "category": "The main event",
+      "calories": 1127
+    },
+    {
+      "name": "Beef brisket teriyaki",
+      "category": "The main event",
+      "calories": 815
+    },
+    {
+      "name": "Chicken teriyaki",
+      "category": "The main event",
+      "calories": 804
+    },
+    {
+      "name": "Chicken + prawn turmeric rice bowl",
+      "category": "The main event",
+      "calories": 677
+    },
+    {
+      "name": "Gochujang salmon rice bowl",
+      "category": "The main event",
+      "calories": 786
+    },
+    {
+      "name": "Teriyaki mayo",
+      "category": "Extras",
+      "calories": 176
+    },
+    {
+      "name": "Gochujang mayo",
+      "category": "Extras",
+      "calories": 180
+    },
+    {
+      "name": "Chilli honey",
+      "category": "Extras",
+      "calories": 123
+    },
+    {
+      "name": "Gf miso chocolate brownie",
+      "category": "Desserts + sweet treats",
+      "calories": 427
+    },
+    {
+      "name": "Miso caramel ice cream",
+      "category": "Desserts + sweet treats",
+      "calories": 418
+    },
+    {
+      "name": "Coconut reika ice cream",
+      "category": "Desserts + sweet treats",
+      "calories": 409
+    }
+  ]
+}

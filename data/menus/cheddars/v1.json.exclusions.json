@@ -1,0 +1,740 @@
+[
+  {
+    "id": "prod7040024",
+    "name": "CHICKEN TENDER BUNDLE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7040031",
+    "name": "HOUSE-SMOKED BABY BACK RIBS BUNDLE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7120184",
+    "name": "GRILLED SALMON* BUNDLE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7120186",
+    "name": "GRILLED SALMON* & CHICKEN TENDERS BUNDLE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7250166",
+    "name": "HOUSE-SMOKED BABY BACK RIBS & CHICKEN TENDERS BUNDLE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7040039",
+    "name": "FAMILY HOUSE SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7040033",
+    "name": "GALLON ICED TEA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7040036",
+    "name": "GALLON LEMONADE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod20420025",
+    "name": "CHEDDAR’S TRIO SAMPLER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Shared or configurable order.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020300",
+    "name": "HOMEMADE ONION RINGS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020121",
+    "name": "CHIPS & HOMEMADE QUESO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020407",
+    "name": "WISCONSIN CHEESE BITES",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020053",
+    "name": "GRILLED CHICKEN CAESAR SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021151",
+    "name": "SIDE HOUSE SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021762",
+    "name": "WEEKDAY LUNCH SPECIAL: HOMEMADE CHICKEN POT PIE (MON-FRI, OPEN-3PM)",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021271",
+    "name": "GRILLED WHITE FISH",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020477",
+    "name": "CLASSIC HAND-BREADED TENDERS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020035",
+    "name": "COUNTRY FRIED CHICKEN",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod0219000063",
+    "name": "GARLIC HERB CHICKEN",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020291",
+    "name": "TOP SIRLOIN STEAK*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020205",
+    "name": "BABY BACK RIBS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020476",
+    "name": "COUNTRY FRIED STEAK",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod17340066",
+    "name": "BOURBON-GLAZED SALMON & SHRIMP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020207",
+    "name": "GRILLED SALMON*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020478",
+    "name": "GRILLED WHITE FISH",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod9640021",
+    "name": "HAND-BREADED TENDERS & SHRIMP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021265",
+    "name": "HALF RACK OF RIBS & SHRIMP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod9640006",
+    "name": "TOP SIRLOIN STEAK* & SHRIMP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020448",
+    "name": "BUFFALO CHICKEN WRAPPER",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020475",
+    "name": "MONTE CRISTO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod10380020",
+    "name": "CLASSIC CHEESEBURGER*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020290",
+    "name": "VEGETABLE PLATE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020808",
+    "name": "Sweet Baby Carrots",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020619",
+    "name": "GRILLED CHICKEN",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021652",
+    "name": "PENNE PASTA",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020482",
+    "name": "GRILLED CHICKEN PECAN SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020453",
+    "name": "GRILLED CHICKEN CAESAR SALAD",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7290120",
+    "name": "SALMON CAESAR SALAD*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020099",
+    "name": "KEY WEST CHICKEN AND SHRIMP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021758",
+    "name": "DIJON CHICKEN & MUSHROOMS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020381",
+    "name": "BACON CHEESEBURGER*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020525",
+    "name": "SMOKEHOUSE BURGER*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020481",
+    "name": "CLASSIC BURGER*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020455",
+    "name": "FIRE GRILLED SIRLOIN*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021551",
+    "name": "14 OZ. RIBEYE*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020454",
+    "name": "16 OZ. BONE-IN RIBEYE*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020382",
+    "name": "BABY BACK RIBS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021945",
+    "name": "RIBS & SHRIMP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021547",
+    "name": "TOP SIRLOIN STEAK* & SHRIMP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7022145",
+    "name": "TOP SIRLOIN STEAK* & RIBS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021759",
+    "name": "GRILLED SALMON*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020484",
+    "name": "GRILLED WHITE FISH",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021515",
+    "name": "IDAHO MASHED POTATOES",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020867",
+    "name": "SOUTHERN GREEN BEANS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021635",
+    "name": "BUTTERED OFF-THE-COB CORN",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021156",
+    "name": "SWEET BABY CARROTS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021637",
+    "name": "SEASONED RICE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020871",
+    "name": "FRESHLY MADE COLESLAW",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020932",
+    "name": "FRESH STEAMED BROCCOLI",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021166",
+    "name": "CHEESE & BACON MASHED POTATO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7021739",
+    "name": "LOADED BAKED POTATO",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7760041",
+    "name": "RED BEANS & RICE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod0219000014",
+    "name": "STEAK TIPS*",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod0219000029",
+    "name": "GARLIC HERB CHICKEN",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7090065",
+    "name": "FRESH-BREWED ICED TEAS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7090062",
+    "name": "HAND-CRAFTED LEMONADES",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7050048",
+    "name": "SOFT DRINKS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Multiple options or no exact calorie count for the pictured serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7560037",
+    "name": "SANTA FE SPINACH DIP",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7560035",
+    "name": "BROCCOLI CHEESE CASSEROLE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7560034",
+    "name": "IDAHO MASHED POTATOES",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7560038",
+    "name": "RED BEANS & RICE**",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod21170001",
+    "name": "SWEET BABY CARROTS",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod21170002",
+    "name": "FRESH STEAMED BROCCOLI",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7560033",
+    "name": "SOUTHERN GREEN BEANS**",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod21180001",
+    "name": "BUTTERED OFF-THE-COB CORN",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod21180005",
+    "name": "FRESHLY MADE COLESLAW",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod21180006",
+    "name": "SEASONED RICE",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Separate catering, promotional or alternate dietary listing.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod17340042",
+    "name": "Beer-Battered Fish & Shrimp Platter",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "The smaller lunch platter reuses the dinner platter photo, so its photographed serving is unclear.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod20470012",
+    "name": "Steak Tips",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "The menu count includes seasoned rice, and the published photo does not identify the pictured base.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7020294",
+    "name": "Homemade Chicken Pot Pie",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "The photo includes a dressed side salad with no fixed dressing count.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod15990003",
+    "name": "Carrot Cake",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "The photo and calorie count describe a whole catering cake.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "prod7560036",
+    "name": "Classic Cheesecake",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "The photo and calorie count describe a whole catering cake.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  }
+]

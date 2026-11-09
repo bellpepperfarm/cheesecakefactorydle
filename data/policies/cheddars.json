@@ -1,0 +1,862 @@
+{
+  "menuId": "cheddars",
+  "reviewedOn": "2026-11-09",
+  "source": "https://www.cheddars.com/menu",
+  "sourceEdition": "U.S. online menu; nutrition guide effective 2 November 2026",
+  "minimumCalories": 50,
+  "excludeCalorieRanges": true,
+  "requireReviewedItems": true,
+  "excludedItems": [
+    {
+      "id": "prod7040024",
+      "name": "CHICKEN TENDER BUNDLE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7040031",
+      "name": "HOUSE-SMOKED BABY BACK RIBS BUNDLE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7120184",
+      "name": "GRILLED SALMON* BUNDLE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7120186",
+      "name": "GRILLED SALMON* & CHICKEN TENDERS BUNDLE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7250166",
+      "name": "HOUSE-SMOKED BABY BACK RIBS & CHICKEN TENDERS BUNDLE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7040039",
+      "name": "FAMILY HOUSE SALAD",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7040033",
+      "name": "GALLON ICED TEA",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7040036",
+      "name": "GALLON LEMONADE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod20420025",
+      "name": "CHEDDAR’S TRIO SAMPLER",
+      "reasons": [
+        "Shared or configurable order."
+      ]
+    },
+    {
+      "id": "prod7020300",
+      "name": "HOMEMADE ONION RINGS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020121",
+      "name": "CHIPS & HOMEMADE QUESO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020407",
+      "name": "WISCONSIN CHEESE BITES",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020053",
+      "name": "GRILLED CHICKEN CAESAR SALAD",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7021151",
+      "name": "SIDE HOUSE SALAD",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7021762",
+      "name": "WEEKDAY LUNCH SPECIAL: HOMEMADE CHICKEN POT PIE (MON-FRI, OPEN-3PM)",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7021271",
+      "name": "GRILLED WHITE FISH",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020477",
+      "name": "CLASSIC HAND-BREADED TENDERS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020035",
+      "name": "COUNTRY FRIED CHICKEN",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod0219000063",
+      "name": "GARLIC HERB CHICKEN",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020291",
+      "name": "TOP SIRLOIN STEAK*",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020205",
+      "name": "BABY BACK RIBS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020476",
+      "name": "COUNTRY FRIED STEAK",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod17340066",
+      "name": "BOURBON-GLAZED SALMON & SHRIMP",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020207",
+      "name": "GRILLED SALMON*",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020478",
+      "name": "GRILLED WHITE FISH",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod9640021",
+      "name": "HAND-BREADED TENDERS & SHRIMP",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7021265",
+      "name": "HALF RACK OF RIBS & SHRIMP",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod9640006",
+      "name": "TOP SIRLOIN STEAK* & SHRIMP",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020448",
+      "name": "BUFFALO CHICKEN WRAPPER",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020475",
+      "name": "MONTE CRISTO",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod10380020",
+      "name": "CLASSIC CHEESEBURGER*",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020290",
+      "name": "VEGETABLE PLATE",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020808",
+      "name": "Sweet Baby Carrots",
+      "reasons": [
+        "Below the 50-calorie minimum."
+      ]
+    },
+    {
+      "id": "prod7020619",
+      "name": "GRILLED CHICKEN",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7021652",
+      "name": "PENNE PASTA",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7020482",
+      "name": "GRILLED CHICKEN PECAN SALAD",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020453",
+      "name": "GRILLED CHICKEN CAESAR SALAD",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7290120",
+      "name": "SALMON CAESAR SALAD*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020099",
+      "name": "KEY WEST CHICKEN AND SHRIMP",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021758",
+      "name": "DIJON CHICKEN & MUSHROOMS",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020381",
+      "name": "BACON CHEESEBURGER*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020525",
+      "name": "SMOKEHOUSE BURGER*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020481",
+      "name": "CLASSIC BURGER*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020455",
+      "name": "FIRE GRILLED SIRLOIN*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021551",
+      "name": "14 OZ. RIBEYE*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020454",
+      "name": "16 OZ. BONE-IN RIBEYE*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020382",
+      "name": "BABY BACK RIBS",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021945",
+      "name": "RIBS & SHRIMP",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021547",
+      "name": "TOP SIRLOIN STEAK* & SHRIMP",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7022145",
+      "name": "TOP SIRLOIN STEAK* & RIBS",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021759",
+      "name": "GRILLED SALMON*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020484",
+      "name": "GRILLED WHITE FISH",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021515",
+      "name": "IDAHO MASHED POTATOES",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020867",
+      "name": "SOUTHERN GREEN BEANS",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021635",
+      "name": "BUTTERED OFF-THE-COB CORN",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021156",
+      "name": "SWEET BABY CARROTS",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021637",
+      "name": "SEASONED RICE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020871",
+      "name": "FRESHLY MADE COLESLAW",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7020932",
+      "name": "FRESH STEAMED BROCCOLI",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021166",
+      "name": "CHEESE & BACON MASHED POTATO",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7021739",
+      "name": "LOADED BAKED POTATO",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7760041",
+      "name": "RED BEANS & RICE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod0219000014",
+      "name": "STEAK TIPS*",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod0219000029",
+      "name": "GARLIC HERB CHICKEN",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7090065",
+      "name": "FRESH-BREWED ICED TEAS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7090062",
+      "name": "HAND-CRAFTED LEMONADES",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7050048",
+      "name": "SOFT DRINKS",
+      "reasons": [
+        "Multiple options or no exact calorie count for the pictured serving."
+      ]
+    },
+    {
+      "id": "prod7560037",
+      "name": "SANTA FE SPINACH DIP",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7560035",
+      "name": "BROCCOLI CHEESE CASSEROLE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7560034",
+      "name": "IDAHO MASHED POTATOES",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7560038",
+      "name": "RED BEANS & RICE**",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod21170001",
+      "name": "SWEET BABY CARROTS",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod21170002",
+      "name": "FRESH STEAMED BROCCOLI",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod7560033",
+      "name": "SOUTHERN GREEN BEANS**",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod21180001",
+      "name": "BUTTERED OFF-THE-COB CORN",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod21180005",
+      "name": "FRESHLY MADE COLESLAW",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod21180006",
+      "name": "SEASONED RICE",
+      "reasons": [
+        "Separate catering, promotional or alternate dietary listing."
+      ]
+    },
+    {
+      "id": "prod17340042",
+      "name": "Beer-Battered Fish & Shrimp Platter",
+      "reasons": [
+        "The smaller lunch platter reuses the dinner platter photo, so its photographed serving is unclear."
+      ]
+    },
+    {
+      "id": "prod20470012",
+      "name": "Steak Tips",
+      "reasons": [
+        "The menu count includes seasoned rice, and the published photo does not identify the pictured base."
+      ]
+    },
+    {
+      "id": "prod7020294",
+      "name": "Homemade Chicken Pot Pie",
+      "reasons": [
+        "The photo includes a dressed side salad with no fixed dressing count."
+      ]
+    },
+    {
+      "id": "prod15990003",
+      "name": "Carrot Cake",
+      "reasons": [
+        "The photo and calorie count describe a whole catering cake."
+      ]
+    },
+    {
+      "id": "prod7560036",
+      "name": "Classic Cheesecake",
+      "reasons": [
+        "The photo and calorie count describe a whole catering cake."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "name": "Buffalo Beer-Battered Shrimp",
+      "category": "Appetizers",
+      "calories": 810
+    },
+    {
+      "name": "Honey Butter Croissants",
+      "category": "Appetizers",
+      "calories": 440
+    },
+    {
+      "name": "Cheddar’s Queso Fries",
+      "category": "Appetizers",
+      "calories": 2620
+    },
+    {
+      "name": "Santa Fe Spinach Dip",
+      "category": "Appetizers",
+      "calories": 1230
+    },
+    {
+      "name": "Crispy Chicken Tender Salad",
+      "category": "Salads & Soup",
+      "calories": 1120
+    },
+    {
+      "name": "Grilled Chicken Pecan Salad",
+      "category": "Salads & Soup",
+      "calories": 1010
+    },
+    {
+      "name": "Side Caesar Salad",
+      "category": "Salads & Soup",
+      "calories": 290
+    },
+    {
+      "name": "Baked Potato Soup",
+      "category": "Salads & Soup",
+      "calories": 570
+    },
+    {
+      "name": "Veggie Philly",
+      "category": "Weekday Lunch",
+      "calories": 1070
+    },
+    {
+      "name": "Classic Cheeseburger",
+      "category": "Weekday Lunch",
+      "calories": 1290
+    },
+    {
+      "name": "Classic Chicken Sandwich",
+      "category": "Weekday Lunch",
+      "calories": 1430
+    },
+    {
+      "name": "Fish And Chips",
+      "category": "Weekday Lunch",
+      "calories": 1140
+    },
+    {
+      "name": "Cajun Chicken Bowl",
+      "category": "Weekday Lunch",
+      "calories": 580
+    },
+    {
+      "name": "Philly Cheesesteak",
+      "category": "Weekday Lunch",
+      "calories": 1420
+    },
+    {
+      "name": "Dijon Chicken & Mushrooms",
+      "category": "Chicken",
+      "calories": 1300
+    },
+    {
+      "name": "Key West Chicken & Shrimp",
+      "category": "Chicken",
+      "calories": 780
+    },
+    {
+      "name": "Grilled Chicken Alfredo",
+      "category": "Chicken",
+      "calories": 1550
+    },
+    {
+      "name": "14 oz. Ribeye Steak",
+      "category": "Steaks & Ribs",
+      "calories": 890
+    },
+    {
+      "name": "16 oz. Bone-In Ribeye",
+      "category": "Steaks & Ribs",
+      "calories": 1450
+    },
+    {
+      "name": "Beer-Battered Fish & Shrimp Platter",
+      "category": "Seafood",
+      "calories": 2080
+    },
+    {
+      "name": "Grilled Shrimp Alfredo",
+      "category": "Seafood",
+      "calories": 1600
+    },
+    {
+      "name": "Beer-Battered Shrimp Platter",
+      "category": "Seafood",
+      "calories": 1420
+    },
+    {
+      "name": "Fish & Chips",
+      "category": "Seafood",
+      "calories": 1660
+    },
+    {
+      "name": "Half Rack Of Ribs & Hand-Breaded Tenders",
+      "category": "Combinations",
+      "calories": 2170
+    },
+    {
+      "name": "Top Sirloin Steak* & Hand-Breaded Tenders",
+      "category": "Combinations",
+      "calories": 1510
+    },
+    {
+      "name": "Top Sirloin Steak* & Ribs",
+      "category": "Combinations",
+      "calories": 1205
+    },
+    {
+      "name": "Bacon Cheeseburger",
+      "category": "Sandwiches & Half-Pound Burgers",
+      "calories": 1560
+    },
+    {
+      "name": "Smokehouse Burger",
+      "category": "Sandwiches & Half-Pound Burgers",
+      "calories": 1500
+    },
+    {
+      "name": "Spasagna",
+      "category": "Comfort Food",
+      "calories": 1540
+    },
+    {
+      "name": "New Orleans Pasta",
+      "category": "Comfort Food",
+      "calories": 1910
+    },
+    {
+      "name": "Homestyle Meatloaf",
+      "category": "Comfort Food",
+      "calories": 880
+    },
+    {
+      "name": "Grilled Pork Chops",
+      "category": "Comfort Food",
+      "calories": 1115
+    },
+    {
+      "name": "Broccoli Cheese Casserole",
+      "category": "Homestyle Sides",
+      "calories": 220
+    },
+    {
+      "name": "Idaho Mashed Potatoes",
+      "category": "Homestyle Sides",
+      "calories": 160
+    },
+    {
+      "name": "Cheese & Bacon Mashed Potatoes",
+      "category": "Homestyle Sides",
+      "calories": 350
+    },
+    {
+      "name": "Loaded Baked Potato",
+      "category": "Homestyle Sides",
+      "calories": 430
+    },
+    {
+      "name": "Loaded Baked Potato With Bacon",
+      "category": "Homestyle Sides",
+      "calories": 540
+    },
+    {
+      "name": "French Fries",
+      "category": "Homestyle Sides",
+      "calories": 460
+    },
+    {
+      "name": "Homemade Queso & Bacon French Fries",
+      "category": "Homestyle Sides",
+      "calories": 650
+    },
+    {
+      "name": "Southern Green Beans",
+      "category": "Homestyle Sides",
+      "calories": 60
+    },
+    {
+      "name": "Buttered Off-The-Cob Corn",
+      "category": "Homestyle Sides",
+      "calories": 110
+    },
+    {
+      "name": "Fresh Steamed Broccoli",
+      "category": "Homestyle Sides",
+      "calories": 100
+    },
+    {
+      "name": "Seasoned Rice",
+      "category": "Homestyle Sides",
+      "calories": 150
+    },
+    {
+      "name": "Freshly Made Coleslaw",
+      "category": "Homestyle Sides",
+      "calories": 170
+    },
+    {
+      "name": "Red Beans & Rice",
+      "category": "Homestyle Sides",
+      "calories": 230
+    },
+    {
+      "name": "Kids’ Classic Hand-Breaded Tenders",
+      "category": "Kids",
+      "calories": 1090
+    },
+    {
+      "name": "Kids’ Junior Burger",
+      "category": "Kids",
+      "calories": 910
+    },
+    {
+      "name": "Kids’ Grilled Cheese",
+      "category": "Kids",
+      "calories": 520
+    },
+    {
+      "name": "Kids’ Grilled Chicken Alfredo",
+      "category": "Kids",
+      "calories": 870
+    },
+    {
+      "name": "Kids’ Fried Shrimp",
+      "category": "Kids",
+      "calories": 870
+    },
+    {
+      "name": "Fried Apple Pie",
+      "category": "Desserts",
+      "calories": 1080
+    },
+    {
+      "name": "Carrot Cake",
+      "category": "Desserts",
+      "calories": 1100
+    },
+    {
+      "name": "Classic Cheesecake",
+      "category": "Desserts",
+      "calories": 760
+    },
+    {
+      "name": "Cheddar’s Legendary Monster Cookie",
+      "category": "Desserts",
+      "calories": 1550
+    },
+    {
+      "name": "Hot Fudge Cake Sundae",
+      "category": "Desserts",
+      "calories": 2510
+    }
+  ]
+}

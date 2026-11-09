@@ -1,0 +1,344 @@
+[
+  {
+    "id": "c337e37a-f434-4298-9306-d0ea1dd15bb7",
+    "name": "Chillies",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "da0d7c66-b88f-4f9c-a638-cd5ef3cedf07",
+    "name": "Katsu pickles",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "4a0f4dd5-80e5-4f37-921e-d0600c7ef92b",
+    "name": "Kimchee",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "79e7c61c-111e-4394-83a6-82ead6c8e819",
+    "name": "Diet coke",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "a1de234b-58c6-41e6-8ae6-14cb52990ea8",
+    "name": "Coke zero",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "8a0612d3-d56c-4af4-be5b-aa819cc1da7a",
+    "name": "Sprite zero",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "a526a388-a8a3-4419-9e3e-987e6e763bfe",
+    "name": "Still water",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "303d1ccb-7e24-4f1e-ad03-c0c3d61fd898",
+    "name": "Sparkling water",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "f89242a3-e91d-456c-bf88-26e7f7d1cd59",
+    "name": "Ginger kombucha",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "c15c1f56-47b8-4b14-afdb-e860a113cecd",
+    "name": "strawbiscus spritz",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "ab348495-48d2-41d7-a1ec-1b4f62e4b79e",
+    "name": "bright + stormy",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "3126f0bf-0807-416b-a4a9-b1620b3e27d6",
+    "name": "passion fruit paloma",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "51bb2d58-d5e8-460a-812b-08310b4180a4",
+    "name": "lychee blush sangria",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "f8aec26e-1330-4d9d-b6fb-c5562b743055",
+    "name": "thai chilli margarita",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "ecf9ce15-12af-4e02-8a4c-3dc4f3d2763e",
+    "name": "roku g+t",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "a55674b2-6154-426d-bfb2-d54e25d27527",
+    "name": "camden pale ale",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "9a7fe055-f209-45f7-bb2a-12eac4823e4e",
+    "name": "sxollie cider",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "a171272e-7db1-4fb4-8e2b-f641e2b92714",
+    "name": "asahi 330ml",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "081e3232-abe8-4231-aa90-78d27558f5d4",
+    "name": "pinot noir",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "2d6758af-ec4c-4c15-85a8-34eb85109a25",
+    "name": "pinot grigio",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "0fccefed-e4f4-4f07-a3bd-b80ba7f709d3",
+    "name": "merlot",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "232ab70b-6777-442e-b9f2-d357426d13b4",
+    "name": "marlborough sauvignon blanc",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "2d705c25-d26d-46ff-8365-e62833dbc70f",
+    "name": "pinot grigio blush",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "b60b8719-1641-4381-8e93-04fd1fb1ae78",
+    "name": "organic prosecco",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "82af3fab-6c0f-49bb-a7a4-e025918a6922",
+    "name": "kaori sake",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "7fcbd51a-b9fc-445c-8c54-d0181fb81b1a",
+    "name": "Iced pumpkin spiced matcha",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "f2b1b9f4-b2fe-4726-8281-7274c94d78f6",
+    "name": "Miso maple iced latte",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "ae1519b4-34b8-422d-a036-57d5bb1dfcd7",
+    "name": "Americano - whole milk",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "b00069e5-3eba-4c73-bc94-83cd5fb42724",
+    "name": "Double espresso",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "38038655-bd98-4d11-aebe-24b8f65077bd",
+    "name": "Iced matcha + strawberry latte",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "2e88835e-9c82-49e0-98bb-940b0e662604",
+    "name": "Green tea",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "f39946d0-8f8e-454e-a81f-48adcd7ec5cb",
+    "name": "Cococino - whole milk",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "107a6bc7-0711-4b8a-89c8-e3a696362653",
+    "name": "Tropical fruit ice lolly",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "9f2647c3-e922-4ccb-8053-e766e08297cf",
+    "name": "Revive",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No dish-specific image in the source.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "358f780c-73fa-45f9-8bf1-de7d33ae8aa6",
+    "name": "pinot grigio",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "6bf917ed-7574-4644-97f5-694c63916299",
+    "name": "marlborough sauvignon blanc",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "ac16bcdb-72ca-4d21-a54b-5c3f7ffa0005",
+    "name": "pinot grigio blush",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "d5d1c603-ecee-44da-9dfd-a65e6e326707",
+    "name": "organic prosecco",
+    "reasons": [
+      "Missing or invalid calorie answer.",
+      "No exact per-serving energy row for the pictured portion.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  }
+]

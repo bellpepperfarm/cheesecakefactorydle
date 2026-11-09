@@ -1,0 +1,1007 @@
+{
+  "sourceURL": "https://www.cheddars.com/menu",
+  "sourceEdition": "U.S. online menu; nutrition guide effective 2 November 2026",
+  "imagepath": "",
+  "imageCredit": "© Cheddar’s Scratch Kitchen",
+  "products": [
+    {
+      "id": "prod9640019",
+      "name": "Buffalo Beer-Battered Shrimp",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 810,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Shrimp_Appetizer_Hero590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/buffalo-beer-battered-shrimp/prod9640019",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod9640019.webp"
+    },
+    {
+      "id": "prod7020487",
+      "name": "Honey Butter Croissants",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "2 honey butter croissants",
+      "basecalories": 440,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/honey-butter-croissants.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/honey-butter-croissants/prod7020487",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020487.webp"
+    },
+    {
+      "id": "prod7020384",
+      "name": "Cheddar’s Queso Fries",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One order with 3 fl oz ranch dressing",
+      "basecalories": 2620,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q224_May_CheeseFries_NEW.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/cheddars-queso-fries/prod7020384",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 2250
+        },
+        {
+          "name": "Ranch dressing, 3 fl oz",
+          "calories": 370
+        }
+      ],
+      "localImage": "images/cheddars/prod7020384.webp"
+    },
+    {
+      "id": "prod7020016",
+      "name": "Santa Fe Spinach Dip",
+      "category": "Appetizers",
+      "description": "",
+      "portion": "One appetizer order",
+      "basecalories": 1230,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q224_June_SantaFeSpinachDip_Hero_590.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/santa-fe-spinach-dip/prod7020016",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020016.webp"
+    },
+    {
+      "id": "prod7020166",
+      "name": "Crispy Chicken Tender Salad",
+      "category": "Salads & Soup",
+      "description": "",
+      "portion": "One salad with 3 fl oz honey mustard dressing",
+      "basecalories": 1120,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/chicken-tender-salad-590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/crispy-chicken-tender-salad/prod7020166",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020166.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 750
+        },
+        {
+          "name": "Honey mustard dressing, 3 fl oz",
+          "calories": 370
+        }
+      ]
+    },
+    {
+      "id": "prod7020028",
+      "name": "Grilled Chicken Pecan Salad",
+      "category": "Salads & Soup",
+      "description": "",
+      "portion": "One salad with 3 fl oz honey mustard dressing",
+      "basecalories": 1010,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_May23_GrilledChicPecanSala_856x517.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/grilled-chicken-pecan-salad/prod7020028",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7020166",
+      "comment": "Hidden because Crispy Chicken Tender Salad already covers the chicken salad with honey mustard format.",
+      "localImage": "images/cheddars/prod7020028.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 640
+        },
+        {
+          "name": "Honey mustard dressing, 3 fl oz",
+          "calories": 370
+        }
+      ]
+    },
+    {
+      "id": "prod7021354",
+      "name": "Side Caesar Salad",
+      "category": "Salads & Soup",
+      "description": "",
+      "portion": "One side salad",
+      "basecalories": 290,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_Sides_CaesarSalad_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/side-caesar-salad/prod7021354",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7021354.webp"
+    },
+    {
+      "id": "prod7020303",
+      "name": "Baked Potato Soup",
+      "category": "Salads & Soup",
+      "description": "",
+      "portion": "Bowl",
+      "basecalories": 570,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/BakedPotatoSoup_Hero.png",
+      "sourceURL": "https://www.cheddars.com/menu/baked-potato-soup/prod7020303",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020303.webp"
+    },
+    {
+      "id": "prod11220033",
+      "name": "Veggie Philly",
+      "category": "Weekday Lunch",
+      "description": "",
+      "portion": "One lunch serving with fries",
+      "basecalories": 1070,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_MushroomPhilly_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/veggie-philly/prod11220033",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 610
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ],
+      "localImage": "images/cheddars/prod11220033.webp"
+    },
+    {
+      "id": "prod7021793",
+      "name": "Classic Cheeseburger",
+      "category": "Weekday Lunch",
+      "description": "",
+      "portion": "One lunch serving with fries",
+      "basecalories": 1290,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q3Aug26_ClassicCheeseburger_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/weekday-lunch-special-classic-cheeseburger-mon-fri-open-3pm/prod7021793",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 830
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "prod7020356",
+      "comment": "Hidden because Bacon Cheeseburger already covers the cheeseburger and fries format.",
+      "localImage": "images/cheddars/prod7021793.webp"
+    },
+    {
+      "id": "prod7021266",
+      "name": "Classic Chicken Sandwich",
+      "category": "Weekday Lunch",
+      "description": "",
+      "portion": "One lunch serving with fries",
+      "basecalories": 1430,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_Q1April28_FriedChickenSandwich_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/classic-chicken-sandwich/prod7021266",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 970
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ],
+      "localImage": "images/cheddars/prod7021266.webp"
+    },
+    {
+      "id": "prod7020029",
+      "name": "Fish And Chips",
+      "category": "Weekday Lunch",
+      "description": "",
+      "portion": "One lunch serving with fries",
+      "basecalories": 1140,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_Q1April28_FishAndChips_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/fish-and-chips/prod7020029",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 680
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "prod0219000064",
+      "comment": "Hidden because Fish & Chips already covers the battered fish and fries format.",
+      "localImage": "images/cheddars/prod7020029.webp"
+    },
+    {
+      "id": "prod7020736",
+      "name": "Cajun Chicken Bowl",
+      "category": "Weekday Lunch",
+      "description": "",
+      "portion": "One entrée",
+      "basecalories": 580,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Lunch_Crescent_City_Chicken_Hero856x517.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/cajun-chicken-bowl/prod7020736",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020736.webp"
+    },
+    {
+      "id": "prod11220034",
+      "name": "Philly Cheesesteak",
+      "category": "Weekday Lunch",
+      "description": "",
+      "portion": "One lunch serving with fries",
+      "basecalories": 1420,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_PhillyCheesesteak_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/philly-cheesesteak/prod11220034",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 960
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ],
+      "localImage": "images/cheddars/prod11220034.webp"
+    },
+    {
+      "id": "prod7020522",
+      "name": "Dijon Chicken & Mushrooms",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One entrée with seasoned rice, broccoli and corn",
+      "basecalories": 1300,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_RSC_DijonChickenAndMushrooms_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/dijon-chicken-mushrooms/prod7020522",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1090
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 100
+        },
+        {
+          "name": "Buttered corn",
+          "calories": 110
+        }
+      ],
+      "localImage": "images/cheddars/prod7020522.webp"
+    },
+    {
+      "id": "prod7020202",
+      "name": "Key West Chicken & Shrimp",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One entrée with seasoned rice, broccoli and corn",
+      "basecalories": 780,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_RSC_KeyWestChickenAndShrimp_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/key-west-chicken-shrimp/prod7020202",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 570
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 100
+        },
+        {
+          "name": "Buttered corn",
+          "calories": 110
+        }
+      ],
+      "localImage": "images/cheddars/prod7020202.webp"
+    },
+    {
+      "id": "prod7020098",
+      "name": "Grilled Chicken Alfredo",
+      "category": "Chicken",
+      "description": "",
+      "portion": "One pasta order with garlic bread",
+      "basecalories": 1550,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/chicken-alfredo.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/grilled-chicken-alfredo/prod7020098",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7022146",
+      "comment": "Hidden because Grilled Shrimp Alfredo already covers the Alfredo pasta format.",
+      "localImage": "images/cheddars/prod7020098.webp"
+    },
+    {
+      "id": "prod7020739",
+      "name": "14 oz. Ribeye Steak",
+      "category": "Steaks & Ribs",
+      "description": "",
+      "portion": "14 oz ribeye steak",
+      "basecalories": 890,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/chargrill-14oz-ribeye-590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/14-oz-ribeye-steak/prod7020739",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7020518",
+      "comment": "Hidden because 16 oz. Bone-In Ribeye already covers the ribeye format.",
+      "localImage": "images/cheddars/prod7020739.webp"
+    },
+    {
+      "id": "prod7020518",
+      "name": "16 oz. Bone-In Ribeye",
+      "category": "Steaks & Ribs",
+      "description": "",
+      "portion": "16 oz bone-in ribeye with loaded baked potato and broccoli",
+      "basecalories": 1450,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q3Aug26_BoneInRebEye_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/16-oz-bone-in-ribeye/prod7020518",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 920
+        },
+        {
+          "name": "Loaded baked potato",
+          "calories": 430
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 100
+        }
+      ],
+      "localImage": "images/cheddars/prod7020518.webp"
+    },
+    {
+      "id": "prod17340067",
+      "name": "Beer-Battered Fish & Shrimp Platter",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée with fries and coleslaw",
+      "basecalories": 2080,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Beer-Battered%20Fish%20&%20Shrimp%20Platter_web.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/beer-battered-fish-shrimp-platter/prod17340067",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1450
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        },
+        {
+          "name": "Coleslaw",
+          "calories": 170
+        }
+      ],
+      "localImage": "images/cheddars/prod17340067.webp"
+    },
+    {
+      "id": "prod7022146",
+      "name": "Grilled Shrimp Alfredo",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One pasta order with garlic bread",
+      "basecalories": 1600,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Grilled_Shrimp_Alfredo_Tail_Off_Shrimp_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/grilled-shrimp-alfredo/prod7022146",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7022146.webp"
+    },
+    {
+      "id": "prod9640005",
+      "name": "Beer-Battered Shrimp Platter",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée with fries and coleslaw",
+      "basecalories": 1420,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Shrimp_Platter_Hero_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/beer-battered-shrimp-platter/prod9640005",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 790
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        },
+        {
+          "name": "Coleslaw",
+          "calories": 170
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "prod17340067",
+      "comment": "Hidden because Beer-Battered Fish & Shrimp Platter already covers the fried shrimp platter format.",
+      "localImage": "images/cheddars/prod9640005.webp"
+    },
+    {
+      "id": "prod0219000064",
+      "name": "Fish & Chips",
+      "category": "Seafood",
+      "description": "",
+      "portion": "One entrée with fries and coleslaw",
+      "basecalories": 1660,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Fish%20&%20Chips%20Dinner_web.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/fish-chips/prod0219000064",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1030
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        },
+        {
+          "name": "Coleslaw",
+          "calories": 170
+        }
+      ],
+      "localImage": "images/cheddars/prod0219000064.webp"
+    },
+    {
+      "id": "prod7020096",
+      "name": "Half Rack Of Ribs & Hand-Breaded Tenders",
+      "category": "Combinations",
+      "description": "",
+      "portion": "One entrée with fries and coleslaw",
+      "basecalories": 2170,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_RibsTendersCombo_NoParsley_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/half-rack-of-ribs-hand-breaded-tenders/prod7020096",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1540
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        },
+        {
+          "name": "Coleslaw",
+          "calories": 170
+        }
+      ],
+      "localImage": "images/cheddars/prod7020096.webp"
+    },
+    {
+      "id": "prod7020031",
+      "name": "Top Sirloin Steak* & Hand-Breaded Tenders",
+      "category": "Combinations",
+      "description": "",
+      "portion": "One entrée with loaded baked potato and broccoli",
+      "basecalories": 1510,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q224_May_SorloinSteakNTenders_856x51.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/top-sirloin-steak-hand-breaded-tenders/prod7020031",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 980
+        },
+        {
+          "name": "Loaded baked potato",
+          "calories": 430
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 100
+        }
+      ],
+      "localImage": "images/cheddars/prod7020031.webp"
+    },
+    {
+      "id": "prod7020167",
+      "name": "Top Sirloin Steak* & Ribs",
+      "category": "Combinations",
+      "description": "",
+      "portion": "One entrée with carrots and broccoli",
+      "basecalories": 1205,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_RibsSteak_Dinner_NoParsley_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/top-sirloin-steak-ribs/prod7020167",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1070
+        },
+        {
+          "name": "Sweet baby carrots",
+          "calories": 35
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 100
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "prod7020096",
+      "comment": "Hidden because Half Rack Of Ribs & Hand-Breaded Tenders already covers the ribs combination platter format.",
+      "localImage": "images/cheddars/prod7020167.webp"
+    },
+    {
+      "id": "prod7020356",
+      "name": "Bacon Cheeseburger",
+      "category": "Sandwiches & Half-Pound Burgers",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1560,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q3Aug26_BaconCheeseburger_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/bacon-cheeseburger/prod7020356",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020356.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1100
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ]
+    },
+    {
+      "id": "prod7020201",
+      "name": "Smokehouse Burger",
+      "category": "Sandwiches & Half-Pound Burgers",
+      "description": "",
+      "portion": "One burger with fries",
+      "basecalories": 1500,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q3Aug26_SmokehouseBurger_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/smokehouse-burger/prod7020201",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7020356",
+      "comment": "Hidden because Bacon Cheeseburger already covers the cheeseburger and fries format.",
+      "localImage": "images/cheddars/prod7020201.webp",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 1040
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ]
+    },
+    {
+      "id": "prod7020359",
+      "name": "Spasagna",
+      "category": "Comfort Food",
+      "description": "",
+      "portion": "One pasta order with garlic bread",
+      "basecalories": 1540,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Spasagna_993x614.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/spasagna/prod7020359",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020359.webp"
+    },
+    {
+      "id": "prod7020030",
+      "name": "New Orleans Pasta",
+      "category": "Comfort Food",
+      "description": "",
+      "portion": "One pasta order with garlic bread",
+      "basecalories": 1910,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/New_Orleans_Pasta_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/new-orleans-pasta/prod7020030",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020030.webp"
+    },
+    {
+      "id": "prod13620015",
+      "name": "Homestyle Meatloaf",
+      "category": "Comfort Food",
+      "description": "",
+      "portion": "One entrée with mashed potatoes, gravy and broccoli",
+      "basecalories": 880,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_May23_MeatloafDinner_NoBG_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/homestyle-meatloaf/prod13620015",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 620
+        },
+        {
+          "name": "Idaho mashed potatoes",
+          "calories": 160
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 100
+        }
+      ],
+      "localImage": "images/cheddars/prod13620015.webp"
+    },
+    {
+      "id": "prod16350042",
+      "name": "Grilled Pork Chops",
+      "category": "Comfort Food",
+      "description": "",
+      "portion": "One entrée with loaded baked potato and carrots",
+      "basecalories": 1115,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q3Aug26_PorkChop_590x365_2.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/grilled-pork-chops/prod16350042",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 650
+        },
+        {
+          "name": "Loaded baked potato",
+          "calories": 430
+        },
+        {
+          "name": "Sweet baby carrots",
+          "calories": 35
+        }
+      ],
+      "localImage": "images/cheddars/prod16350042.webp"
+    },
+    {
+      "id": "prod7021353",
+      "name": "Broccoli Cheese Casserole",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 220,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/091624_June_BroccoliCheseCasserole_Side_Hero.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/broccoli-cheese-casserole/prod7021353",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7021353.webp"
+    },
+    {
+      "id": "prod7021865",
+      "name": "Idaho Mashed Potatoes",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 160,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_IdahoMashedPotato_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/idaho-mashed-potatoes/prod7021865",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7021365",
+      "comment": "Hidden because Cheese & Bacon Mashed Potatoes already covers the mashed potato side format.",
+      "localImage": "images/cheddars/prod7021865.webp"
+    },
+    {
+      "id": "prod7021365",
+      "name": "Cheese & Bacon Mashed Potatoes",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 350,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/cheese-bacon-mashed-potatoes.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/cheese-bacon-mashed-potatoes/prod7021365",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7021365.webp"
+    },
+    {
+      "id": "prod7021149",
+      "name": "Loaded Baked Potato",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 430,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q3Aug26_BakedPotatoSide_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/loaded-baked-potato/prod7021149",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7330089",
+      "comment": "Hidden because Loaded Baked Potato With Bacon already covers the loaded baked potato side format.",
+      "localImage": "images/cheddars/prod7021149.webp"
+    },
+    {
+      "id": "prod7330089",
+      "name": "Loaded Baked Potato With Bacon",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 540,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_Q3Aug26_BakedPotatoSide_wBacon_590x3.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/loaded-baked-potato-with-bacon/prod7330089",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7330089.webp"
+    },
+    {
+      "id": "prod7021424",
+      "name": "French Fries",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 460,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_FrenchFries_Regular_V2_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/french-fries/prod7021424",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7020580",
+      "comment": "Hidden because Homemade Queso & Bacon French Fries already covers the fries side format.",
+      "localImage": "images/cheddars/prod7021424.webp"
+    },
+    {
+      "id": "prod7020580",
+      "name": "Homemade Queso & Bacon French Fries",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 650,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_FrenchFries_QuesoBacon_V2_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/homemade-queso-bacon-french-fries/prod7020580",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020580.webp"
+    },
+    {
+      "id": "prod7021863",
+      "name": "Southern Green Beans",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 60,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/091624_June_GreenBeans.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/southern-green-beans/prod7021863",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7021863.webp"
+    },
+    {
+      "id": "prod7020929",
+      "name": "Buttered Off-The-Cob Corn",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 110,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Corn_Side_Hero.png",
+      "sourceURL": "https://www.cheddars.com/menu/buttered-off-the-cob-corn/prod7020929",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020929.webp"
+    },
+    {
+      "id": "prod7021633",
+      "name": "Fresh Steamed Broccoli",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 100,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_Sides_Broccoli_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/fresh-steamed-broccoli/prod7021633",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7021633.webp"
+    },
+    {
+      "id": "prod7020930",
+      "name": "Seasoned Rice",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 150,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_SeasonedRice_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/seasoned-rice/prod7020930",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020930.webp"
+    },
+    {
+      "id": "prod7021150",
+      "name": "Freshly Made Coleslaw",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 170,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/ColeSlaw_Side_Hero.png",
+      "sourceURL": "https://www.cheddars.com/menu/freshly-made-coleslaw/prod7021150",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7021150.webp"
+    },
+    {
+      "id": "prod7021871",
+      "name": "Red Beans & Rice",
+      "category": "Homestyle Sides",
+      "description": "",
+      "portion": "One side order",
+      "basecalories": 230,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/side-red-beans-and-rice.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/red-beans-rice/prod7021871",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7021871.webp"
+    },
+    {
+      "id": "prod7020750",
+      "name": "Kids’ Classic Hand-Breaded Tenders",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 1090,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_RSC_KidsChickenTenders_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/classic-hand-breaded-tenders/prod7020750",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 630
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ],
+      "localImage": "images/cheddars/prod7020750.webp"
+    },
+    {
+      "id": "prod7021278",
+      "name": "Kids’ Junior Burger",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 910,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_RSC_KidsJuniorBurger_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/junior-burger/prod7021278",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 450
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "prod7020356",
+      "comment": "Hidden because Bacon Cheeseburger already covers the cheeseburger and fries format.",
+      "localImage": "images/cheddars/prod7021278.webp"
+    },
+    {
+      "id": "prod7021302",
+      "name": "Kids’ Grilled Cheese",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ grilled cheese with broccoli",
+      "basecalories": 520,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_RSC_KidsGrilledCheese_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/grilled-cheese/prod7021302",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 420
+        },
+        {
+          "name": "Steamed broccoli",
+          "calories": 100
+        }
+      ],
+      "localImage": "images/cheddars/prod7021302.webp"
+    },
+    {
+      "id": "prod12480003",
+      "name": "Kids’ Grilled Chicken Alfredo",
+      "category": "Kids",
+      "description": "",
+      "portion": "One pasta order with garlic bread",
+      "basecalories": 870,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/KidsGrilledChicAlfredo_856x517.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/grilled-chicken-alfredo/prod12480003",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "hidden": true,
+      "coveredBy": "prod7022146",
+      "comment": "Hidden because Grilled Shrimp Alfredo already covers the Alfredo pasta format.",
+      "localImage": "images/cheddars/prod12480003.webp"
+    },
+    {
+      "id": "prod9640020",
+      "name": "Kids’ Fried Shrimp",
+      "category": "Kids",
+      "description": "",
+      "portion": "One kids’ entrée with fries",
+      "basecalories": 870,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/CSK_RSC_KidsFriedShrimp_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/fried-shrimp/prod9640020",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "calorieComponents": [
+        {
+          "name": "Base menu item",
+          "calories": 410
+        },
+        {
+          "name": "French fries",
+          "calories": 460
+        }
+      ],
+      "hidden": true,
+      "coveredBy": "prod17340067",
+      "comment": "Hidden because Beer-Battered Fish & Shrimp Platter already covers the fried shrimp platter format.",
+      "localImage": "images/cheddars/prod9640020.webp"
+    },
+    {
+      "id": "prod7930001",
+      "name": "Fried Apple Pie",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One dessert order",
+      "basecalories": 1080,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Cheddars_ApplePie_031025_590x365.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/fried-apple-pie/prod7930001",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7930001.webp"
+    },
+    {
+      "id": "prod11220035",
+      "name": "Carrot Cake",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One slice",
+      "basecalories": 1100,
+      "imagefilename": "https://media.cheddars.com/en_us/images/marketing/Carrot_Cake.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/carrot-cake/prod11220035",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod11220035.webp"
+    },
+    {
+      "id": "prod7120153",
+      "name": "Classic Cheesecake",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One slice",
+      "basecalories": 760,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/menu-strawberry-cheesecake-1103.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/classic-cheesecake/prod7120153",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7120153.webp"
+    },
+    {
+      "id": "prod7020353",
+      "name": "Cheddar’s Legendary Monster Cookie",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One dessert order",
+      "basecalories": 1550,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/monster-cookie.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/cheddars-legendary-monster-cookie/prod7020353",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020353.webp"
+    },
+    {
+      "id": "prod7020472",
+      "name": "Hot Fudge Cake Sundae",
+      "category": "Desserts",
+      "description": "",
+      "portion": "One dessert order",
+      "basecalories": 2510,
+      "imagefilename": "https://media.cheddars.com/en_us/images/product/menu-hot-fudge-cake-sundae-1103.jpg",
+      "sourceURL": "https://www.cheddars.com/menu/hot-fudge-cake-sundae/prod7020472",
+      "nutritionURL": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+      "localImage": "images/cheddars/prod7020472.webp"
+    }
+  ],
+  "schemaVersion": 1,
+  "menuId": "cheddars",
+  "version": "v1"
+}

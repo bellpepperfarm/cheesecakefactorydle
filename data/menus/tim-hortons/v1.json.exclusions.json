@@ -1,0 +1,546 @@
+[
+  {
+    "id": "item_26546",
+    "name": "Small Coffee Original Blend",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26547",
+    "name": "Medium Coffee Original Blend",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26548",
+    "name": "Large Coffee Original Blend",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26549",
+    "name": "Extra Large Coffee Original Blend",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26550",
+    "name": "Small Coffee Dark Roast",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26551",
+    "name": "Medium Coffee Dark Roast",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26552",
+    "name": "Large Coffee Dark Roast",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26553",
+    "name": "Extra Large Coffee Dark Roast",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26554",
+    "name": "Small Coffee Decaf",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26555",
+    "name": "Medium Coffee Decaf",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26556",
+    "name": "Large Coffee Decaf",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26557",
+    "name": "Extra Large Coffee Decaf",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_46118",
+    "name": "Small Americano",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_46120",
+    "name": "Medium Americano",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_46121",
+    "name": "Large Americano",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_30081",
+    "name": "Espresso Shot",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_28494",
+    "name": "Double Espresso Shot",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26578",
+    "name": "Small Steeped Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26579",
+    "name": "Medium Steeped Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26580",
+    "name": "Large Steeped Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26581",
+    "name": "Extra Large Steeped Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26582",
+    "name": "Small Specialty Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26583",
+    "name": "Medium Specialty Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26584",
+    "name": "Large Specialty Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26585",
+    "name": "Extra Large Specialty Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_74895",
+    "name": "Small Tropical Green Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_74896",
+    "name": "Medium Tropical Green Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_74897",
+    "name": "Large Tropical Green Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_74898",
+    "name": "XLarge Tropical Green Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27452",
+    "name": "Take 12 Original Blend",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27453",
+    "name": "Take 12 Dark Roast",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27454",
+    "name": "Take 12 Decaf",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27456",
+    "name": "Take 12 Specialty Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27455",
+    "name": "Take 12 Steeped Tea",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27472",
+    "name": "Take 12 French Vanilla",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27467",
+    "name": "Take 12 Hot Chocolate",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_73123",
+    "name": "Small Black Iced Coffee",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_73124",
+    "name": "Medium Black Iced Coffee",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_73125",
+    "name": "Large Black Iced Coffee",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_114553",
+    "name": "Pink Energy Infusr® Zero Sugar, powered by Monster Energy Zero Ultra",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_73331",
+    "name": "Small Black Cold Brew",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_73332",
+    "name": "Medium Black Cold Brew",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_73333",
+    "name": "Large Black Cold Brew",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_90499",
+    "name": "Small Raspberry Mojito Zero Sugar Sparkling Quencher",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_90497",
+    "name": "Medium Raspberry Mojito Zero Sugar Sparkling Quencher",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_90495",
+    "name": "Large Raspberry Mojito Zero Sugar Sparkling Quencher",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_78474",
+    "name": "Small Strawberry Watermelon Sparkling Quencher",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_44224",
+    "name": "Diet Coke® 500mL Bottle",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26633",
+    "name": "Spring Water",
+    "reasons": [
+      "Below the 50-calorie minimum.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_56701",
+    "name": "Classic Breakfast Bundle for 2",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_56708",
+    "name": "Farmer's Breakfast Bundle for 2",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_54740",
+    "name": "Farmer's Breakfast Bundle (serves 4-6)",
+    "reasons": [
+      "No product-specific photo or fixed calorie answer.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26650",
+    "name": "6 Assorted Donuts",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26651",
+    "name": "12 Assorted Donuts",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26670",
+    "name": "10 Assorted Timbits",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26671",
+    "name": "20 Assorted Timbits",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26672",
+    "name": "50 Assorted Timbits",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26661",
+    "name": "6 Assorted Bagels",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_52468",
+    "name": "PHILADELPHIA® Original Cream Cheese",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26658",
+    "name": "6 Assorted Muffins",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_26659",
+    "name": "12 Assorted Muffins",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27499",
+    "name": "6 Assorted Cookies",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_27501",
+    "name": "12 Assorted Cookies",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_54992",
+    "name": "Family Bundle (serves 12+)",
+    "reasons": [
+      "Shared, variable assortment, retail product or add-on.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "404956a3-cddb-4f77-9841-36645b5fcd67",
+    "name": "NHL® Trading Cards",
+    "reasons": [
+      "No product-specific photo or fixed calorie answer.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_100361",
+    "name": "Chicken Noodle Soup",
+    "reasons": [
+      "The photographed serving could not be matched to a named size in the Canadian guide.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_100360",
+    "name": "Chili",
+    "reasons": [
+      "The catalog and the July 2026 Canadian guide disagree for the photographed serving.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  },
+  {
+    "id": "item_107159",
+    "name": "Cookies & Cream Shake",
+    "reasons": [
+      "The Canada menu contains this product record, but the Robson Street pickup catalog and July 2026 Canadian guide do not establish availability.",
+      "New or changed item requires a calorie/portion review before publication."
+    ]
+  }
+]

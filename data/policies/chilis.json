@@ -1,0 +1,702 @@
+{
+  "menuId": "chilis",
+  "reviewedOn": "2026-11-09",
+  "source": "https://www.chilis.com/menu",
+  "sourceEdition": "U.S. national menu",
+  "minimumCalories": 50,
+  "excludeCalorieRanges": true,
+  "requireReviewedItems": true,
+  "excludedItems": [
+    {
+      "id": "P101942",
+      "name": "Triple Dipper®",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P112346",
+      "name": "Bone-In Wings",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P112347",
+      "name": "Boneless Wings",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P113044",
+      "name": "Dip Trio",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P113508",
+      "name": "Fried Mozzarella",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P113510",
+      "name": "Honey-Chipotle Mozzarella",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P113509",
+      "name": "Nashville Hot Mozzarella",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P113557",
+      "name": "Pick Any 2",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P113584",
+      "name": "The Classics",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P113539",
+      "name": "Fajitas for 2",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P112063",
+      "name": "Crispy Chicken Crispers® Combo",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P112064",
+      "name": "Honey-Chipotle Chicken Crispers® Combo",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P112256",
+      "name": "Nashville Hot Chicken Crispers® Combo",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P106244",
+      "name": "Smokehouse Combo Pick 3",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P106076",
+      "name": "Smokehouse Combo Pick 2",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P112092",
+      "name": "Cajun Pasta",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P100069",
+      "name": "Side House Salad",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P100086",
+      "name": "Soup & House Salad",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P105808",
+      "name": "Bowl of Soup",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P105815",
+      "name": "Cup of Soup",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P112993",
+      "name": "StrawEddy Marg",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P108821",
+      "name": "Presidente Margarita®",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P108822",
+      "name": "Patron® Marg",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P100611",
+      "name": "Sides",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P108306",
+      "name": "Sauce Options (4oz)",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P101664",
+      "name": "Beverages",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P102002",
+      "name": "Blackberry Lemonade",
+      "reasons": [
+        "The menu does not identify a single calorie count for one named configuration."
+      ]
+    },
+    {
+      "id": "P101789",
+      "name": "Gallon of Strawberry Lemonade",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P112348",
+      "name": "Party Platter Bone-In Wings",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P112349",
+      "name": "Party Platter Boneless Wings",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P103206",
+      "name": "Party Platter Triple Dipper®",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P106496",
+      "name": "Party Platter Big Mouth® Bites - 12 Count",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P103231",
+      "name": "Party Platter Chips & Salsa",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P106497",
+      "name": "Party Platter Southwestern Eggrolls - 12 Count",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P103202",
+      "name": "Party Platter Quesadilla Explosion Salad",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P103216",
+      "name": "Party Platter House Salad",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P106500",
+      "name": "Party Platter Mix & Match Fajitas",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P106505",
+      "name": "Party Platter Fajita Trio",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P103210",
+      "name": "Party Platter Texas-Size Baby Back Ribs - Large",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P106550",
+      "name": "Party Platter Chicken Crispers® - 12 Count",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P106498",
+      "name": "Party Platter Cajun Chicken Pasta",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P101765",
+      "name": "Gallon of Iced Tea",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P100323",
+      "name": "Gallon of Blackberry Iced Tea",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P100324",
+      "name": "Gallon of Mango Iced Tea",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P101790",
+      "name": "Gallon of Lemonade",
+      "reasons": [
+        "Catering or multiple servings."
+      ]
+    },
+    {
+      "id": "P113579",
+      "name": "The Original Trio",
+      "reasons": [
+        "The fajita trio allows protein choices and the count does not identify all components in the photo."
+      ]
+    },
+    {
+      "id": "P109356",
+      "name": "Tequila Classic Gallon Marg-Go-Rita®",
+      "reasons": [
+        "A gallon is a group serving."
+      ]
+    }
+  ],
+  "verifiedItems": [
+    {
+      "name": "Southwestern Eggrolls™",
+      "category": "Appetizers",
+      "calories": 1020
+    },
+    {
+      "name": "Southwestern Queso",
+      "category": "Appetizers",
+      "calories": 1360
+    },
+    {
+      "name": "Skillet Beef Queso",
+      "category": "Appetizers",
+      "calories": 1340
+    },
+    {
+      "name": "House-made Guacamole",
+      "category": "Appetizers",
+      "calories": 1150
+    },
+    {
+      "name": "Chips & Salsa",
+      "category": "Appetizers",
+      "calories": 910
+    },
+    {
+      "name": "Texas Cheese Fries",
+      "category": "Appetizers",
+      "calories": 1790
+    },
+    {
+      "name": "Big Smasher™ Burger",
+      "category": "Big Mouth Burgers®",
+      "calories": 1370
+    },
+    {
+      "name": "The Big QP Burger",
+      "category": "Big Mouth Burgers®",
+      "calories": 1310
+    },
+    {
+      "name": "Double Big Smasher™ Burger",
+      "category": "Big Mouth Burgers®",
+      "calories": 1910
+    },
+    {
+      "name": "Alex's Santa Fe Burger",
+      "category": "Big Mouth Burgers®",
+      "calories": 1350
+    },
+    {
+      "name": "Double Bacon Rancher",
+      "category": "Big Mouth Burgers®",
+      "calories": 2130
+    },
+    {
+      "name": "Big Mouth® Bites",
+      "category": "Big Mouth Burgers®",
+      "calories": 1640
+    },
+    {
+      "name": "Bacon Cheeseburger",
+      "category": "Big Mouth Burgers®",
+      "calories": 1550
+    },
+    {
+      "name": "Oldtimer® Burger W/ Cheese",
+      "category": "Big Mouth Burgers®",
+      "calories": 1270
+    },
+    {
+      "name": "Mushroom Swiss Burger",
+      "category": "Big Mouth Burgers®",
+      "calories": 1430
+    },
+    {
+      "name": "Veggie Santa Fe Burger",
+      "category": "Big Mouth Burgers®",
+      "calories": 1060
+    },
+    {
+      "name": "Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "calories": 1560
+    },
+    {
+      "name": "Spicy Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "calories": 1550
+    },
+    {
+      "name": "Honey-Chipotle Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "calories": 1520
+    },
+    {
+      "name": "Nashville Hot Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "calories": 1630
+    },
+    {
+      "name": "Buffalo Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "calories": 1390
+    },
+    {
+      "name": "Deluxe Big Crispy® Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "calories": 1730
+    },
+    {
+      "name": "Deluxe Grilled Chicken Sandwich",
+      "category": "Crispy Chicken Sandwiches",
+      "calories": 1480
+    },
+    {
+      "name": "Full Rack of Ribs",
+      "category": "BBQ Classics",
+      "calories": 2160
+    },
+    {
+      "name": "Half Rack of Ribs",
+      "category": "BBQ Classics",
+      "calories": 1130
+    },
+    {
+      "name": "Sausage & Chicken Cajun Pasta",
+      "category": "Pasta",
+      "calories": 1540
+    },
+    {
+      "name": "Shrimp & Chicken Cajun Pasta",
+      "category": "Pasta",
+      "calories": 1230
+    },
+    {
+      "name": "Surf & Turf Ribeye",
+      "category": "Steaks",
+      "calories": 1070
+    },
+    {
+      "name": "Surf & Turf Sirloin* - 10oz",
+      "category": "Steaks",
+      "calories": 830
+    },
+    {
+      "name": "Classic Ribeye",
+      "category": "Steaks",
+      "calories": 1000
+    },
+    {
+      "name": "Classic Sirloin* - 6oz",
+      "category": "Steaks",
+      "calories": 610
+    },
+    {
+      "name": "Classic Sirloin* - 10oz",
+      "category": "Steaks",
+      "calories": 750
+    },
+    {
+      "name": "Guiltless Sirloin* - 6oz",
+      "category": "Steaks",
+      "calories": 300
+    },
+    {
+      "name": "Guiltless Sirloin* - 10oz.",
+      "category": "Steaks",
+      "calories": 450
+    },
+    {
+      "name": "Ancho Salmon",
+      "category": "Guiltless Grill®",
+      "calories": 590
+    },
+    {
+      "name": "Santa Fe Salad",
+      "category": "Guiltless Grill®",
+      "calories": 540
+    },
+    {
+      "name": "Margarita Grilled Chicken™",
+      "category": "Guiltless Grill®",
+      "calories": 640
+    },
+    {
+      "name": "Chicken Bacon Ranch Quesadillas",
+      "category": "Bowls & Quesadillas",
+      "calories": 1700
+    },
+    {
+      "name": "Brisket Quesadillas",
+      "category": "Bowls & Quesadillas",
+      "calories": 1620
+    },
+    {
+      "name": "Chipotle Fresh Mex Bowl",
+      "category": "Bowls & Quesadillas",
+      "calories": 880
+    },
+    {
+      "name": "Santa Fe Crispers® Salad",
+      "category": "Salads & Soups",
+      "calories": 780
+    },
+    {
+      "name": "Quesadilla Explosion Crispers® Salad",
+      "category": "Salads & Soups",
+      "calories": 1420
+    },
+    {
+      "name": "Quesadilla Explosion Salad",
+      "category": "Salads & Soups",
+      "calories": 1180
+    },
+    {
+      "name": "Don Julio® Marg",
+      "category": "To-Go Alcohol",
+      "calories": 180
+    },
+    {
+      "name": "Tito's Watermelon Spritz",
+      "category": "To-Go Alcohol",
+      "calories": 280
+    },
+    {
+      "name": "Henny Marg",
+      "category": "To-Go Alcohol",
+      "calories": 320
+    },
+    {
+      "name": "Casamigos® Marg",
+      "category": "To-Go Alcohol",
+      "calories": 240
+    },
+    {
+      "name": "Skinny Marg",
+      "category": "To-Go Alcohol",
+      "calories": 150
+    },
+    {
+      "name": "Spice-A-Rita",
+      "category": "To-Go Alcohol",
+      "calories": 250
+    },
+    {
+      "name": "Tequila Classic Marg-Go-Rita®",
+      "category": "To-Go Alcohol",
+      "calories": 190
+    },
+    {
+      "name": "Tito's® Punch†",
+      "category": "To-Go Alcohol",
+      "calories": 330
+    },
+    {
+      "name": "Premium Long Island Iced Tea",
+      "category": "To-Go Alcohol",
+      "calories": 290
+    },
+    {
+      "name": "Deep Eddy® Strawberry Texas Lemonade",
+      "category": "To-Go Alcohol",
+      "calories": 280
+    },
+    {
+      "name": "El Niño Marg",
+      "category": "To-Go Alcohol",
+      "calories": 330
+    },
+    {
+      "name": "Skillet Chocolate Chip Cookie",
+      "category": "Desserts",
+      "calories": 1210
+    },
+    {
+      "name": "Molten Chocolate Cake",
+      "category": "Desserts",
+      "calories": 1140
+    },
+    {
+      "name": "Classic Cheesecake",
+      "category": "Desserts",
+      "calories": 870
+    },
+    {
+      "name": "Kids Cheeseburger Bites",
+      "category": "Kids Menu",
+      "calories": 450
+    },
+    {
+      "name": "Kids Burger Bites",
+      "category": "Kids Menu",
+      "calories": 420
+    },
+    {
+      "name": "Kids Crispy Crispers®",
+      "category": "Kids Menu",
+      "calories": 570
+    },
+    {
+      "name": "Kids Chicken Grillers",
+      "category": "Kids Menu",
+      "calories": 280
+    },
+    {
+      "name": "Kids Cheesy Chicken Pasta",
+      "category": "Kids Menu",
+      "calories": 620
+    },
+    {
+      "name": "Kids Kraft® Macaroni & Cheese",
+      "category": "Kids Menu",
+      "calories": 310
+    },
+    {
+      "name": "Kids Cheese Pizza",
+      "category": "Kids Menu",
+      "calories": 500
+    },
+    {
+      "name": "Kids Cheese Quesadilla",
+      "category": "Kids Menu",
+      "calories": 460
+    },
+    {
+      "name": "Dragonfruit Lemonade",
+      "category": "Beverages",
+      "calories": 180
+    },
+    {
+      "name": "Strawberry Lemonade",
+      "category": "Beverages",
+      "calories": 240
+    },
+    {
+      "name": "Watermelon Lemonade",
+      "category": "Beverages",
+      "calories": 270
+    },
+    {
+      "name": "Blackberry Iced Tea",
+      "category": "Beverages",
+      "calories": 80
+    },
+    {
+      "name": "Mango Iced Tea",
+      "category": "Beverages",
+      "calories": 80
+    },
+    {
+      "name": "Watermelon Iced Tea",
+      "category": "Beverages",
+      "calories": 80
+    },
+    {
+      "name": "Dragonfruit Iced Tea",
+      "category": "Beverages",
+      "calories": 80
+    }
+  ]
+}
